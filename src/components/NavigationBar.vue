@@ -321,15 +321,15 @@ export default {
 }
 
 .vue-slider-dot-handle {
-  background-color: #03acac;
+  background-color: #80d0f5!important;
 }
 
 .vue-slider-dot-handle::after {
-  background-color: #03acac61
+  background-color:rgba(128, 208, 245, 0.61);
 }
 
 .vue-slider-dot-tooltip-inner {
-  background-color: #03acac;
+  background-color: #80d0f5!important;
 }
 
 .vue-slider-dot-tooltip-text {

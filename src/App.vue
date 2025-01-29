@@ -445,7 +445,7 @@
     position: absolute;
     cursor: pointer;
     /* transition: opacity 0.2s ease; */
-    background-color: #ffffff;
+    background-color:#fdfdfdcc; 
   }
 
   .contentLinkNone {

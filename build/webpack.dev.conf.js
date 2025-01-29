@@ -21,7 +21,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     historyApiFallback: true,
     hot: true,
     // host: process.env.HOST || config.dev.host, <- use this if you jsut want to test on local, otherwise put your ip below
-    host: '192.168.1.24', 
+    // host: '192.168.1.24', 
     port: process.env.PORT || config.dev.port,
     open: config.dev.autoOpenBrowser,
     overlay: config.dev.errorOverlay ? {

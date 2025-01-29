@@ -122,7 +122,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       // Path to compiled app
       path.join(__dirname, '../dist'),
       // List of endpoints you wish to prerender
-      Array(1).fill(1).map(function(e,i) {
+      Array(120).fill(1).map(function(e,i) {
         return '/'+(i+1) + '-1'
       }).concat('/'),
       {

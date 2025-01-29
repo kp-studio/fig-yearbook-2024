@@ -183,7 +183,7 @@ export default {
   .contents-item__section.active,
   .contents-item__subsection:hover,
   .contents-item__subsection.active{
-    background-color: #005239!important;
+    background-color:rgb(107, 182, 216)!important;
   }
 
   .content-item__chevrons {

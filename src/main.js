@@ -14,7 +14,7 @@ const unsync = sync(store, router)
 Vue.config.productionTip = false
 
 Vue.use(VueGtag, {
-  config: { id: "G-0C98KVSRW4" },
+  config: { id: "G-7DBG1R67HY" },
 }, router);
 
 /* eslint-disable no-new */

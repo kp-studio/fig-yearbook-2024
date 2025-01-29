@@ -273,40 +273,39 @@ html[data-platform*='Android'] .desktopOnly {
 
 
 @font-face {
-  font-family: 'FrutigerLTPro-UltraBlack';
-  src: url('/198/en/static/_content/FrutigerLTPro-UltraBlack.eot?#iefix') format('embedded-opentype'),  url('/198/en/static/_content/FrutigerLTPro-UltraBlack.otf')  format('opentype'),
-	     url('/198/en/static/_content/FrutigerLTPro-UltraBlack.woff') format('woff'), url('/198/en/static/_content/FrutigerLTPro-UltraBlack.ttf')  format('truetype'), url('/198/en/static/_content/FrutigerLTPro-UltraBlack.svg#FrutigerLTPro-UltraBlack') format('svg');
-  font-weight: normal;
+  font-family: 'Olympic Headline Regular';
+  src: url('/paris2024/static/_content/OlympicHeadline-Regular.eot');
+  src: url('/paris2024/static/_content/OlympicHeadline-Regular.eot?#iefix') format('embedded-opentype'),
+      url('/paris2024/static/_content/OlympicHeadline-Regular.woff2') format('woff2'),
+      url('/paris2024/static/_content/OlympicHeadline-Regular.woff') format('woff'),
+      url('/paris2024/static/_content/OlympicHeadline-Regular.ttf') format('truetype'),
+      url('/paris2024/static/_content/OlympicHeadline-Regular.svg#OlympicHeadline-Regular') format('svg');
+  font-weight: bold;
   font-style: normal;
+  font-display: swap;
+}
+.olympic-HeadlineReg {
+  font-family: 'Olympic Headline Regular';
 }
 
-.frutigerUB {
-  font-family: 'FrutigerLTPro-UltraBlack';
-}
 
 @font-face {
-  font-family: 'FrutigerLTPro-Black';
-  src: url('/198/en/static/_content/FrutigerLTPro-Black.eot?#iefix') format('embedded-opentype'),  url('/198/en/static/_content/FrutigerLTPro-Black.otf')  format('opentype'),
-	     url('/198/en/static/_content/FrutigerLTPro-Black.woff') format('woff'), url('/198/en/static/_content/FrutigerLTPro-Black.ttf')  format('truetype'), url('/198/en/static/_content/FrutigerLTPro-Black.svg#FrutigerLTPro-Black') format('svg');
-  font-weight: normal;
+  font-family: 'Olympic Headline Condensed';
+  src: url('/paris2024/static/_content/OlympicHeadline-Condensed.eot');
+  src: url('/paris2024/static/_content/OlympicHeadline-Condensed.eot?#iefix') format('embedded-opentype'),
+      url('/paris2024/static/_content/OlympicHeadline-Condensed.woff2') format('woff2'),
+      url('/paris2024/static/_content/OlympicHeadline-Condensed.woff') format('woff'),
+      url('/paris2024/static/_content/OlympicHeadline-Condensed.ttf') format('truetype'),
+      url('/paris2024/static/_content/OlympicHeadline-Condensed.svg#OlympicHeadline-Condensed') format('svg');
+  font-weight: bold;
   font-style: normal;
+  font-display: swap;
+}
+.olympic-HeadlineCon {
+  font-family: 'Olympic Headline Condensed';
 }
 
-.frutigerBl {
-  font-family: 'FrutigerLTPro-Black';
-}
 
-@font-face {
-  font-family: 'FrutigerLTPro-Bold';
-  src: url('/198/en/static/_content/FrutigerLTPro-Bold.eot?#iefix') format('embedded-opentype'),  url('/198/en/static/_content/FrutigerLTPro-Bold.otf')  format('opentype'),
-	     url('/198/en/static/_content/FrutigerLTPro-Bold.woff') format('woff'), url('/198/en/static/_content/FrutigerLTPro-Bold.ttf')  format('truetype'), url('/198/en/static/_content/FrutigerLTPro-Bold.svg#FrutigerLTPro-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.frutigerB {
-  font-family: 'FrutigerLTPro-Bold';
-}
 
 .mobile.mobile-font-large {
   font-size: 22px;
