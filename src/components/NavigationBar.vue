@@ -313,11 +313,11 @@ export default {
 }
 
 .vue-slider-rail {
-  background-color: #ffffff;
+  background-color: #ffffff!important;
 }
 
 .vue-slider-process {
-  background-color: #5f637a;
+  background-color:rgb(183, 186, 202);
 }
 
 .vue-slider-dot-handle {

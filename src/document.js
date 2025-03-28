@@ -1,6 +1,6 @@
 export default  {
   "guid": "437c4aa5-0410-47e4-b976-27dbfeda165b",
-  "title": "IOC - Marketing Report Paris 2024",
+  "title": "",
   "shortTitle": "",
   "description": "",
   "width": 620,
@@ -11,7 +11,7 @@ export default  {
     "text": "English",
     "href": "#"
   }],
-  "basePath": "/paris2024", 
+  "basePath": "", 
   //  "basePath": "", 
   "companyLogo": "1-logo-1.png",
   "publishURL": "",
@@ -49,7 +49,7 @@ export default  {
       "index": 0,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg1.jpg",
+      "original": "pg1.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -66,7 +66,7 @@ export default  {
       "index": 1,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg2.jpg",
+      "original": "pg2.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -83,29 +83,12 @@ export default  {
       "index": 2,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg3.jpg",
+      "original": "pg3.png",
       "zoom": null,
-      "content": `      
-      
-      <div class="addContentLink" onclick="Publish.goToPage(4);" style="top:244px; left:232px; width:376px; height:20px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(10);" style="top:268px; left:232px; width:376px; height:20px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(22);" style="top:294px; left:232px; width:376px; height:20px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(26);" style="top:318px; left:232px; width:376px; height:20px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(40);" style="top:344px; left:232px; width:376px; height:20px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(80);" style="top:368px; left:232px; width:376px; height:20px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(90);" style="top:394px; left:232px; width:376px; height:20px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(96);" style="top:418px; left:232px; width:376px; height:20px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(102);" style="top:444px; left:232px; width:376px; height:20px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(112);" style="top:468px; left:232px; width:376px; height:20px;"></div> 
- 
-`,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){
-            addContentLinks();
-         },1000)
-    }
-
+        }
 
         function onPageLeave() {
         }
@@ -117,21 +100,11 @@ export default  {
       "index": 3,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg4.jpg",
+      "original": "pg4.png",
       "zoom": null,
-      "content": `
-      
-
-      <div class="contentLink" style="top:110px;left:40px;width:190px;height:149px">
-      <a href="https://youtu.be/jcB7QA5N7CE?si=kBuaKD51AbcH9pZP&t=790" target="_blank"></a>
-      </div>
-      
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -144,7 +117,7 @@ export default  {
       "index": 4,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg5.jpg",
+      "original": "pg5.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -161,20 +134,11 @@ export default  {
       "index": 5,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg6.jpg",
+      "original": "pg6.png",
       "zoom": null,
-      "content": `
-      
-       <div class="contentLink" style="top:71px;left:60px;width:212px;height:149px">
-      <a href="https://youtu.be/jcB7QA5N7CE?si=QP_kSOCf8uoA5F0C&t=720" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -187,7 +151,7 @@ export default  {
       "index": 6,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg7.jpg",
+      "original": "pg7.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -204,7 +168,7 @@ export default  {
       "index": 7,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg8.jpg",
+      "original": "pg8.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -221,7 +185,7 @@ export default  {
       "index": 8,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg9.jpg",
+      "original": "pg9.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -238,7 +202,7 @@ export default  {
       "index": 9,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg10.jpg",
+      "original": "pg10.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -255,7 +219,7 @@ export default  {
       "index": 10,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg11.jpg",
+      "original": "pg11.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -272,20 +236,11 @@ export default  {
       "index": 11,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg12.jpg",
+      "original": "pg12.png",
       "zoom": null,
-      "content": `      
-
-      <div class="contentLink" style="top:716px;left:10px;width:150px;height:18px">
-      <a href="https://www.youtube.com/watch?v=vy6FivZHRjQ" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -298,36 +253,14 @@ export default  {
       "index": 12,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg13.jpg",
+      "original": "pg13.png",
       "zoom": null,
-      "content": `
-      
-        <h1 id="13-no" class="abs olympic-HeadlineReg 13-no" style="top:220px;left:307px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 32 }' ></h1>
-        <h1 id="13-no" class="abs olympic-HeadlineReg 13-no" style="top:220px;left:407px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 329 }' ></h1>
-        <h1 id="13-no" class="abs olympic-HeadlineReg 13-no" style="top:220px;left:515px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 15 }' ></h1>
-
-        <img class="abs halfScaleC 13-no-1" style="top:280px;left:234px;" src="/paris2024/static/_content/13-no.png"/>
-
-
-        <h1 id="13-no" class="abs olympic-HeadlineReg 13-no" style="top:320px;left:464px; font-size: 2.8em; font-weight: 300; color: #009641; padding: 0px; margin: 0px;"  data-number='{"to": 206 }' ></h1>
-        <h1 id="13-no" class="abs olympic-HeadlineReg 13-no" style="top:448px;left:454px; font-size: 2.8em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 20 }' ></h1>
-
-      
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        pg13Anim = new TimelineMax();
-        pg13Anim.fromTo(cOf("13-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("13-no")[0])}}, 1.0)
-        .fromTo(cOf("13-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("13-no")[1])}}, 1.1)
-        .fromTo(cOf("13-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("13-no")[2])}}, 1.2)
-        .fromTo(cOf("13-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("13-no")[3])}}, 1.3)
-        .fromTo(cOf("13-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("13-no")[4])}}, 1.4)
-        .fromTo(cOf("13-no-1"), 0.6, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 2.1);
         }
 
         function onPageLeave() {
-        pg13Anim.stop();
-        resetNumbers("13-no");
         }
       `,
       "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  13  Paris 2024 in numbers  imagination of millions and setting the tone for Games defined by innovation and inclusivity. This groundbreaking approach saw Paris itself become a star of the Games, with its historic landmarks transformed into spectacular sporting venues. Archery took place at Les Invalides, beach volleyball unfolded beneath the Eiffel Tower, fencing lit up the Grand Palais, and equestrian events graced the grounds of the Château de Versailles. These iconic locations and many others provided awe-inspiring backdrops to the sporting action, seamlessly blending the city’s cultural heritage with the energy and excitement of the Olympic Games. In line with Paris 2024’s vision, these Games spread beyond Paris too, involving the whole of France. Sailing took place in Marseille, shooting in Châteauroux, some handball and basketball in Lille, and surfing in Tahiti, while football was shared between Lyon, Nantes, Bordeaux, Saint-Etienne, Nice, Marseille and Paris. And the performances of the athletes were no less breathtaking than the venues, with an array of extraordinary achievements, historic firsts and recordbreaking feats. French swimmer Léon Marchand and judoka Teddy Riner both became national icons with their multiple gold medals, uniting fans in spontaneous celebrations throughout the city. Simone Biles returned to the Olympic stage in stunning fashion, leading Team USA to gold in gymnastics and adding to her incredible legacy. Other sporting giants rose to the occasion as well. Serbian tennis star Novak Djokovic finally won the Olympic singles gold that had eluded him for four editions of the Games, while Katie Ledecky’s victory in the women’s 1,500m freestyle took her career total to nine Olympic gold medals in the pool, tying her with gymnast Larissa Latynina for the most Olympic titles won by a female athlete. Sweden’s Armand  32  Sports  50/50  329  15  medal events  Quota places were distributed equally between men and women, making Paris 2024 the first gender equal Olympic Games  new events Athletes from the territories of  206  NOCs + the IOC Refugee Olympic Team  20  mixed-gender events"
@@ -337,7 +270,7 @@ export default  {
       "index": 13,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg14.jpg",
+      "original": "pg14.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -354,7 +287,7 @@ export default  {
       "index": 14,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg15.jpg",
+      "original": "pg15.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -371,22 +304,14 @@ export default  {
       "index": 15,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg16.jpg",
+      "original": "pg16.png",
       "zoom": null,
-      "content": `
-      
-       <h1 id="16-no" class="abs olympic-HeadlineCon 16-no" style="top:533px;left:350px; font-size: 3em; font-weight: 300; color:#000000; padding: 0px; margin: 0px;"  data-number='{"to": 95, "append" : "%"}' ></h1>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        pg16Anim = new TimelineMax()
-        pg16Anim.fromTo(cOf("16-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("16-no")[0])}}, 1.0);
         }
 
         function onPageLeave() {
-        pg16Anim.stop();
-        resetNumbers("16-no");
         }
       `,
       "searchText": "16  her name into the record books as she became the first female Olympic champion from Chile by winning the women’s skeet event, while Cuban Greco-Roman wrestling star Mijaín Lopez ended his career on a high, making history as the first athlete to win five consecutive gold medals.  Beyond the sporting highlights, moments of sportsmanship and unity defined Paris 2024. In a memorable display of the Olympic values, China’s He Bing Jiao consoled an injured Carolina Marín of Spain during the badminton semifinals, exemplifying the respect and camaraderie that the Games inspire.  But Paris 2024 wasn’t just about victories – these were also the first Olympic Games in history with full gender parity, thanks to the distribution of an equal number of quota places to female and male athletes by the IOC. That spirit of inclusion extended throughout the Games, with the Champions Park, at the foot of the Eiffel Tower, bringing fans closer to the action with parades for medal-winners, and the Marathon Pour Tous giving thousands of members of the public the chance to take part in marathon and 10km running events along the Olympic route in the heart of Paris.  In a similar vein, the IOC Refugee Olympic Team once again captured hearts, with 37 athletes competing across 12 sports, demonstrating the resilience and determination of individuals displaced by conflict. Their performances reminded the world of the transformative power of sport to provide hope and opportunity, with boxer Cindy Ngamba making history in the women’s 75kg event as she clinched bronze to win the IOC Refugee Olympic Team’s first ever medal.  Across France, six million people visited celebration sites, demonstrating the deep enthusiasm and support for the Games, while fans packed venues and lined the streets of Paris, creating an electric atmosphere that added to the magic of the competition.  “It just gives me the tingles and I think that’s the Olympics; it just gives you this energy you can’t find anywhere else.” Jessica Fox (AUS, canoe slalom)  3 out of 4 people believe the IOC was successful in 'bringing the world together in peaceful competition' at Paris 2024  The inclusion of surfing in Tahiti and urban sports in Paris’s dynamic settings also brought new energy to the Olympic programme, expanding its appeal and relevance. Breaking, making its Olympic debut, added a fresh cultural dimension to the event, appealing to younger audiences and bridging the gap between traditional sports and contemporary culture.  As the Games drew to a close, IOC President Thomas Bach captured the essence of the event, remarking that the athletes had helped 'to make the City of Light shine brighter than ever before', while it became clear that Paris 2024 had truly fulfilled its vision of “Games Wide Open”, uniting the world through sport and creating a truly inclusive and innovative celebration.  95%  of athletes surveyed rated their overall experience positively"
@@ -396,68 +321,14 @@ export default  {
       "index": 16,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg17.jpg",
+      "original": "pg17.png",
       "zoom": null,
-      "content": `
-
-      <div class="contentLink" style="top:98px;left:40px;width:458px;height:30px">
-      <a href="https://www.youtube.com/watch?v=xNJmh_QFukI" target="_blank"></a>
-      </div>
-
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:141px;left:55px; font-size: 3.2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 590, "preppend": "USD ", "append": "M" }' ></h1>
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:253px;left:75px; font-size: 2.4em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 38, "preppend": "USD ", "append": "M" }' ></h1>
-
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:322px;left:83px; font-size: 3.2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1560, "comma": true }' ></h1>
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:438px;left:103px; font-size: 3.1em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 74 }' ></h1>
-
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:141px;left:300px; font-size: 3.1em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 215 }' ></h1>
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:236px;left:303px; font-size: 2.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 140 }' ></h1>
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:322px;left:295px; font-size: 3.2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 599 }' ></h1>
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:474px;left:277px; font-size: 1.7em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 303 }' ></h1>
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:474px;left:346px; font-size: 1.7em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 296 }' ></h1>
-
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:137px;left:465px; font-size: 1.8em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 75 }' ></h1>
-      <img class="abs halfScaleC 17-medal-1" style="top:190px;left:487px;" src="/paris2024/static/_content/17-gold-1.png"/>
-      <img class="abs halfScaleC 17-medal-1" style="top:226px;left:487px;" src="/paris2024/static/_content/17-silver-1.png"/>
-      <img class="abs halfScaleC 17-medal-1" style="top:262px;left:487px;" src="/paris2024/static/_content/17-bronze-1.png"/>
-
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:326px;left:465px; font-size: 1.8em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 195 }' ></h1>
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:403px;left:465px; font-size: 1.8em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1 }' ></h1>
-      <h1 id="17-no" class="abs olympic-HeadlineCon 17-no" style="top:484px;left:465px; font-size: 1.8em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 5 }' ></h1>
-      <img class="abs halfScaleC 17-medal-2" style="top:545px;left:487px;" src="/paris2024/static/_content/17-gold-2.png"/>
-      <img class="abs halfScaleC 17-medal-2" style="top:580px;left:487px;" src="/paris2024/static/_content/17-silver-2.png"/>
-      <img class="abs halfScaleC 17-medal-2" style="top:615px;left:487px;" src="/paris2024/static/_content/17-bronze-2.png"/>
-
-      `,
+      "content": ``,
       "script": `
-       function onPageEnter() {
-       pg17Anim = new TimelineMax();
-       pg17Anim.fromTo(cOf("17-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[0])}}, 1.0)
-       .fromTo(cOf("17-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[1])}}, 1.1)
-       .fromTo(cOf("17-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[2])}}, 1.2)
-       .fromTo(cOf("17-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[3])}}, 1.3)
-       .fromTo(cOf("17-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[4])}}, 1.4)
-       .fromTo(cOf("17-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[5])}}, 1.5)
-       .fromTo(cOf("17-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[6])}}, 1.6)
-       .fromTo(cOf("17-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[7])}}, 1.7)
-       .fromTo(cOf("17-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[8])}}, 1.8)
-       .fromTo(cOf("17-no")[9], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[9])}}, 1.9)
-       .staggerFromTo(cOf("17-medal-1"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 2.1)
-       .fromTo(cOf("17-no")[10], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[10])}}, 2.2)
-       .fromTo(cOf("17-no")[11], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[11])}}, 2.3)
-       .fromTo(cOf("17-no")[12], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[12])}}, 2.3)
-       .staggerFromTo(cOf("17-medal-2"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 2.8)
-
-
-        setTimeout(function(){
-            addContentLinks();
-         },1000)
+        function onPageEnter() {
         }
 
         function onPageLeave() {
-        pg17Anim.stop();
-        resetNumbers("17-no");
-     
         }
       `,
       "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  17  Olympic Solidarity at Paris 2024  The Olympic Solidarity programme helped thousands of athletes qualify for and compete at the Games by providing crucial funding to cover training, equipment and other essential costs, leading to outstanding results.  USD 590m  invested in the Olympic cycle leading up to Paris 2024  USD 38m  75  215  teams from  26 gold  140  20 silver  directed into scholarships  NOCs in eight sports received Team Support Grants  1,560  599  athletes (843 men; 717 women) from 195 NOCs in 27 sports received scholarships for their training towards Paris 2024  74  refugee athletes from 24 host countries, representing 14 sports, received grants to support their efforts to qualify for Paris 2024  medals won by scholarship-holders  29 bronze  195  NOCs received Olympic Solidarity athlete scholarship funding for Paris 2024  Olympic Solidarity individual scholarship-holders competed at Paris 2024  1  medal and 3 diplomas won by Refugee Athlete Support Grant beneficiaries  303 men  296  5  women  medals won by teams who received Olympic Solidarity Team Support grants  3  gold  1  silver  1  bronze  For  2025 to 2028 there will be a  10% increase Olympic Solidarity Scholarship holder Arshad Nadeem threw an Olympic record of 92.97 metres to clinch gold in the men’s javelin, becoming the first Pakistani athlete to win an Olympic gold medal in an individual sport  to the Olympic Solidarity budget, taking it to a total of  USD 650m"
@@ -467,7 +338,7 @@ export default  {
       "index": 17,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg18.jpg",
+      "original": "pg18.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -484,7 +355,7 @@ export default  {
       "index": 18,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg19.jpg",
+      "original": "pg19.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -501,7 +372,7 @@ export default  {
       "index": 19,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg20.jpg",
+      "original": "pg20.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -518,7 +389,7 @@ export default  {
       "index": 20,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg21.jpg",
+      "original": "pg21.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -535,7 +406,7 @@ export default  {
       "index": 21,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg22.jpg",
+      "original": "pg22.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -552,7 +423,7 @@ export default  {
       "index": 22,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg23.jpg",
+      "original": "pg23.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -569,7 +440,7 @@ export default  {
       "index": 23,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg24.jpg",
+      "original": "pg24.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -586,38 +457,14 @@ export default  {
       "index": 24,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg25.jpg",
+      "original": "pg25.png",
       "zoom": null,
-      "content": `
-
-      <h1 id="25-no" class="abs olympic-HeadlineReg 25-no" style="top:101px;left:438px; font-size: 2.7em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 7.6, "decimals": 1, "preppend": "USD ", "append": "BN"}' ></h1>
-
-      <h1 id="25-no" class="abs olympic-HeadlineCon 25-no" style="top:156px;left:461px; font-size: 1.4em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 4, "append": "%"}' ></h1>
-      <h1 id="25-no" class="abs olympic-HeadlineCon 25-no" style="top:156px;left:541px; font-size: 1.4em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 5, "append": "%"}' ></h1>
-      <h1 id="25-no" class="abs olympic-HeadlineCon 25-no" style="top:357px;left:452px; font-size: 1.4em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 30, "append": "%"}' ></h1>
-      <h1 id="25-no" class="abs olympic-HeadlineCon 25-no" style="top:357px;left:554px; font-size: 1.4em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 61, "append": "%"}' ></h1>
-
-      <h1 id="25-no" class="abs olympic-HeadlineCon 25-no" style="top:493px;left:484px; font-size: 2.9em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append": "%"}' ></h1>
-      <h1 id="25-no" class="abs olympic-HeadlineCon 25-no" style="top:779px;left:484px; font-size: 2.9em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 10, "append": "%"}' ></h1>
-
-
-      
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        pg25Anim = new TimelineMax();
-        pg25Anim.fromTo(cOf("25-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("25-no")[0])}}, 1.0)
-        .fromTo(cOf("25-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("25-no")[1])}}, 1.2)
-        .fromTo(cOf("25-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("25-no")[2])}}, 1.3)
-        .fromTo(cOf("25-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("25-no")[3])}}, 1.4)
-        .fromTo(cOf("25-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("25-no")[4])}}, 1.5)
-        .fromTo(cOf("25-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("25-no")[5])}}, 1.6)
-        .fromTo(cOf("25-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("25-no")[6])}}, 1.6)
         }
 
         function onPageLeave() {
-        pg25Anim.stop();
-        resetNumbers("25-no");
         }
       `,
       "searchText": "IOC Marketing Report Paris 2024  Olympic Marketing Overview  In total, through the sale of broadcasting and marketing rights, as well as other income streams, the revenue for the Olympiad that spanned 2017 to 2020/21 was USD 7.6 billion. This revenue is distributed across the Olympic Movement to support athletes, National Olympic Committees (NOCs), International Federations (IFs) and other Olympic stakeholders.  25  Olympic Revenue Sources  USD 7.6BN 4%  Other revenue  5%  Other rights  In total, the IOC redistributes 90 per cent of its income, ensuring that every day, USD 4.2 million is allocated to sports development worldwide. This funding supports the staging of the Games, assists smaller nations in developing their sporting programmes, and ensures that athletes have the resources they need to achieve their best.  30%  TOP Programme marketing rights  61%  Media rights  *Based on IOC’s audited financial statements for 2017-2020/21  Where the revenue goes  90%  Individual athletes and coaches, via Olympic Solidarity funding National Olympic Committees (NOCs), which prepare athletes and teams to compete in the Olympic Games International Sports Federations (IFs), which run and oversee the development of their sports around the world Organising Committees for the Olympic Games (OCOGs), which are in charge of staging the Olympic Games Other Olympic Movement and sport organisations to promote the worldwide development of sport  10%  IOC activities to develop sport and operations of the IOC"
@@ -627,7 +474,7 @@ export default  {
       "index": 25,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg26.jpg",
+      "original": "pg26.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -644,7 +491,7 @@ export default  {
       "index": 26,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg27.jpg",
+      "original": "pg27.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -661,7 +508,7 @@ export default  {
       "index": 27,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg28.jpg",
+      "original": "pg28.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -678,36 +525,14 @@ export default  {
       "index": 28,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg29.jpg",
+      "original": "pg29.png",
       "zoom": null,
-      "content": `
-      
-      <h1 id="29-no" class="abs olympic-HeadlineCon 29-no" style="top:98px;left:168px; font-size: 4.5em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 84, "append": "%"}' ></h1>
-
-      <img class="abs halfScaleC 29-text" style="top:366px;left:23px;" src="/paris2024/static/_content/29-no.png"/>
-      <img class="abs halfScaleC 29-text" style="top:455px;left:-6px;" src="/paris2024/static/_content/29-no-2.png"/>
-
-      <h1 id="29-no" class="abs olympic-HeadlineCon 29-no" style="top:467px;left:360px; font-size: 3.2em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 95, "append": "%"}' ></h1>
-      <h1 id="29-no" class="abs olympic-HeadlineCon 29-no" style="top:593px;left:360px; font-size: 3.2em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 70, "append": "%"}' ></h1>
-      <h1 id="29-no" class="abs olympic-HeadlineCon 29-no" style="top:746px;left:86px; font-size: 3.2em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 308741, "comma": true }' ></h1>
-      <h1 id="29-no" class="abs olympic-HeadlineCon 29-no" style="top:746px;left:374px; font-size: 3.2em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 178002, "comma": true }' ></h1>
-      
-      
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        pg25Anim = new TimelineMax();
-        pg25Anim.fromTo(cOf("29-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("29-no")[0])}}, 1.0)
-        .fromTo(cOf("29-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("29-no")[1])}}, 1.4)
-        .fromTo(cOf("29-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("29-no")[2])}}, 1.5)
-        .fromTo(cOf("29-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("29-no")[3])}}, 1.6)
-        .fromTo(cOf("29-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("29-no")[4])}}, 1.7)
-        .staggerFromTo(cOf("29-text"), 0.6, {opacity:0, x:-20}, {opacity:1, x:0, ease: Power2.easeOut}, 0.2, 1.3)
         }
 
         function onPageLeave() {
-        pg29Anim.stop();
-        resetNumbers("29-no");
         }
       `,
       "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  84%  A record  of the potential global audience followed the Games*  29  This equals around  5 billion people Or more than half the world’s population  There were  13X more  engagements on the social media handles of Media Rights-Holders (MRHs) than there were for Tokyo 2020  There was a  25% increase  in the amount of coverage watched with 28.7 billion hours of footage viewed around the world on MRH platforms  This meant every viewer watched on average 9 hours of coverage, a 20% increase on the previous Games  In the home market of France,  95%  of the potential audience watched an average of 24 hours of coverage  70%  of the global audience watched on both television and digital platforms  Paris 2024 generated more coverage on MRH platforms than ever before  308,741 hours  178,002 hours  of digital coverage (Up 42% from Tokyo 2020)  of linear TV coverage (Up 18% from Tokyo 2020)  *Potential global audience with access to follow the Olympic Games and over the age of four years old."
@@ -717,7 +542,7 @@ export default  {
       "index": 29,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg30.jpg",
+      "original": "pg30.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -734,53 +559,14 @@ export default  {
       "index": 30,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg31.jpg",
+      "original": "pg31.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:95px;left:40px;width:345px;height:28px">
-      <a href="https://www.obs.tv/news/821" target="_blank"></a>
-      </div>
-
-      <h1 id="31-no" class="abs olympic-HeadlineCon 31-no" style="top:193px;left:75px; font-size: 3em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 11000, "comma": true, "append": "+"}' ></h1>
-
-      <h1 id="31-no" class="abs olympic-HeadlineCon 31-no" style="top:227px;left:251px; font-size: 1.5em; font-weight: 300; color: #fffefe; padding: 0px; margin: 0px;"  data-number='{"to": 182}' ></h1>
-      <h1 id="31-no" class="abs olympic-HeadlineCon 31-no" style="top:227px;left:372px; font-size: 1.5em; font-weight: 300; color: #fffefe; padding: 0px; margin: 0px;"  data-number='{"to": 8300, "comma": true, "append": "+"}' ></h1>
-      <h1 id="31-no" class="abs olympic-HeadlineCon 31-no" style="top:366px;left:254px; font-size: 1.5em; font-weight: 300; color: #fffefe; padding: 0px; margin: 0px;"  data-number='{"to": 36}' ></h1>
-      <h1 id="31-no" class="abs olympic-HeadlineCon 31-no" style="top:363px;left:377px; font-size: 1.5em; font-weight: 300; color: #fffefe; padding: 0px; margin: 0px;"  data-number='{"to": 1200, "comma": true}' ></h1>
-      <h1 id="31-no" class="abs olympic-HeadlineCon 31-no" style="top:367px;left:503px; font-size: 1.5em; font-weight: 300; color: #fffefe; padding: 0px; margin: 0px;"  data-number='{"to": 3680, "comma": true, "append": "+"}' ></h1>
-
-      <h1 id="31-no" class="abs olympic-HeadlineCon 31-no" style="top:89px;left:498px; font-size: 2.2em; font-weight: 300; color: #fffefe; padding: 0px; margin: 0px;"  data-number='{"to": 19000, "comma": true}' ></h1>
-      <h1 id="31-no" class="abs olympic-HeadlineCon 31-no" style="top:199px;left:487px; font-size: 2.2em; font-weight: 300; color: #fffefe; padding: 0px; margin: 0px;"  data-number='{"to": 100000, "comma": true, "append": "+"}' ></h1>
-
-      <h1 id="31-no" class="abs olympic-HeadlineCon 31-no" style="top:345px;left:103px; font-size: 2.2em; font-weight: 300; color: #f8af00; padding: 0px; margin: 0px;"  data-number='{"to": 499}' ></h1>
-      <h1 id="31-no" class="abs olympic-HeadlineCon 31-no" style="top:411px;left:109px; font-size: 2.2em; font-weight: 300; color: #f8af00; padding: 0px; margin: 0px;"  data-number='{"to": 72}' ></h1>
-
-
-      
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        pg31Anim = new TimelineMax();
-        pg31Anim.fromTo(cOf("31-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("31-no")[0])}}, 1.0)
-        pg31Anim.fromTo(cOf("31-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("31-no")[1])}}, 1.1)
-        pg31Anim.fromTo(cOf("31-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("31-no")[2])}}, 1.2)
-        pg31Anim.fromTo(cOf("31-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("31-no")[3])}}, 1.3)
-        pg31Anim.fromTo(cOf("31-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("31-no")[4])}}, 1.4)
-        pg31Anim.fromTo(cOf("31-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("31-no")[5])}}, 1.5)
-        pg31Anim.fromTo(cOf("31-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("31-no")[6])}}, 1.6)
-        pg31Anim.fromTo(cOf("31-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("31-no")[7])}}, 1.7)
-        pg31Anim.fromTo(cOf("31-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("31-no")[8])}}, 1.2)
-        pg31Anim.fromTo(cOf("31-no")[9], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("31-no")[9])}}, 1.3)
-      
-         setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
-        pg31Anim.stop();
-        resetNumbers("31-no");
         }
       `,
       "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  31  How the Games were broadcast  19,000  pieces of content made available to MRHs via OBS's cloud-based content delivery platform  11,000+ hours of content produced by OBS  499  Athlete Moments completed  72  182  broadcast sublicensees  36  Media Rights-Holders (including the Olympic Channel)  NOCs engaged through the Athlete Moment initiative  Grant Holloway (USA) uses the Athlete Moment to celebrate with friends and family after winning gold in the men's 110m hurdles  8,300+ broadcast personnel  1,200  OBS cameras  100,000+ highlight clips created automatically by AI  3,680+  microphones"
@@ -790,7 +576,7 @@ export default  {
       "index": 31,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg32.jpg",
+      "original": "pg32.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -807,7 +593,7 @@ export default  {
       "index": 32,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg33.jpg",
+      "original": "pg33.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -824,7 +610,7 @@ export default  {
       "index": 33,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg34.jpg",
+      "original": "pg34.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -841,7 +627,7 @@ export default  {
       "index": 34,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg35.jpg",
+      "original": "pg35.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -858,7 +644,7 @@ export default  {
       "index": 35,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg36.jpg",
+      "original": "pg36.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -875,7 +661,7 @@ export default  {
       "index": 36,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg37.jpg",
+      "original": "pg37.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -892,7 +678,7 @@ export default  {
       "index": 37,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg38.jpg",
+      "original": "pg38.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -909,7 +695,7 @@ export default  {
       "index": 38,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg39.jpg",
+      "original": "pg39.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -926,7 +712,7 @@ export default  {
       "index": 39,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg40.jpg",
+      "original": "pg40.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -943,7 +729,7 @@ export default  {
       "index": 40,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg41.jpg",
+      "original": "pg41.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -960,22 +746,12 @@ export default  {
       "index": 41,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg42.jpg",
+      "original": "pg42.png",
       "zoom": null,
-      "content": `
-      
-      
-      <div class="contentLink" style="top:523px;left:20px;width:520px;height:48px">
-      <a href="https://www.youtube.com/watch?v=RTOpPFJxNBo" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
-       function onPageEnter() {
-        setTimeout(function(){
-            addContentLinks();
-         },1000)
-    }
+        function onPageEnter() {
+        }
 
         function onPageLeave() {
         }
@@ -987,7 +763,7 @@ export default  {
       "index": 42,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg43.jpg",
+      "original": "pg43.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1004,21 +780,12 @@ export default  {
       "index": 43,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg44.jpg",
+      "original": "pg44.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:0px;left:0px;width:620px;height:665px">
-      <a href="https://www.youtube.com/watch?v=rsx_-hTMciU" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
-       function onPageEnter() {
-        setTimeout(function(){
-            addContentLinks();
-         },1000)
-    }
+        function onPageEnter() {
+        }
 
         function onPageLeave() {
         }
@@ -1030,20 +797,11 @@ export default  {
       "index": 44,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg45.jpg",
+      "original": "pg45.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:230px;left:230px;width:150px;height:18px">
-      <a href="https://www.youtube.com/watch?v=DyREX8ZQswk&t=1s" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
-       function onPageEnter() {
-        setTimeout(function(){
-            addContentLinks();
-         },1000)   
+        function onPageEnter() {
         }
 
         function onPageLeave() {
@@ -1056,7 +814,7 @@ export default  {
       "index": 45,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg46.jpg",
+      "original": "pg46.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1073,7 +831,7 @@ export default  {
       "index": 46,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg47.jpg",
+      "original": "pg47.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1090,7 +848,7 @@ export default  {
       "index": 47,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg48.jpg",
+      "original": "pg48.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1107,37 +865,11 @@ export default  {
       "index": 48,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg49.jpg",
+      "original": "pg49.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:240px;left:115px;width:88px;height:14px">
-      <a href="https://www.olympics.com/ioc/news/ioc-launches-new-edition-of-athlete365-business-accelerator-programme-with-support-from-alibaba-com" target="_blank"></a>
-      <div class="contentLink" style="top:11px;left:-72px;width:98px;height:14px">
-      <a href="https://www.olympics.com/ioc/news/ioc-launches-new-edition-of-athlete365-business-accelerator-programme-with-support-from-alibaba-com" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:232px;left:-15px;width:63px;height:14px">
-      <a href="https://www.youtube.com/watch?v=l-oZZRfIAsY" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:-93px;left:224px;width:51px;height:14px">
-      <a href="https://www.youtube.com/watch?v=4oM8bz8NGLg" target="_blank"></a>
-      <div class="contentLink" style="top:11px;left:-105px;width:138px;height:14px">
-      <a href="https://www.youtube.com/watch?v=4oM8bz8NGLg" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:92px;left:-105px;width:103px;height:14px">
-      <a href="https://www.youtube.com/watch?v=Aso1wqRN5Io" target="_blank"></a>
-      </div>
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)   
         }
 
         function onPageLeave() {
@@ -1150,7 +882,7 @@ export default  {
       "index": 49,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg50.jpg",
+      "original": "pg50.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1167,57 +899,11 @@ export default  {
       "index": 50,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg51.jpg",
+      "original": "pg51.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:300px;left:53px;width:53px;height:14px">
-      <a href="https://www.allianz.com/en/about-us/brand/partnerships/olympic-paralympic-movements/team-allianz.html" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:430px;left:116px;width:47px;height:14px">
-      <a href="https://www.allianz.com/en/about-us/brand/partnerships/olympic-paralympic-movements/team-allianz.html#buddy-program" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:430px;left:178px;width:39px;height:14px">
-      <a href="https://www.allianz.com/en/economic_research/sustainability-research/financialliteracy.html" target="_blank"></a>
-      <div class="contentLink" style="top:11px;left:-135px;width:87px;height:14px">
-      <a href="https://www.allianz.com/en/economic_research/sustainability-research/financialliteracy.html" target="_blank"></a>
-      </div>
-
-
-      <div class="contentLink" style="top:-373px;left:96px;width:50px;height:14px">
-      <a href="https://www.allianz.com/de/ueber-uns/brand/brand-in-action/get-ready-for-the-best.html#life" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:-291px;left:57px;width:56px;height:14px">
-      <a href="https://www.allianz.com/en/mediacenter/news/commitment/sponsorship/240508-allianz-the-neptune-tower-puts-on-athletic-gear-for-paris-2024.html" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:-256px;left:139px;width:53px;height:14px">
-      <a href="https://www.allianz.com/de/mediencenter/news/medienmitteilungen/240729-allianz-offers-unique-experiences-for-club-france-visitors.html" target="_blank"></a>
-      </div>
-      
-      <div class="contentLink" style="top:-245px;left:126px;width:71px;height:14px">
-      <a href="https://www.allianz.com/de/mediencenter/news/medienmitteilungen/240729-allianz-offers-unique-experiences-for-club-france-visitors.html" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:-175px;left:189px;width:17px;height:14px">
-      <a href="https://www.raiplay.it/programmi/sognandoparigi2024" target="_blank"></a>
-      <div class="contentLink" style="top:13px;left:-133px;width:47px;height:14px">
-      <a href="https://www.raiplay.it/programmi/sognandoparigi2024" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:82px;left:-43px;width:60px;height:14px">
-      <a href="https://www.olympics.com/en/olympic-games/paris-2024" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -1230,34 +916,7 @@ export default  {
       "index": 51,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg52.jpg",
-      "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:735px;left:15px;width:320px;height:108px">
-      <a href="https://www.youtube.com/watch?v=QiKXdCm_9u0" target="_blank"></a>
-      </div>
-
-
-      `,
-      "script": `
-        function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "52  Atos “Our teams have demonstrated unparallelled dedication and passion to ensure the flawless delivery of the technology for the Olympic and Paralympic Games Paris 2024 in the Group’s home country. We could not imagine a better setting to showcase our expertise in digital transformation and our dedication to the Olympic Movement over the past 35 years.” Nacho Moros, CEO, Atos Major Events  Fact BOX  Exclusive category: Information technology products, services and solutions Member of the TOP Programme since: 2001"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 52,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg53.jpg",
+      "original": "pg52.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1274,7 +933,7 @@ export default  {
       "index": 53,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg54.jpg",
+      "original": "pg54.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1291,7 +950,7 @@ export default  {
       "index": 54,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg55.jpg",
+      "original": "pg55.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1308,7 +967,7 @@ export default  {
       "index": 55,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg56.jpg",
+      "original": "pg56.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1325,22 +984,13 @@ export default  {
       "index": 56,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg57.jpg",
+      "original": "pg57.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:110px;left:423px;width:179px;height:214px">
-      <a href="https://www.youtube.com/watch?v=tvuCsOTQUeE" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
- 
+
         function onPageLeave() {
         }
       `,
@@ -1351,20 +1001,11 @@ export default  {
       "index": 57,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg58.jpg",
+      "original": "pg58.png",
       "zoom": null,
-      "content": `
-
-      <div class="contentLink" style="top:750px;left:17px;width:360px;height:94px">
-      <a href="https://www.youtube.com/watch?v=9efxZWxhpis" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -1377,7 +1018,7 @@ export default  {
       "index": 58,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg59.jpg",
+      "original": "pg59.png",
       "zoom": null,
       "content": `
       
@@ -1400,20 +1041,11 @@ export default  {
       "index": 59,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg60.jpg",
+      "original": "pg60.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:712px;left:16px;width:250px;height:110px">
-      <a href="https://www.youtube.com/watch?v=tvPGg1PyMlU" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -1426,7 +1058,7 @@ export default  {
       "index": 60,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg61.jpg",
+      "original": "pg61.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1443,7 +1075,7 @@ export default  {
       "index": 61,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg62.jpg",
+      "original": "pg62.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1460,35 +1092,12 @@ export default  {
       "index": 62,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg63.jpg",
+      "original": "pg63.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:427px;left:43px;width:138px;height:14px">
-      <a href="https://www.facebook.com/chinadaily/videos/1515199192426774/" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:438px;left:43px;width:166px;height:14px">
-      <a href="https://www.facebook.com/chinadaily/videos/1515199192426774/" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:450px;left:43px;width:153px;height:25px">
-      <a href="https://www.facebook.com/chinadaily/videos/1515199192426774/" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:472px;left:43px;width:86px;height:14px">
-      <a href="https://www.facebook.com/chinadaily/videos/1515199192426774/" target="_blank"></a>
-      </div> 
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
-      
 
         function onPageLeave() {
         }
@@ -1500,7 +1109,7 @@ export default  {
       "index": 63,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg64.jpg",
+      "original": "pg64.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1517,20 +1126,11 @@ export default  {
       "index": 64,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg65.jpg",
+      "original": "pg65.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:393px;left:235px;width:104px;height:18px">
-      <a href="https://www.youtube.com/watch?v=Th7lxTBg96c" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -1543,7 +1143,7 @@ export default  {
       "index": 65,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg66.jpg",
+      "original": "pg66.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1560,7 +1160,7 @@ export default  {
       "index": 66,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg67.jpg",
+      "original": "pg67.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1577,7 +1177,7 @@ export default  {
       "index": 67,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg68.jpg",
+      "original": "pg68.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1594,20 +1194,11 @@ export default  {
       "index": 68,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg69.jpg",
+      "original": "pg69.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:178px;left:232px;width:101px;height:14px">
-      <a href="https://www.olympics.com/en/athletes-for-good/" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -1620,7 +1211,7 @@ export default  {
       "index": 69,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg70.jpg",
+      "original": "pg70.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1637,7 +1228,7 @@ export default  {
       "index": 70,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg71.jpg",
+      "original": "pg71.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1654,7 +1245,7 @@ export default  {
       "index": 71,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg72.jpg",
+      "original": "pg72.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1671,7 +1262,7 @@ export default  {
       "index": 72,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg73.jpg",
+      "original": "pg73.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1688,7 +1279,7 @@ export default  {
       "index": 73,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg74.jpg",
+      "original": "pg74.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1705,20 +1296,11 @@ export default  {
       "index": 74,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg75.jpg",
+      "original": "pg75.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:265px;left:232px;width:115px;height:34px">
-      <a href="https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20776.html" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -1731,7 +1313,7 @@ export default  {
       "index": 75,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg76.jpg",
+      "original": "pg76.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1748,7 +1330,7 @@ export default  {
       "index": 76,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg77.jpg",
+      "original": "pg77.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1765,7 +1347,7 @@ export default  {
       "index": 77,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg78.jpg",
+      "original": "pg78.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1782,7 +1364,7 @@ export default  {
       "index": 78,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg79.jpg",
+      "original": "pg79.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1799,7 +1381,7 @@ export default  {
       "index": 79,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg80.jpg",
+      "original": "pg80.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1816,7 +1398,7 @@ export default  {
       "index": 80,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg81.jpg",
+      "original": "pg81.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1833,27 +1415,14 @@ export default  {
       "index": 81,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg82.jpg",
+      "original": "pg82.png",
       "zoom": null,
-      "content": `
-      
-      
-       <h1 id="82-no" class="abs olympic-HeadlineReg 82-no" style="top:645px;left:464px; font-size: 1.5em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 412, "append": "BN" }' ></h1>
-       <h1 id="82-no" class="abs olympic-HeadlineReg 82-no" style="top:715px;left:466px; font-size: 1.5em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 270, "append": "M" }' ></h1>
-       <h1 id="82-no" class="abs olympic-HeadlineReg 82-no" style="top:780px;left:466px; font-size: 1.5em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 290, "append": "%" }' ></h1>
-      
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        pg82Anim = new TimelineMax();
-        pg82Anim.fromTo(cOf("82-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("82-no")[0])}}, 1.0)
-        pg82Anim.fromTo(cOf("82-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("82-no")[1])}}, 1.1)
-        pg82Anim.fromTo(cOf("82-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("82-no")[2])}}, 1.2)
         }
 
         function onPageLeave() {
-        pg82Anim.stop();
-        resetNumbers("82-no");
         }
       `,
       "searchText": "82  Digital Engagement THE OLYMPIC GAMES PARIS 2024 GENERATED RECORD-BREAKING DIGITAL ENGAGEMENT, WITH THE IOC PREPARING A MULTI-FACETED, MULTIPLATFORM APPROACH TO REACH MORE PEOPLE THAN EVER BEFORE IN NEW AND INNOVATIVE WAYS  The Olympic Games Paris 2024 set a new benchmark for digital engagement, delivering record-breaking results across platforms and connecting millions of people to the Games in innovative and meaningful ways. Anchored by a multi-faceted, multiplatform approach, the IOC’s digital initiatives reached hundreds of millions of people through immersive storytelling, interactive fan experiences, and dynamic global collaborations. From the launch of the new “Sport. And More Than Sport” brand platform to cutting-edge digital  experiences, Paris 2024 redefined how fans engage with the Olympic Games. Across social media platforms, there were an estimated 412 billion engagements from 270 million posts, representing a 290 per cent increase compared to the previous edition of the Games. These results were the culmination of the IOC's efforts in recent years to grow digital engagement with people during and between the Olympic Games, with this strategic vision driven by Olympic Agenda 2020 and Olympic Agenda 2020+5.  “Sport. And More Than Sport” “Our digital records have been broken across Olympic digital, social media and marketing platforms.” 	 Leandro Larrosa, IOC Digital Engagement & Marketing Director  The “Sport. And More Than Sport” brand platform launched ahead of Paris 2024 and was the unifying theme for digital experiences and content during the Games, celebrating sport’s ability to inspire, empower, and connect with people both on and beyond the field of play.  Paris 2024 on social media  412bn  engagements  270m posts  290%  increase in engagements compared with Tokyo 2020"
@@ -1863,33 +1432,15 @@ export default  {
       "index": 82,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg83.jpg",
+      "original": "pg83.png",
       "zoom": null,
-      "content": `
-      
-           
-       <h1 id="83-no" class="abs olympic-HeadlineReg 83-no" style="top:145px;left:252px; font-size: 2.1em; font-weight: 300; color: #000000; padding: 0px; margin: 0px;"  data-number='{"to": 325, "append": "M" }' ></h1>
-       <img class="abs halfScaleC 83-text" style="top:215px;left:358px;" src="/paris2024/static/_content/83-no.png"/>
-       <h1 id="83-no" class="abs olympic-HeadlineReg 83-no" style="top:335px;left:466px; font-size: 2.2em; font-weight: 300; color: #000000; padding: 0px; margin: 0px;"  data-number='{"to": 16.7, "decimals": 1, "append": "BN" }' ></h1>
-       <h1 id="83-no" class="abs olympic-HeadlineReg 83-no" style="top:458px;left:491px; font-size: 2.2em; font-weight: 300; color: #000000; padding: 0px; margin: 0px;"  data-number='{"to": 32, "append": "M" }' ></h1>
-   
-      
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        pg83Anim = new TimelineMax();
-        pg83Anim.fromTo(cOf("83-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[0])}}, 1.0)
-        .fromTo(cOf("83-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[1])}}, 1.3)
-        .fromTo(cOf("83-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[2])}}, 1.4)
-        .fromTo(cOf("83-text"), 0.6, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1)
-
         }
 
         function onPageLeave() {
-        pg83Anim.stop();
-        resetNumbers("83-no");
         }
-    
       `,
       "searchText": "IOC Marketing Report Paris 2024  Digital Engagement  83  Record-breaking digital engagement  325m  Olympics.com & Olympics App users  No.1  sports app in over 70 territories  16.7BN engagements on Olympic-owned social handles  32m  more followers of Olympic-owned social handles (151m total)  “Engagement on social media platforms went through the roof, with a 290 per cent increase on the previous edition of the Games. Audiences are following and interacting with the Olympic Games like never before.” 	 Thomas Bach, IOC President"
     }],[{
@@ -1898,22 +1449,15 @@ export default  {
       "index": 83,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg84.jpg",
+      "original": "pg84.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:739px;left:242px;width:113px;height:87px">
-      <a href="https://www.youtube.com/watch?v=oIzH8L-WeMM" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
-      
+
+        function onPageLeave() {
+        }
       `,
       "searchText": "84  It launched with an uplifting short film that encapsulated the “Olympic Spirit”, airing globally across the network of Olympic Media Rights-Holders (MRHs) and Olympic digital channels. In France, the film reached an even broader audience through cinemas, helping to build excitement for the Games. During the Games, “Sport. And More Than Sport” resonated through creator collaborations and interactive fan experiences, such as an interactive art installation, where people in the streets of Paris were invited to reflect on their personal victories over life’s challenges. This also came to life across Olympic social media handles, reacting to the most memorable “More than Sport” moments of the Games, such as Leon Marchand’s medal-winning performances in the pool, which united local fans, and Rebecca Andrade’s sportsmanship, which inspired audiences worldwide. On Olympics.com, the campaign was reflected in powerful athlete stories and human-interest features, generating millions of engagements per post during the Games.  Olympics.com Olympics.com served as the ultimate destination for Olympic fans during Paris 2024, providing a comprehensive source for breaking sports news, video highlights, and original content to more than 325 million unique users during the Olympic Games. Designed to bring fans closer to the action, the platform offered a wide array of features and bespoke coverage in 11 languages, ensuring accessibility for a global audience. The platform produced and published more than 148,000 content assets resulting in three million hours of video watch-time.  498.5m social media engagements on the Sport. AND More than Sport. brand platform  Throughout the Games, Olympics.com published nearly 6,000 stories, with content ranging from event previews and daily highlights to unique behind-thescenes coverage on the surfing events in Tahiti and the vibrant scenes across Paris. Fans could also enjoy in-depth athlete interviews – over 100 in total – and original podcasts featuring legendary sporting figures. The platform's live blogs, available in French, English, Spanish, Italian, Portuguese, German, Japanese, and Mandarin, offered real-time updates and insights, attracting millions of readers, including 5.4 million fans on the English-language blog alone."
     }],[{
@@ -1922,7 +1466,7 @@ export default  {
       "index": 84,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg85.jpg",
+      "original": "pg85.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1939,7 +1483,7 @@ export default  {
       "index": 85,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg86.jpg",
+      "original": "pg86.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1956,20 +1500,11 @@ export default  {
       "index": 86,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg87.jpg",
+      "original": "pg87.png",
       "zoom": null,
-      "content": `
-
-      <div class="contentLink" style="top:189px;left:249px;width:130px;height:38px">
-      <a href="https://www.youtube.com/watch?v=tKxgJXmq1eQ" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -1982,7 +1517,7 @@ export default  {
       "index": 87,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg88.jpg",
+      "original": "pg88.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1999,7 +1534,7 @@ export default  {
       "index": 88,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg89.jpg",
+      "original": "pg89.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2016,7 +1551,7 @@ export default  {
       "index": 89,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg90.jpg",
+      "original": "pg90.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2033,7 +1568,7 @@ export default  {
       "index": 90,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg91.jpg",
+      "original": "pg91.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2050,64 +1585,14 @@ export default  {
       "index": 91,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg92.jpg",
+      "original": "pg92.png",
       "zoom": null,
-      "content": `
-      
-      <img class="abs halfScaleC 92-red-longline" style="top:755px;left:-330px;" src="/paris2024/static/_content/92-red-longline.png"/>
-
-      <img class="abs halfScaleC 92-shortline" style="top:731px;left:14px;" src="/paris2024/static/_content/92-shortline.png"/>
-      <h1 id="92-no" class="abs olympic-HeadlineReg 92-no" style="top:806px;left:35px; font-size: 1.7em; font-weight: 300; color: #c01f2b; padding: 0px; margin: 0px;"  data-number='{"to": 9.5, "decimals": 1, "append": "M" }' ></h1>
-      <img class="abs halfScaleC 92-text" style="top:835px;left:13px;" src="/paris2024/static/_content/92-text-1.png"/>
-      <img class="abs halfScaleC 92-icon" style="top:711px;left:7px;" src="/paris2024/static/_content/92-icon-1.png"/>
-
-      <img class="abs halfScaleC 92-longline" style="top:640px;left:103px;" src="/paris2024/static/_content/92-longline.png"/>
-      <h1 id="92-no" class="abs olympic-HeadlineReg 92-no" style="top:668px;left:143px; font-size: 1.7em; font-weight: 300; color: #c01f2b; padding: 0px; margin: 0px;"  data-number='{"to": 1, "append": "M" }' ></h1>
-      <img class="abs halfScaleC 92-text" style="top:689px;left:100px;" src="/paris2024/static/_content/92-text-2.png"/>
-      <img class="abs halfScaleC 92-icon" style="top:711px;left:101px;" src="/paris2024/static/_content/92-icon-2.png"/>
-
-      <img class="abs halfScaleC 92-shortline" style="top:731px;left:199px;" src="/paris2024/static/_content/92-shortline.png"/>
-      <h1 id="92-no" class="abs olympic-HeadlineReg 92-no" style="top:806px;left:236px; font-size: 1.7em; font-weight: 300; color: #c01f2b; padding: 0px; margin: 0px;"  data-number='{"to": 4, "append": "M" }' ></h1>
-      <img class="abs halfScaleC 92-text" style="top:829px;left:186px;" src="/paris2024/static/_content/92-text-3.png"/>
-      <img class="abs halfScaleC 92-icon" style="top:711px;left:198px;" src="/paris2024/static/_content/92-icon-3.png"/>
-
-      <img class="abs halfScaleC 92-longline" style="top:640px;left:294px;" src="/paris2024/static/_content/92-longline.png"/>
-      <h1 id="92-no" class="abs olympic-HeadlineReg 92-no" style="top:668px;left:332px; font-size: 1.7em; font-weight: 300; color: #c01f2b; padding: 0px; margin: 0px;"  data-number='{"to": 6, "append": "M" }' ></h1>
-      <img class="abs halfScaleC 92-text" style="top:683px;left:281px;" src="/paris2024/static/_content/92-text-4.png"/>
-      <img class="abs halfScaleC 92-icon" style="top:711px;left:293px;" src="/paris2024/static/_content/92-icon-4.png"/>
-
-      <img class="abs halfScaleC 92-shortline" style="top:731px;left:389px;" src="/paris2024/static/_content/92-shortline.png"/>
-      <h1 id="92-no" class="abs olympic-HeadlineReg 92-no" style="top:806px;left:403px; font-size: 1.7em; font-weight: 300; color: #c01f2b; padding: 0px; margin: 0px;"  data-number='{"to": 280000, "comma": true }' ></h1>
-      <img class="abs halfScaleC 92-text" style="top:829px;left:376px;" src="/paris2024/static/_content/92-text-5.png"/>
-      <img class="abs halfScaleC 92-icon" style="top:711px;left:387px;" src="/paris2024/static/_content/92-icon-5.png"/>
-
-      <img class="abs halfScaleC 92-longline" style="top:640px;left:485px;" src="/paris2024/static/_content/92-longline.png"/>
-      <h1 id="92-no" class="abs olympic-HeadlineReg 92-no" style="top:668px;left:526px; font-size: 1.7em; font-weight: 300; color: #c01f2b; padding: 0px; margin: 0px;"  data-number='{"to": 1, "append": "M" }' ></h1>
-      <img class="abs halfScaleC 92-text" style="top:683px;left:455px;" src="/paris2024/static/_content/92-text-6.png"/>
-      <img class="abs halfScaleC 92-icon" style="top:711px;left:481px;" src="/paris2024/static/_content/92-icon-6.png"/>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        pg92Anim = new TimelineMax();
-
-        pg92Anim.fromTo(cOf("92-red-longline"), 6.5, {scaleX: 0, transformOrigin: "left center"}, {scaleX: 1, ease: Power2.easeOut}, 0.8)
-        .staggerFromTo(cOf("92-shortline"), 0.4, {scaleY: 0}, {scaleY: 0.5, ease: Power2.easeOut}, 0.4, 1.6)
-        .staggerFromTo(cOf("92-icon"), 0.4, {scale: 0}, {scale: 0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.8)
-        .staggerFromTo(cOf("92-longline"), 0.4, {scaleY: 0}, {scaleY: 0.5, ease: Power2.easeOut}, 0.4, 2)
-        .staggerFromTo(cOf("92-text"), 0.4, {opacity: 0, x: -15}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.3, 2,2)
-        .fromTo(cOf("92-no")[0], 0, {opacity: 0}, {opacity: 1, onComplete:function(){ animateNumber(cOf("92-no")[0])}}, 2.3)
-        .fromTo(cOf("92-no")[1], 0, {opacity: 0}, {opacity: 1, onComplete:function(){ animateNumber(cOf("92-no")[1])}}, 2.5)
-        .fromTo(cOf("92-no")[2], 0, {opacity: 0}, {opacity: 1, onComplete:function(){ animateNumber(cOf("92-no")[2])}}, 2.7)
-        .fromTo(cOf("92-no")[3], 0, {opacity: 0}, {opacity: 1, onComplete:function(){ animateNumber(cOf("92-no")[3])}}, 2.9)
-        .fromTo(cOf("92-no")[4], 0, {opacity: 0}, {opacity: 1, onComplete:function(){ animateNumber(cOf("92-no")[4])}}, 3.1)
-        .fromTo(cOf("92-no")[5], 0, {opacity: 0}, {opacity: 1, onComplete:function(){ animateNumber(cOf("92-no")[5])}}, 3.3);
         }
 
-
         function onPageLeave() {
-        pg92Anim.stop();
-        resetNumbers("92-no");
         }
       `,
       "searchText": "92  Ticketing and Hospitality WITH MILLIONS OF PASSIONATE FANS IN PACKED VENUES CREATING AN UNFORGETTABLE ATMOSPHERE, PARIS 2024 SIGNALLED A HUGELY SUCCESSFUL LAUNCH OF A NEW ERA FOR OLYMPIC TICKETING AND HOSPITALITY The Olympic Games Paris 2024 marked a significant milestone for the Olympic ticketing and hospitality programmes, becoming the first edition of the Games to fully implement the IOC’s new centralised model. Launched as part of the  Olympic Agenda 2020+5 reforms, this innovative approach aimed to provide fans around the world with seamless access to tickets and hospitality packages, while simplifying operations, enhancing services to stakeholders, and creating new revenue opportunities.  Record-Breaking Ticket Sales Paris 2024 set a new benchmark for ticket sales, with over 9.5 million tickets sold out of a total of 10 million available, reflecting the Games’ commitment to accessibility and inclusion. The programme prioritised affordability, with one million tickets priced at just EUR 24 and four million tickets available for EUR 50 or less, reflecting Paris 2024’s commitment to hosting accessible and affordable Games, in line with its “Games Wide Open” slogan. The significant demand for tickets was driven by a combination of attractive pricing and the new centralised ticketing platform, which provided fans from around the world with direct access to Olympic tickets at standardised prices.  1m  6m  tickets priced at €24  €  9.5m  tickets sold  1m  fans visited celebration sites across France  fans lined the streets of Paris for the cycling road race  €  4m  tickets priced at €50 or less  280,000 fans visited the Champions Park"
@@ -2117,7 +1602,7 @@ export default  {
       "index": 92,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg93.jpg",
+      "original": "pg93.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2134,7 +1619,7 @@ export default  {
       "index": 93,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg94.jpg",
+      "original": "pg94.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2151,7 +1636,7 @@ export default  {
       "index": 94,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg95.jpg",
+      "original": "pg95.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2168,7 +1653,7 @@ export default  {
       "index": 95,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg96.jpg",
+      "original": "pg96.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2185,7 +1670,7 @@ export default  {
       "index": 96,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg97.jpg",
+      "original": "pg97.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2202,7 +1687,7 @@ export default  {
       "index": 97,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg98.jpg",
+      "original": "pg98.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2219,36 +1704,14 @@ export default  {
       "index": 98,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg99.jpg",
+      "original": "pg99.png",
       "zoom": null,
-      "content": `
-      
-      <h1 id="99-no" class="abs olympic-HeadlineReg 99-no" style="top:351px;left:147px; font-size: 1.3em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 8000, "comma": true }' ></h1>
-      <h1 id="99-no" class="abs olympic-HeadlineReg 99-no" style="top:411px;left:111px; font-size: 1.3em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 30000, "comma": true }' ></h1>
-      <h1 id="99-no" class="abs olympic-HeadlineReg 99-no" style="top:477px;left:125px; font-size: 1.3em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 150 }' ></h1>
-      <h1 id="99-no" class="abs olympic-HeadlineReg 99-no" style="top:547px;left:136px; font-size: 1.3em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 1, "append": "M" }' ></h1>
-      <h1 id="99-no" class="abs olympic-HeadlineReg 99-no" style="top:633px;left:118px; font-size: 1.3em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 300000, "comma": true }' ></h1>
-      <h1 id="99-no" class="abs olympic-HeadlineReg 99-no" style="top:698px;left:180px; font-size: 1.3em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 3.3, "decimals": 1, "append": "M" }' ></h1>
-      <h1 id="99-no" class="abs olympic-HeadlineReg 99-no" style="top:765px;left:251px; font-size: 1.3em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 78}' ></h1>
-      <h1 id="99-no" class="abs olympic-HeadlineReg 99-no" style="top:818px;left:304px; font-size: 1.3em; font-weight: 300; color: #f8f8f8; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append": "%" }' ></h1>
-      
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-        pg99Anim = new TimelineMax();
-        pg99Anim.fromTo(cOf("99-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("99-no")[0])}}, 1.0)
-        pg99Anim.fromTo(cOf("99-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("99-no")[1])}}, 1.1)
-        pg99Anim.fromTo(cOf("99-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("99-no")[2])}}, 1.2)
-        pg99Anim.fromTo(cOf("99-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("99-no")[3])}}, 1.3)
-        pg99Anim.fromTo(cOf("99-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("99-no")[4])}}, 1.4)
-        pg99Anim.fromTo(cOf("99-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("99-no")[5])}}, 1.5)
-        pg99Anim.fromTo(cOf("99-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("99-no")[6])}}, 1.6)
-        pg99Anim.fromTo(cOf("99-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("99-no")[7])}}, 1.7)
         }
 
         function onPageLeave() {
-        pg99Anim.stop();
-        resetNumbers("99-no");
         }
       `,
       "searchText": "IOC Marketing Report Paris 2024  Licensing and Merchandising  “We've got 'pin mania' back in full force for this edition of the Games. The products are flying off the shelves.” Etienne Thobois, CEO, Paris 2024  99  The enthusiasm for official merchandise was evident throughout the Games, with hordes of fans flocking to flagship stores at iconic locations such as the megastore situated on the Champs-Élysées, which attracted more than one million visitors. The official Paris 2024 mascots – the Phryges – were particularly popular, with 3.3 million plush toys sold. The wide array of collectible pins and the official posters – including the limited edition night version available online only – were also highly sought after, becoming must-have items for many visitors.  The stunning collection of 250 coins, produced by Monnaie de Paris, included, amongst other values, commemorative €2 coins in gold and silver. For the first time ever, Monnaie de Paris also produced coins with a hexagonal design, reflecting the shape of France itself. In total, seven million coins were sold.  In keeping with Olympic tradition, the Paris 2024 licensing programme also extended to commemorative coins and stamps, which paid tribute to the host city’s iconic monuments as well as celebrating the look of the Games.  With its diverse range of products and a strong focus on local production and sustainability, the Paris 2024 licensing programme was a resounding success, creating a memorable experience for fans and a lasting legacy for the Games.  8,000  different products available  30,000  points of sale throughout France  150  official shops throughout France  1m  visitors to the megastore on the Champs-Elysées  300,000  official posters sold  3.3m  mascot plush toys sold  78  licensees appointed by Paris 2024  90%  of licensees were French SMEs  Meanwhile, the official Paris 2024 stamp, released by La Poste, featured a design showcasing the Games’ visual identity and iconic Parisian sights, with more than one million being sold."
@@ -2258,7 +1721,7 @@ export default  {
       "index": 99,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg100.jpg",
+      "original": "pg100.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2275,24 +1738,11 @@ export default  {
       "index": 100,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg101.jpg",
+      "original": "pg101.png",
       "zoom": null,
-      "content": `
-      
-   <a onclick="Publish.openVideo('/static/_content/pg101-vid.mp4')">
-          <img class="abs halfpulse animatedpulse halfScaleC pointer" style="left:522px;top:92px" src="/paris2024/static/_content/play-black.png">
-      </a>
-
-      <div class="contentLink" style="top:158px;left:41px;width:370px;height:375px">
-      <a href="https://www.youtube.com/watch?v=yhcPryGi5tM" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -2305,7 +1755,7 @@ export default  {
       "index": 101,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg102.jpg",
+      "original": "pg102.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2322,7 +1772,7 @@ export default  {
       "index": 102,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg103.jpg",
+      "original": "pg103.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2339,7 +1789,7 @@ export default  {
       "index": 103,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg104.jpg",
+      "original": "pg104.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2356,7 +1806,7 @@ export default  {
       "index": 104,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg105.jpg",
+      "original": "pg105.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2373,20 +1823,11 @@ export default  {
       "index": 105,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg106.jpg",
+      "original": "pg106.png",
       "zoom": null,
-      "content": `
-      
-      <div class="contentLink" style="top:110px;left:18px;width:360px;height:62px">
-      <a href="https://www.youtube.com/watch?v=v5GcJWnC_xM" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -2399,7 +1840,7 @@ export default  {
       "index": 106,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg107.jpg",
+      "original": "pg107.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2416,7 +1857,7 @@ export default  {
       "index": 107,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg108.jpg",
+      "original": "pg108.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2433,38 +1874,11 @@ export default  {
       "index": 108,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg109.jpg",
+      "original": "pg109.png",
       "zoom": null,
-      "content": `
-      
- 
-
-      <div class="contentLink" style="top:58px;left:42px;width:180px;height:238px">
-      <a href="https://www.youtube.com/watch?v=08aeo0WZMOY" target="_blank"></a>
-      </div>
- 
-      <div class="contentLink" style="top:58px;left:232px;width:180px;height:238px">
-      <a href="https://www.youtube.com/watch?v=ccrHmiad6XA" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:58px;left:423px;width:180px;height:238px">
-      <a href="https://www.youtube.com/watch?v=TdDN-vJmCdM" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:496px;left:44px;width:180px;height:238px">
-      <a href="https://www.youtube.com/watch?v=kHELBhAyBZk" target="_blank"></a>
-      </div>
-
-      <div class="contentLink" style="top:496px;left:423px;width:180px;height:238px">
-      <a href="https://www.youtube.com/watch?v=mhsYRlQrt1o" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -2477,7 +1891,7 @@ export default  {
       "index": 109,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg110.jpg",
+      "original": "pg110.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2494,7 +1908,7 @@ export default  {
       "index": 110,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg111.jpg",
+      "original": "pg111.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2511,7 +1925,7 @@ export default  {
       "index": 111,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg112.jpg",
+      "original": "pg112.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2528,7 +1942,7 @@ export default  {
       "index": 112,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg113.jpg",
+      "original": "pg113.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2545,20 +1959,11 @@ export default  {
       "index": 113,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg114.jpg",
+      "original": "pg114.png",
       "zoom": null,
-      "content": `      
-      
-      <div class="contentLink" style="top:54px;left:51px;width:302px;height:110px">
-      <a href="https://www.youtube.com/watch?v=6c9hFGtSUF8" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-           setTimeout(function(){
-            addContentLinks();
-         },1000)
         }
 
         function onPageLeave() {
@@ -2571,7 +1976,7 @@ export default  {
       "index": 114,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg115.jpg",
+      "original": "pg115.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2588,7 +1993,7 @@ export default  {
       "index": 115,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg116.jpg",
+      "original": "pg116.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2605,7 +2010,7 @@ export default  {
       "index": 116,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg117.jpg",
+      "original": "pg117.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2622,7 +2027,7 @@ export default  {
       "index": 117,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg118.jpg",
+      "original": "pg118.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2639,7 +2044,7 @@ export default  {
       "index": 118,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg119.jpg",
+      "original": "pg119.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2656,7 +2061,7 @@ export default  {
       "index": 119,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg120.jpg",
+      "original": "pg120.png",
       "zoom": null,
       "content": ``,
       "script": `
