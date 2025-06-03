@@ -37,7 +37,7 @@
 <style scoped>
   #mobile-menu {
     position: fixed;
-    background: #232e6d ;
+    background: #027abf ;
     width: 100%;
     text-align: right;
     top: 45px;

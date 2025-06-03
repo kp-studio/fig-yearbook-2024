@@ -1,6 +1,6 @@
 <template>
   <transition name="contents-fade">
-    <div id="video-container" v-if="isYoutube">
+    <div id="video-container" v-if="isYoutubeOrOlympics">
       <div class="embed-container">
         <iframe id="video" width="854" height="480" :src="videoURL" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
@@ -41,8 +41,8 @@ export default {
       'videoURL',
       'isDoublePage',
     ]),
-    isYoutube() {
-      return this.videoURL.search('youtube') !== -1
+    isYoutubeOrOlympics() {
+      return (this.videoURL.search('youtube') !== -1) || (this.videoURL.search('olympic') !== -1)
     },
     options() {
       return {

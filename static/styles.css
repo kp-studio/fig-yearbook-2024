@@ -1,3 +1,103 @@
+/* fonts */
+
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    src: url('/static/_content/BebasNeueBold.eot');
+    src: url('/static/_content/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('/static/_content/BebasNeueBold.woff2') format('woff2'),
+        url('/static/_content/BebasNeueBold.woff') format('woff'),
+        url('/static/_content/BebasNeueBold.ttf') format('truetype'),
+        url('/static/_content/BebasNeueBold.svg#BebasNeueBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.bebasNeueBd {
+  font-family: 'Bebas Neue Bold';
+}
+
+@font-face {
+    font-family: 'Work Sans Medium';
+    src: url('/static/_content/WorkSans-Medium.eot');
+    src: url('/static/_content/WorkSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/static/_content/WorkSans-Medium.woff2') format('woff2'),
+        url('/static/_content/WorkSans-Medium.woff') format('woff'),
+        url('/static/_content/WorkSans-Medium.ttf') format('truetype'),
+        url('/static/_content/WorkSans-Medium.svg#WorkSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+.workSansMed {
+  font-family: 'Work Sans Medium';
+}
+
+@font-face {
+    font-family: 'Work Sans Bold';
+    src: url('/static/_content/WorkSans-Bold.eot');
+    src: url('/static/_content/WorkSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/static/_content/WorkSans-Bold.woff2') format('woff2'),
+        url('/static/_content/WorkSans-Bold.woff') format('woff'),
+        url('/static/_content/WorkSans-Bold.ttf') format('truetype'),
+        url('/static/_content/WorkSans-Bold.svg#WorkSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.workSansBd {
+  font-family: 'Work Sans Bold';
+}
+
+@font-face {
+    font-family: 'Work Sans Extra Bold';
+    src: url('/static/_content/WorkSans-ExtraBold.eot');
+    src: url('/static/_content/WorkSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/static/_content/WorkSans-ExtraBold.woff2') format('woff2'),
+        url('/static/_content/WorkSans-ExtraBold.woff') format('woff'),
+        url('/static/_content/WorkSans-ExtraBold.ttf') format('truetype'),
+        url('/static/_content/WorkSans-ExtraBold.svg#WorkSans-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.workSansExBd {
+  font-family: 'Work Sans Extra Bold';
+}
+
+@font-face {
+    font-family: 'Merriweather Regular';
+    src: url('/static/_content/Merriweather-Regular.eot');
+    src: url('/static/_content/Merriweather-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/static/_content/Merriweather-Regular.woff2') format('woff2'),
+        url('/static/_content/Merriweather-Regular.woff') format('woff'),
+        url('/static/_content/Merriweather-Regular.ttf') format('truetype'),
+        url('/static/_content/Merriweather-Regular.svg#Merriweather-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.merriweatherReg {
+  font-family: 'Merriweather Regular';
+}
+
+@font-face {
+    font-family: 'Merriweather Bold';
+    src: url('/static/_content/Merriweather-Bold.eot');
+    src: url('/static/_content/Merriweather-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/static/_content/Merriweather-Bold.woff2') format('woff2'),
+        url('/static/_content/Merriweather-Bold.woff') format('woff'),
+        url('/static/_content/Merriweather-Bold.ttf') format('truetype'),
+        url('/static/_content/Merriweather-Bold.svg#Merriweather-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.merriweatherBd {
+  font-family: 'Merriweather Bold';
+}
+
+
+
 /* Override defaults here - not in components */
 
 body {
@@ -22,7 +122,7 @@ body {
 
 .nav-bar {
   color: #fff;
-  background-color: #232e6d !important;
+  background-color: #027abf !important;
 }
 
 .nav-bar__title {
@@ -31,14 +131,14 @@ body {
 
 .nav-bar__link {
   color: #fff !important;
-  border-color: #232e6d !important;
+  border-color: #027abf !important;
 }
 
 .nav-bar__link--active,
 .search-button {
   color: #fff !important;
-  background-color: #232e6d !important;
-  border-color: #232e6d !important;
+  background-color: #027abf !important;
+  border-color: #027abf !important;
 }
 
 .currentPage .addContentLink {
@@ -272,41 +372,6 @@ html[data-platform*='Android'] .desktopOnly {
 }
 
 
-@font-face {
-  font-family: 'Olympic Headline Regular';
-  src: url('/paris2024/static/_content/OlympicHeadline-Regular.eot');
-  src: url('/paris2024/static/_content/OlympicHeadline-Regular.eot?#iefix') format('embedded-opentype'),
-      url('/paris2024/static/_content/OlympicHeadline-Regular.woff2') format('woff2'),
-      url('/paris2024/static/_content/OlympicHeadline-Regular.woff') format('woff'),
-      url('/paris2024/static/_content/OlympicHeadline-Regular.ttf') format('truetype'),
-      url('/paris2024/static/_content/OlympicHeadline-Regular.svg#OlympicHeadline-Regular') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-.olympic-HeadlineReg {
-  font-family: 'Olympic Headline Regular';
-}
-
-
-@font-face {
-  font-family: 'Olympic Headline Condensed';
-  src: url('/paris2024/static/_content/OlympicHeadline-Condensed.eot');
-  src: url('/paris2024/static/_content/OlympicHeadline-Condensed.eot?#iefix') format('embedded-opentype'),
-      url('/paris2024/static/_content/OlympicHeadline-Condensed.woff2') format('woff2'),
-      url('/paris2024/static/_content/OlympicHeadline-Condensed.woff') format('woff'),
-      url('/paris2024/static/_content/OlympicHeadline-Condensed.ttf') format('truetype'),
-      url('/paris2024/static/_content/OlympicHeadline-Condensed.svg#OlympicHeadline-Condensed') format('svg');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-.olympic-HeadlineCon {
-  font-family: 'Olympic Headline Condensed';
-}
-
-
-
 .mobile.mobile-font-large {
   font-size: 22px;
 }
@@ -324,7 +389,7 @@ html[data-platform*='Android'] .desktopOnly {
 }
 
 .mobile .nav-bar {
-  background-color: #232e6d ;
+  background-color: #027abf;
   border-bottom: 1px solid rgba(51, 51, 51, 0.1);
   color: #fff;
   cursor: pointer;
@@ -449,7 +514,7 @@ html[data-platform*='Android'] .desktopOnly {
   content: " ";
   border-bottom: 20px solid transparent;
   border-left: 0px solid transparent;
-  border-right: 20px solid #232e6d ;
+  border-right: 20px solid #027abf ;
   border-top: 20px solid transparent;
   left: -20px;
   position: absolute;
@@ -467,8 +532,8 @@ html[data-platform*='Android'] .desktopOnly {
 }
 
 #btnNext {
-  background-color: #232e6d ;
-  border-color: #232e6d ;
+  background-color: #027abf ;
+  border-color: #027abf ;
   border: 0;
   bottom: 0px;
   color: #fff;
@@ -486,7 +551,7 @@ html[data-platform*='Android'] .desktopOnly {
 #btnNext:before {
   content: " ";
   border-bottom: 20px solid transparent;
-  border-left: 20px solid #232e6d;
+  border-left: 20px solid #027abf;
   border-right: 0px solid transparent;
   border-top: 20px solid transparent;
   position: absolute;
