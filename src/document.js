@@ -11,8 +11,8 @@ export default  {
     "text": "English",
     "href": "#"
   }],
-  "basePath": "", 
-  //  "basePath": "/2024", 
+  // "basePath": "", 
+  "basePath": "/2024", 
   "companyLogo": "1-logo-1.png",
   "publishURL": "",
   "externalResources": ["https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"],
@@ -22,7 +22,7 @@ export default  {
     "searchEnabled": true,
     "subscribeEnabled": true,
     "downloadEnabled": true,
-    "downloadPath": 'static/_content/fig-yearbook-2024.pdf',
+    "downloadPath": '/2024/static/_content/fig-yearbook-2024.pdf',
     "printEnabled": false,
     "zoom": {
       "navEnabled": false,
@@ -151,7 +151,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": ""
+      "searchText": "ONLY THE EBU CAN GUARANTEE SO MUCH  MULTI-PLATFORM EXPOSURE  We believe in pushing the boundaries, to finding new solutions, to doing whatever it takes to make sport a part of everyone’s life. We use the collective power of public service media organizations to showcase sport at its best. For federations, it’s an opportunity to build visibility and help their sport thrive. It’s an attitude that makes everyone a winner. www.ebu.ch/sport"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -162,17 +162,68 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 3-title-1" style="top:79px;left:-38px;" src="/static/_content/3-title-1.png"/>
+      <img class="abs halfScaleC 3-title-1" style="top:79px;left:-38px;" src="/2024/static/_content/3-title-1.png"/>
+
+      <div class="addContentLink" onclick="Publish.goToPage(4);" style="top:197px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(6);" style="top:252px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(7);" style="top:262px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(8);" style="top:272px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(9);" style="top:283px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(10);" style="top:294px; left:63px; width:334px; height:12px;"></div> 
+
+      <div class="addContentLink" onclick="Publish.goToPage(12);" style="top:330px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(14);" style="top:350px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(16);" style="top:360px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(20);" style="top:370px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(24);" style="top:380px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(26);" style="top:391px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(28);" style="top:403px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(30);" style="top:413px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(32);" style="top:425px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(34);" style="top:435px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(36);" style="top:447px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(38);" style="top:457px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(40);" style="top:467px; left:63px; width:334px; height:12px;"></div>   
+
+      <div class="addContentLink" onclick="Publish.goToPage(42);" style="top:502px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(44);" style="top:522px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(46);" style="top:532px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(48);" style="top:544px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(50);" style="top:554px; left:63px; width:334px; height:12px;"></div>   
+
+      <div class="addContentLink" onclick="Publish.goToPage(52);" style="top:589px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(54);" style="top:609px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(58);" style="top:620px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(62);" style="top:631px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(64);" style="top:642px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(66);" style="top:652px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(68);" style="top:662px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(70);" style="top:673px; left:63px; width:334px; height:12px;"></div>  
+
+      <div class="addContentLink" onclick="Publish.goToPage(74);" style="top:707px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(76);" style="top:728px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(77);" style="top:739px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(78);" style="top:749px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(80);" style="top:759px; left:63px; width:334px; height:12px;"></div> 
+
+      <div class="addContentLink" onclick="Publish.goToPage(82);" style="top:795px; left:63px; width:334px; height:12px;"></div>  
       
+      <div class="contentLink" style="top:516px;left:435px;width:90px;height:14px">
+        <a href="https://www.gymnastics.sport" target="_blank"></a>
+      </div>
+
       `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Contents  3  CONTENTS Forewords				  4  Games Wide Open			  10  Olympic Marketing Overview  22  Broadcasting				  26  Partnerships				  40  Digital Engagement			  80  Ticketing and Hospitality		  90  Licensing and Merchandising		  96  The Olympic Brand			  102  Acknowledgements			  112"
+      "searchText": "CONTENTS INTRODUCTION  President’s foreword						  4  HIGHLIGHTS OF 2024 Paris 2024 World championships 85th FIG Congress Allocation of 53rd FIG Artistic Gymnastics World Championships Education  6 7 8 9 10  SPORT					  12  Gymnastics for All Women’s Artistic Gymnastics Men’s Artistic Gymnastics Rhythmic Gymnastics Trampoline Gymnastics Olympic Solidarity World cups New elements Acrobatic Gymnastics Aerobic Gymnastics Parkour Hear from the athletes  14 16 20 24 26 28 30 32 34 36 38 40  Fédération Internationale de Gymnastique, Av. de la Gare 12 A, 1001 Lausanne, Switzerland  MEDIA AND MARKETING					 42  Tel +41 (0)21 321 55 10  Fan engagement Sponsorship strategy Sponsors TV  www.gymnastics.sport  44 46 48 50  INSTITUTIONAL						  52  Congress Governance Commissions and working groups International Testing Agency Academies Education Finance  54 58 62 64 66 68 70  OUTLOOK 				  74  World Gym for Life Challenge Other major events in 2025 53rd FIG Artistic Gymnastics World Championships LA28  76 77 78 80  QUICK TAKES  82  This publication may not be reproduced, even in part, in any form, without the written permission of the FIG. Production: Touchline Photography: Croatian Gymnastics Federation; FIG/Volker Minkus and FIG/Jean-Pierre Limery; Indonesia Gymnastics Federation; International Olympic Committee; Shutterstock; St Mary’s University Twickenham London; World Anti-Doping Agency Printed by Pureprint. ISSN: 2813-9593  The FIG Yearbook is printed at a carbon-neutral printer, on a 100% recycled and carbonbalanced paper stock.  FIG YEARBOOK 2024  03"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -189,7 +240,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "“The Olympic Games are first and foremost about sport. As we have seen in Paris, they are also about so much more than sport.” Thomas Bach, President, International Olympic Committee"
+      "searchText": "Introduction  President's foreword  PRESIDENT’S FOREWORD Morinari Watanabe FIG President IOC member  I  believe that the best word to qualify 2024 would be “emotion”. Of course, one of the highlights of the year was the Olympic Games Paris 2024, which brought the world together for two thrilling weeks of sport, friendship and solidarity. In addition to the annual World Cup and World Challenge Cup series, we also had three world championships – the 29th FIG Acrobatic Gymnastics World Championships in Guimarães (POR), the 18th FIG Aerobic Gymnastics World Championships in Pesaro (ITA), and the 2nd FIG Parkour World Championships in Kitakyushu (JPN). During these events, we supported our athletes with all our hearts, and they showed us their best performances. They also reminded us of the unique power of sport: uniting people. It is in this spirit that I established the FIG Gymnastics and Peace Working Group. Additionally, I am happy to report that our social media community grew significantly in 2024, thanks to the enthusiasm of our fans. This growth can be explained by several factors, which are presented in this yearbook.  04  FIG YEARBOOK 2024  2024 was an important year on the institutional side as well, with the FIG Council in Shanghai (CHN) and the 85th FIG Congress taking place in Doha (QAT), which attracted a record number of delegates. The Congress brought the 2021-2024 cycle to a close, as the authorities for the new cycle (20252028) were elected. You can find further information about this in the institutional section of the yearbook. Our work towards the development of gymnastics around the world continued, with educational activities taking place on all five continents. It is also worth mentioning the Executive Committee meeting in Kampala (UGA); these yearly meetings hosted by developing national federations have proven to be a unique opportunity to boost the development of gymnastics in the host country, as they generate a lot of interest in the local media and provide the FIG authorities with a better overview of the situation. I am sure that we can build on the success of 2024 to pursue our expansion in the years to come, always committed to the true essence of sport: solidarity."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -206,7 +257,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "5  FOREWORD BY THOMAS BACh T  he Olympic Games Paris 2024 were truly Olympic Games of a new era. The first Olympic Games delivered fully under our Olympic Agenda reforms: younger, more urban, more inclusive, more sustainable. The first ever Olympic Games with full gender parity. A record 84 per cent of the potential global audience followed the Games. This equates to around five billion people and underlines the massive success of the Games in Paris. This record-breaking reach was made possible thanks to our Media RightsHolders, with more coverage made available and watched than ever before, in particular on digital and social media platforms, and the many activations of our Worldwide Olympic Partners. I would personally like to congratulate all of them on their outstanding contributions to the success of these Olympic Games. The IOC is proud and grateful to work together with such a dedicated community of commercial partners. Their commitment ensures the Olympic Games continue to inspire and unite globally. And beyond the Olympic Games, they fuel our mission to make the world a better place through sport. Paris 2024 came at the right time for the expectations of our world, with independent consumer research demonstrating that people believe the Olympic Movement’s mission to unite the world in peaceful competition is more important than ever in a divided world, and that the IOC was successful in this effort. Another landmark achievement is that the Olympic values truly resonate with younger generations, as our research shows. These values were on full display in the Olympic Village, where athletes from  the territories of 206 National Olympic Committees and the IOC Refugee Olympic Team lived peacefully together under one roof. They created a culture of peace, sending a powerful message across the globe. This message of togetherness, of joie de vivre – this message of peace: this is what people all around the world were longing for. But these Olympic Games could only inspire the world because our French hosts prepared the stage – and what an amazing stage it was. Millions of people celebrating the athletes in the streets of Paris and all across France. Millions of spectators in iconic venues creating an overwhelming atmosphere. More than half of the world’s population sharing in this spectacular showcase of the unity of humankind in all our diversity. The Olympic Games Paris 2024 were a celebration of the athletes and sport at its best. They were a remarkable celebration of the values we hold dear – excellence, solidarity and peace. The Olympic Games are first and foremost about sport. As we have seen in Paris, they are also about much so much more than sport. The partnerships with our Worldwide Olympic Partners and Media RightsHolders, which made all of this possible, are truly a perfect reflection of our Olympic motto: Faster, Higher, Stronger – Together.  Thomas Bach, President, International Olympic Committee"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -223,7 +274,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "“Paris 2024 was a collective project, a vision shared by the entire nation and only made possible by the commitment of our public and private teammates.” Tony Estanguet, President, Paris 2024 Organising Committee"
+      "searchText": "Highlights of 2024 Paris 2024  HIGHLIGHTS 		 OF 2024 PARIS 2024  Gymnastics greats shine at the Games Simone Biles dominated Women’s Artistic Gymnastics at the Games with multiple golds; Japan’s men shone in team and All-Around events in Men’s Artistic Gymnastics. Germany’s Darja Varfolomeev won Rhythmic individual gold, while China triumphed in group. In Trampoline, Bryony Page made history for Britain, and Ivan Litvinovich defended his Olympic title competing as a neutral athlete.  06  FIG YEARBOOK 2024  Pictured The Olympic rings adorn the Eiffel Tower during Paris 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -240,7 +291,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "7  FOREWORD BY Tony Estanguet T  his summer, France wrote a bold new chapter in the history of the Olympic and Paralympic Games. It was a season of remarkable records and emotions that will forever remain in the hearts of the French people and beyond. From the beginning, we aspired to make these Games different, to demonstrate that it is possible to organise Games that are both spectacular and responsible. Paris 2024 was a collective project, a vision shared by the entire nation and only made possible by the commitment of our public and private teammates. I would like to extend my sincere thanks to President Bach, the French Government, the City of Paris, the Île-de-France Region, the Métropole du Grand Paris and the Seine-SaintDenis department for their unwavering support and contributions throughout this journey. We are very grateful to the partners, official suppliers and licensees who were all vital to the delivery of the Games. And are very grateful to the broadcasters who were the key to sharing the stories of the competitions. Together, we showed the extraordinary achievements that become possible when we unite around a shared and bold set of ambitions. I would like to express my sincere thanks and gratitude to all the athletes of the Paris 2024 Olympic Games. They surpassed every expectation,  showing resilience, determination and the true spirit of Olympism. They are now part of the extraordinary legacy of these Games. To the fans, both in the venues and watching around the world, thank you! You created an atmosphere like no other, making these Games unforgettable for everyone involved. We worked hard to engage people with Paris 2024, whether digitally or in person, like never before. From our social media posts and the Opening Ceremony on the Seine, to the Mass Event Running and the Champions Park, we delivered on our vision of a Games Wide Open. A heartfelt thank you also goes to the 45,000 volunteers whose dedication, passion and tireless efforts brought these Games to life. Your contributions were the backbone of Paris 2024, and your commitment ensured that the Games were a success. To everyone who played a role in making Paris 2024 an extraordinary success, un grand merci.  Tony Estanguet, President, Paris 2024 Organising Committee"
+      "searchText": "World championships  Highlights of 2024  WORLD CHAMPIONSHIPS  History made in multiple events Non-Olympic gymnastics disciplines all saw thrilling world championships throughout 2024. Acrobatic gymnasts descended upon Guimarães (POR), Aerobic Gymnastics held its worlds in Pesaro (ITA) and Parkour’s secondever world championships took place in Kitakyushu (JPN). All three disciplines also held a debut edition of a junior world championships, giving young athletes the chance to flourish on the world stage.  Pictured People's Republic of China celebrate at the Aerobics World Championships  FIG YEARBOOK 2024 07"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -257,7 +308,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "“With record-breaking viewership across television, digital platforms and social media, Paris 2024 stands as the most followed Olympic Games in history.” Jiří Kejval, Chair IOC Marketing Commission"
+      "searchText": "Highlights of 2024 85th FIG Congress  HIGHLIGHTS OF 2024 08  FIG YEARBOOK 2024  85TH FIG CONGRESS  Watanabe re-elected in Doha President Morinari Watanabe was re-elected FIG President for the 2025–2028 cycle at the 85th FIG Congress in Doha (QAT). Key decisions at the congress included approving Paragymnastics as a new discipline, accepting five new member federations, updating statutes, and streamlining disciplinary processes to reduce costs and improve efficiency within the organisation.  Pictured The 85th FIG Congress saw several key decisions taken for the future of gymnastics"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -274,7 +325,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "9  FOREWORD BY Jiří Kejval T  he Olympic Games Paris 2024 were truly historic, not only for the athletes but also for the global audience who followed this unforgettable event. More than half of the world’s population tuned in to experience the magic of these Games. With record-breaking viewership across television, digital platforms and social media, Paris 2024 stands as the most followed Olympic Games in history. This remarkable reach was made possible by the tireless efforts of our Media Rights-Holders and Olympic Broadcasting Services, who provided more comprehensive coverage than ever before. Whether on television, digital platforms or social media, fans had unprecedented access to the excitement and drama of the Games. The engagement across social platforms alone exceeded 12 billion, showcasing the vast global interest and bringing the Olympic spirit to younger and more diverse audiences. Our dedicated efforts to attract non-sport fans, particularly younger generations, through collaborations with influencers and athletes from various fields, further expanded our reach. A key driver of this success was the extraordinary support from our Worldwide Olympic Partners. Their contributions went far beyond traditional sponsorship. From technology and  infrastructure to innovative marketing campaigns, their presence could be felt everywhere – in the streets of Paris, the Olympic Village and across global markets. These partners were instrumental in staging the Games and promoting the Olympic values around the world. This Marketing Report highlights the achievements of our media and commercial partners, whose collaborative efforts not only helped make Paris 2024 a resounding success but also supported the development of sport worldwide. By redistributing 90 per cent of the revenue generated through our marketing programmes, the IOC continues to empower athletes and sports organisations globally. The Olympic Games Paris 2024 set a new standard for future Games, and we are deeply grateful to everyone who made this possible.  Jiří Kejval, Chair, IOC Marketing Commission"
+      "searchText": "Allocation of 53rd Artistic Gymnastics World Championships  Highlights of 2024  ALLOCATION OF 53RD ARTISTIC GYMNASTICS WORLD CHAMPIONSHIPS Jakarta to host historic worlds  It was announced that Jakarta (INA) will host the 53rd FIG Artistic Gymnastics World Championships in October 2025, marking the event’s debut in south-east Asia. In addition to the elite performances on show, these worlds will serve as a catalyst for further development of gymnastics in the region.  Pictured The competition will take place at the Indonesia Arena in Jakarta  FIG YEARBOOK 2024 09"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -291,7 +342,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Games Wide Open"
+      "searchText": "Highlights of 2024 Education  HIGHLIGHTS 		 OF 2024 10  FIG YEARBOOK 2024  EDUCATION  Reaching more gymnasts each year Growth was the defining word of 2024 across the FIG’s various education initiatives. Firstly, the eLearning platform saw 2,608 new users across the year, bringing the overall total to 6,171. Secondly, there were 32 FIG Academies held globally, up from 25 in 2023. Finally, several disciplines’ working groups updated their Age Group Programme manuals and other educational content.  Pictured Women's Artistic Gymnastics FIG Academy in Nicaragua"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -300,15 +351,25 @@ export default  {
       "startIndex": 0,
       "original": "pg11.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      
+      <div class="contentLink" style="top:840px;left:248px;width:200px;height:16px">
+        <a href="https://www.spieth-gymnastics.com/" target="_blank"></a>
+      </div>
+
+      `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
         }
       `,
-      "searchText": ""
+      "searchText": "REACH THE MAXIMUM SINCE 1831  New logo – same values: We love and live gymnastics. Join us on our bluetiful journey. SPIETH Gymnastics GmbH I www.spieth-gymnastics.com"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -325,7 +386,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "12  Games Wide Open THE OLYMPIC GAMES PARIS 2024 SHOWCASED THE WORLD’S BEST ATHLETES AND THE UNIFYING POWER OF SPORT, WITH REMARKABLE ACHIEVEMENTS AND HISTORIC FIRSTS SET AGAINST THE ICONIC BACKDROPS OF THE VIBRANT HOST CITY The Olympic Games Paris 2024 brought the world together for 19 unforgettable days, showcasing remarkable achievements by athletes and the vibrant energy of the host nation. Set against the backdrop of one of the world’s most iconic cities, Paris 2024 lived up to its promise of delivering “Games Wide Open”, with historic performances, breathtaking venues and inspirational moments of unity and sportsmanship, leaving  a lasting impression on fans and athletes alike. The Games began with a spectacular Opening Ceremony on the River Seine, where athletes from the territories of 206 National Olympic Committees (NOCs) and the IOC Refugee Olympic Team paraded on boats against the stunning backdrop of Paris. This unique ceremony transformed the heart of the city into an Olympic stage, capturing the  “This was France completely in love with the Olympic Games. Millions on the streets of Paris, full venues everywhere and unrivalled atmosphere.” Thomas Bach, IOC President"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -342,7 +403,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  13  Paris 2024 in numbers  imagination of millions and setting the tone for Games defined by innovation and inclusivity. This groundbreaking approach saw Paris itself become a star of the Games, with its historic landmarks transformed into spectacular sporting venues. Archery took place at Les Invalides, beach volleyball unfolded beneath the Eiffel Tower, fencing lit up the Grand Palais, and equestrian events graced the grounds of the Château de Versailles. These iconic locations and many others provided awe-inspiring backdrops to the sporting action, seamlessly blending the city’s cultural heritage with the energy and excitement of the Olympic Games. In line with Paris 2024’s vision, these Games spread beyond Paris too, involving the whole of France. Sailing took place in Marseille, shooting in Châteauroux, some handball and basketball in Lille, and surfing in Tahiti, while football was shared between Lyon, Nantes, Bordeaux, Saint-Etienne, Nice, Marseille and Paris. And the performances of the athletes were no less breathtaking than the venues, with an array of extraordinary achievements, historic firsts and recordbreaking feats. French swimmer Léon Marchand and judoka Teddy Riner both became national icons with their multiple gold medals, uniting fans in spontaneous celebrations throughout the city. Simone Biles returned to the Olympic stage in stunning fashion, leading Team USA to gold in gymnastics and adding to her incredible legacy. Other sporting giants rose to the occasion as well. Serbian tennis star Novak Djokovic finally won the Olympic singles gold that had eluded him for four editions of the Games, while Katie Ledecky’s victory in the women’s 1,500m freestyle took her career total to nine Olympic gold medals in the pool, tying her with gymnast Larissa Latynina for the most Olympic titles won by a female athlete. Sweden’s Armand  32  Sports  50/50  329  15  medal events  Quota places were distributed equally between men and women, making Paris 2024 the first gender equal Olympic Games  new events Athletes from the territories of  206  NOCs + the IOC Refugee Olympic Team  20  mixed-gender events"
+      "searchText": "Sport"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -353,7 +414,7 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 14-quote-1" style="top:392px;left:369px;" src="/static/_content/14-quote-1.png"/>
+      <img class="abs halfScaleC 14-quote-1" style="top:392px;left:369px;" src="/2024/static/_content/14-quote-1.png"/>
       <h1 id="14-no" class="abs merriweatherBd 14-no" style="top:311px;left:429px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 35}' ></h1>
       
       `,
@@ -369,14 +430,14 @@ export default  {
         resetNumbers("14-no");
         }
       `,
-      "searchText": "Global Games 91 NOCs and the IOC Refugee Olympic Team won medals 1st ever medal for the IOC Refugee Olympic Team Cindy Ngamba bronze, boxing, women’s 75kg  4 NOCs won their first Olympic Games gold medal  Botswana  Letsile Tebogo athletics, men’s 200m  Dominica  Thea LaFond athletics, women’s triple jump  Guatemala  Adriana Ruano shooting, women’s trap  Saint Lucia  Julien Alfred athletics, women’s 100m  4 NOCs won their first Olympic medals  Albania  Chermen Valiev bronze, wrestling, men’s 74kg freestyle  Cape Verde  David de Pina bronze, boxing, men’s 51kg  Dominica  Thea LaFond gold, athletics, women’s triple jump  Saint Lucia  Julien Alfred gold, athletics, women’s 100m"
+      "searchText": "Sport  Gymnastics for All  COLLOQUIUM OFFERS CHANCE TO TAKE STOCK The worldwide GfA community came together in Aracaju (BRA), looking back on the old cycle and sharing thoughts on the future.  “T  his was a year to reflect and to look to the future.” So said Rogerio Valerio (POR), the President of the Gymnastics for All Committee, as he summed up the main purpose of the FIG GfA Colloquium 2024. This coming together of the global GfA community between 20 and 22 March featured representatives of 35 nations, who gathered in the coastal city of Aracaju (BRA), headquarters of the Brazilian Gymnastics Confederation (CBG). The three-day programme began with delegates reflecting on lessons learned from the World Gymnaestrada Amsterdam 2023 and looking ahead to the World Gym for Life Challenge 2025. For a group drawn from five continents, there was also the chance to discuss the GfA Manual. “The first day we looked at what we are – what is Gymnastics for All?” explained Valerio. “We asked about our definition and rules and considered the manual and how we can update it as a tool for development as we look to the future.”  Research-driven support Another significant discussion point of the Colloquium concerned the wish for more research. “We looked at the link with universities and building scientific evidence for Gymnastics for All,” said Valerio. There were examples given from countries – Brazil, Japan and Switzerland – where GfA is already part of the university curriculum and where research has begun into the benefits of lifelong gymnastics. Safeguarding provided the focus for another discussion while the final morning of presentations allowed delegates to reflect on the work of the different continental unions and their future goals – starting with the Brazilian hosts. According to Valerio, this underlined the importance of the Colloquium as a platform for sharing ideas and building connections. “You can develop solutions knowing there are other countries with the same issues, based on those examples. It’s about showing people that they’re not alone in developing gymnastics.”  35  countries represented at the Colloquium  “We highlighted the importance of the development of GfA via universities – the importance of it being part of the curriculum, and producing research and scientific support for our work.” Rogerio Valerio President of the FIG GfA Committee  Pictured Attendees of the Gymnastics for All Colloquium 2024  14  FIG YEARBOOK 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 14,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg15.png",
+      "original": "pg15.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -386,14 +447,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  “I think that’s the beauty of the Olympics – you have such a multicultural and multinational crowd.” Novak Djokovic (SRB, tennis) 'Mondo' Duplantis, meanwhile, soared higher than any athlete in history at Paris 2024, winning gold in the men’s pole vault at an astounding 6.25m to break his own world record – one of 32 world records broken during the course of the Games. Paris 2024 provided plenty of historic firsts too, with four National Olympic Committees winning their first ever Olympic gold medals. From Saint Lucia’s Julien Alfred winning the women’s 100m and Thea LaFond’s victory in the triple jump for Dominica, to Letsile Tebogo of Botswana triumphing in the men’s 200m and Guatemalan shooter Adriana Ruano’s podium-topping performance in the women’s trap, these moments underscored the universality of the Games. Francisca Crovetto also wrote  15"
+      "searchText": "FIG CERTIFIED EQUIPMENT  L L A R O F T N E M P I EQU S T S A N M GY E T I L E O T R E N N BEGI AMERICANATHLETIC.COM 1-800-247-3978  GLOBAL SHIPPING AVAILABLE"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 15,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg16.png",
+      "original": "pg16.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -403,7 +464,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "16  her name into the record books as she became the first female Olympic champion from Chile by winning the women’s skeet event, while Cuban Greco-Roman wrestling star Mijaín Lopez ended his career on a high, making history as the first athlete to win five consecutive gold medals.  Beyond the sporting highlights, moments of sportsmanship and unity defined Paris 2024. In a memorable display of the Olympic values, China’s He Bing Jiao consoled an injured Carolina Marín of Spain during the badminton semifinals, exemplifying the respect and camaraderie that the Games inspire.  But Paris 2024 wasn’t just about victories – these were also the first Olympic Games in history with full gender parity, thanks to the distribution of an equal number of quota places to female and male athletes by the IOC. That spirit of inclusion extended throughout the Games, with the Champions Park, at the foot of the Eiffel Tower, bringing fans closer to the action with parades for medal-winners, and the Marathon Pour Tous giving thousands of members of the public the chance to take part in marathon and 10km running events along the Olympic route in the heart of Paris.  In a similar vein, the IOC Refugee Olympic Team once again captured hearts, with 37 athletes competing across 12 sports, demonstrating the resilience and determination of individuals displaced by conflict. Their performances reminded the world of the transformative power of sport to provide hope and opportunity, with boxer Cindy Ngamba making history in the women’s 75kg event as she clinched bronze to win the IOC Refugee Olympic Team’s first ever medal.  Across France, six million people visited celebration sites, demonstrating the deep enthusiasm and support for the Games, while fans packed venues and lined the streets of Paris, creating an electric atmosphere that added to the magic of the competition.  “It just gives me the tingles and I think that’s the Olympics; it just gives you this energy you can’t find anywhere else.” Jessica Fox (AUS, canoe slalom)  3 out of 4 people believe the IOC was successful in 'bringing the world together in peaceful competition' at Paris 2024  The inclusion of surfing in Tahiti and urban sports in Paris’s dynamic settings also brought new energy to the Olympic programme, expanding its appeal and relevance. Breaking, making its Olympic debut, added a fresh cultural dimension to the event, appealing to younger audiences and bridging the gap between traditional sports and contemporary culture.  As the Games drew to a close, IOC President Thomas Bach captured the essence of the event, remarking that the athletes had helped 'to make the City of Light shine brighter than ever before', while it became clear that Paris 2024 had truly fulfilled its vision of “Games Wide Open”, uniting the world through sport and creating a truly inclusive and innovative celebration.  95%  of athletes surveyed rated their overall experience positively"
+      "searchText": "Sport  Women’s Artistic Gymnastics  Pictured Simone Biles (USA)  16  FIG YEARBOOK 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -414,7 +475,9 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 17-quote-1" style="top:457px;left:375px;" src="/static/_content/17-quote-1.png"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:260px; left:520px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/simone-biles-women-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+
+      <img class="abs halfScaleC 17-quote-1" style="top:457px;left:375px;" src="/2024/static/_content/17-quote-1.png"/>
       <h1 id="17-no" class="abs merriweatherReg 17-no" style="top:737px;left:438px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 11}' ></h1>
 
       <!--Gallery-->
@@ -422,7 +485,7 @@ export default  {
       class="abs halfScaleC halfpulse animatedpulse pointer"
       style="top:320px; left:520px;"
       onclick="pg17_gallery(0)"
-      src="/static/_content/white-camera.png"
+      src="/2024/static/_content/white-camera.png"
       />
       
       `,
@@ -438,7 +501,7 @@ export default  {
         resetNumbers("17-no");
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  17  Olympic Solidarity at Paris 2024  The Olympic Solidarity programme helped thousands of athletes qualify for and compete at the Games by providing crucial funding to cover training, equipment and other essential costs, leading to outstanding results.  USD 590m  invested in the Olympic cycle leading up to Paris 2024  USD 38m  75  215  teams from  26 gold  140  20 silver  directed into scholarships  NOCs in eight sports received Team Support Grants  1,560  599  athletes (843 men; 717 women) from 195 NOCs in 27 sports received scholarships for their training towards Paris 2024  74  refugee athletes from 24 host countries, representing 14 sports, received grants to support their efforts to qualify for Paris 2024  medals won by scholarship-holders  29 bronze  195  NOCs received Olympic Solidarity athlete scholarship funding for Paris 2024  Olympic Solidarity individual scholarship-holders competed at Paris 2024  1  medal and 3 diplomas won by Refugee Athlete Support Grant beneficiaries  303 men  296  5  women  medals won by teams who received Olympic Solidarity Team Support grants  3  gold  1  silver  1  bronze  For  2025 to 2028 there will be a  10% increase Olympic Solidarity Scholarship holder Arshad Nadeem threw an Olympic record of 92.97 metres to clinch gold in the men’s javelin, becoming the first Pakistani athlete to win an Olympic gold medal in an individual sport  to the Olympic Solidarity budget, taking it to a total of  USD 650m"
+      "searchText": "Women’s Artistic Gymnastics  Sport  GOLDEN BILES LIGHTS UP PARIS With three golds and one silver, USA’s Simone Biles was the outstanding gymnast of Paris 2024.  P  aris may be known as the ‘City of Light’, but it was Simone Biles (USA) who proved the prime source of illumination at the packed Bercy Arena during the Olympic Games. At the riverside venue for the Artistic Gymnastics competition, Biles shone in the spotlight, drawing stars such as Lady Gaga and Tom Cruise to watch her perform and becoming the first gymnast to win Olympic AllAround titles in non-consecutive editions of the Games. Indeed with every day of the Games, it felt like the indomitable American achieved a fresh feat to further gild her glittering legend – starting on 30 July when she led the USA women to the top of the podium for the first time in eight years. With that gold, she surpassed Shannon Miller (seven medals)  “  They were a great Olympic Games and I can say thanks to the stars. With worldwide stars like Simone Biles, this increases the level of popularity of Women’s Artistic Gymnastics.” Donatella Sacchi President of the Women’s Artistic Gymnastics Technical Committee  11  Simone Biles has won 11 medals across three Olympic Games: seven gold, two silver, and two bronze  FIG YEARBOOK 2024  17"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -448,6 +511,8 @@ export default  {
       "original": "pg18.jpg",
       "zoom": null,
       "content": `
+
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:510px; left:457px;" src="/2024/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/usa-women-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
       <h1 id="18-no" class="abs merriweatherBd 18-no" style="top:384px;left:481px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 2}' ></h1>
       
@@ -461,14 +526,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "18  “It’s an incredible honour to represent the United States on this global stage, especially in a moment that can bring the whole world together.” LeBron James (USA, basketball)  “Such an honour. I haven’t found the right words to describe my Olympic experience.” Simone Biles (USA, gymnastics)"
+      "searchText": "Sport  Women’s Artistic Gymnastics  1 Firsts Algeria’s first Olympic medal in gymnastics: Kaylia Nemour Italy's first female Olympic title: Alice D’Amato  as the USA’s most decorated Olympic gymnast, yet she was only just getting started. Two days later, the 27-year-old overcame a slip-up on Uneven Bars with a solid routine on Balance Beam – an apparatus that tests gymnasts the most mentally – and with it underlined that she had vanquished the demons of Tokyo three years earlier, which led to her taking a break from the sport to care for her mental health. Moreover, it ensured her a lead of just 0.166 going into the final rotation, and her brilliant display on Floor made sure of victory. By finishing clear of Rebeca Andrade (BRA) and Tokyo 2020 champion Sunisa Lee (USA) in that All-Around final, Biles became the third person after Larisa Latynina (URS) and Vera Caslavska (TCH) to have captured two Olympic All-Around titles in Women’s Artistic Gymnastics. And, by the end of the Games, she had increased her medal tally to four. She claimed her third gold on Vault – with a Yurchenko double pike, which earned a score of 15.700 – and finished with the silver medal on Floor Exercise.  Andrade becomes Brazil’s top Olympian This takes us to the other truly outstanding female gymnast in Paris, the aforementioned Andrade, Biles’s biggest rival in recent years, whose four medals included the gold on Floor. The 25-year-old began with an historic team bronze after Brazil pipped Great Britain to the podium by just 0.034 and  18  FIG YEARBOOK 2024  she then earned a second consecutive silver in the All-Around and another on Vault before concluding with that triumph on Floor Exercise on 5 August. With her score of 14.166, she had the thinnest of winning margins over Biles (14.133) and the American responded in sporting fashion, bowing to Andrade as she stepped on to the podium. Finally, with her feats in France, Andrade became the most successful Brazilian athlete in Olympic history, with six medals now overall.  2 Olympic newcomer nations: Indonesia and Haiti  Italy and Algeria blaze new trails There was plenty of other history made, starting in the team final. While the USA group could celebrate a fourth title for their nation - after victories in 1996, 2012 and 2016 - Italy's matched their country's best-ever result with the silver medal, accomplished at the Olympic Games Amsterdam 1928. Meanwhile, Brazil mounted the podium for the first time, taking bronze. There were further Italian celebrations when Alice D’Amato then won her country’s first Olympic gold in gymnastics on Balance Beam after a tense final in which four of the competitors came off the apparatus. Another history-maker was Kaylia Nemour (ALG), 17, whose gold on Uneven Bars was not only a first Olympic medal in gymnastics for Algeria but for any African nation. Nemour, who previously represented France, prevailed ahead of the 2023 world champion Qiu Qiyuan (CHN).  Above Rebeca Andrade (BRA) Below Alice D’Amato (ITA)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 18,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg19.png",
+      "original": "pg19.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -478,7 +543,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  19  “The Olympic Games, for me without a doubt, is the most important event in the world of sport.” Rafa Nadal (ESP, tennis)  “The energy here in Paris has been incredible.” Katie Ledecky (USA, swimming)"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -488,8 +553,10 @@ export default  {
       "original": "pg20.jpg",
       "zoom": null,
       "content": `
+
+       <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:770px; left:160px;" src="/2024/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/japan-men-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
-      <img class="abs halfScaleC 20-quote-1" style="top:109px;left:377px;" src="/static/_content/20-quote-1.png"/>      
+      <img class="abs halfScaleC 20-quote-1" style="top:109px;left:376px;" src="/2024/static/_content/20-quote-1.png"/>      
       
       `,
       "script": `
@@ -502,7 +569,7 @@ export default  {
         pg20Anim.stop();
         }
       `,
-      "searchText": "20  “Absolutely amazing. It's honestly one of the best golf tournaments I've ever been involved in.” Rory McIlroy (IRL, golf)  “The crowd was what moved me the most.” Rayssa Leal (BRA, skateboarding)"
+      "searchText": "Sport  Men’s Artistic Gymnastics  OKA SOARS TO EPIC VICTORY A relative unknown before Paris 2024, Oka Shinnosuke ended the Games as the most decorated male gymnast, with three golds plus a bronze.  F  or the men of Team Japan — Tokyo 2020 Olympic All-Around champion Hashimoto Daiki, emerging star Oka Shinnosuke, Kaya Kazuma, Sugino Takaaki and Tanigawa Wataru — the Olympic Games Paris 2024 began in perfect fashion on 29 July as they beat the People’s Republic of China to the gold medal, after their rivals’ uncharacteristic collapse on Horizontal Bar. In a dramatic final rotation, Xiao Ruoteng landed on his knees and Su Weide fell twice. Hashimoto duly took advantage with a spectacular routine that secured gold for his team – and some personal redemption after his failure to qualify for the final of Horizontal Bar, an event in which he had won gold in Tokyo. Japan finished with a score of 259.594 to the 259.062 of a China team comprising Xiao, Su, Liu Yang, Zhang Boheng and Zou Jingyuan. The USA quintet of Asher Hong, Paul Juda, Brody Malone, Stephen Nedoroscik and Fred Richard collected bronze to secure their nation’s first men’s team medal since 2008. Two days later, the projected battle between Hashimoto and Zhang for All-Around supremacy never materialised. Instead, 20-year-old Oka emerged as the discipline’s new star in Paris, taking gold ahead of Zhang and Xiao, and then adding the Horizontal Bar to walk off with the same golds that Hashimoto had won in Tokyo three years earlier. With two titles and nine medals overall, meanwhile, China confirmed their superiority in the domain of the specialists. Zou and Liu produced successful title defences on Parallel Bars and Still Rings, while All-Around silver medallist Zhang added a bronze on Horizontal Bar.  20  FIG YEARBOOK 2024  Yulo feats display depth of competition In total, 16 different countries won medals in Artistic Gymnastics – men’s and women’s combined – at the Olympic Games Paris 2024. The sight of gymnasts from far and wide delivering elite-level performances highlighted how rising standards across the globe mean more intense competition on the biggest stage. The Men’s Artistic Gymnastics competition provided more than one outstanding example of this, starting with Carlos Yulo (PHI). A world champion on both Floor Exercise and Vault during the past five years, Yulo became the first man from the Philippines to win an Olympic title in any sport when he emerged victorious in the Floor final on 3 August. There were tears of celebration after the 24-year-old forced defending champion Artem Dolgopyat (ISR) into second place – having scored 15.000 points, the highest on Floor Exercise at the Games.  “If you want a public connection with the sport, we have to create stories and connect with the public. It was a great success for the spectators.” Arturs Mickevics President of the Men’s Artistic Gymnastics Technical Committee  Pictured Oka Shinnosuke (JPN) Below Carlos Yulo (PHI)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -515,13 +582,15 @@ export default  {
 
       <h1 id="21-no" class="abs merriweatherBd 21-no" style="top:481px;left:445px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 8}' ></h1>
       <h1 id="21-no" class="abs merriweatherBd 21-no" style="top:707px;left:497px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
-      
+  
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:610px; left:430px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/oka-shinnosuke-men-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:550px; left:430px;"
         onclick="pg21_gallery(0)"
-        src="/static/_content/white-camera.png"
+        src="/2024/static/_content/white-camera.png"
         />
       
       `,
@@ -537,14 +606,14 @@ export default  {
         resetNumbers("21-no");
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  21  “Nothing can describe my emotion.” Zheng Qinwen (CHN, tennis)  “I think these were the best Olympics ever, because of all the beautiful venues that perfectly represented France.” Antoine Dupont (FRA, rugby sevens)  “Paris 2024 has been an epic experience.” Beatrice Chebet (KEN, athletics)"
+      "searchText": "8  Japan’s men won their eighth Olympic team gold in Paris  1  Olympic newcomer nation: Syria  FIG YEARBOOK 2024 21"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 21,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg22.png",
+      "original": "pg22.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -554,14 +623,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Olympic Marketing Overview"
+      "searchText": "Sport  Men’s Artistic Gymnastics  1 Firsts Philippines' first Olympic medal in gymnastics: Carlos Yulo Ireland's first Olympic medal in gymnastics: Rhys McClenaghan Kazakhstan's first Olympic medal in gymnastics: Nariman Kurbanov Colombia's first Olympic medal in gymnastics: Angel Barajas  A day later, Yulo was celebrating again after taking a second gold on Vault, becoming the only gymnast besides Biles and Oka to leave Paris with multiple titles. Yulo’s results alone put the Philippines fourth in the Artistic Gymnastics medal table for Paris 2024. Another nation breaking new ground was Ireland, which had never before won an Olympic medal in gymnastics yet now saw Rhys McClenaghan capture gold on Pommel Horse. As with Yulo, the tears that flowed afterwards reflected the profound significance of this breakthrough moment for an athlete who had finished outside of the podium places at Tokyo 2020.  their presence on the podium underlined the benefits of this new qualification route, which was designed to “ensure a good number of specialists”. Barajas, still just 17 when he won his medal, had actually qualified on Parallel Bars yet it was on the Horizontal Bar that he became the youngest Colombian medallist in Olympic history. His performance had the highest difficulty score of all the finalists, but he lost out on gold to Oka only on the tie-break rule, with the superior execution score winning.  Silvers for World Cup qualifiers There was also an historical weight in the silver medals won on the Pommel Horse and Horizontal Bar by Nariman Kurbanov (KAZ) and Angel Barajas (COL) respectively. For each man, it was the first Olympic medal their country had won in gymnastics. In addition, each had got to Paris the hard way, as two of the 12 qualifiers via the FIG World Cup circuit. As the outgoing Men’s Artistic Gymnastics Technical Committee President, Arturs Mickevics, observed,  22  FIG YEARBOOK 2024  Above Nariman Kurbanov (KAZ), Rhys McClenaghan (IRL), Stephen Nedoroscik (USA) Right Angel Barajas (COL)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 22,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg23.png",
+      "original": "pg23.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -578,9 +647,13 @@ export default  {
       "index": 23,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg24.png",
+      "original": "pg24.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:500px; left:324px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/darja-varfolomeev-individual-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      
+      `,
       "script": `
         function onPageEnter() {
         }
@@ -588,7 +661,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "24  Olympic Marketing Overview AS A NON-PROFIT ORGANISATION, THE INTERNATIONAL OLYMPIC COMMITTEE USES THE REVENUES GENERATED FROM THE OLYMPIC GAMES TO ASSIST ATHLETES AND DEVELOP SPORT WORLDWIDE. The Olympic Games generate substantial revenues that are almost unparalleled across the sporting world thanks to a range of marketing programmes that are coordinated by the International Olympic Committee (IOC).  These programmes not only help ensure the successful staging of the Olympic Games, but also assist athletes and develop sport worldwide, while promoting the Olympic values to a global audience.  These revenues are primarily generated by the IOC through three key streams: 1. Media Rights – Representing the largest portion of income, media rights ensure global broadcast coverage, allowing billions of people to experience the magic of the Games. 2. The Olympic Partner (TOP) Programme – As the highest level of sponsorship, the TOP Programme brings together leading multinational companies that provide essential financial resources, products and services for the Games. 3. Licensing and Merchandising – Through the sale of official Olympic products, fans can connect with the Games by purchasing licensed memorabilia, from apparel to souvenirs."
+      "searchText": "Sport  Rhythmic Gymnastics  FLURRY OF FIRSTS Unfolding across three days between 8-10 August, the Rhythmic Gymnastics competition at Paris 2024 was notable for the number of history-making athletes on the podium.  Pictured Darja Varfolomeev (GER) Right Chinese group"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -599,7 +672,9 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 25-quote-1" style="top:604px;left:372px;" src="/static/_content/25-quote-1.png"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:600px; left:428px;" src="/2024/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/people-s-republic-of-china-group-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+
+      <img class="abs halfScaleC 25-quote-1" style="top:604px;left:372px;" src="/2024/static/_content/25-quote-1.png"/>
       <h1 id="25-no" class="abs merriweatherBd 25-no" style="top:498px;left:496px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
       
       
@@ -616,7 +691,7 @@ export default  {
         resetNumbers("25-no");
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Marketing Overview  In total, through the sale of broadcasting and marketing rights, as well as other income streams, the revenue for the Olympiad that spanned 2017 to 2020/21 was USD 7.6 billion. This revenue is distributed across the Olympic Movement to support athletes, National Olympic Committees (NOCs), International Federations (IFs) and other Olympic stakeholders.  25  Olympic Revenue Sources  USD 7.6BN 4%  Other revenue  5%  Other rights  In total, the IOC redistributes 90 per cent of its income, ensuring that every day, USD 4.2 million is allocated to sports development worldwide. This funding supports the staging of the Games, assists smaller nations in developing their sporting programmes, and ensures that athletes have the resources they need to achieve their best.  30%  TOP Programme marketing rights  61%  Media rights  *Based on IOC’s audited financial statements for 2017-2020/21  Where the revenue goes  90%  Individual athletes and coaches, via Olympic Solidarity funding National Olympic Committees (NOCs), which prepare athletes and teams to compete in the Olympic Games International Sports Federations (IFs), which run and oversee the development of their sports around the world Organising Committees for the Olympic Games (OCOGs), which are in charge of staging the Olympic Games Other Olympic Movement and sport organisations to promote the worldwide development of sport  10%  IOC activities to develop sport and operations of the IOC"
+      "searchText": "1  T  he individual All-Around competition concluded on 9 August with Darja Varfolomeev winning Germany’s first Rhythmic Gymnastics Olympic title. As well as the first gold medal for her country in the discipline, it was also only the second overall following the bronze won by Regina Weber in 1984 when representing West Germany. For Varfolomeev, then still 17, her gold capped a meteoric rise. In 2022, her debut year as a senior, she won the All-Around silver medal at the World Championships. In 2023, she swept the board at the worlds in Valencia (ESP), winning all five medals on offer. And now this triumph at the Porte de la Chapelle Arena where she achieved the highest score on every apparatus except Ribbon. With a final tally of 142.850, she finished 2.250 points clear of the silver medallist, Boryana Kaleyn (BUL). For Kaleyn, meanwhile, the only other gymnast to break the 140.000 total barrier, this was an historic achievement too as she rose from fifth place at Tokyo 2020 to secure the first individual Rhythmic Gymnastics Olympic medal of any colour for Bulgaria since 1988. Bronze medallist  Sofia Raffaeli (ITA) had reason to celebrate too, the top qualifier and 2022 world champion earning Italy its first medal of any colour in the individual All-Around.  Firsts Germany's first Olympic title: Darja Varfolomeev  China’s team triumph After having placed fifth in qualifications, the group from the People’s Republic of China rose to the occasion in the final on 10 August, leaving silver and bronze medallists Israel and Italy, as well as defending champions and top qualifiers Bulgaria, in their wake. For China, this was their first Olympic gold medal in Rhythmic, and only their second-ever medal in the discipline following a silver in Beijing 2008. Their routines – particularly with the 3 Ribbons + 2 Balls – stood out not only for their technique and difficulty but also for the showcasing of Chinese music and dance styles. The silver medal went to Israel, as the 2023 All-Around world champions won their nation’s first Olympic group medal, while Italy took bronze to add to the individual medal of the same colour claimed by Sofia Raffaeli.  China's first Olympic title: Rhythmic Group Italy's first individual Olympic medal: Sofia Raffaeli  1  Olympic newcomer nation: Laos  “It was our best Olympic Games – we had a full arena and it felt like every medal had real historical value for the country.” Noha Abou Shabana President of the Rhythmic Gymnastics Technical Committee  FIG YEARBOOK 2024 25"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -626,13 +701,16 @@ export default  {
       "original": "pg26.jpg",
       "zoom": null,
       "content": `
+
+      
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:190px; left:10px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/bryony-page-women-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
      
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:130px; left:10px;"
         onclick="pg26_gallery(0)"
-        src="/static/_content/white-camera.png"
+        src="/2024/static/_content/white-camera.png"
         />
       
       
@@ -654,8 +732,10 @@ export default  {
       "original": "pg27.jpg",
       "zoom": null,
       "content": `
+
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:360px; left:400px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/ivan-litvinovich-men-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
-      <img class="abs halfScaleC 27-quote-1" style="top:566px;left:5px;" src="/static/_content/27-quote-1.png"/>
+      <img class="abs halfScaleC 27-quote-1" style="top:566px;left:5px;" src="/2024/static/_content/27-quote-1.png"/>
       <h1 id="27-no" class="abs merriweatherReg 27-no" style="top:517px;left:66px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 3}' ></h1>
       
       `,
@@ -671,14 +751,14 @@ export default  {
         resetNumbers("27-no");
         }
       `,
-      "searchText": ""
+      "searchText": "Trampoline Gymnastics  Left Bryony Page (GBR) Right Ivan Litvinovich (AIN)  3  Page is the only female Trampoline gymnast other than Karen Cockburn (CAN) to hold three Olympic medals  “Twice we had a full arena, which is very good for Trampoline, so we proved that we can fill this venue and be part of this Olympic spirit and experience.” Christophe Lambert President of the Trampoline Gymnastics Technical Committee  F  or Great Britain’s Bryony Page, it proved third-time lucky on the Olympic stage in Paris. After silver at Rio 2016 and bronze at Tokyo 2020, Paris 2024 was her golden moment, the 33-year-old becoming the first woman to earn a medal of each colour in Olympic Trampoline, joining men’s legend Dong Dong (CHN) in an exclusive club. Page’s triumph provided the most compelling story of the Trampoline competition at the Bercy Arena. Her victory felt even more momentous given the context of not only the Olympic chapters that had come before but also the ankle problem that flared up after she won her second world championship title in front of her home spectators in Birmingham (GBR) eight months earlier. That injury may have lowered her expectations, but after a qualification round in which she finished fifth, she lifted herself to give the best performance in the women’s Trampoline final on 2 August. Eight years after her first medal, the Olympic title was finally hers. The penultimate performer in the final, Page erupted with emotion when her score, 56.480, flashed on the leaderboard, putting her in the gold-medal position. By the time Hu Yicheng’s (CHN) time on the trampoline was complete, Page had her gold. Newcomer Viyaleta Bardzilouskaya (AIN), who performed early and led for most of the final, concluded an outstanding season with silver, while veteran Sophiane Methot (CAN) took bronze, returning her nation to the podium for the first time since 2016. Tokyo 2020 champion and qualification leader Zhu Xueying (CHN) finished fourth after a small mistake in her final exercise.  Sport  international competition that after doing the best first routine in qualification, he jumped up for his second routine and performed what looked like an extended warm-up. Dangerously near the edge of the trampoline bed on his final skill in the medal round, he simply made an adjustment in the air and closed with a Miller plus – a quadruple-twisting double layout somersault, the hardest dismounting element possible. His 63.090 put gold out of reach for anyone else. Faced with Litvinovich’s brilliance, 18-year-old Wang Zisai (CHN) and two-time world champion Yan Langyu (CHN) jumped to silver and bronze on their Olympic debuts.  Litvinovich claims second Olympic crown There was no such drama in the men’s competition, where Tokyo 2020 Olympic champion Ivan Litvinovich (AIN) led from start to finish, soaring to his second consecutive gold. In the process, the 23-year-old became the only man to have won two Olympic titles since the sport’s introduction to the Olympic Games in 2000, and one of only four men in that time to have stood on an Olympic podium more than once. So good was Litvinovich on his return from a two-year absence from  FIG YEARBOOK 2024 27"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 27,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg28.png",
+      "original": "pg28.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -688,31 +768,40 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "28  Olympic Games Paris 2024:  the most followed Games ever  Australian swimmers Mollie O’Callaghan (left) and Ariarne Titmus (right) embrace after winning gold and silver respectively in the women’s 200m freestyle"
+      "searchText": "Sport  Olympic Solidarity  A HELPING HAND TO GYMNASTS T he Olympic Solidarity Scholarship has helped many gymnasts on their journey to competing at the Olympic Games, including Tin Srbic (CRO) and Artur Davtyan (ARM), who competed at Paris 2024. Olympic Solidarity, a programme developed by the International Olympic Committee to provide financial support to promising athletes, has a budget of nearly USD 600 million and is estimated to have helped more than 25,000 athletes between 2017 and 2020 alone. Tin Srbic and Artur Davtyan are two of the 25 gymnasts who benefitted from the programme in the lead up to Paris 2024. For Srbic, who won silver on Horizontal Bar at Tokyo 2020 and qualified for the final in Paris, Olympic Solidarity gives him the opportunity to focus on sport. “It allows you to think less about stuff that regular people have to think about: the costs of living, for food, of rehabilitation and recovery,”  28  FIG YEARBOOK 2024  Srbic says. “It helps us a lot to take our minds off those things and be secure so that we can focus on our Olympic journey.” Past recipients of the scholarship include some of the sport’s most illustrious names: Olympic gold medallists Eleftherios Petrounias (GRE), Nina Derwael (BEL), Artem Dolgopyat (ISR) and Linoy Ashram (ISR), among others. Tokyo was the breakthrough for Davtyan, where he won a bronze medal, the first of any colour from a gymnast competing under the Armenian flag. Now, he has a silver to go with it, after a stellar performance on Vault in Paris. “I am motivated by my country, my family, my friends, and all my relatives,” said Davtyan, who credits the scholarship with helping fund his training and travel. “We try to combine everything. All this is for my family’s sake, so they can live well and so we can be happy with the results.”  Pictured Artur Davtyan (ARM) Below Tin Srbic (CRO)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 28,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg29.png",
+      "original": "pg29.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:841px;left:402px;width:200px;height:16px">
+        <a href="https://www.eurotramp.com/" target="_blank"></a>
+      </div>
+
+      `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  84%  A record  of the potential global audience followed the Games*  29  This equals around  5 billion people Or more than half the world’s population  There were  13X more  engagements on the social media handles of Media Rights-Holders (MRHs) than there were for Tokyo 2020  There was a  25% increase  in the amount of coverage watched with 28.7 billion hours of footage viewed around the world on MRH platforms  This meant every viewer watched on average 9 hours of coverage, a 20% increase on the previous Games  In the home market of France,  95%  of the potential audience watched an average of 24 hours of coverage  70%  of the global audience watched on both television and digital platforms  Paris 2024 generated more coverage on MRH platforms than ever before  308,741 hours  178,002 hours  of digital coverage (Up 42% from Tokyo 2020)  of linear TV coverage (Up 18% from Tokyo 2020)  *Potential global audience with access to follow the Olympic Games and over the age of four years old."
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 29,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg30.png",
+      "original": "pg30.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -722,14 +811,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "30  Broadcasting THE OLYMPIC GAMES PARIS 2024 MARKED A NEW MILESTONE IN OLYMPIC BROADCASTING, ACHIEVING UNPRECEDENTED GLOBAL REACH AND ENGAGEMENT  “Paris 2024 demonstrated the unprecedented global appeal of the Olympic Games. Working with our Media Rights-Holder partners, more coverage was made available and watched than ever, in particular on digital and social media platforms.” Thomas Bach, IOC President A record 84 per cent of the potential global audience* followed the Olympic Games Paris 2024, according to independent research conducted on behalf of the IOC. This equals around five billion people and means that more than half of the world’s population followed the inspirational achievements of the Olympic athletes and the magic of the Olympic Games, underlining the massive success of the Games in Paris. Media Rights-Holders (MRHs) delivered record results, driven in large part by increased visibility on digital channels. Globally, there were 13 times more social media engagements on MRH handles than for Tokyo 2020. Some 70 per cent of the global audience watched on both television and digital platforms, with MRHs offering more coverage on more platforms than ever before. There was a 25 per cent increase in the amount of coverage watched, with 28.7 billion hours of footage viewed around the world on MRH platforms. This meant every viewer watched on average nine hours of coverage, a 20 per cent increase on the previous Games. In the home market of France, 95 per cent of the potential audience watched an average of 24 hours of coverage of the Olympic Games.  An OBS camera operator captures former world champion skateboarder Gustavo Ribeiro (POR) in action in Paris  Record Coverage and Global Reach As the host broadcaster for the Olympic Games, Olympic Broadcasting Services (OBS) produced a record 11,000 hours of content for Paris 2024, surpassing any previous Games. This included 3,575 hours of live sports, ceremonies and Champions Park coverage, and represented a 15.8 per cent increase compared to the Olympic Games Tokyo 2020, enabling MRHs to deliver comprehensive, live coverage around the world across all platforms. As a result, global audiences experienced unprecedented access to the Games, with traditional TV and digital streaming providing deeper and more interactive engagement than ever before.  Athlete-Centric Coverage “I have been watching the Olympic Games on television ever since I was able to, so it is a special feeling to live them here, in Paris.” Lucas Corvee (FRA), badminton  Paris 2024 continued OBS’s tradition of innovation, enhancing the viewer experience through even more immersive storytelling and the use of cutting-edge technology. OBS was committed to delivering innovative coverage that not only  captured the essence of Olympic excellence but also immersed global audiences in the Olympic journey and the personal stories of their favourite athletes. With more athlete-centric and behind-the-scenes coverage, OBS brought the athletes’ stories to the forefront, helping broadcasters deepen viewers' understanding of the sport and foster greater engagement. Technological innovations also played a key role in elevating broadcast coverage to new levels. Cinematic lenses with a shallow depth of field created a more intimate and immersive experience, while a wide array of new data-driven graphics provided real-time, detailed insights into athletes’ performances. Viewers also enjoyed more multi-angle camera replays, offering previously unseen perspectives that fully immersed fans in the action. Additionally, the expanded use of ‘Athlete Moments’ featured emotional, virtual family reunions in post-competition coverage, bringing audiences worldwide closer to the adrenaline, emotion and spirit of the occasion after the athletes walked off the fields of play.  *Potential global audience with access to follow the Olympic Games and over the age of 4 years old"
+      "searchText": "Artistic Gymnastics At both series, competitors vie for honours at stops around the globe, but also for the prestigious overall World Cup series titles awarded to the most consistent performers over the duration of the series. World Cups occupy the early part of the international season, while a similar World Challenge Cup series concludes during the second half of the year. In 2024, the World Cup events also served as Olympic qualification events for eligible gymnasts, adding an extra layer of excitement to each event. The 2024 FIG Apparatus World Cup series spanned four events between February and April, with competitions in Cairo (EGY), Cottbus (GER), Baku (AZE) and Doha (QAT). The World Challenge Cup series began in Antalya (TUR) in March, then turned to Osijek (CRO), Varna (BUL) and Koper (SLO) before concluding in Szombathely (HUN) in October.  Standout moments Women  Charlize Moerz (AUT) recorded the first-ever victory by an Austrian female gymnast when she took the Floor Exercise title in Baku, and Kaylia Nemour (ALG) went undefeated on Uneven Bars in the Apparatus World Cup series before winning the Olympic title in Paris. Melanie de Jesus dos Santos (FRA) was the only double-winner of the World Challenge Cup series, prevailing on both Uneven Bars and Floor Exercise.  Men Illia Kovtun (UKR) followed up his World Cup series victory on Parallel Bars with Olympic silver on the same apparatus before he then won the World Challenge Cup title on Floor Exercise. Another Apparatus World Cup/World Challenge Cup double-winner was Tang Chia-Hung (TPE), who sandwiched Horizontal Bar feats with an Olympic bronze on the same apparatus. World Cup winner on Vault Artur Davtyan (ARM) went on to take Olympic silver in Paris.  30  FIG YEARBOOK 2024  Pictured Melanie de Jesus dos Santos (FRA) in Osijek (CRO)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 30,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg31.png",
+      "original": "pg31.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -739,41 +828,74 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  31  How the Games were broadcast  19,000  pieces of content made available to MRHs via OBS's cloud-based content delivery platform  11,000+ hours of content produced by OBS  499  Athlete Moments completed  72  182  broadcast sublicensees  36  Media Rights-Holders (including the Olympic Channel)  NOCs engaged through the Athlete Moment initiative  Grant Holloway (USA) uses the Athlete Moment to celebrate with friends and family after winning gold in the men's 110m hurdles  8,300+ broadcast personnel  1,200  OBS cameras  100,000+ highlight clips created automatically by AI  3,680+  microphones"
+      "searchText": "World Cups/World Challenge Cups  Sport  Rhythmic Gymnastics Familiar and friendly locales — Athens (GRE), Sofia (BUL), Baku (AZE), Tashkent (UZB) and Milan (ITA) — welcomed World Cup events in Rhythmic Gymnastics, where hearty crowds made competitors feel right at home and spurred them to excellence in an energetic start to the Olympic season. As the season heated up, World Challenge Cups in Portimão (POR) and Cluj-Napoca (ROU) served as an Olympic warmup for gymnasts and groups.  Standout moments  WORLD CUPS AND WORLD CHALLENGE CUPS  In what turned out to be a foretaste of the Olympic finals, world All-Around champions Darja Varfolomeev (GER) and Sofia Raffaeli (ITA) jostled for position throughout the World Cup series, while the People’s Republic of China, Italy and France split the group series titles.  Each year the FIG World Cup and World Challenge Cup series attract top contenders and specialists in gymnastics’ Olympic disciplines. The 2024 editions were notable for several historic firsts underlining gymnastics’ global growth. For non-Olympic disciplines, please refer to the Acrobatic, Aerobic and Parkour chapters.  Trampoline Gymnastics  Men  Competitions in Baku (AZE) and Cottbus (GER) capped a World Cup odyssey that stretched over two calendar years for Olympic Trampoline hopefuls. Events in Alkmaar (NED), Arosa (SUI) and Coimbra (POR) completed the 2024 series, with the next generation of Trampoline greats already omnipresent.  Non-Olympic Trampoline disciplines  Standout moments Women  Her excellent performances in Baku, Arosa and Coimbra secured Anzhela Bladtceva (AIN) the women’s individual series title. Seljan Mahsudova (AZE) scored a rare perfect 10 for Horizontal Displacement at the World Cup in Alkmaar, staying inside the central square of the trampoline for her entire routine (no easy feat!) as she earned her first World Cup title.  Tokyo 2020 champion Ivan Litvinovich (AIN) took the men’s individual Trampoline series title before adding his second Olympic gold in Paris.  Other World Cup luminaries in 2024 were Cao Yunzhu (CHN) and Zhang Xinxin (CHN), who won the women’s Synchronised series title having gathered golds in Cottbus (GER), Arosa, and Coimbra, and the victorious men’s Synchronised pair of Samuele Patisso Colonna and Marco Lavino (ITA). Two of the World Cup staging posts featured Tumbling too – Baku and Coimbra – and world champion Mikhail Malkin (AZE) took gold both times in the men’s category while Alexandra Efraimoglou (GRE) won the women’s category after prevailing in Portugal. Aliah Raga (USA) and Francisco Jose (POR) were declared series winners in Double Mini-Trampoline, with the event contested only in Coimbra.  FIG YEARBOOK 2024 31"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 31,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg32.png",
+      "original": "pg32.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:745px;left:51px;width:80px;height:12px">
+        <a href="https://youtu.be/wf4dwCJkyTk" target="_blank"></a>
+      </div>
+      
+      <div class="contentLink" style="top:757px;left:51px;width:80px;height:12px">
+        <a href="https://youtu.be/svRzSbdP-jg" target="_blank"></a>
+      </div>
+
+      <div class="contentLink" style="top:769px;left:51px;width:80px;height:12px">
+        <a href="https://youtu.be/PlP0DQCCLQY" target="_blank"></a>
+      </div>
+
+      <div class="contentLink" style="top:802px;left:51px;width:80px;height:12px">
+        <a href="https://youtu.be/XImiueceTTI" target="_blank"></a>
+      </div>
+
+      <div class="contentLink" style="top:608px;left:62px;width:80px;height:12px">
+        <a href="https://youtu.be/vFpYuuIfNbM" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
-        }
-
+        setTimeout(function(){
+            addContentLinks();
+        },1000)
+    }
         function onPageLeave() {
         }
       `,
-      "searchText": "32  A New Era of Broadcast Technology Paris 2024 marked a transformative milestone in broadcast technology, with Artificial Intelligence (AI) showcasing its unparalleled capability to analyse live data at speeds beyond human capacity, setting new benchmarks in Olympic coverage. AI played a crucial role in optimising broadcast operations, driving content creation and delivering data in innovative ways. Multi-camera replay systems powered by cloud-based AI and deep learning generated 3D models and texture mappings to offer unprecedented insights into the intricacies of each performance. Other advancements included AI-driven motion tracking and intelligent stroboscopic analysis, which provided broadcasters and audiences with real-time data visualisations and insights into athletes’ performances.  For the first time, specific applications featured real-time trajectory analysis for archery, enhanced data graphics for diving, serve reaction time for tennis, and ball spin detection for table tennis. OBS also introduced Automatic Highlights Generation, enabling MRHs to curate personalised highlight reels across 14 sports/disciplines based on their preferences. In addition, OBS Cloud, first introduced at Tokyo 2020, played a crucial role once again, enabling MRHs to streamline their operations and deliver content more efficiently. This cloud-based solution, developed in collaboration with Worldwide Olympic Partner Alibaba, allowed broadcasters to operate remotely, reducing the Games' broadcast footprint and improving flexibility and scalability in broadcast operations. OBS also partnered with Worldwide Olympic Partner Intel to develop a  “We aimed to bring viewers closer to the action and emotions of the Games, enhancing their experience and fostering a stronger connection with the athletes and the Olympic spirit.” Yiannis Exarchos, CEO, OBS more flexible and modular production environment, enabling OBS to deploy next-generation, virtualised production units for live coverage for the first time in an Olympic Games. The continued integration of these technologies ensured that Paris 2024 was not only the most-followed Games but also one of the most technologically advanced, establishing new standards for efficiency and sustainability in the broadcast industry."
+      "searchText": "Sport  New elements  NEW ELEMENTS Men’s and Women’s Artistic Gymnastics welcomed nine new elements to the Code of Points.  Women’s Additions Five original elements performed in major competition for the first time in Women’s Artistic Gymnastics in 2024 have been added to the ever-evolving Code of Points, with four of them named after their creators. Those named include a 1.5-twisting double tuck somersault on Floor Exercise by Hillary Heron (PAN), as well as unique takes on the classics, such as the marriage of the Weiler to the Comaneci salto by Thelma Adalsteinsdottir (ISL) on Uneven Bars. Kate Sayer (AUS) inked her name into the code by revisiting an in-bar Stalder and melding it with a transition on Uneven Bars, while Marija Petrova (LAT) proposed an elegant and deceptively complicated mount on the same apparatus. Reese Esponda (USA) dreamed up the backward butterfly jump on Floor Exercise and first performed her variation at the 2024 FIG Apparatus  World Cup in Baku (AZE). While it has been added to the Code of Points, it was given a B valuation (0.2 difficulty) and new elements must be valued at C or higher for them to be named.  Men’s additions Joseph Solis (MEX) entered the Code of Points for Men’s Artistic Gymnastics on Parallel Bars with a giant swing backwards and salto with a half-twist to hang. On the same apparatus, Joaquin Alvarez (CHI) devised a new dismount: a double layout done off the end of the bars. John Roethlisberger (USA) had two elements retrospectively incorporated for his work on Horizontal Bar: the first is a tucked double salto forward with 1.5 twists over the bar that he performed successfully at the 1995 World Championships, the second a laid out double salto forward with half-twist that he showed at the 1996 Olympic Games.  Women’s Artistic Gymnastics Uneven Bars C (0.3 difficulty) The Petrova D (0.4 difficulty) The Adalsteinsdottir E (0.5 difficulty) The Sayer  Floor Exercise The Heron  32  FIG YEARBOOK 2024  F  Men’s Artistic Gymnastics Parallel Bars The Solis The Alvarez  E E  Horizontal Bar  The Roethlisberger 1 D  (0.6 difficulty)  Above The Solis illustration by Koichi Endo  The Roethlisberger 2 D  (0.5 difficulty) (0.5 difficulty) (0.4 difficulty) (0.4 difficulty)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 32,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg33.png",
+      "original": "pg33.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+       <div class="contentLink" style="top:816px;left:351px;width:159px;height:16px">
+        <a href="https://www.gymnova.com/" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  33  Expanding the Reach of Paris 2024 Paris 2024 showcased innovative partnerships and groundbreaking collaborations that elevated the Games to new heights, engaging diverse audiences worldwide:  Host Country Engagement: France Télévisions, in collaboration with the Paris 2024 Organising Committee, created programming that brought the Olympic spirit into the homes of millions. Initiatives included the daily programme Au Jeux Citoyens, which aired for over a year leading up to the Games, and the nationally celebrated arrival of the Olympic Flame in Marseille, which kicked off the Olympic Torch Relay through mainland France and overseas territories.  Gaming Innovations: The IOC and Visa partnered to launch Olympic World on Roblox, introducing the Olympic spirit to younger audiences. With over 11.1 million visits in just 14 days, it became the most successful sports property on the platform, demonstrating the power of gaming in engaging new fans.  Social and Creator Collaborations: Paris 2024 featured the first-ever Olympic Creator Programme, developed in collaboration with MRHs, Meta, YouTube and TikTok. The programme invited more than 100 leading digital creators from around the world to experience the Games and share their unique experiences via social media, helping to promote Paris 2024 coverage. Official broadcasters like NBC in the USA and Warner Bros. Discovery in Europe also partnered with social platforms and celebrities to amplify their reach.  Content Partnerships: The IOC’s collaboration with Netflix delivered Simon Biles Rising and Sprint, two docuseries that featured in Netflix’s global Top 10 and generated pre-Games anticipation. A third documentary series on the Olympic basketball tournament will be released in 2025, further extending the storytelling journey.  Through these diverse initiatives, Paris 2024 achieved unparalleled global reach, bringing the Games to life for fans of all ages and interests."
+      "searchText": "NEW!  NEW!  NOUVEATLIOLEN GÉNÉR  INFLATABLE PIT  NEW GENERATION  Maximum height: 1,35 m  Ref. 7196  Design©2024 zen-studio.com  Standard height: 20 cm  CONFIDENCE Learning without apprehension  GYMNOVA revolutionizes your training with custom-made inflatable pits.  VERSATILITY Quick adjustments of pressure and height  These pits are ideal for all gymnastic acrobatic landings and provide the same cushioning performance as traditional pits.  COMFORT 20 cm jersey mat  Choose performance and safety with GYMNOVA !  SAFETY 20 cm foam in case of a power cut  www.gymnova.com"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -784,14 +906,18 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 34-quote-1" style="top:181px;left:184px;" src="/static/_content/34-quote-1.png"/>
+      <a href="https://www.youtube.com/watch?v=3tTlHKau8ng" target="_blank">
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:580px; left:60px;" src="/2024/static/_content/white-play.png"/>
+      </a>
+
+      <img class="abs halfScaleC 34-quote-1" style="top:181px;left:184px;" src="/2024/static/_content/34-quote-1.png"/>
       
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:520px; left:60px;"
         onclick="pg34_gallery(0)"
-        src="/static/_content/white-camera.png"
+        src="/2024/static/_content/white-camera.png"
         />
       
       `,
@@ -806,7 +932,7 @@ export default  {
         resetNumbers("34-no");
         }
       `,
-      "searchText": "34  Global Audience Highlights France  The Opening Ceremony achieved the highest audience in the history of French television, with an average of  24.4 million viewers  France Télévisions was watched by almost  60 million  94%  French viewers  Léon Marchand (FRA, swimming)  On average, a French person (4+) watched more than  24 hours  of the French population aged 4+ watched the Games  Peak audience of  of the event  france.tv generated more than  200 million views over the course of the Games  1 billion  views for clips published on France Télévisions’ social media pages  Europe  4x400m mixed relay team (NED, athletics)  Cumulative reach of more than  More than  215 million  in Europe viewing Olympics content on Warner Bros. Discovery’s platforms – 23% more than Olympic Games Tokyo 2020  viewers during Léon Marchand’s fourth gold medal win  Warner Bros. Discovery’s average linear television audiences for Paris 2024 were double those of Tokyo 2020  “Paris 2024 has again demonstrated the value of bringing premium sport and entertainment together to drive audience and engagement at scale.” 	 Andrew Georgiou, President and Managing Director, Warner Bros. Discovery UK & Ireland and WBD Sports Europe  15 million  5.2 billion  More than  7 billion  minutes streamed over the course of the Games – six times more than Tokyo 2020  video views of Warner Bros. Discovery Olympics posts on social media – ten times more than Tokyo 2020"
+      "searchText": "Sport  Acrobatic Gymnastics  BELGIUM AND CHINA SAVOUR WORLDS With five gold medals apiece, Belgium and the People’s Republic of China led the way at the Acrobatic Gymnastics World Championships in Guimarães (POR) between 19-22 September.  A  side from the gold medal celebrations, there was special cause for satisfaction for China at their success at the World Championships in Guimarães (POR) in September given their athletes had been absent from this stage for six years owing to travel restrictions during the pandemic. The Men’s Group of Zhang Minghe, Shi Jingwei, Ma Xuefeng and Shi Junjie marked their nation’s return with unbeatable performances in their Combined, Balance and Dynamic routines. They had spent their time away from competition refining the remarkable difficulty that filled their routines in Guimarães. And while building on the traditions of the Chinese Men’s Groups of the past, this new generation produced something  34  FIG YEARBOOK 2024  “  We had 29 countries, which is the biggest number ever. We were very proud of the huge number of participants and that the level was really high too.” Rosy Taeymans President of the Acrobatic Gymnastics Technical Committee  eye-catchingly new: a double-twisting triple back throw that sent flier Zhang soaring nearly 20 feet in the air. For their Women’s Group of Ma Yixing, Gu Quanjia and Ding Wenyan, there was gold in the Combined exercise, and China left Portugal also holding the world team title for the first time in 30 years. They secured it in dramatic fashion when, having tied with Azerbaijan in the initial tally, they prevailed by having a decisively higher rank in the Men’s Group standings.  Belgium end 10-year wait Before the 2024 Worlds, no Belgian Women’s Pair had won a world title for a decade. Maysae Bouhouch, 15, and Silke Macharis, 20, ended that"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -831,7 +957,7 @@ export default  {
         resetNumbers("35-no");
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  35  USA  Paris 2024 content registered a record  “The Olympics reestablished their unique power to reassemble the American media audience.”  6.55 billion  Napheesa Collier (USA, basketball)  impressions across NBC Sports social channels – a 184% increase compared with Tokyo 2020  	 Gary Zenkel, President, NBC Olympics  Total Audience Delivery (TAD) of  Olympic coverage reached  30.6 million  152  viewers across the combined live Paris Prime and U.S. primetime periods – up 82% from Tokyo 2020  Led by Peacock,  23.5 billion  consecutive summer Olympic nights as the primetime no.1 show  minutes of Paris 2024 coverage was streamed – up 40% from all prior Summer and Winter Games combined  Great Britain “These figures across digital, linear, online and audio demonstrate that BBC Sport’s unique multiplatform offer is capable of uniting the nation with the very best of British storytelling.”  Keely Hodgkinson (GBR, athletics)  Keely Hodgkinson's gold medal in the women’s 800m final was the most watched event with  9.1 million viewers on BBC One and BBC iPlayer  	 Alex Kay-Jelski, Director of BBC Sport  36.1 million  BBC Sport's coverage of Paris 2024 was streamed a record-breaking  218 million  times online – more than double the 104 million streams recorded during the Olympic Games Tokyo 2020  viewers watched 15 minutes or more of the Paris Olympics on BBC TV - equivalent to 59% of the UK population"
+      "searchText": "1 World Cup series The 2024 FIG World Cup series ran between 10 May and 2 June, comprising events in Burgas (BUL), Maia (POR) and Rzeszów (POL), and it provided a taste of things to come in the case of Azerbaijan. Their ground-breaking athletes at the Worlds – the Mixed Pair of Raziya Seyidli and Aghasif Rahimov and Men’s Pair of Daniel Abbasov and Murad Rafiyev – ended as World Cup series winners in their categories, making it the first time two teams from Azerbaijan had topped the rankings. The same went for the Belgian Women’s Pair of Silke Macharis and Maysae Bouhouch, who took the title despite only taking part in two events – both of them won by the World Cup newcomers – in Burgas and Rzeszów. Other series winners were the Men’s Group of Or Abraham, Rotem Amihai, Lior Borodin and Tomer Offir (ISR) and the Women’s Group of Karina Ostrovska, Elina Kozachanska and Alina Puhach (UKR).  wait in emphatic fashion with three golds in Guimarães, becoming the only team aside from the Chinese men to sweep their category. Add the two golds won by the Women’s Group of Lauren Verbrugghe, Sofie Jaeken and Mirte Vercauteren – for their Balanced and Dynamic routines – and this was an outstanding Worlds for Belgium’s women.  Azeris break new ground Azerbaijan had never before earned a title at World Championship level yet their gymnasts left Guimarães with four of them. The Mixed Pair of Raziya Seyidli and Aghasif Rahimov and Men’s Pair of Daniel Abbasov and Murad Rafiyev each topped their respective standings in both the Combined and Balance exercises. With eight medals overall for Azerbaijan, this was a defining moment for the country’s gymnasts and their national programme.  Iberian trailblazers With a routine titled ‘Hope’, Miguel Lopes and Goncalo Parreira (POR) fulfilled theirs by delighting the home  Firsts Azerbaijan's first world titles: Men’s Pair - Daniel Abbasov/Murad Rafiyev Mixed Pair - Raziya Seyidli/Aghasif Rahimov Portugal's first world title for a Men’s Pair: Miguel Lopes/Goncalo Parreira Spain's first world championships medal: Jose Moreno/Juan Daniel Molina  Junior Worlds debut More than 500 gymnasts from 32 nations took to the stage for the first-ever Junior World Championships in Acrobatic Gymnastics, rivalling the World Championships in turnout. The event took place from 12-15 September in Guimarães (POR) alongside the World Age Group Competitions.  crowd, winning gold for their Dynamic exercise in the Men’s Pair category. That same event also saw silver medals earned by Jose Moreno and Juan Daniel Molina (ESP). Meanwhile, Theodore Chan and Emerson Wong (CAN) became the first athletes to represent Canada at a senior World Championships. Last but certainly not least, this was the first World Championships with real-time judging which, in the words of Rosy Taeymans (BEL), the President of the Technical Committee, marked “a huge step for the future”.  11  Nations who won medals in Guimarães, the highest number for over a decade  Athletes’ representative elected On the eve of the World Championships, Lore Vanden Berghe (BEL) was elected as an athletes’ representative. The 2017 European Championships silver medallist will sit on the FIG Athletes’ Commission and take part in the Acrobatic Gymnastics Technical Committee meetings.  Left Lore Vanden Berghe (BEL) Opposite Belgian Women's Group  FIG YEARBOOK 2024 35"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -842,14 +968,18 @@ export default  {
       "zoom": null,
       "content": `
 
-        <img class="abs halfScaleC 36-quote-1" style="top:323px;left:218px;" src="/static/_content/36-quote-1.png"/>
+        <img class="abs halfScaleC 36-quote-1" style="top:323px;left:218px;" src="/2024/static/_content/36-quote-1.png"/>
+
+        <a href="https://www.youtube.com/watch?v=h9fwm5kM8gI" target="_blank">
+          <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:200px; left:260px;" src="/2024/static/_content/white-play.png"/>
+        </a>
       
         <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:140px; left:260px;"
         onclick="pg36_gallery(0)"
-        src="/static/_content/white-camera.png"
+        src="/2024/static/_content/white-camera.png"
         />
       
       `,
@@ -863,7 +993,7 @@ export default  {
         pg36Anim.stop();
         }
       `,
-      "searchText": "36  Australia  The dominance of Nine’s Olympics coverage led to 9News recording its 10 highest rating bulletins of the year during Paris 2024  “The Olympics are more than just a sporting event. They're a cultural phenomenon that resonates deeply with Australians from all walks of life. They unite the nation in a way that few other events can, bringing together millions of viewers across the country.” 	 Michael Healy, Director of Television, Nine Jessica Fox (AUS, canoe slalom)  A national total TV reach of  Nine’s coverage was broadcast to a national total television reach of  19.5 million  people across Channel 9, 9Gem and 9Now  5.6 million  9Now achieved a 16% incremental reach, with  2.7 million  viewers tuning in exclusively to the Olympics through 9Now out of an overall national reach of 7.5m on Australia’s no. 1 commercial freeto-air streaming platform  Canada  Skylar Park (CAN, taekwondo)  “Canadians shared in the excitement of Canada’s spectacular athletes — their incredible triumphs as well as their disappointments. The sense of pride they inspired in us lifted us all — it’s why the Olympics matter and why, as Canada’s national public broadcaster, we are so proud to bring them to Canadians, from coast to coast to coast.” 	 Catherine Tait, President and CEO, CBC/Radio-Canada  viewers aged 16-39 tuned into the broadcast, in the crucial demographic of people aged 25-54, more than 8.1m viewers tuned into Nine’s coverage of Paris 2024  Canadians consumed a record-breaking  7 in 10  Canadians (27m) tuned in for CBC/Radio-Canada's coverage of Paris 2024  24.3 million  hours of Paris 2024 content on CBC/Radio-Canada’s digital and streaming platforms, an increase of 170% over Tokyo 2020 and 121% over Beijing 2022"
+      "searchText": "Sport  Aerobic Gymnastics  MANY HAPPY RETURNS Athletes from Japan and China excelled at the first fully attended FIG Aerobic World Championships since the global pandemic, held in Pesaro (ITA) from 27-29 September.  F  or some of the globe’s leading Aerobic gymnasts, the journey to Pesaro (ITA) for the 2024 World Championships took far longer than the duration of a long-haul flight. Take the Mixed Pair of Kitazume Riri and Saito Mizuki (JPN), absent from the worlds since 2018. They had considered retirement but kept going and claimed the reward in Pesaro of a first Mixed Pair world title. That was not all as Kitazume reclaimed the Individual Women’s crown that she had first captured in 2018, finishing 0.3 ahead of 2022 champion Anastasiia Kurashvili (UKR), while Saito took the Individual Men’s silver. In the process, Kitazume became the second Japanese woman to win multiple world titles, following three-time champion Ito Yuriko, who earned three between 1998 and 2002. China’s athletes authored a similar comeback tale. There was gold for the  World Cups There were two Aerobic World Cups in 2024 – Cantanhede (POR) in March and Yokohama (JPN) in May – and the list of winners includes many of the World Championships medallists, along with European champion Davide Nacci (ITA) and Mixed Pair Anastasiia Kurashvili and Stanislav Halaida (UKR) in addition to the 2022 world champion Vietnamese Group.  36  FIG YEARBOOK 2024  “  There were more participants than ever because of the change to the rules enabling up to three athletes per nation in the individual event. Overall, this amounted to 348 athletes from 37 nations.” Tammy Yagi-Kitagawa President of the Aerobic Gymnastics Technical Committee"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -888,23 +1018,27 @@ export default  {
         resetNumbers("37-no");
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  37  Brazil Eduarda Santos Lisboa and Ana Patricia Silva Ramos (BRA, beach volleyball)  140.4 million reached with Globo’s Paris 2024 coverage across TV Globo, SporTV and GloboPlay  5 billion videos views  81%  of households reached by TV Globo, with TV ratings up 10% compared with Tokyo 2020  An innovative media rights deal with LiveMode (CazéTV) resulted in an audience of 56m people reached on its YouTube channel, with over 4.8m concurrent viewers for the women’s football final and women’s volleyball bronze medal game. More than 127m people were also reached on Instagram, and overall there were over  SporTV attracted an audience three times greater than all other pay TV channels on Olympic days  Germany  Double the streaming reach and consumption on Globoplay compared with Tokyo 2020  On the ZDFMediathek digital platform, on the days when the Games were broadcast on ZDF, an average of  9.93 million  ARD & ZDF reached  visits per day were achieved, up 62% compared with Tokyo 2020  53.4 million  viewers with their television broadcasts, representing around two thirds of the population Nelvie Raman Tiafack (GER, boxing)  ARD-ZDF digital offerings had recorded  The most successful Olympic broadcast on Das Erste was the coverage of the Opening Ceremony, which averaged  10.44 million  viewers over four hours, with a market share of 45.5%. This made it the most watched broadcast of the Olympic Games in 20 years  225 million  The audience share of ZDF’s Closing Ceremony coverage was  40.5%  with its Paris 2024 broadcast reaching 52% of the potential audience across the event  visits by the final Saturday, recording 65m hours of consumption"
+      "searchText": "1 Trio of Zhang Jingshan, Wang Zhenhao, and Zhang Qingzhou – and the first of those three then won another gold in the Group event along with Fan Siwei, Feng Lei, Liu Yunsong and Li Lihao. Fittingly, their routine featured a ‘Terminator’ theme with which they edged 2022 champions Vietnam – from “I’ll be back” to a gold-hued comeback. The winning returns did not end there either as Tihomir Barotev and Antonio Papazov (BUL) – who had retired for a period after achieving a Trio gold with Darina Pashova in 2021 – joined forces with Borislava Ivanova to take a bronze medal. Meanwhile, though her fellow Aerobic Dance gold medallists from 2021 had since retired from competition, Madina Mustafayeva (AZE) was rewarded for carrying on as she won a Mixed Pairs silver alongside Vladimir Dolmatov. Finally, Miquel Mane’s (ESP) triumph in the Individual Men’s event, which came after several months spent nurturing his mental health, saw him reclaim the title he first won back in 2021 as an 18-year-old.  Hungary end on a high From Romania’s gothic ‘Angels of Darkness’ to the Republic of Korea’s ‘Star Wars’ interpretation, choreographers stretched their imaginations to come up with creative routines and the best of this entertaining bunch proved to be from Hungary, whose young Aerobic Dance team turned ‘The Nutcracker’ into an aerobic ballet and received 9.450 for artistry, the highest score of the competition. To land the final gold of the championships, they had to wait till the last routine of the final; they were last to perform yet held their nerve to beat Romania and Italy and secure their nation’s first world title in Aerobic Dance. That was not the only first as Italy, hosting the Worlds for the first time since 1998, walked off with a first Team title. Meanwhile, after medal-less appearances at the previous three World Championships, Maelys Lenclos, Victoria Trosset and Clara Lestruhaut returned France to the medal podium with a Trio silver, before Lenclos became one of only three French women to have graced the individual podium with a solo bronze.  Firsts Japan's first Mixed Pair to win a world title: Kitazume Riri/ Saito Mizuki First world title in Aerobic Dance: Hungary First world team title in Aerobic Gymnastics: Italy  1  Aerobic World Championships newcomer nation: Uruguay  Junior Worlds debut Drawing over 550 gymnasts from 36 nations, a novelty of 2024 was the first Aerobic Gymnastics Junior World Championships, open to 15-to-17-yearolds, which were staged in Pesaro (ITA) from 20-22 September and held as a test event alongside the World Age Group Competition.  Pictured Saito Mizuki, Kitazume Riri (JPN)  FIG YEARBOOK 2024 37"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 37,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg38.png",
+      "original": "pg38.jpg",
       "zoom": null,
       "content": `
+
+      <a href="https://www.youtube.com/watch?v=0bLIPAP_Cdg" target="_blank">
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:420px; left:550px;" src="/2024/static/_content/black-play.png"/>
+      </a>
       
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:480px; left:550px;"
         onclick="pg38_gallery(0)"
-        src="/static/_content/black-camera.png"
+        src="/2024/static/_content/black-camera.png"
         />
       
       
@@ -916,7 +1050,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "38  Japan  TVer, the streaming service of commercial broadcasters, had record numbers, with approximately  21 million  More than  105 million  Kagami Yuka (JPN, wrestling)  Japanese people watched some coverage of Paris 2024 across the Japanese Consortium’s TV channels, representing almost 90% of the potential viewers  CHina  Digital coverage reached over  31 billion  video views across CCTV's Yangshipin streaming service, CCTV News and the CCTV Sports app, all setting new standards  CCTV's national network audience share reached  35.75%  during the Games, an increase of 27% over the same number of days before the Opening Ceremony  The highest single-day audience share of the CCTV channel group reached  CCTV News had  13.19 billion Men’s team (CHN, table tennis)  38.33%  setting a new record for single-day audience share outside of key holidays (Spring Festival, Lantern Festival and National Day) since August 2016  people using the service, and the total number of views exceeding 110m. The total playback time reached 23m hours  As the main live broadcast channel for the event, CCTV-5 maintained the top spot in audience share on both networks during the Olympics, with an average national network share of  11.72%  the highest in the past five Olympic Games and an increase of 12% over the previous Olympic Games  video views, while CCTV Sports app had almost 17 times more daily visiting users than before the Games. CCTV Sports had 3.4bn views, with the majority (2.6bn) on live streams  CCTV's Yangshipin streaming service received  14.5 billion  video views, setting new historical records, with the daily average reaching twice that of Tokyo 2020. The app also topped the overall list of app downloads for 16 consecutive days. On social media, the apps' accounts recorded over 6.1bn videos views, with short content representing half of those"
+      "searchText": "Sport  Parkour  PARKOUR’S YEAR OF POSITIVES For the Parkour community, 2024 was full of encouraging steps, not least the second editions of both the World Championships and Brick Parkour Tour.  A  fter Tokyo’s hosting of the inaugural edition in 2022, Japan played host once more as the second FIG Parkour World Championships took place in Kitakyushu from 15-17 November. For Elis Torhall (SWE), it proved the setting for a redemption tale as he overcame more than 50 entrants from 30 countries to take the men’s Freestyle title, having landed the triple-gainer that proved his undoing two years earlier. In the women’s competition, Ella Bucio (MEX) added the Speed world title to her medal collection but had to settle for silver when Shang Chunsong (CHN) took the Freestyle crown the Mexican had claimed two years previously. Meanwhile, Caryl Cordt-Moller’s (SUI) men’s Speed triumph capped an exceptional year for an athlete who  38  FIG YEARBOOK 2024  won the World Cup series title in the same event and, additionally, had featured as one of the mysterious masked figures seen running across the rooftops of Paris, carrying the torch at the opening ceremony of the Olympic Games Paris 2024.  junior worlds debut In addition to the World Championships, the first-ever FIG Junior Parkour World Championships took place in 2024, also in Kitakyushu, Japan, with young athletes competing. The host nation secured three of the four gold medals on offer.  Above Elis Torhall (SWE) Right Sara Banchoff Tzancoff (ARG), Noa Man (NED) in Coimbra"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -927,15 +1061,23 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 39-line-1" style="top:628px;left:-114px;" src="/static/_content/39-line-1.png"/>
-      <img class="abs halfScaleC 39-quote-1" style="top:574px;left:-156px;" src="/static/_content/39-quote-1.png"/>
+      <img class="abs halfScaleC 39-line-1" style="top:628px;left:-114px;" src="/2024/static/_content/39-line-1.png"/>
+      <img class="abs halfScaleC 39-quote-1" style="top:574px;left:-156px;" src="/2024/static/_content/39-quote-1.png"/>
+
+      <a href="https://www.youtube.com/watch?v=eL1x9JlFn78&t=2s" target="_blank">
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:125px; left:485px;" src="/2024/static/_content/white-play.png"/>
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=1udJNHnSBAE" target="_blank">
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:125px; left:425px;" src="/2024/static/_content/white-play.png"/>
+      </a>
 
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:125px; left:545px;"
         onclick="pg39_gallery(0)"
-        src="/static/_content/white-camera.png"
+        src="/2024/static/_content/white-camera.png"
         />
 
       `,
@@ -950,7 +1092,7 @@ export default  {
         pg39Anim.stop();
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  39  “70 per cent of the global audience watched on both television and digital platforms, with our Media Rights-Holding Partners offering more coverage on more platforms than ever before.” Anne-Sophie Voumard, Managing Director, IOC Television and Marketing Services  India  The network reported  2.6  Neeraj Chopra (IND, athletics)  times more advertising revenues than previous Games, using innovative ad assets  170 million  watched across Viacom18 platforms including JioCinema and Sport18 TV channels, with broadcast commentary in multiple local languages  Over  5 billion  minutes of consumption were recorded across these platforms  New Zealand Sky’s digital platforms, Sky Sport Now and Sky Go, also experienced significant volumes of activity during the Games as more than  Additionally, Sky’s social channels achieved strong engagement across YouTube, X, TikTok, Facebook, and Instagram throughout the Games. More than  1,200 posts  Ellesse Andrews (NZL, track cycling)  – at an average of over 42 daily posts – showcasing medalwinning performances, exclusive interviews and other highlights of the Games led to 44.8m impressions, 32.7m video views, 2.9m engagements and an audience growth of 35,000  350,000  unique viewers flocked to both platforms to stream Sky’s Olympics coverage almost 21m times, averaging 1.3m daily streams A total of  2.8 million  people – 57% of New Zealand’s population – watched the Olympic Games, including free-to-air on Sky Open, at an average of 1.4m viewers per day"
+      "searchText": "Parkour  Sport  World Cup series T he Parkour World Cup series kicked off in Montpellier (FRA) in May with Parkour one of the urban disciplines that drew more than 300,000 people to the FISE Festival. Shang Chunsong shone on her first appearance, collecting the first World Cup gold in women’s Freestyle for the People’s Republic of China. Meanwhile, to the delight of the home crowd, Nathanael Trier (FRA) won the men’s Freestyle event. The series concluded in September with Coimbra staging Portugal’s first Parkour World Cup. Sara Banchoff Tzancoff (ARG) earned her first World Cup victory in women’s Speed, though the series winner in both Speed and Freestyle was a more familiar face: Ella Bucio, for whom it was the third consecutive World Cup Series title in Freestyle, and the first in Speed. This was also the first time a single athlete had won both events in either the women’s or men’s competition. Meanwhile, Elis Torhall’s victory in Coimbra saw him become men’s Freestyle series winner for the third consecutive year.  Back on Tour After a successful launch in 2023, the Brick Parkour tour visited Central America from 18 June – 7 July 2024. Organised by the Pan American Gymnastics Union and supported by equipment manufacturer Brick, the tour visited Costa Rica, Dominican Republic, El Salvador and Panama, delivering workshops to over 300 local athletes.  “The tour was a huge success. We didn’t know what we would find but we found very good and motivated athletes.” Charles Perrière President of the FIG Parkour Commission  First FIG Parkour Technical Committee elected Another milestone was reached in October with the election of the first FIG Parkour Technical Committee to build on the work of the Parkour Commission, which supported the discipline’s development with the FIG. Parkour co-founder Charles Perrière was elected as Technical Committee President and will be supported by experienced committee members when the new Technical Committee starts its work for the 2025-2028 cycle. .  FIG YEARBOOK 2024 39"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -961,17 +1103,17 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 40-speech-img" style="top:31px;left:-19px;" src="/static/_content/40-speech-img-1.png"/>
+      <img class="abs halfScaleC 40-speech-img" style="top:31px;left:-19px;" src="/2024/static/_content/40-speech-img-1.png"/>
 
-      <img class="abs halfScaleC 40-subtitle" style="top:99px;left:-89px;" src="/static/_content/40-title-1.png"/>
-      <img class="abs halfScaleC 40-subtitle" style="top:188px;left:88px;" src="/static/_content/40-subtitle-1.png"/>
+      <img class="abs halfScaleC 40-subtitle" style="top:99px;left:-89px;" src="/2024/static/_content/40-title-1.png"/>
+      <img class="abs halfScaleC 40-subtitle" style="top:188px;left:88px;" src="/2024/static/_content/40-subtitle-1.png"/>
 
-      <img class="abs halfScaleC 40-speech" style="top:513px;left:-116px;" src="/static/_content/40-speech-5.png"/> 
-      <img class="abs halfScaleC 40-speech" style="top:125px;left:158px;" src="/static/_content/40-speech-2.png"/>
-      <img class="abs halfScaleC 40-speech" style="top:125px;left:-118px;" src="/static/_content/40-speech-1.png"/>
-      <img class="abs halfScaleC 40-speech" style="top:512px;left:157px;" src="/static/_content/40-speech-6.png"/>    
-      <img class="abs halfScaleC 40-speech" style="top:313px;left:160px;" src="/static/_content/40-speech-4.png"/>
-      <img class="abs halfScaleC 40-speech" style="top:313px;left:-116px;" src="/static/_content/40-speech-3.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:513px;left:-116px;" src="/2024/static/_content/40-speech-5.png"/> 
+      <img class="abs halfScaleC 40-speech" style="top:125px;left:158px;" src="/2024/static/_content/40-speech-2.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:125px;left:-118px;" src="/2024/static/_content/40-speech-1.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:512px;left:157px;" src="/2024/static/_content/40-speech-6.png"/>    
+      <img class="abs halfScaleC 40-speech" style="top:313px;left:160px;" src="/2024/static/_content/40-speech-4.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:313px;left:-116px;" src="/2024/static/_content/40-speech-3.png"/>
      
       `,
       "script": `
@@ -985,7 +1127,7 @@ export default  {
         pg40Anim.stop();
         }
       `,
-      "searchText": "Olympic Partnerships"
+      "searchText": "Sport  Gymnastics Hear from the forathletes all/ World Gymnaestrada  HEAR FROM THE ATHLETES Discover the motivation behind the moments  Women’s Artistic Gymnastics (AUS)  Aerobic Gymnastics (JPN)  “Don’t give up and never settle. Dreams do come true; it might just take a little longer than expected and include a few life-changing moments.”  “I started valuing each competition more than the last. I became more grateful and happy for the opportunity to do Aerobic and compete, something many people, not just Aerobic athletes, take for granted.”  Emma Nedov (AUS) on Instagram, reflecting on being a first-time Olympian at Paris 2024 after missing the Games twice and coming out of retirement to pursue her dream  Saito Mizuki (JPN), three-time world champion in Aerobic Gymnastics, on how the pandemic changed his mindset, before the Aerobic Worlds in Pesaro (ITA)  Trampoline Gymnastics (COL)  Rhythmic Gymnastics Individual (BUL)  “It’s not just about medals, but the hard work that athletes like me have had to do to fulfil their dreams. We are in the top eight in the world and I am very happy that my reality has surpassed the dream. My reward is the journey I have enjoyed to get here.”  “I paid a heavy price in tears, but that’s how I discovered who I was, and I realised that I was a strong person who could manage everything I wanted.”  Angel Hernandez (COL), in an Instagram post summing up his experience at Paris 2024  40  Boryana Kaleyn (BUL), Paris 2024 Olympic silver medallist in Rhythmic Gymnastics, during an interview after the Olympic Games  Acrobatic Gymnastics (AZE)  Parkour (SWE)  “This is the best moment of our career. We worked hard to take this one.”  “All my competitors are also my friends. We all support each other - that's what I love about Parkour.”  Raziya Seyidli (AZE), after winning the Mixed Pair world title with partner Aghasif Rahimov at the Acrobatic Gymnastics World Championships in Guimarães (POR) in September  Elis Torhall (SWE), Parkour Men’s Freestyle World Champion, at the 2024 Kitakyushu World Championships  FIG YEARBOOK YEARBOOK 2024 2024 FIG"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -996,14 +1138,14 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 41-speech" style="top:-49px;left:-116px;" src="/static/_content/41-speech-1.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:307px;left:168px;" src="/static/_content/41-speech-6.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:123px;left:-113px;" src="/static/_content/41-speech-3.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:-49px;left:165px;" src="/static/_content/41-speech-2.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:329px;left:-113px;" src="/static/_content/41-speech-5.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:126px;left:168px;" src="/static/_content/41-speech-4.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:558px;left:-81px;" src="/static/_content/41-speech-7.png"/>       
-      <img class="abs halfScaleC 41-image" style="top:530px;left:167px;" src="/static/_content/41-image.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:-49px;left:-116px;" src="/2024/static/_content/41-speech-1.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:307px;left:168px;" src="/2024/static/_content/41-speech-6.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:123px;left:-113px;" src="/2024/static/_content/41-speech-3.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:-49px;left:165px;" src="/2024/static/_content/41-speech-2.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:329px;left:-113px;" src="/2024/static/_content/41-speech-5.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:126px;left:168px;" src="/2024/static/_content/41-speech-4.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:558px;left:-81px;" src="/2024/static/_content/41-speech-7.png"/>       
+      <img class="abs halfScaleC 41-image" style="top:530px;left:167px;" src="/2024/static/_content/41-image.png"/>
 
       `,
       "script": `
@@ -1017,14 +1159,14 @@ export default  {
          pg41Anim.stop();
         }
       `,
-      "searchText": ""
+      "searchText": "Gymnastics for all/Hear World from Gymnaestrada the athletes  Sport  Men’s Artistic Gymnastics (CHN)  Rhythmic Gymnastics Group (MEX)  “From my understanding of gymnastics, it’s all about competing with oneself rather than others.”  “We made history from the moment we got here, not everything goes as you want but this is what it’s all about: learning and moving forward.”  Zhang Boheng (CHN), 2024 Men’s All-Around and team Olympic silver medallist, during a press conference in Paris  Kimberly Salazar (MEX), on Instagram at the Olympic Games Paris 2024  Trampoline Gymnastics (EGY)  Acrobatic Gymnastics (CAN)  “Competing at the Olympics has been the greatest lesson of my life […]; it was about navigating challenges I never saw coming, meeting people who shaped me in ways I didn’t expect, and learning to adapt, grow and persevere.”  “It’s just been one long road to get here. And there have been a lot of ups and downs. I think just being here is just a big achievement.”  Malak Hamza (EGY), on Instagram in December, reflecting on her Olympic Games and an intense year  Aerobic Gymnastics (TUR) “I wanted to write my own story.” Ayse Onbasi (TUR), on why she returned to the sport after a brief retirement, at the 2024 Pesaro Aerobic World Championships  Theodore Chan (CAN), who partnered with Emerson Wong in Men’s Pair in an historic performance for Canada at the Acrobatic Gymnastics World Championships in Guimarāes (POR)  Parkour (USA)  “I’m super happy with the result. There were a few slip-ups along the way so I was really happy to put together a super-clean run in the end. When there is somebody really fast next to me like Ella (Bucio, MEX), it definitely pushes me. When they are right next to you, I think we both feel it.” Audrey Johnson (USA), after winning the first world medals for her country in Parkour at the World Championships in Kitakyushu (JPN)  Gymnastics for All (DEN) “Every time I move, I keep going back to myself. When I do gymnastics I feel connected to my roots.” A gymnast from Ollerup in Denmark, who performed at the 2023 World Gymnaestrada Nordic Evening  FIG FIGYEARBOOK YEARBOOK2024 2024 41"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 41,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg42.png",
+      "original": "pg42.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1034,14 +1176,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "42  Olympic Partnerships THE WORLDWIDE OLYMPIC PARTNERS TOOK THEIR SUPPORT FOR THE OLYMPIC MOVEMENT TO NEW HEIGHTS AT THE OLYMPIC GAMES PARIS 2024, PROVIDING CRUCIAL PRODUCTS, TECHNOLOGY AND SERVICES THAT MADE THE GAMES A SUCCESS The success of the Olympic Games Paris 2024 was made possible in large part by the unwavering support of the Worldwide Olympic Partners. As members of The Olympic Partners (TOP) Programme, these leading multinational companies played a vital role in ensuring the smooth running of the Games by providing essential products, services, technology and expertise. Their contributions supported almost every aspect of the Games, from day-to-day operations at competition venues to the support provided to athletes from around the world. Launched by the IOC in 1985, the TOP Programme has become the leading sports sponsorship programme in the world, offering exclusive global marketing rights within specific product categories. Over the years, the programme has not only generated crucial funding for the Olympic Movement but also enabled  the development of groundbreaking innovations that continue to enhance the Olympic experience for athletes and fans alike.  Olympic values and celebrated the achievements of the athletes, further increasing global engagement with the Games  For Paris 2024, the TOP Partners once again demonstrated their integral role in the successful staging of the Games. Their partnerships helped ensure that more athletes from more National Olympic Committees (NOCs) could compete on the world’s biggest stage, while also providing the financial security that allows the Olympic Movement to thrive. With 90 per cent of IOC revenue redistributed to support sport worldwide, the contributions of the TOP Partners benefit athletes and organisations at all levels, from grassroots initiatives to Olympic teams.  The following pages showcase the invaluable contributions that the TOP Partners made to the Olympic Games and how their support helped ensure the success of Paris 2024.  In addition to their direct impact on the Games, the TOP Partners ran global marketing campaigns that promoted the  “Without the support of our Worldwide Olympic Partners, without their technology, expertise, people, services, products and financing, the Olympic Games would simply not be possible.” Jiri Kejval, Chair, IOC Revenues and  Commercial Partnerships Commission"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 42,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg43.png",
+      "original": "pg43.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1051,14 +1193,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  43  How the TOP Partners supported Paris 2024  $ Financial support, with revenues from the TOP Programme being redistributed to Olympic teams and the Paris 2024 Organising Committee  Essential products, services and expertise to ensure smooth Games-time operations  Initiatives to support participating athletes  Global marketing campaigns to promote the Olympic Games and celebrate the athletes  Unique Games-time experiences to enhance fan engagement"
+      "searchText": "Media and Marketing"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 43,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg44.png",
+      "original": "pg44.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1068,24 +1210,135 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "44  AB InBev “AB InBev is proud to be the first global beer sponsor for the Olympic Games. Beer and sports are better together, and with no-alcohol Corona Cero leading the way, we offered Olympic fans more choices as they cheered on their favourite athletes and teams going for gold.” Michel Doukeris, CEO, AB InBev  Fact BOX  Exclusive category: Beer (alcohol and no-alcohol varieties) Member of the TOP Programme since: 2024"
+      "searchText": "Media and Marketing  Fan engagement  DIGITAL IMPACT The reach of the FIG’s social media channels grew impressively in 2024.  A  ccording to the annual SportonSocial report, published by RedTorch, the FIG experienced the biggest increase in engagement among all international sports federations between Tokyo 2020 and Paris 2024. The FIG saw 5.2 times more engagement across Facebook, Instagram and X, which was well above the average of 2.4 times across all international federations. Instagram proved to be the most successful social network by far for the FIG in 2024 as the federation ranked joint second with World Aquatics in the SportonSocial league table, an increase of eight places from 2023.  44  FIG YEARBOOK 2024  Highlighting one specific example of Paris 2024’s impact, a clip of bronze medallist Sofia Raffaeli (ITA) performing in the Rhythmic Gymnastics at the Games on 7 August was played almost 72m times. The FIG also maintained a strong presence on Facebook and X, placing third and sixth respectively in the SportonSocial league table. New initiatives such as a dedicated effort to collect behind-the-scenes content and an automated integration between a new digital asset management platform and athletes’ social media accounts will help to build on this success on the road to the Olympic Games Los Angeles 2028."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 44,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg45.png",
+      "original": "pg45.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <img class="abs halfScaleC 45-text" style="top:125px;left:30px;" src="/2024/static/_content/45-text.png"/>
+      <img class="abs halfScaleC 45-line" style="top:133px;left:-61px;" src="/2024/static/_content/45-line-1.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:92px;" src="/2024/static/_content/45-text-icon-1.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:192px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 24, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:233px;" src="/2024/static/_content/45-text-icon-2.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:335px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 25, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:384px;" src="/2024/static/_content/45-text-icon-3.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:483px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 26, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-line" style="top:271px;left:-57px;" src="/2024/static/_content/45-line-1.png"/>
+      <img class="abs halfScaleC 45-line" style="top:436px;left:35px;" src="/2024/static/_content/45-line-3.png"/>
+      <img class="abs halfScaleC 45-image" style="top:92px;left:42px;" src="/2024/static/_content/45-image-1.png"/>
+       <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:324px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 81, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:253px;" src="/2024/static/_content/45-text-icon-4.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:316px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 469, "append" : "k"}' ></h1>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:422px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 116, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:348px;" src="/2024/static/_content/45-text-icon-5.png"/>
+
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:416px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 303, "append" : "m"}' ></h1>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:503px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 254, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:464px;" src="/2024/static/_content/45-text-icon-6.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:513px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 18.6, "decimals" : 1, "append" : "m"}' ></h1>
+
+      <img class="abs halfScaleC 45-line" style="top:590px;left:-70px;" src="/2024/static/_content/45-line-4.png"/>   
+      <img class="abs halfScaleC 45-image" style="top:261px;left:212px;" src="/2024/static/_content/45-image-2.png"/>
+      <img class="abs halfScaleC 45-text" style="top:428px;left:409px;" src="/2024/static/_content/45-text-1.png"/>
+      <img class="abs halfScaleC 45-line" style="top:436px;left:497px;" src="/2024/static/_content/45-line-2.png"/>
+
+      <img class="abs halfScaleC 45-text-icon" style="top:458px;left:122px;" src="/2024/static/_content/45-text-icon-7.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:539px;left:241px; font-size: 0.9em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 834, "append" : "k"}' ></h1>
+
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:459px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 31.21, "decimals" : 2, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:446px;left:398px;" src="/2024/static/_content/45-text-icon-8.png"/>
+
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:491px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 193}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:481px;left:409px;" src="/2024/static/_content/45-text-icon-9.png"/>
+
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:523px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 25176, "comma" : true}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:510px;left:422px;" src="/2024/static/_content/45-text-icon-10.png"/>
+
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:555px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 659}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:546px;left:422px;" src="/2024/static/_content/45-text-icon-11.png"/>
+
+      <img class="abs halfScaleC 45-text-icon" style="top:581px;left:99px;" src="/2024/static/_content/45-text-icon-12.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:192px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 24, "append" : "%"}' ></h1>
+     
+      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:232px;" src="/2024/static/_content/45-text-icon-13.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:305px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 52, "append" : "%"}' ></h1>
+  
+      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:342px;" src="/2024/static/_content/45-text-icon-14.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:417px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 45, "append" : "%"}' ></h1>
+
+      <img class="abs halfScaleC 45-text-icon" style="top:579px;left:459px;" src="/2024/static/_content/45-text-icon-15.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:522px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 65, "append" : "%"}' ></h1>
+  
+      <img class="abs halfScaleC 45-text-icon" style="top:711px;left:69px;" src="/2024/static/_content/45-text-2.png"/>
+      
+      <img class="abs halfScaleC 45-text-icon" style="top:692px;left:277px;" src="/2024/static/_content/45-text-3.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:713px;left:302px; font-size: 1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 1, "append" : "m"}' ></h1>
+
+      <img class="abs halfScaleC 45-text-icon" style="top:689px;left:449px;" src="/2024/static/_content/45-text-4.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:713px;left:469px; font-size: 1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 56, "append" : "k"}' ></h1>
+
+      <img class="abs halfScaleC 45-sm-icon" style="top:255px;left:87px;" src="/2024/static/_content/45-sm-icon-1.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:422px;left:120px;" src="/2024/static/_content/45-sm-icon-2.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:579px;left:94px;" src="/2024/static/_content/45-sm-icon-3.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:703px;left:61px;" src="/2024/static/_content/45-sm-icon-4.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:706px;left:246px;" src="/2024/static/_content/45-sm-icon-5.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:704px;left:424px;" src="/2024/static/_content/45-sm-icon-6.png"/>
+      
+      <img class="abs halfScaleC 45-code" style="top:749px;left:15px;" src="/2024/static/_content/45-code.png"/>
+
+
+
+
+      `,
       "script": `
         function onPageEnter() {
+        pg45Anim = new TimelineMax();
+        pg45Anim.staggerFromTo(cOf("45-text"), 0.6, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.7, 1)
+        .staggerFromTo(cOf("45-line"), 0.7, {opacity:0, x: 50}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.1)
+        .staggerFromTo(cOf("45-text-icon"), 0.3, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.2)
+        .staggerFromTo(cOf("45-image"), 0.4, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.3)
+      
+        .fromTo(cOf("45-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[0])}}, 1.3)
+        .fromTo(cOf("45-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[1])}}, 1.4)
+        .fromTo(cOf("45-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[2])}}, 1.5)
+        .fromTo(cOf("45-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[3])}}, 1.8)
+        .fromTo(cOf("45-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[4])}}, 1.9)
+        .fromTo(cOf("45-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[5])}}, 2)
+        .fromTo(cOf("45-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[6])}}, 2.1)
+        .fromTo(cOf("45-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[7])}}, 2.2)
+        .fromTo(cOf("45-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[8])}}, 2.3)
+        .fromTo(cOf("45-no")[9], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[9])}}, 2.6)
+
+        .fromTo(cOf("45-no")[10], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[10])}}, 2.7)
+        .fromTo(cOf("45-no")[11], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[11])}}, 2.8)
+        .fromTo(cOf("45-no")[12], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[12])}}, 2.9)
+
+        .fromTo(cOf("45-no")[13], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[13])}}, 3.5)
+        .fromTo(cOf("45-no")[14], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[14])}}, 3.6)
+        .fromTo(cOf("45-no")[15], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[15])}}, 3.7)
+        .fromTo(cOf("45-no")[16], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[16])}}, 3.8)
+        .fromTo(cOf("45-no")[17], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[17])}}, 3.9)
+
+        .fromTo(cOf("45-no")[18], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[18])}}, 4.5)
+        .fromTo(cOf("45-no")[19], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[19])}}, 4.6)
+
+         .staggerFromTo(cOf("45-sm-icon"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 3.6)
+
+        .fromTo(cOf("45-code"), 0.5, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 4.9)
         }
 
         function onPageLeave() {
+        pg45Anim.stop();
+        resetNumbers("45-no");
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  45  For centuries, beer and sports have brought people together to create friendships, connections and unforgettable experiences. AB InBev, the world’s leading brewer, built on that legacy in 2024 by becoming a Worldwide Olympic Partner and choosing a no-alcohol beer, Corona Cero, as the first global beer sponsor of the Olympic and Paralympic Games.  alcohol beer with no-alcohol beer, like Corona Cero.  Sports are a strong force for positive change and AB InBev brands have a long history of award-winning and responsible sports marketing. During the Olympic Games Paris 2024, Corona Cero reached Olympic fans around the world with messages of connection, moderation and celebration. Together with the IOC, AB InBev highlighted a shared commitment to responsible consumption.  In addition, AB InBev hosted the Corona Cero Relaxation Lounge in the Olympic Village, providing a space for athletes to unwind and connect.  This included giving fans more ways to responsibly celebrate the Games by providing clear and actionable tips to consumers of legal drinking age, including eating before and while drinking; never drinking and driving; and alternating  1,000+  bartenders/servers trained globally in Responsible Beverage Service (RBS) as part of Smart Drinking efforts.  11  Golden Venues across 4 continents using the same seats as from the Olympic Games venues in iconic sunset destinations.  5,000+  limited-edition Corona Cero Golden Bottles gifted to Olympians at the Olympic Village  Hundreds of servers, staff and hospitality management worldwide were also trained and certified in responsible beverage service (RBS) to help prevent sales to minors, identify and address signs of impairment and prevent drunk driving.  For Every Golden Moment Activated in more than 40 markets globally, Corona Cero’s “For Every Golden Moment” platform invited the world to get outside and reconnect with nature – a theme that brings a fresh perspective of relaxation and celebration to the Olympic Games. By highlighting the emotion of golden moments from Olympians at the Games, the platform drew parallels with golden moments experienced by everyone in their daily lives, such as a beautiful sunset. From breaking records to raising a glass of golden beer to cheer on your favourite team, the platform aimed to remind consumers of the power of these meaningful moments.  With its Golden Venues activation, Corona Cero also brought the same seats as from the Olympic Games venues in Paris to iconic sunset destinations across four continents. The locations were selected for their remarkable sunsets, scenic beauty, and cultural significance, offering visitors a unique opportunity to enjoy a touch of the Olympics amidst spectacular natural settings.  The campaign included films, social media activations, out-of-home advertising, experiential events, and trade promotions. Olympic-themed bottles were also available in select markets worldwide.  Offering award-winning, no-alcohol Corona Cero during the Olympic Games brought more choice to fans around the world and it was a perfect fit for this global celebration.  Corona Cero also tapped into some of the Games’ most iconic moments in real-time to drive local relevance and ensure the Games were celebrated worldwide. One example was following Gabriel Medina’s stunning mid-air celebration, when the brand leveraged its partnership with the Brazilian surfer to create a social and out-of-home campaign in key markets.  Toasting to a Future with More Cheers Cheering and celebrating sport over a beer is universal, and this partnership illustrates the opportunity for the beer category to positively engage with fans around the world while helping to create a future with more cheers."
+      "searchText": "Overall  Fans  Impressions  Engagement  24%  25%  81% Followers 469k  26%  116%  254%  Impressions 303m  Engagements 18.6m  Popular post  31.21%  engagement rate  193  comments Total fans  25,176 likes  834k  659  shares  New followers  24%  Engagement  52%  Almost Launch of FIG WhatsApp channel  1m  subscribers  Post link clicks  Impressions  45%  65%  Over  56k  followers  Follow us on social media!  FIG YEARBOOK 2024  45"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1096,10 +1349,10 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 46-box" style="top:420px;left:-25px;" src="/static/_content/46-box-1.png"/>
-      <img class="abs halfScaleC 46-box" style="top:421px;left:137px;" src="/static/_content/46-box-2.png"/>
-      <img class="abs halfScaleC 46-box" style="top:582px;left:-25px;" src="/static/_content/46-box-3.png"/>
-      <img class="abs halfScaleC 46-box" style="top:582px;left:137px;" src="/static/_content/46-box-4.png"/>
+      <img class="abs halfScaleC 46-box" style="top:420px;left:-25px;" src="/2024/static/_content/46-box-1.png"/>
+      <img class="abs halfScaleC 46-box" style="top:421px;left:137px;" src="/2024/static/_content/46-box-2.png"/>
+      <img class="abs halfScaleC 46-box" style="top:582px;left:-25px;" src="/2024/static/_content/46-box-3.png"/>
+      <img class="abs halfScaleC 46-box" style="top:582px;left:137px;" src="/2024/static/_content/46-box-4.png"/>
 
       <h1 id="46-no" class="abs bebasNeueBd 46-no" style="top:560px;left:108px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append" : "%"}' ></h1>
       <h1 id="46-no" class="abs bebasNeueBd 46-no" style="top:560px;left:269px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append" : "%"}' ></h1>
@@ -1114,7 +1367,7 @@ export default  {
         pg46Anim.fromTo(cOf("46-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[0])}}, 1.3)
         pg46Anim.fromTo(cOf("46-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[1])}}, 1.5)
         pg46Anim.fromTo(cOf("46-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[2])}}, 1.7)
-        pg46Anim.fromTo(cOf("46-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[3])}}, 1.9)
+        pg46Anim.fromTo(cOf("46-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[3])}}, 1.8)
         }
 
         function onPageLeave() {
@@ -1122,14 +1375,14 @@ export default  {
         resetNumbers("46-no");
         }
       `,
-      "searchText": "46  Airbnb “Paris 2024 has been Airbnb’s biggest hosting event ever with more than half a million guests welcomed during the Olympics and Paralympics. In partnership with our community of hosts, we have gone above and beyond to meet this unique occasion and contribute to make the Games a unique moment of connection and inclusivity, from investing in customer support and bolstering the offer of accessible accommodation in the Paris region to offering iconic stays and in-venue viewing experiences.” Emmanuel Marill, Regional Director for EMEA, Airbnb  Fact BOX  Exclusive category: Unique Accommodation Products, Unique Experiences Services and Olympian Experiences Services Member of the TOP Programme since: 2019"
+      "searchText": "Media and Marketing  Sponsorship strategy  INSIGHTS THAT SHAPE THE FUTURE Market research lays the groundwork for a new commercial strategy.  A  s the FIG prepares to launch its new commercial strategy for the 2025-2028 cycle, a deep dive into the sponsorship landscape has provided invaluable insights that will shape the way forward. In 2024, the FIG commissioned a market research study with The Sports Consultancy. The main objective of this project was to better understand the shifts in brand expectations and to obtain a reliable valuation and positioning of commercial rights within sports marketing. “It’s not just about visibility anymore. It’s about creating genuine value and building trust with audiences,” as one partner pointed out. These insights are at the heart of the FIG’s evolving commercial model.  The federation is undertaking a strategic shift aimed at long-term, sustainable growth – moving from a transactional approach to one that is built on stronger, more tailored relationships with partners. Backed by data and aligned with current market trends, the new strategy will introduce: • A more structured rights offering to address multiple brand objectives. • Stronger valuation models to increase sponsor confidence and to unlock new investment potential. This is more than a new commercial chapter; it is a commitment to listen, adapt, and grow together with our partners.  The study revealed several critical priorities for sponsors:  90%  prioritise a strong sense of purpose and alignment with a rights holder’s values.  60%  believe that bespoke content creation is more important than ever.  46  FIG YEARBOOK 2024  90%  expect clear data on the demographic and psychographic profile of fans.  68%  see social media as the main platform for sponsorship activation.  It is a commitment to listen, adapt and grow together with our partners."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 46,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg47.png",
+      "original": "pg47.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1139,14 +1392,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "47  Paris 2024 was the biggest hosting event in Airbnb’s history, with more guests staying in local homes on its platform than at any event, ever before. Airbnb worked with the IOC to make the Olympic Games Paris 2024 a success for all and provide an unforgettable experience to everyone.  Experiences Hosted by Athletes  This was made possible also by a campaign launched in collaboration with Paralympic athletes Axel Allétru and Sofyane Mehiaoui and aimed at making the Games more accessible for all. Allétru and Mehiaoui became Airbnb hosts in the adapted category, inspiring more hosts to offer stays at homes with accessibility features during the Games.  To celebrate the Olympic Games Paris 2024 and in the spirit of bringing the Games to everyone, Airbnb partnered with 24 Olympic and Paralympic athletes, including basketball legend Tony Parker, to host more than 100 Airbnb Experiences. These unique Experiences allowed 1,600 guests to attend competitions alongside inspiring athletes who have made a significant impact in their sports. This initiative celebrated the spirit of athleticism and diversity during this iconic event while giving more fans access to the Games and the athletes.  Athlete Support Programmes  Unique Stays  Since their launch in 2021, both programmes have offered a combined value of more than USD 20 million in Airbnb credit to more than 30,000 athletes around the world who have booked 20,000 stays in more than 100 countries with Airbnb. As Official Partner of the Refugee Paralympic Team, Airbnb also supported the team’s athletes with training and other expenses as they prepared for the Paris 2024 Paralympic Games.  Airbnb offered a once-in-a-lifetime opportunity for two guests to spend the night in the iconic Clock Room of the Musée d'Orsay during the Opening Ceremony of the Olympic Games Paris 2024. The room was transformed into a luxurious bedroom by Mathieu Lehanneur, the designer of the Olympic and Paralympic torch for Paris 2024. In addition, Lehanneur hosted an exclusive experience on the Musée d'Orsay terrace, allowing 30 Olympic fans to witness athletes parading on the Seine while experiencing a blend of Olympic festivities, arts, design, and Parisian charm. The project generated significant press interest and social media buzz worldwide.  Accessible stays In order to ensure that people with accessibility needs could fully enjoy and participate in the Games, Airbnb made 1,000 listings with step-free accessibility features available in the Paris Region.  Airbnb also launched two multi-year programmes to support athletes. The Airbnb Athlete Travel Grant runs annually and provides USD 2,000 in Airbnb credit to selected athletes to support the cost of accommodations as they travel, train and compete. The Airbnb500 delivers USD 500 in Airbnb credit to every eligible Olympian and Paralympian competing at the Games in recognition of their incredible efforts and accomplishments.  500,000+  guests welcomed by Airbnb hosts during the Games  100  Airbnb Experiences hosted by athletes, allowing 1,600 guests to attend competitions alongside inspiring athletes  1,000+  listings with step-free accessibility features available in the Paris Region  Out-of-home campaign  Olympic Torch Relay: La Maison du Sport  To commemorate Paris 2024, Airbnb designed a unique out-of-home campaign centred around Airbnb 'Categories' that strongly resonate with the local community, while also celebrating the Games in France. The campaign aimed to actively engage with the celebration of this significant and unifying moment, showcasing Airbnb's presence within the heart of this historic event. Strategically positioned in high-traffic areas throughout Paris, including major airports, train stations, and metro stations, the ads captured the attention of a wide audience.  The Airbnb team travelled across France with the Paris 2024 Olympic Torch Relay, offering locals the chance to win tickets to Olympic events and meet renowned athletes such as basketball superstar Tony Parker or Olympic swimming champions Laure Manaudou and Camille Lacour. Local families were greeted at La Maison du Sport, a portable Airbnb home where guests participated in family-friendly games and activities. Airbnb also offered 100 hosts from the platform the unique opportunity to represent their regions as torchbearers."
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 47,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg48.png",
+      "original": "pg48.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1156,14 +1409,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "48  Alibaba “The Olympic Games has been an invaluable global platform for Alibaba to showcase our cloud and AI technology. We are proud to enable the digital transformation of the world’s largest and most complex sporting event.” Joe Tsai, Chairman of Alibaba Group  Fact BOX  Exclusive category: Cloud infrastructure, Cloud services and e-commerce platform services Member of the TOP Programme since: 2017"
+      "searchText": "Media and Marketing  Sponsoring  FINETUNING AI TECHNOLOGY  Further improvements were made to the Fujitsu Judging Support System (JSS) in 2024.  A  s Fujitsu’s Judging Support System plays an ever more important role in Artistic Gymnastics, the technology behind it is constantly evaluated and finetuned. This was again the case in 2024 with improvements made to the system’s skeletal recognition accuracy. This means that the functionality of the JSS was enhanced to exclude non-athlete subjects within the camera footage – such as spectators, coaches and judges – from the recognition target. The acceptable range of lens zoom ratios was also expanded and the  software-based scaling of captured video was introduced. This ensured greater flexibility in camera placement compared with previous versions. The JSS is used in the event of blocked scores or inquiries at the Artistic Gymnastics World Championships, providing real-time movement capture to support the analysis of the elements. The refinements carried out in 2024 are all the more valuable given that, since May 2023, the system has been officially employed on every Artistic Gymnastics apparatus.  FIG ADDS MIKELART TO PARTNERS A short-term partnership was agreed with the Italian jewellery brand.  T  he FIG signed a partnership agreement with Mikelart in May 2024, ensuring that the Italian jewellery brand became an FIG Official Jewellery Partner until the end of the year. The Mikelart brand was founded in 2002 by Michele Sessa, a goldsmith designer who developed a line of jewellery inspired by classical ballet. In 2014, in collaboration with the Italian Gymnastics Federation, the company added a jewellery line dedicated to gymnastics, and named ‘The Jewels of Gymnastics’.  48  FIG YEARBOOK 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 48,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg49.png",
+      "original": "pg49.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1173,14 +1426,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  Since Alibaba Group’s TOP partnership started in 2017, its E-commerce and Cloud divisions have been driving digital transformation for the world’s largest sports events with its proven e-commerce expertise and cloud technologies; from enabling the 'biggest technological change' in the Olympic broadcasting industry for more than 50 years to creating more engaging online experience for sports fans, helping to reduce the carbon footprint of the Games and enhancing the experience for everyone involved. During Paris 2024, and in collaboration with the IOC, Alibaba.com launched a new edition of the Athlete365 Business Accelerator programme to help athletes develop their business ideas and to support their post-career entrepreneurship. Meanwhile, Alibaba Cloud contributed to the Olympic Games Paris 2024 by leveraging its AI-powered cloud technology advancements that revolutionise broadcasting, audience engagement, energy efficiency, and support for gender equality through its innovative cloud-native and AI-enabled solutions. The partnership between Alibaba Group and the IOC continues to set new standards for operational efficiency, sports fans engagement, and environmental responsibility, heralding a new era for the international sporting community. The launch of OBS Cloud 3.0, a collaborative effort between Alibaba Cloud and Olympic Broadcasting Services (OBS), marks a pivotal advancement in Olympic broadcasting. This AI-powered cloud technology served as the main infrastructure for various broadcasting functions.  49  which facilitated a deeper understanding of pivotal game moments and were made available on OBS' Content+ platform for comprehensive media analysis to all MRHs, covering a range of sports including basketball, gymnastics, tennis, beach volleyball and rugby sevens. Alibaba Cloud also helped restore and colourise Olympic archive footage from the Olympic Games Paris 1924, allowing contemporary audiences to experience these iconic moments in enhanced viewing quality and vivid colours. Furthermore, Alibaba Cloud utilised its AI-powered colourisation technology to produce 'To the Greatness of Her', an eight-minute short film highlighting the evolution of gender equality in sports. This is aligned with the Olympic AI Agenda launched in April 2024. In addition, Alibaba Cloud supported the IOC to deploy its data-driven, AI-enabled sustainability solution – Energy Expert – to help measure and analyse the electricity consumption at all competition venues during Paris 2024. By migrating the intelligence related to the power consumption and demand of the competition venues to the cloud-based platform for the first time, the solution is designed to enable more accurate analysis and better-informed power consumption planning for future Olympic Games.  Additionally, Alibaba Cloud’s showcase at the International Broadcast Centre (IBC), demonstrated the cloud pioneer’s latest cloud and AI innovations for the broadcasting and sports industry, welcoming more than 10,000 people during the Games. Visitors could interact with Alibaba Cloud Bao, a digital avatar powered by Alibaba’s large language model Qwen; play a virtual kayaking game and even send postcards and stickers produced by Alibaba Cloud’s AI image generator Tongyi Wanxiang.  On-site activations  In addition, Alibaba Cloud collaborated with the IOC to launch a Media Archiving AI Solution. This cloud-based solution provided enhanced visual search functions, automatic categorisation of multimedia content, and video highlight production through AI-powered media asset management services, marking a significant breakthrough in sports media archiving  To create a more entertaining and engaging spectator experience, Alibaba Cloud unveiled Alibaba Cloud Memento, an innovative tool that transforms participants' static images into immersive motion videos with the help of AI technology. More than 12,000 spectators experienced this transformative technology first-hand at three iconic venues: the Eiffel Tower Stadium, Champs De Mars Arena, and Invalides. The spectators could take home a video of themselves performing sports from Olympic Games, such as archery, beach volleyball, judo and wrestling created by the latest intelligent cloud-based innovation through Cloud Memento. The videos also featured historic landmarks such as the Eiffel Tower using cloud-based smart technology converting 2D snapshots into dynamic animated videos, showcasing complex sports moves with remarkable consistency and continuity.  Multi-Camera Replay Systems by OBS Cloud also provided 360-degree, framefreeze slow-motion replays. Footage was sent to the cloud, where Alibaba Cloud's AI-driven computing capabilities enabled live spatial reconstruction and real-time 3D rendering before being shared as replays,  More than 32,000 people also visited Alibaba Wonder Avenue – a dedicated Paris 2024 showcase launched by Alibaba Group at the eastern end of Champs Elysées Avenue, adjacent to the Paris 2024 Official Megastore. Designed to showcase the future online shopping  As part of OBS Cloud 3.0, OBS Live Cloud became the main method of remote distribution to Media Rights-Holders (MRHs) for the first time in the history of the Olympic Games, taking over from satellite which was launched during the Olympic Games Tokyo 1964.  in the era of artificial intelligence, Alibaba Wonder Avenue featured a smart e-commerce assistant, powered by Alibaba Cloud’s proprietary large language model Qwen, that provided a customised service for each visitor. During the journey, participants could experience the power of AI first-hand, leveraging Qwen’s multilingual and image generation capabilities.  32,000+  visitors experienced the AI-powered e-commerce experience at Alibaba Wonder Avenue  9,400  videos generated and shared by visitors to Alibaba’s Cloud Memento activation  2,000  interactions with the Alibaba Cloud Bao digital avatar at the La Rivière Alibaba Cloud Showcase"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 49,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg50.png",
+      "original": "pg50.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1190,31 +1443,40 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "50  Allianz “Au revoir and merci Paris! It has been an incredible honour to be part of the Olympic and Paralympic Movements, bringing the spirit of the Games to millions worldwide. As we wrap up 29 unforgettable days of Olympic and Paralympic achievements, we celebrate the extraordinary athletes and the legacy that Paris 2024 will leave behind.” Eike Bürgel, Global Head of Olympic & Paralympic Programme at Allianz  Fact BOX  Exclusive category: Insurance Member of the TOP Programme since: 2021"
+      "searchText": "Media and Marketing  TV  EXPANDING GYMNASTICSʼ REACH: PAY-PER-VIEW Gymnastics fans in previously unserved regions gained live access to major events in 2024 through a new pay-per-view initiative.  I  n 2024, the FIG took a significant step towards making gymnastics more accessible worldwide by activating pay-per-view for the World Cups and World Challenge Cups in Olympic disciplines in dark markets – territories where no broadcast deals had been secured. This initiative aimed to bring the sport closer to fans who would otherwise not have access to live coverage. These insights are at the heart of the FIG’s evolving commercial model. The federation is undertaking a strategic shift aimed at long-term, sustainable growth – moving from a transactional approach to one built on  stronger, more tailored relationships with partners. The success of this project was made possible through the collaboration of key partners: Dentsu, the Japanese global media rights sales agency; Spring Media, now part of Two Circles, the FIG’s trusted London-based TV production partner, and its platform product, Staylive, powering figtv.sport. This milestone reflects the FIG’s commitment to expanding gymnastics’ global reach, ensuring that fans everywhere can experience the excitement of the sport.  Through this effort, we:  10,000  Reached an audience of approximately 10,000 fans  8,000+  80+  50  FIG YEARBOOK 2024  Delivered 8,000+ hours of gymnastics content worldwide Promoted gymnastics in 80+ unserved/dark markets"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 50,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg51.png",
+      "original": "pg51.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:849px;left:221px;width:180px;height:16px">
+        <a href="https://www.sasaki-sports.co.jp/" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  51  As the Worldwide Insurance Partner for the Olympic and Paralympic Games Paris 2024, Allianz provided its core expertise to support the entire sports ecosystem before, during and after the Games. This included offering commercial coverages for key venues such as the Velodrome, Aquatics Centre and Media Centre, as well as providing ticket cancellation insurance for fans. Allianz also rolled out a comprehensive medical assistance programme for 155,000 athletes, staff, volunteers and members of the Olympic and Paralympic family. Through these often ‘intangible’ solutions and services, Allianz played a crucial role in ensuring the smooth and secure operation of the Games, protecting participants and stakeholders from start to finish.  its global 'Get Ready' campaign and various market activities across more than 60 countries. These initiatives kicked off at the start of 2024 and aimed to foster a deep connection with the Olympic spirit and engage new target groups. In France, Allianz unfurled giant banners and branding in rail stations across the city to celebrate the countdown to the Games. From July through September, Club France had an exclusive area to showcase Allianz at Parc des Nations at La Villette. Here, around 10,000 visitors took part in immersive activities around the theme of sport and health protection.  A total of 49 Team Allianz athletes competed at the Olympic Games and 54 at the Paralympic Games, cheered on by more than 2,000 Allianz colleagues and supported by hundreds of Allianz volunteers who worked behind the scenes and on the ground to help ensure the Games’ success. Athletes are at the heart of Allianz’s partnership with the Olympic and Paralympic Movements, receiving not only financial backing but also career guidance through mentoring and financial literacy programmes. Whether their next step is on or off the field, Allianz is proud to support athletes as they prepare for the next chapter of their lives. Some of them have even become Allianz employees.  Fans had the opportunity to engage with the Allianz brand through explainer videos covering 55 Olympic sports and disciplines, as well as 22 Paralympic sports. Through QR codes in venues and via the official Paris 2024 website and app, Allianz enabled the audience to get ready for the best experience at the Olympic and Paralympic Games with these videos.  Allianz also brought the Movements to life for its employees, customers, distribution partners and fans through  60+  markets activated around the world  In Italy, the company produced a TV docuseries showcasing the journeys of seven Italian Team Allianz Ambassadors.  Overall, Allianz’s role at the Paris 2024 Games was multifaceted, encompassing extensive insurance coverage, robust athlete support, and global campaigns that engaged diverse audiences. Through these initiatives, Allianz contributed to the success of the Games and helped bring to life the power of sports to elevate and unite people from around the world transcending social and cultural barriers.  20m+  impressions for Olympic Sports Explainers  2bn  digital impressions for Get Ready campaign"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 51,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg52.png",
+      "original": "pg52.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1224,14 +1486,31 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  Atos, as the Worldwide IT Partner of the Olympic and Paralympic Games and engaged with the Olympic Movement for the past 35 years, integrated, managed and secured the critical IT systems to offer billions of fans around the world the most digital Olympic and Paralympic Games in history. Atos was the leading technology integrator, from programme management to systems integration, and the provider of over 150 core applications.  The most digital and secure Olympic and Paralympic Games in history To prepare for Paris 2024, Atos carried out more than 250,000 hours of testing from the Integration Testing Lab (ITL) in Madrid, where the Olympic Management System (OMS) and the Olympic Diffusion System (ODS) are homologated, as well as from the Technology Operation Centre (TOC) located in Paris.  250,000  hours of testing over 15 months  1,894  workstations with the on-site and remote Commentators Information System  0.35  seconds to deliver real-time results via the Olympic Diffusion System  53  The OMS was responsible for the more than 400,000 accreditations delivered during Paris 2024, as well as the competition schedule, the voting applications for athletes participating in the IOC Athletes’ Commission election, the Volunteers’ Portal and the management of operational teams. The ODS announced real-time results for the 1,026 sporting events for media and the Olympic and Paralympic families. This included the Commentator Information System (CIS), which provided from-the-field as well as background information on athletes, and the MyInfo application for remote journalists to access athlete information and news from their devices to follow the news published by the Olympic Information Service. From the TOC, Atos coordinated a team of 15 technology partners comprising more than 2,000 experts, all working to make the Olympic and Paralympic Games Paris 2024 fully connected, secure and digitally enabled. Atos also leveraged the TOC to coordinate the CTOC (Central Technology Operation Centre) located in Barcelona, with 90 Atos experts and more than 350 Venue IT Managers across all Paris 2024 operational locations. The TOC deployed a wide range of IT equipment to support the running of the competitions and delivery of results. Atos also supported the 60 Venue Results Managers, responsible for correctly gathering and publishing performance data and statistics on the ODS within a timeframe of 0.35 seconds, before it was broadcast on the competition’s websites and other media.  Atos introduced innovations like an AI-enabled Volunteer Portal, cybersecurity mesh architecture, and a Smart Knowledge Hub with GenAI for Paris 2024. Their advanced systems ensured operational efficiency, proactive threat protection, and rapid incident response, supporting the Olympic and Paralympic Games’ critical infrastructure.  Celebrating What Matters The Atos campaign for Paris 2024, 'Celebrating What Matters', highlighted the importance of athletic achievements and technological advancements, and showed Atos teams' significant role in making these moments accessible through their expertise and technology. In that spirit, Atos organised an exclusive behind-the-scenes programme for its customers, partners and media, showcasing the technological backbone of the Olympic Games and offering an immersive Olympic experience through Olympic events, and tours of the TOC and other Atos IT premises. Atos employees were also actively engaged through an internal sports and wellbeing programme, with five challenges celebrating team spirit and encouraging physical activity. Winners received rewards such as tickets, opportunities to meet Olympians, and official merchandise."
+      "searchText": ""
+    }],[{
+      "guid": "00000000-0000-0000-0000-000000000000",
+      "title": "",
+      "index": 51,
+      "subIndex": 0,
+      "startIndex": 0,
+      "original": "pg53.jpg",
+      "zoom": null,
+      "content": ``,
+      "script": `
+        function onPageEnter() {
+        }
+
+        function onPageLeave() {
+        }
+      `,
+      "searchText": "Institutional"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 53,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg54.png",
+      "original": "pg54.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1241,14 +1520,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "54  Bridgestone “The Olympic and Paralympic Games Paris 2024 were an unrivalled global celebration of performance, passion, and perseverance. Their successful delivery reminded us of the power of the Olympic and Paralympic Movements to unite people across borders and help create a better world for future generations through sport. Bridgestone was proud to showcase our products and solutions in support of the athletes, organisers, volunteers and fans who made this moment so memorable.” 	 Thierry Jupsin, Vice President of Brand Marketing for Bridgestone in the Americas, Europe, Middle East and Africa  Fact BOX  Exclusive category: Tyres, certain tyre and automotive vehicle services, self-propelled bicycles, seismic isolation bearings and a variety of diversified products Member of the TOP Programme since: 2014"
+      "searchText": "Institutional  Congress  PRESIDENT RE-ELECTED AT DOHA CONGRESS The re-election of Morinari Watanabe as FIG President and approval of Paragymnastics as a new discipline were highlights of the 85th FIG Congress.  A  record number of national governing bodies and a record number of delegates registered to attend the 85th FIG Congress from 24-26 October in Doha, Qatar. Over 500 attendees including delegates from over 150 out of a total of 159 affiliated member federations were present. Morinari Watanabe (JPN) was re-elected FIG President for a four-year term (2025-2028) at the Congress. Mr Watanabe, who has been in the post since 2016, received 102 votes (65.4% of the vote), while his challenger, Farid Gayibov (AZE), received 54 votes (34.6%). Following his re-election, he said: “Now is the time for gymnastics to take a big step forward. We are one gymnastics family. We respect each other. Let’s work together to create a bright future.” The Congress approved the 2022 and 2023 accounts and financial reports as  54  FIG YEARBOOK 2024  well as the report from the elected auditors and the external auditor. The financial plan for the 2025-2028 quadrennial was also presented and approved by the Congress.  New member federations Delegates approved the membership of five new affiliated national gymnastics federations, bringing the total number of affiliated federations to 164. While the gymnastics federation of Antigua and Barbuda (ANT), a country that counts a population of less than 100,000, has been granted full affiliation after being an associate member, the remaining four new members all come from Africa and represent a total population of over 100 million with a huge potential for developing gymnastics in the region. They are Côte d’Ivoire (CIV), Guinea (GUI), Kenya (KEN) and Zambia (ZAM).  Pictured FIG Congress in Doha Right FIG President Morinari Watanabe"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 54,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg55.png",
+      "original": "pg55.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1258,14 +1537,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  Bridgestone supported Paris 2024 operations with premium products and services to help enhance the experience for athletes, staff, fans and visitors. From advanced tyres and automotive service to bicycles and adaptive sports equipment, the company’s contributions showcased its commitments to safety, sustainability, inclusivity and innovation.  Advanced Tyres and Service for the Paris 2024 Fleet Bridgestone helped keep the official Olympic and Paralympic fleet in motion by supplying premium tyres for more than 1,000 of Toyota’s 100 per cent electrified passenger vehicles. In total, 5,374 tyres were provided to fit the vehicles in original production and support as-needed replacement on-site in Paris. This offering included the Bridgestone Turanza 6 and Bridgestone Alenza 001 tyres featuring the company’s new ENLITEN technology. More than three dozen Bridgestoneowned Speedy and First Stop service centres across the region also combined to provide tyre and glass maintenance for the Paris 2024 fleet throughout the Games. These efforts included mobile service vans that performed maintenance at Paris 2024 transportation hubs to help vehicles get back on the road quickly.  Supporting Safe and Accessible Transportation Bridgestone supported road safety education for Games-time and beyond through an e-learning module that outlined the importance of tyres and how to care for them. The training was offered to the nearly 4,000 volunteer drivers who piloted the Paris 2024 fleet during the Olympic and Paralympic Games. In addition to supporting the 100 per cent electrified passenger vehicle fleet, Bridgestone provided high-performing tyre fitments for some of Toyota’s inclusive mobility offerings. This included tyres for 250 zero tailpipe emission electric Accessible People Mover (APM) vehicles specifically designed to transport people with physical disabilities. Bridgestone also collaborated with Paris 2024 partner Decathlon to provide more than 600 bicycles for convenient use at different venues. The bikes were popular modes of non-motorised transportation for athletes within the Olympic and Paralympic Village, as well as staff and volunteers at competition sites. The majority of these bicycles are being donated to local community  55  organisations in partnership with Ville de Paris to help continue the legacy of Paris 2024.  Helping Athletes Prepare to Perform Bridgestone believes athletes are the heart and soul of the Olympic and Paralympic Games, and it proudly partnered with more than 40 Olympians, Paralympians and hopefuls to support their journeys. This roster of Bridgestone athlete ambassadors from nine different countries combined to win 20 medals at Paris 2024. Bridgestone also supported several adaptive athletes from the USA and Japan with customised rubber equipment at the Paris 2024 Paralympic Games. These innovation opportunities included the use of Bridgestone tyre rubber and technology for gloves, wheelchair hand rims, prosthetic running blades, spike plates, wheelchair tyres, and more.  Bringing the Olympic and Paralympic Spirit to Life The excitement and emotion of the Olympic and Paralympic Games Paris 2024 served as a primary connection point for Bridgestone with its employees and customers around the world. In particular, multiple global initiatives related to Paris 2024 helped create engagement and build pride with the company’s 130,000 employees. These activities led to more than 400 Bridgestone employees being able to experience Paris 2024 first-hand as runners in the Marathon Pour Tous, Paris 2024 volunteers, torchbearers, or employee recognition ticket recipients.  Dozens more had the opportunity to purchase tickets and support as spectators. The company also hosted more than 800 customers and partners in Paris during Games-time to strengthen business relationships and showcase innovation.  5,374  premium tyres provided to Paris 2024  4,000  Paris 2024 drivers offered road safety e-learning  644  bicycles supplied to Olympic Village and other venues  40  Team Bridgestone athlete ambassadors who combined to win 20 medals"
+      "searchText": "Statutes The Congress approved modifications to the FIG Statutes, the most notable of which was the inclusion of Paragymnastics as a new discipline, initially for Artistic Gymnastics, with the following definition: “Competitive gymnastics performed on different pieces of apparatus for those gymnasts with approved Para classification.” Furthermore, the objective “to promote and develop the sport of gymnastics at all levels worldwide, considering evolving community needs, fostering inclusion and innovation to enhance the sport and stimulate wider participation” was also added, along with several provisions that will allow the FIG to implement its rebranding project. It is also important to note that the removal of the GEF (Gymnastics Ethics Foundation) Appeal Tribunal has been approved. Disciplinary proceedings within the GEF will now consist of a single level, handled by the Disciplinary Commission, with its decisions directly appealable to the Court of Arbitration for Sport (CAS). Both the FIG and the GEF welcome this decision, as it will save time and money by eliminating an unnecessary judicial layer.  FIG YEARBOOK 2024 55"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 55,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg56.png",
+      "original": "pg56.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1275,14 +1554,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "56  Coca-Cola “Paris 2024 was an Olympic and Paralympic Games of a generation, showcasing the greatness in everyday moments. The Coca-Cola Company is proud to have played our part by supporting athletes on the global stage, while creating memorable experiences for millions of fans and spectators in Paris and around the world.” 	Brad Ross, VP Global Sports & Entertainment Marketing and Partnerships, The Coca-Cola Company  Fact BOX  Exclusive category: Non-alcoholic beverages Olympic Partner since: 1928"
+      "searchText": "Institutional  Congress  FIG GOVERNING BODIES ELECTIONS The election of the President was followed by elections for the other FIG governing bodies.  VICE-PRESIDENTS Mr Ali AL-HITMI (QAT) Ms Naomi Chieko VALENZO AOKI (MEX) Mr Suat CELEN (TUR)  EXECUTIVE COMMITTEE Ms ZHOU Qiurui (CHN) Ms Li Li LEUNG (USA) Mr Edwin RODRIGUEZ (DOM) Mr Vassily TITOV (RUS) Mr Jeffrey THOMSON (CAN) Ms Eirini AINDILI (GRE) Mr Srayuth PATANASAK (THA)  COUNCIL EG (seven members) Ms Blanka MLEJNKOVA (CZE) Ms Hlif THORGEIRSDOTTIR (ISL) Mr Alfons HOELZL (GER) Mr Jacob WISCHNIA (ISR) Mr Krasimir DUNEV (BUL) Mr Marijo MOZNIK (CRO) Mr Joao Paulo ROCHA (POR)  AGU (five members) Mr Timur ANDREYEVICH ABDUVALIEV (UZB) Mr Saqer ALMULLA (KUW) Ms Cynthia Carrion NORTON (PHI) Ms Danissa DUISENGALIYEVA (KAZ) Mr Parvaiz AHMAD (PAK) UAG (four members) Mr Gebeyaw Takele DAGNEW (ETH) Ms Lamiaa ABD ELRAHMAN (EGY) Mr Mutaz BKHAT (SUD) Ms Harriet AYAA (UGA) PAGU (four members) Mr Ricardo CACHO RESENDE (BRA) Mr Juan MEDINA (COL) Ms Lilian Patricia DIEGUEZ PILONA (GUA) Ms Zobeira HERNANDEZ DELGADO (VEN) OGU (one member) Ms Tessa EASTGATE (FIJ)  Left Vice-Presidents Right Technical Committee and GFA Committee Presidents  56  FIG YEARBOOK 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 56,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg57.png",
+      "original": "pg57.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1292,14 +1571,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  57  In its role as a Worldwide Olympic Partner, The Coca-Cola Company refreshed athletes, officials and spectators at the Olympic and Paralympic Games Paris 2024 with its wide product portfolio of beverages, including Coca-Cola, Powerade, Fuze Tea, Costa Coffee and more.  The group of established and emerging athletes from across the globe were hand-picked to carry the torch of the company’s longstanding partnership with the Olympic and Paralympic Games.  In addition, The Coca-Cola Company launched a series of activations across its portfolio of brands to engage fans and athletes alike while delivering a more inclusive experience.  Marking a historic moment in its 96-year relationship with the Olympic Movement, The Coca-Cola Company teamed up with the IOC on a new music collaboration for Paris 2024 that aimed to connect people and inspire them to unite in the celebration of music and sports.  Celebrating Everyday Greatness The Coca-Cola Company chose “Celebrate Everyday Greatness” as its theme for the Olympic and Paralympic Games Paris 2024, with a campaign designed to champion life’s everyday moments – both big and small – that can turn into something great. This theme was featured across a range of Coca-Cola brands to engage fans in the lead-up to the Games, and also inspired Coca-Cola Trademark’s global ‘It’s Magic When the World Comes Together’ campaign, which showcased the power of sport to unite people and foster cross-cultural connection.  Team Coca-Cola Continuing its long tradition of supporting athletes, The Coca-Cola Company announced a global roster of athletes representing Team Coca-Cola for Paris 2024. The team comprised dozens of competitors with diverse identities and talents, who each contributed to the “Celebrate Everyday Greatness” campaign by championing the little moments of personal excellence that helped them make their mark on the world.  'Hello World' music collaboration  'Hello World (Song of the Olympics™)' 'captured the exciting and celebratory spirit of the Olympic and Paralympic Games and was made available worldwide via all major streaming services, with an accompanying music video featuring highlights from past Games. Created by songwriter, producer, and OneRepublic frontman Ryan Tedder, the song was performed by Grammy Awardwinning global superstar Gwen Stefani and Grammy Award-winning producer, songwriter, and artist Anderson .Paak, who also collaborated with Tedder on the song’s lyrics.  Championing packaging collection & recycling Coca-Cola provided packaging options such as dispensed using reusable cups, returnable glass bottles, aluminium cans, and 100 per cent rPET bottles (excluding caps and labels) to help minimise waste, reduce carbon emissions and facilitate the recycling or reuse of the bottles to give them new life or so that they could be refilled.  1,500  Torchbearers chosen to spread real magic during the Olympic and Paralympic Torch Relays  168  placard bearers selected to precede the delegations during the Paralympic Games Opening Ceremony  6  free Coke Studio™ concerts across France, engaging 270,000 people"
+      "searchText": "TECHNICAL COMMITTEE AND GFA COMMITTEE MEMBERS Gymnastics for All Committee Mr Rogerio VALERIO (POR) President Mr Jerome HUEBSCHER (SUI) Mr Christopher MUCHATUTA (ZIM) Ms Yumiko ITOH (JPN) Ms Monika SISKOVA (SVK) Ms Lori LAZNOVSKY (USA) Ms Michele Viviene CARBINATTO (BRA) Men’s Artistic Gymnastics Technical Committee Mr Andrew TOMBS (GBR) President Mr Jing LI (CHN) Mr Yoon Soo HAN (KOR) Mr Andreja ZUNICH (USA) Mr Steve BUTCHER (TTO) Mr Mohamed SOLIMAN (EGY) Mr Julio MARCOS FELIPE (ESP) Women’s Artistic Gymnastics Technical Committee Ms Donatella SACCHI (ITA) President Ms Nehad ZAYED (EGY) Ms Helena LARIO (ARG) Ms Lyudmila LI (UZB) Ms Johanna GRATT (AUT) Ms Trisha HADE (AUS) Ms Liubov ANDRIANOVA (RUS) Rhythmic Gymnastics Technical Committee Ms Noha ABOU SHABANA (EGY) President Ms Marcia Regina AVERSANI LOURENCO (BRA) Ms Maria PETROVA MIHAYLOVA (BUL) Ms Natalya BULANOVA (AZE) Ms Alua BEKTUROVA (KAZ) Ms Isabell SAWADE (GER) Ms Gyozal MUMINOVA (UZB)  Trampoline Gymnastics Technical Committee Mr Christophe LAMBERT (FRA) President Ms Tetiana SHUISKA (UKR) Mr Miguel Vicente MARINO (ESP) Ms Mariela STOYCHEVA (BUL) Mr Clive MORGAN (GBR) Mr Nikolai MAKAROV (RUS) Mr Shinya MUTO (JPN) Acrobatic Gymnastics Technical Committee Ms Nikolina HRISTOVA (BUL) President Ms Irina NIKITINA (RUS) Mr Juan Antonio LEON-PRADOS (ESP) Mr Bernardo GRACA TOMAS (POR) Mr Marco PALELLA (ITA) Mr Amir MOZES (ISR) Ms Carisa LAUGHON (USA) Aerobic Gymnastics Technical Committee Ms Tammy YAGI-KITAGAWA (JPN) President Ms Cristina CASENTINI (ITA) Mr Jorge FILLON (ARG) Mr Vladislav OSKNER (RUS) Ms Ana MACANITA (POR) Ms Desislava BOGUSHEVA (BUL) Ms Barbara STENGL (GER) Parkour Technical Committee Mr Charles PERRIERE (CMR) President Ms Angie Julieth SANCHEZ MOLINA (COL) Mr Man Fung KAM (HKG) Mr Jose Antonio ROBLES JIMAREZ (MEX) Mr Aimene BOUSTILA (ALG) Mr Roerich Plutarque VODOUNOU (BEN) Mr Xu HUANG (CHN)  AUDITORS Mr Kurt HUNZIKER (SUI) Mr Ron FROEHLICH (USA)  FIG YEARBOOK 2024 57"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 57,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg58.png",
+      "original": "pg58.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1309,16 +1588,21 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "58  The First Effect campaign was showcased through 35 ads across iconic Parisian locations, spotlighting Olympians and Paralympians who achieved a first  Deloitte “The Paris 2024 Games demonstrated the unifying power of sport, bringing together people from all over the world in a celebration of excellence. As the Worldwide Management Consulting Partner of the IOC, Deloitte is proud to have played a pivotal role, leveraging our deep experience to help bring the Olympics Games to the entire world.” Joe Ucuzoglu, Deloitte Global CEO  Fact BOX  Exclusive category: Management and Business Consulting Services Member of the TOP Programme since: 2022"
+      "searchText": "Institutional  Governance  STRIVING FOR THE HIGHEST STANDARDS The latest ASOIF report showed the FIG has made further progress in the field of good governance.  T  he FIG’s efforts to meet the highest standards of governance gained further recognition in 2024. The fifth report by the Governance Task Force of the Association of Summer Olympic International Federations (ASOIF) was published in June and the FIG’s score, based on a like-for-like comparison with previous reports, increased to 163 out of a theoretical maximum of 200 points. That placed the FIG in the A2 group of ASOIF members. The five principles that are fundamental in this assessment are: transparency, integrity, democracy, development and sustainability, and control mechanisms. The FIG was ranked among the top 10 international federations for 10 of the 40 indicators taken into account in the report and scored well on several  58  FIG YEARBOOK 2024  of the new indicators introduced for the 2023/2024 report, such as terms of reference for committees and information on decision-making authority at different levels. The score is a reflection of the range of information that the FIG publishes, including annual financial reports, Congress documents and the decisions of its Executive Committees. Education and safeguarding activities also earned positive comments.  ASOIF report score  2016/17  2017/18  2019/20  2021/22  2023/24  77  98  132  155  163"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 58,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg59.png",
+      "original": "pg59.jpg",
       "zoom": null,
       "content": `
+
+            
+      <div class="contentLink" style="top:776px;left:182px;width:268px;height:18px">
+        <a href="https://www.cannice-sports.com/" target="_blank"></a>
+      </div>
       
       <a onclick="Publish.openVideo('/static/_content/pg59-vid.mp4')">
           <img class="abs halfpulse animatedpulse halfScaleC pointer" style="left:337px;top:55px" src="/paris2024/static/_content/play-white.png">
@@ -1327,12 +1611,15 @@ export default  {
       `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  59  9  medals won by Team Deloitte athletes  The first-ever global Team Deloitte won a total of nine medals for their respective countries  Paris 2024 was Deloitte’s first Olympic and Paralympic Games as a Worldwide Olympic and Paralympic Partner. Deloitte furthered its “partnership with purpose” with the IOC by applying its deep management and business consulting acumen to help the IOC realise the possibilities of the Olympic Movement, including enhancing and securing the IOC’s digital ecosystem, supporting its sustainability goals, and creating more engaging, effective Olympic and Paralympic Games experiences in the future.  Transforming Fan Experiences and Enhancing Technology Operations During the Olympic Games Paris 2024, Deloitte and the IOC announced an expansion of their Worldwide Olympic Partnership, with Deloitte set to take on the role of Games Technology Integration Partner for the Olympic Games, the Paralympic Games, and the Youth Olympic Games. In Paris, Deloitte created an immersive experience in its hospitality space, Maison Deloitte, to share examples of the innovations that will be delivered through this expanded category and work to date, including an augmented reality sustainability art installation, a gamified cyber security host city installation, and a commentator booth with AI-powered factoids for participants to test out. In the first two years of the partnership, Deloitte developed and established the  Olympic Fan Data platform powered by Converge™ by Deloitte for Sports, reaching more than 300 million fans during Paris 2024. Additionally, Deloitte launched the Olympic Games Learning Platform for more than 2,000 users across four Organising Committees, enabling the continuity of knowledge across the Games.  Team Deloitte Earns Nine Medals The first-ever global Team Deloitte had 10 Deloitte professionals, one Deloitte alumnus, and four sponsored athletes competing in 11 different sports at Paris 2024, winning a total of nine medals for their respective countries.  The First Effect Campaign Co-created with the IOC, The First Effect campaign redefined victory for humanity by highlighting individuals doing something incredible for the first time and quantifying the impact firsts have on the world. During Paris 2024, Deloitte celebrated 48 new firsts, including the first Olympic Games with an equal number of male and female athletes and the first medal for both the Refugee Olympic and Paralympic Team, resulting in over 225 million impressions across the campaign on social and digital channels. The campaign was showcased through 35 ads across iconic Parisian locations, spotlighting Olympians and Paralympians who achieved a first.  225m+  impressions for The First Effect campaign  1st  Games for Deloitte as a TOP Partner  Celebrating the 2024 Climate Action Awards As the presenting partner of the IOC Climate Action Awards, Deloitte hosted an event featuring influential figures from sports, business, and environmental advocacy to announce the 2024 finalists and discuss climate action through sport. These awards recognise and reward projects from National Olympic Committees, International Federations, and athletes aimed at reducing the environmental impact of sport. Following Paris 2024, four winners were awarded for their efforts to inspire the wider Olympic Movement to take climate action. Through these initiatives, Deloitte played a crucial role in enhancing the Olympic and Paralympic Games experience, supporting sustainability, and celebrating significant achievements at Paris 2024."
+      "searchText": "No. 6596, East Dongfanghong Road, Economic and Development Zone, Dezhou, Shandong Province, China Tel: +86 (0) 534 8100909 - E-mail: expor t@cannice-spor ts.com"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1343,23 +1630,23 @@ export default  {
       "zoom": null,
       "content": `
 
-       <img class="abs halfScaleC 60-block" style="top:338px;left:38px;" src="/static/_content/60-subtitle.png"/>
-       <img class="abs halfScaleC 60-block" style="top:359px;left:-50px;" src="/static/_content/60-block-1.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:368px;left:125px;" src="/static/_content/60-icon-1.png"/>
-       <img class="abs halfScaleC 60-block" style="top:403px;left:-16px;" src="/static/_content/60-block-2.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:414px;left:125px;" src="/static/_content/60-icon-2.png"/>
-       <img class="abs halfScaleC 60-block" style="top:450px;left:21px;" src="/static/_content/60-block-3.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:459px;left:125px;" src="/static/_content/60-icon-3.png"/>
-       <img class="abs halfScaleC 60-block" style="top:496px;left:56px;" src="/static/_content/60-block-4.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:506px;left:125px;" src="/static/_content/60-icon-4.png"/>
-       <img class="abs halfScaleC 60-block" style="top:528px;left:91px;" src="/static/_content/60-block-5.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:552px;left:125px;" src="/static/_content/60-icon-5.png"/>
+       <img class="abs halfScaleC 60-block" style="top:338px;left:38px;" src="/2024/static/_content/60-subtitle.png"/>
+       <img class="abs halfScaleC 60-block" style="top:359px;left:-50px;" src="/2024/static/_content/60-block-1.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:368px;left:125px;" src="/2024/static/_content/60-icon-1.png"/>
+       <img class="abs halfScaleC 60-block" style="top:403px;left:-16px;" src="/2024/static/_content/60-block-2.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:414px;left:125px;" src="/2024/static/_content/60-icon-2.png"/>
+       <img class="abs halfScaleC 60-block" style="top:450px;left:21px;" src="/2024/static/_content/60-block-3.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:459px;left:125px;" src="/2024/static/_content/60-icon-3.png"/>
+       <img class="abs halfScaleC 60-block" style="top:496px;left:56px;" src="/2024/static/_content/60-block-4.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:506px;left:125px;" src="/2024/static/_content/60-icon-4.png"/>
+       <img class="abs halfScaleC 60-block" style="top:528px;left:91px;" src="/2024/static/_content/60-block-5.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:552px;left:125px;" src="/2024/static/_content/60-icon-5.png"/>
 
-       <img class="abs halfScaleC 60-text" style="top:390px;left:159px;" src="/static/_content/60-text-1.png"/>
-       <img class="abs halfScaleC 60-text" style="top:436px;left:122px;" src="/static/_content/60-text-2.png"/>
-       <img class="abs halfScaleC 60-text" style="top:483px;left:110px;" src="/static/_content/60-text-3.png"/>
-       <img class="abs halfScaleC 60-text" style="top:529px;left:56px;" src="/static/_content/60-text-4.png"/>
-       <img class="abs halfScaleC 60-text" style="top:576px;left:41px;" src="/static/_content/60-text-5.png"/>
+       <img class="abs halfScaleC 60-text" style="top:390px;left:159px;" src="/2024/static/_content/60-text-1.png"/>
+       <img class="abs halfScaleC 60-text" style="top:436px;left:122px;" src="/2024/static/_content/60-text-2.png"/>
+       <img class="abs halfScaleC 60-text" style="top:483px;left:110px;" src="/2024/static/_content/60-text-3.png"/>
+       <img class="abs halfScaleC 60-text" style="top:529px;left:56px;" src="/2024/static/_content/60-text-4.png"/>
+       <img class="abs halfScaleC 60-text" style="top:576px;left:41px;" src="/2024/static/_content/60-text-5.png"/>
       
       `,
       "script": `
@@ -1374,7 +1661,7 @@ export default  {
         pg60Anim.stop();
         }
       `,
-      "searchText": "60  Intel  Fact BOX  “By implementing Intel AI Platforms at Paris 2024, we enabled a more connected and enhanced experience for all and demonstrated the powerful potential of this technology to revolutionise the world of sport for athletes, organisers and fans around the world.”  Exclusive category: 5G technology platforms, VR, 3D and 360 content development platforms, artificial intelligence platforms, sports performance platforms, drones and processors   arah Vickers, Head of Intel’s Olympic and Paralympic S Games Programme  Member of the TOP Programme since: 2017"
+      "searchText": "Institutional  Governance  INSIGHTS FROM NATIONAL FEDERATIONS A s the governing body for gymnastics worldwide, the FIG has been conscious of the need to better understand national federations (NFs) and their varying situations and needs. To this end, the FIG established the NF Insights in April 2024 in pursuit of a clearer global picture of our sport. Through this annual exercise, the FIG has sought to gain a deeper  understanding of the NFs by collecting information on the number of coaches, judges, and athletes within each federation, as well as their administrative capacity and preferred channels of communication. With this data, the FIG expects to be better placed to offer guidance and provide support in efforts to further develop gymnastics around the globe.  UNDERSTANDING NFS: FROM DATA TO IMPACT  Understanding the people  Monitoring strategic directions  Administrative capacity  Enhancing communication channels  Tracking governance standards  60  FIG YEARBOOK 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1391,7 +1678,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  61  Since becoming a Worldwide Olympic Partner in 2017, Intel has brought gamechanging innovation to the onsite and broadcast experience. As the Official AI Platform Partner of the Olympic and Paralympic Games Paris 2024, Intel powered the adoption of AI technology to enhance the experience of the Olympic and Paralympic Games for fans, athletes, organisers and viewers around the world.  Automatic Highlights Generation  Intel worked with the IOC, Olympic Broadcasting Services (OBS) and other members of the ecosystem to spotlight AI’s potential to broaden access to sport through talent identification, power enhanced broadcast viewing capabilities, and enable an accessible and streamlined onsite experience. These technology applications included:  Volumetric Video  Intel AI Platform Experience To take attendees on an immersive journey of becoming an Olympic hopeful, Intel powered the AI Platform Experience at the Stade de France during the Olympic Games. Attended by more than 10,500 fans, the AI-powered fan activation used AI and computer vision to analyse athletic drills and match each participant’s profile to an Olympic sport. Trained on Intel Gaudi accelerators, running on Intel Xeon processors with built-in AI acceleration and optimised with OpenVINO, the experience demonstrated AI’s capability to identify athletic abilities and improve talent detection.  Revolutionary 8K OTT Broadcast Workflow Delivery Paris 2024 was the first edition of the Olympics to utilise Intel Xeon processors to showcase an end-to-end 8K livestreaming experience. Broadcast servers powered by the latest Intel Xeon Scalable processors with Intel Deep Learning Boost technology encoded and compressed 391 hours of total streaming at 8K/60FPS/HDR, which were distributed by OBS to eight countries worldwide.  To deliver customised content to fans, OBS Automatic Highlights Generation, trained on the Intel Geti platform, used AI to package tailored highlights across more than 30 sporting events for the first time. This effort resulted in the production of more than 100,000 personalised videos during the Games.  Two volumetric video studios set up at the International Broadcast Centre and the Olympic and Paralympic Village helped bring fans immersive 3D videos of their favourite athletes. Powered by Intel Xeon processors and optimised with Intel OpenVINO, the studios rendered more than 3,000 augmented reality clips for sharing across all platforms, demonstrating new immersive ways for fans to engage with athletes.  Universal Accessibility Wayfinding Solution Intel’s AI platform technology enabled greater accessibility at the Team USA training site in Paris and the International Paralympic Committee headquarters in Bonn, Germany. Leveraging AI built on Intel Xeon, athletes and staff could access indoor and voice navigation via a smartphone application, helping to ease wayfinding across venues.  Athlete365 Chatbot An AI-powered chatbot enabled athletes and their teams to access operational information, procedures, policies and other Olympic and Paralympic Games-time knowledge via a conversational chatbot trained on Intel Gaudi 2 AI accelerators.  10,500+  participants at the Intel AI Platform Experience  100,000+  custom videos produced via OBS Automatic Highlights Generation  With a peak of 147 queries per hour, athletes could better focus their time on training and performance rather than searching for operational details.  3,000+  volumetric video clips produced  391  hours of 8K streaming encoded and compressed at 8K/60FPS/HDR"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1408,7 +1695,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "62  Mengniu “Starting from humble beginnings in a house in the Inner Mongolia autonomous region 25 years ago, Mengniu Group has risen to become one of the top eight dairy companies in the world and the first Worldwide Olympic Partner from the dairy industry. The Olympic spirit inspires people to pursue excellence and challenge their limits. This striving for progress is right in line with Mengniu's ‘Born to Excel’ spirit of enterprise. In the future, Mengniu will continue to contribute to the Olympic Movement and celebrate the resilience and excellence of everyone from around the world.” Gao Fei, CEO of Mengniu Group  Fact BOX  Exclusive category: Non-alcoholic beverages and dairy Member of the TOP Programme since: 2019"
+      "searchText": "Institutional  Commissions  COMMISSION SETS NEW TARGETS  Last year, the FIG New and Developing Countries Support Commission established fresh objectives to grow membership, simplify affiliation and support emerging national federations.  W  hen the FIG New and Developing Countries Support Commission met in 2024, it set three clear goals for the next cycle: encouraging more FIG memberships, digitalising the affiliation menu to simplify the affiliation process and working towards finding solutions for the challenges that new and developing national federations (NFs) are facing. “All that we have already achieved is highly motivating for what is yet to come, so I am confident that we will make considerable progress in these three main projects,” said Juan Medina (COL), the commission President, at its April meeting at the FIG office in Lausanne. For new and developing nations, the opportunity to host an FIG Executive Committee (EC) meeting has been a  62  FIG YEARBOOK 2024  positive step, according to Medina. Once a year, a developing NF takes on hosting duties and a noteworthy example was Kampala’s (UGA) hosting of the EC meeting in February, which generated plenty of interest from the media along with the general public in the country. “These meetings are a great opportunity for the FIG to better understand the reality of such national federations, but they also allow for the federations to promote gymnastics in their country,” added Medina. To improve this process further, the commission set about working on specific guidelines for future meetings to help any interested NFs to better understand the eligibility criteria and define what activities should be organised around the meeting.  Below FIG New and Developing Countries Support Commission"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1425,25 +1712,45 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  Mengniu’s Olympic campaign for Paris 2024 embodied its core creative idea: “Nourishing the Strength of Everyone in the World.” This guiding principle extended the spirit of the Games beyond athletes to celebrate the strength and potential inherent in all individuals, inspiring people to strive for excellence in their own lives. Through innovative activations, cultural celebrations, and sustainability initiatives, Mengniu connected deeply with global audiences while reinforcing its role as both an Olympic TOP Partner and a “Sports Partner for Everyone.” In the lead-up to Paris 2024, Mengniu supported key events like the Olympic Qualifier Series in Shanghai, showcasing its commitment to athletes and fans alike. On Team China’s departure day for Paris, Mengniu collaborated with Chinese singer Han Hong to present “Blossoms All the Way,” an inspirational anthem that celebrated the journey to excellence shared by Team China and the wider community.  Fan engagement initiatives During the Games, Mengniu connected deeply with audiences through creative storytelling and innovative experiences. On the opening day of Paris 2024, Mengniu premiered an Olympic-themed short film, “The Opening,” created in collaboration with renowned director Zhang Yimou’s team. Based on the theme of “Born to Excel,” the film captured Mengniu’s journey from the grasslands of China to the global stage, intertwining the brand’s commitment to excellence with the indomitable Olympic spirit. Mengniu also engaged fans during medal-winning moments with its  63  “Mengniu Treats You to a Cup” initiative, celebrating victories by inviting consumers to share in the glory. Campaigns like “Excellence Beyond the Arena” and “Excellence Knows No Gender” reinforced the message that success belongs to everyone who strives for greatness, resonating with diverse audiences worldwide.  Celebrating culture and sustainability Mengniu hosted the first “China Night” event alongside the IOC, uniting athletes, ambassadors, and everyday heroes to share inspiring stories of perseverance. By the Seine, Mengniu transformed its “To the Milky Way” activation into an open-air running track made from recycled milk cartons. This unique installation allowed participants to actively engage in sport while celebrating Paris 2024’s “Games Wide Open” vision. Sustainability was also a key focus of Mengniu’s campaign. The company’s GREEN development strategy – highlighting governance, responsibility, carbon neutrality, and inclusive nutrition – was brought to life through its Desert Oasis activation at the Eiffel Tower Stadium. This space mirrored Mengniu’s environmental restoration work in the Ulan Buh Desert, where the company has planted 98 million trees and greened 220 square kilometres to create an organic milk source, showcasing its commitment to a greener future while offering fans a relaxing, natural retreat. Through these efforts, Mengniu seamlessly blended sustainability, culture, and sport, empowering everyone to embrace the Olympic values of excellence, inclusion, and respect.  China Night event promoted cultural exchange during the Games  Milky Way activation along the River Seine featured a running track made of recycled materials  Desert Oasis showcase offered fans a shaded relaxation space at the Eiffel Tower Stadium"
+      "searchText": "Working Groups  Institutional  PARAGYMNASTICS TAKES LEAP FORWARD The FIG’s new Paragymnastics Working Group is shaping the discipline’s future, following its official inclusion in the FIG Statutes.  T  he inclusion of Paragymnastics as a new competitive discipline in the FIG Statutes, initially in Artistic Gymnastics, was officially approved at the 85th FIG Congress in Doha (QAT) in October. At the time, 42 national federations (NFs) were interested in developing Paragymnastics competitions. Subsequently, in December, the FIG Paragymnastics Working Group met at St Mary’s University in London (GBR) to plan the next steps. The main points on the agenda were clear: setting priorities and defining the way forward. In her opening speech, Nellie Kim, the President of the Working Group, said: “This is an historic moment for gymnastics, and we are very much looking forward to beginning our work.” The Working Group discussed administrative measures that needed to be taken, such as the composition of  a future Paragymnastics Commission, the potential competition calendar and the development of the discipline logo. On the technical side, it prepared the first drafts of the Men’s and Women’s Artistic Gymnastics Code of Points. “We also made significant progress in our Classification Code,” added Kim. “This is a crucial part of Paragymnastics, which requires thorough work and commitment to ensure that we are moving in the right direction.” To this end, the Working Group began working with medical specialists and is carefully following the International Paralympic Committee guidelines. It also agreed to submit a proposal to the Executive Committee to organise a Paragymnastics webinar in 2025 with the aim of updating NFs on the latest projects and developments.  Above Paragymnastics Working Group  FIG YEARBOOK 2024 63"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 63,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg64.png",
+      "original": "pg64.jpg",
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 64-text" style="top:-178px;left:-62px;" src="/static/_content/64-image.png"/>
-      <img class="abs halfScaleC 64-text" style="top:128px;left:24px;" src="/static/_content/64-text-1.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:234px;left:75px;" src="/static/_content/64-icon-text-1.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:383px;left:63px;" src="/static/_content/64-icon-text-2.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:511px;left:69px;" src="/static/_content/64-icon-text-3.png"/>
-
+      <img class="abs halfScaleC 64-text" style="top:-178px;left:-62px;" src="/2024/static/_content/64-image.png"/>
+      <img class="abs halfScaleC 64-text" style="top:128px;left:24px;" src="/2024/static/_content/64-text-1.png"/>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:357px;left:128px; font-size: 2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 947}' ></h1>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:507px;left:128px; font-size: 2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 864}' ></h1>
+      <img class="abs halfScaleC 64-icon-text" style="top:234px;left:75px;" src="/2024/static/_content/64-icon-text-1.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:383px;left:63px;" src="/2024/static/_content/64-icon-text-2.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:511px;left:69px;" src="/2024/static/_content/64-icon-text-3.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:230px;left:132px;" src="/2024/static/_content/64-icon-text-4.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:361px;left:182px;" src="/2024/static/_content/64-text-2.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:469px;left:209px;" src="/2024/static/_content/64-icon-text-5.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:517px;left:215px;" src="/2024/static/_content/64-icon-text-6.png"/>
+
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:348px;left:293px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 832}' ></h1>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:346px;left:442px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 115}' ></h1>
+      <img class="abs halfScaleC 64-line" style="top:369px;left:59px;" src="/2024/static/_content/64-line-1.png"/>
+
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:424px;left:297px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 610}' ></h1>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:424px;left:439px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 337}' ></h1>
+
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:494px;left:346px; font-size: 1.2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 602}' ></h1>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:542px;left:318px; font-size: 1.2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 80}' ></h1>
+      <img class="abs halfScaleC 64-line" style="top:515px;left:91px;" src="/2024/static/_content/64-line-2.png"/>
+     
+      <img class="abs halfScaleC 64-icon-text" style="top:610px;left:256px;" src="/2024/static/_content/64-text-3.png"/>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:637px;left:304px; font-size: 1.2em; font-weight: 300; color: #a7d1df; padding: 0px; margin: 0px;"  data-number='{"to": 4}' ></h1>
+      <img class="abs halfScaleC 64-line" style="top:623px;left:147px;" src="/2024/static/_content/64-line-3.png"/>
+
+      <img class="abs halfScaleC 64-piechart" style="top:393px;left:393px;" src="/2024/static/_content/64-piechart.png"/>   
       
       `,
       "script": `
@@ -1451,8 +1758,18 @@ export default  {
         pg64Anim = new TimelineMax();
         pg64Anim.staggerFromTo(cOf("64-text"), 0.6, {opacity:0, y: 50}, {opacity: 1, y: 0, ease: Power2.easeOut}, 0.2, 1)
         .staggerFromTo(cOf("64-icon-text"), 0.6, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.2)
-        pg64Anim.fromTo(cOf("64-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[0])}}, 1.4);
-        pg64Anim.fromTo(cOf("64-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[1])}}, 1.5);
+        .fromTo(cOf("64-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[0])}}, 1.4)
+        .fromTo(cOf("64-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[1])}}, 1.5)
+
+        .fromTo(cOf("64-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[2])}}, 2)
+        .fromTo(cOf("64-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[3])}}, 2.1)
+        .fromTo(cOf("64-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[4])}}, 2.2)
+        .fromTo(cOf("64-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[5])}}, 2.3)
+        .fromTo(cOf("64-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[6])}}, 2.4)
+        .fromTo(cOf("64-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[7])}}, 2.5)
+        .fromTo(cOf("64-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[8])}}, 2.6)
+        .staggerFromTo(cOf("64-line"), 0.5, {opacity:0, x: 60}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 2.2)
+       .fromTo(cOf("64-piechart"), 0.6, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 2.9);
         }
 
         function onPageLeave() {
@@ -1460,7 +1777,7 @@ export default  {
         resetNumbers("64-no");
         }
       `,
-      "searchText": "64  OMEGA “Paris 2024 was such an energising and memorable experience for us all. The athletes were at the peak of their power, and it was OMEGA’s honour to measure each result and witness another summer of unforgettable sporting moments. We have now been part of the Olympic Games for 92 years and the inspiration and passion we feel is just as strong as ever.” Raynald Aeschlimann, President and CEO, OMEGA  Fact BOX  Exclusive category: Timepieces, timing, scoring and venue results systems and services Member of the TOP Programme since: 2003"
+      "searchText": "Institutional  International Testing Agency  Promoting clean sport  The FIG enjoyed another successful year collaborating with the International Testing Agency (ITA). The ITA provides a range of antidoping services to the FIG including sample collection and results management as well as providing live dashboards that allow the federation to monitor its anti-doping activities throughout the year. Type of sample  Total samples collected  947  Urine  Blood  832  115  Samples collected IN competition  Samples collected OUT OF competition  337  610 Total completed tests  Samples collected from  864  Anti-Doping Rule Violations (ADRVs)* *2024 casehold is ongoing  64  FIG YEARBOOK 2024  602 athletes  Belonging to  80 nationalities  Sanctioned  4  41% men  59%  women"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1469,15 +1786,24 @@ export default  {
       "startIndex": 0,
       "original": "pg65.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:776px;left:181px;width:270px;height:18px">
+        <a href="https://www.gaofeisports.com/" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  For the 31st time since 1932, OMEGA fulfilled the role of Official Timekeeper at the Olympic Games, recording dreams in all 329 Olympic events across 32 sports. Continuing its legacy of precise measurement, the Swiss brand brought more than 90 years of experience to its timekeeping role and arrived in Paris with the most advanced technology it has ever delivered. A total of 550 OMEGA Timekeepers were deployed across the venues, who relied on 350 tonnes of equipment.  New Photofinish Camera One of OMEGA’s new timekeeping innovations at Paris 2024 was the Scan‘O’Vision ULTIMATE photofinish camera. Now enhanced with the highest resolution of any photofinish camera on the market, the technology captured up to 40,000 digital images per second on the finish line of races to provide each official result. The men’s 100m final in Paris was the closest in history and the ULTIMATE played a critical role in helping to decide that historic moment.  Timekeeping Highlights In total, 132 Olympic records were measured by OMEGA during Paris 2024, as well as 38 world records. Some of the most notable were the four Olympic records in swimming set by Léon Marchand of France, as well as the new world record in the men’s pole vault, reached by Mondo Duplantis of Sweden.  65  OMEGA House OMEGA House was the Swiss brand’s exclusive home for the duration of the Olympic Games Paris 2024. Located near the Musée d'Orsay, the venue welcomed members to relax during the day in a variety of sophisticated spaces and OMEGAthemed rooms, while by night, the house hosted a series of VIP events and special evenings, enjoyed alongside OMEGA’s family of celebrity friends.  The OMEGA Pavilion Located in the middle of the Parc de Bercy, the OMEGA Pavilion was an interactive venue that showcased OMEGA’s role as Official Timekeeper. Through a series of revealing installations, visitors were able to get hands-on with a variety of sports, and truly understand the timing behind each one. The main highlight was the Race of Champions experience, where visitors could test their sprinting skills on a 10m running track and digitally compete against real Olympic or Paralympic athletes.  OMEGA Marketing The visuals for OMEGA’s Paris 2024 marketing transformed Paris into a dreamlike playground, where the most recognisable city sights became a stage for sporting glory. The brand’s TVC played with scale and optical illusion to seamlessly blend OMEGA’s sporting ambassadors with iconic Parisian surroundings, and included original music performed by rapper SDM.  550  OMEGA timekeepers positioned on-site  38  new world records measured  3  unique OMEGA watches created for Paris 2024  OMEGA Paris 2024 Watches Three new OMEGA watches were created in honour of the Olympic and Paralympic Games Paris 2024. • The Speedmaster Chronoscope emphasises the brand’s spirit of precision timing and features tachymeter, telemeter, and pulsometer scales on the dial. • The sporty and bold Seamaster Diver 300M includes a bezel made from 18K gold, making the link between time and victory. • The vintage-style Paris 2024 Bronze Gold Edition incorporates the iconic materials of gold, silver and bronze, as an emotive reminder of the medals that every athlete strives for."
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1494,7 +1820,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "66  Panasonic “The Paris 2024 Games represented a once-in-a-lifetime opportunity for us, as a Worldwide Partner, to collaborate closely with the IOC, IPC and the Paris 2024 Organising Committee to deliver memorable Games. We poured our hearts into providing our latest AV solutions, broadcast equipment, and sound systems to ensure that the event would be a resounding success and a truly unforgettable experience for everyone involved.” 	Tak Kosugi, Head of Worldwide Olympic & Paralympic Marketing at Panasonic  Fact BOX  Exclusive category: Audio/TV/video equipment, home appliances Member of the TOP Programme since: 1987"
+      "searchText": "Institutional  Academies  GYMNASTICS AROUND THE WORLD A continent-by-continent breakdown of the year’s Academies, Age Group camps and Olympic Solidarity courses. ACADEMIES  Iran (Trampoline L1)  AGE GROUP CAMPS  Africa  Japan (Men’s & Women’s Artistic Gymnastics L1)  Africa  Egypt (Men’s & Women’s Artistic Gymnastics L1, L3)  Americas El Salvador (Rhythmic Gymnastics L2) Guatemala (Men’s and Women’s Artistic Gymnastics L3) Honduras (Foundations of Gymnastics) Nicaragua (Women’s Artistic Gymnastics L1)  Thailand (Rhythmic Gymnastics L2)  Burkina Faso (Aerobic Gymnastics) Cameroon (Parkour)  Americas Ecuador (Trampoline)  São Tomé and Príncipe (Rhythmic Gymnastics)  Nicaragua (Parkour)  Americas  Peru (Trampoline)  Paraguay (Men’s Artistic Gymnastics)  Portugal (Trampoline L1) Sweden (Men’s Artistic Gymnastics L2)  Venezuela (Trampoline)  Paraguay (Rhythmic Gymnastics L1)  Australia (Men’s & Women’s Artistic Gymnastics L2, L3; Trampoline L2, L3; Parkour L1)  Jordan (Women’s Artistic Gymnastics)  FIG YEARBOOK 2024  Mali (Men’s & Women’s Artistic Gymnastics)  Colombia (Parkour)  Asia  Hong Kong (Aerobic Gymnastics L1)  Comoros (Men’s Artistic Gymnastics)  Germany (Acrobatic Gymnastics L1)  Oceania  Asia  Africa  Europe  Panama (Aerobic Gymnastics L1)  Peru (Rhythmic Gymnastics L2)  66  Nepal (Foundations of Gymnastics)  OLYMPIC SOLIDARITY COURSES  Fiji (Foundations of Gymnastics)  Europe Spain (Parkour)  Asia Kazakhstan (Men’s Artistic Gymnastics; Rhythmic Gymnastics) Tajikistan (Rhythmic Gymnastics)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1524,14 +1850,14 @@ export default  {
        <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:499px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 2}' ></h1>
        <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:538px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
 
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:254px;" src="/static/_content/67-icon-1.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:291px;" src="/static/_content/67-icon-2.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:327px;" src="/static/_content/67-icon-3.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:364px;" src="/static/_content/67-icon-4.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:401px;" src="/static/_content/67-icon-5.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:437px;" src="/static/_content/67-icon-6.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:474px;" src="/static/_content/67-icon-7.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:511px;" src="/static/_content/67-icon-8.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:254px;" src="/2024/static/_content/67-icon-1.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:291px;" src="/2024/static/_content/67-icon-2.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:327px;" src="/2024/static/_content/67-icon-3.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:364px;" src="/2024/static/_content/67-icon-4.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:401px;" src="/2024/static/_content/67-icon-5.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:437px;" src="/2024/static/_content/67-icon-6.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:474px;" src="/2024/static/_content/67-icon-7.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:511px;" src="/2024/static/_content/67-icon-8.png"/>
       
       `,
       "script": `
@@ -1559,7 +1885,7 @@ export default  {
         resetNumbers("67-no");
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  67  In line with the Organising Committee's mission to make Paris 2024 the most sustainable Games, Panasonic committed to providing the following state-of-the-art AV solutions: • Panasonic's KAIROS' IT/IP platform helped deliver video content to public video boards at nearly every competition venue. This groundbreaking solution transformed workflows and streamlined operations, allowing Olympic Broadcasting Services (OBS) to produce compelling content for up to three venues from a single KAIROS Core, creating memorable moments for all. • 58 PTZ cameras were installed in 29 press rooms to consolidate and provide simultaneous translation at the Main Press Centre (MPC). This effort drastically helped reduce the need for equipment and travel to each competition venue during the Games, making it easier for voices from around the world to be heard and celebrated. • In the largest deployment of projectors ever seen at a single edition of the Olympic and Paralympic Games, Panasonic proudly installed 160 laser projectors to light up competition venues and dazzle audiences with projection mapping at La Defense Arena, the Vélodrome, and during the Opening Ceremony of the Paralympic Games. Panasonic’s labour-saving projection technology not only minimised the use of resources for transportation, storage, and installation but also significantly reduced the event's carbon footprint.  Taking Urban Sports and Breaking to the Next Level with Technics As part of the Panasonic portfolio, Technics DJ turntables and headphones were supplied to iconic venues such as the breaking competition, where a unique blend of sound and vibes  As founding partner of the programme, Panasonic proudly collaborated with many IOC Young Leaders who came from all around the world to promote their projects and passions with the local audiences.  immersed the audience in the world of breaking and urban sports. In addition, to celebrate Technics' powerful influence on hip-hop culture, Panasonic organised an unforgettable event at La Concorde, inviting visitors to experience the world of hip-hop with DJ turntable tutorials, break-dancing classes, and graffiti spray-painting trial walls, creating the perfect bridge between hip-hop culture, urban sports, and the Olympic Movement.  280,000  visitors to the Champions Park, where Panasonic shared their passion for the Olympic Movement  Heartfelt celebrations and memorable moments at Champions Park As the official Presenting Partner at the Champions Park, the iconic venue where Olympians were celebrated throughout the Games, Panasonic hosted a pre-show using its AV equipment and Technics DJ turntables to ensure everyone was ready to share their passion. The Dance Cam pre-show was a symbolic and impactful on-site activation that united attendees in celebrating the Games. Panasonic’s on-site activation featured memorable surprises, including appearances by Olympic legends and Team Panasonic ambassadors Nathan Chen and Michael Phelps, leaving a lasting impression on all present. Additionally, located near Champions Park in the Trocadero Gardens, the IOC Young Leaders booth promoted the initiatives of the joint IOC and Panasonic programme that aims to create a brighter future through sport.  160  projectors, marking the highest number ever utilised in a single edition of the Games  26  venues featured Panasonic's revolutionary KAIROS' IT/IP platform to simplify workflows and streamline operations"
+      "searchText": "ACADEMY STATISTICS Participant coaches by gender  32  FIG Academies in 2024  Male coaches  302 - 46% Female coaches  358 - 54% Exam pass rate  90%  GfA  3  MAG  8  WAG  8  RG  4  TRA  5  ACRO  1  AER  2  PK  1  FIG YEARBOOK 2024  67"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1568,7 +1894,14 @@ export default  {
       "startIndex": 0,
       "original": "pg68.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+
+
+      <a href="https://www.youtube.com/@figeducationchannel2014" target="_blank">
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:425px; left:494px;" src="/2024/static/_content/black-play.png"/>
+      </a>
+      
+      `,
       "script": `
         function onPageEnter() {
         }
@@ -1576,7 +1909,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "68  P&G “After 14 years of partnership, we continue to be moved by the superior performance of Olympic and Paralympic athletes. I had the honour of visiting Paris to see our brands in action – serving athletes in the Olympic and Paralympic Village Paris 2024. Our brands have been doing this for a long time, and still, it is so special to see how they show up to support athletes by providing the comforts of home so they can focus on performing at their best when it matters most.” 	Marc Pritchard, Chief Brand Officer, P&G  Fact BOX  Exclusive category: Personal care, healthcare and household care products Member of the TOP Programme since: 2010"
+      "searchText": "Institutional  Education  ACADEMIES HAVE WORLDWIDE IMPACT  FIG academies continued to bring gymnastics to new corners of the globe in 2024.  F  or the FIG’s team of educators, 2024 was a productive year which saw a significant rise in academies – with 32 in total, compared with 25 a year earlier. Nineteen countries hosted at least one academy and along with the academies there were also Age Group camps and Olympic Solidarity courses, bringing important development opportunities to countries where gymnastics has previously had only a faint foothold. For example, the FIG Foundations of Gymnastics course in Fiji in May represented a significant step towards the development of gymnastics through the Oceania Union federations, featuring participants from Australia, Cook Islands, Tonga, American Samoa, Papua New Guinea and Fiji. The same could be said of the first-ever Parkour camps in Cameroon, Madagascar and Nicaragua, or the Age Group Training Camp for Aerobic Gymnastics in Burkina Faso in December.  68  FIG YEARBOOK 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1585,15 +1918,24 @@ export default  {
       "startIndex": 0,
       "original": "pg69.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+
+      <div class="contentLink" style="top:189px;left:88px;width:110px;height:14px">
+        <a href="https://youtu.be/pW38X4yJIPs?si=P03KQ847UrPs-iai" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  P&G brands supported the athletes of Paris 2024 by providing more complimentary products and services in the Olympic and Paralympic Village than ever before to help to meet their everyday needs. For the first time, Pampers sponsored a Village Nursery, a comfortable and convenient place for athlete parents to make precious memories with their little ones during the Games. A place for feeding, bonding and playtime, the Nursery also provided the highest quality Pampers diapers and wipes for the more than 60 families who booked to experience the space. In the Beauty & Grooming Salon, brands like Head & Shoulders, Pantene, Mielle, Gillette and Braun provided complimentary haircuts, styling, and facial grooming so athletes could look and feel their best as they stepped onto the world’s biggest sporting stage. In all, the brands delivered more than 2,900 beauty and grooming services to athletes from 147 countries. In addition, Ariel sponsored the laundry rooms, delivering 60,000 loads of coldwater cleaning for athletes’ clothes and uniforms. Oral-B sponsored the dental clinic to give athletes the confidence of healthy smiles. Always and Tampax provided period protection products throughout the restrooms in the Village. And each athlete received a P&G Everyday Champions welcome kit with P&G brand products to support their health and hygiene needs.  Everyday Champion Brands Inspired by the highest performance of the best athletes in the world, more than 30 of P&G’s household and personal care brands launched Olympic and Paralympic Games-inspired marketing campaigns, featuring the highest performance products that serve people every day.  69  These campaigns came to life in-store and online across more than 250 retailers in over 40 countries. P&G brands also united behind the theme of “Everyday Champions,” providing products that give their best every day to meet the household and personal care needs of athletes, families, and fans – just like Olympians and Paralympians give their best to their sport.  Athletes for Good P&G and its brands continued the Athletes for Good (AFG) programme for Paris 2024, in partnership with the IOC and IPC, awarding 20 grants of USD 24,000 each to charities athletes nominated, to fuel the positive work they are doing together. Just as P&G brands aim to deliver superior performance every day and make a positive impact in the community, so, too, do the athletes recognised with AFG grants. P&G is delighted to help these athletes continue to make a meaningful impact beyond the sporting field of play.  Paris 2024 Podiums Together with the IOC, IPC, and Paris 2024 Organising Committee, P&G helped create the ultimate symbol of performance – the Olympic and Paralympic Games Paris 2024 podiums. The podium represents the pinnacle of an athlete's journey, after years of perseverance in the daily pursuit of sporting excellence. P&G brands share this same commitment to creating top-performing products that consumers can count on every day. Created in the host country of France – from the materials and design inspired by the iconic work of Gustave Eiffel to the manufacturing and assembly – the podium symbolised excellence, creativity, and know-how. P&G was honoured to play a role in creating a platform that athletes are proud to stand on after the achievement of a lifetime.  2,900  beauty and grooming services delivered to athletes in the Olympic Village  60+  athlete parents booked in to experience the Olympic Village Nursery  30  P&G brands launched Games-inspired marketing campaigns"
+      "searchText": "Education  Institutional  Leadership lessons The year also featured a new online seminar, titled ‘How to be an effective leader in gymnastics’. This was presented by Marco Bortoleto from the FIG Education Commission and it included insights from experts Dr Edson Filho and Daniela Conde.  eLearning platform The eLearning platform continued its evolution in 2024 with a total of 6,171 users – 2,608 coming to the platform for the first time during this 12-month period. Overall, 2,652 certificates were earned by online users, which is a similar number to the year before when 2,951 certificates were granted.  Educational content updated For the FIG’s Acrobatic and Aerobic Gymnastics working groups their respective tasks of reviewing and updating the content of their manuals for the Age Group Programme (AGP) and the FIG Academy were completed in 2024. This work ensured the manuals are now aligned with the latest developments in the disciplines and incorporate the new Code of Points. For the Aerobic Gymnastics working group, a priority was to make sure the revised manuals catered to gymnasts of all skill levels and ages, from beginners to elite performers, thus fostering inclusivity and accessibility. Similarly, the Parkour working group completed their review and updating of the Level 1 curriculum for the FIG Academy and Age Group Programme, responding to recent changes to the Code of Points and to the ongoing evolution of the discipline.  Left Foundation of Gymnastics course in Bhaktapur (NEP) Below left Men‛s Artistic Gymnastics Age Group Camp in Bamako (MLI) Below A five-day camp in Dushanbe (TJK) involved many participants"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1610,7 +1952,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "70  Samsung  Fact BOX  “Samsung continues to unite fans around the world with innovative technology as a proud partner of the Olympic Movement for over three decades, and Paris 2024 was another incredible experience for us all. Together with the IOC, we delivered seamless operations throughout all aspects of the Olympic Games, creating invaluable moments of connection and inspiration for all Olympic families and athletes” 	YH Lee, President of the Global Marketing Office, Samsung Electronics  As the official Wireless Communications and Computing Equipment partner of the Olympic and Paralympic Games, Samsung played a crucial role in supporting Paris 2024. The company utilised its cutting-edge mobile technologies to transform the ways in which the Olympic  and Paralympic communities, athletes, and fans communicated and shared their experiences. This revolution in connectivity and interaction made the Games and its operation more accessible and engaging for all participants, significantly enhancing the overall experience.  Exclusive category: Wireless communications equipment and computing equipment Member of the TOP Programme since: 1997  ‘Open always wins’ Samsung’s central message for the Olympic and Paralympic Games Paris 2024, ‘Open always wins,’ aimed to reflect the brand's belief that an open mind turns every new experience into a meaningful achievement, opening up new perspectives and endless possibilities. This message was at the heart of all Samsung’s activations throughout the Games and was brought to life through the stories of Team Samsung Galaxy athletes, who demonstrated how being open enables you to do extraordinary things."
+      "searchText": "Institutional  Finance  FINANCIAL RESULTS  Well managed event activities contributed substantially to the improved net result and allowed further investments in development activities.  T  he gymnastics events (both competitions and institutional events or meetings) and the financial results were generally well within the budgeted limits. The combined efforts of the organising committees, the authorities, the commissions, the working groups and the  FIG office enabled the financial targets to be met. The net result for 2021-2024 (profit of CHF 2,296,000) is substantially better than the initially planned result. For full information, please refer to the 2024 FIG Financial Report online.  PROFIT & LOSS STATEMENT 2024 IN THOUSANDS OF SWISS FRANCS Actual  Budget  EVENTS + NON-CORE ACTIVITIES RESULT  5,283  4,309  OPERATIONAL EXPENSES  -11,676  -10,778  OPERATING RESULT  -6,393  -6,469  FINANCIAL RESULT  1,585  50  BUILDING RENTAL RESULT  330  354  OTHER NON-OPERATING ITEMS RESULT  -73  -650  -4,551  -6,715  NET RESULT  • Agenda 2020+5-contribution from IOC • Realised and unrealised profit on financial investments • Increased investments in development activities  • Higher broadcasting income • Lower Olympic Games expenses  70  FIG YEARBOOK 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1621,17 +1963,17 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 71-bar" style="top:-26px;left:53px;" src="/static/_content/71-bar-1.png"/>
+      <img class="abs halfScaleC 71-bar" style="top:-26px;left:53px;" src="/2024/static/_content/71-bar-1.png"/>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:295px;left:86px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 19871, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:166px;left:84px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 48958, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansMed 71-no" style="top:354px;left:75px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 68829, "comma" : true }' ></h1>
 
-      <img class="abs halfScaleC 71-bar" style="top:48px;left:186px;" src="/static/_content/71-bar-2.png"/>
+      <img class="abs halfScaleC 71-bar" style="top:48px;left:186px;" src="/2024/static/_content/71-bar-2.png"/>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:166px;left:216px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 14429, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:205px;left:215px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 26644, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansMed 71-no" style="top:355px;left:208px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 41173, "comma" : true }' ></h1>
 
-      <img class="abs halfScaleC 71-bar" style="top:195px;left:321px;" src="/static/_content/71-bar-3.png"/>
+      <img class="abs halfScaleC 71-bar" style="top:195px;left:321px;" src="/2024/static/_content/71-bar-3.png"/>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:275px;left:350px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 27656, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansMed 71-no" style="top:355px;left:340px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 27656, "comma" : true }' ></h1>
 
@@ -1655,7 +1997,7 @@ export default  {
         resetNumbers("71-no");
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  Galaxy Z Flip6 Olympic Edition All eligible athletes competing at Paris 2024 were gifted their own custom-built Olympic Edition of Samsung’s Galaxy Z Flip6 smartphone, specifically designed to enhance their Games-time experience. As well as being the first-ever Olympic Edition smartphone to feature Galaxy AI, the devices also came pre-loaded with a full suite of exclusive services and useful apps, including an eSIM of 100GB 5G data, an unlimited complimentary public transport access card and several official Olympic apps, designed to help the athletes open up new experiences and connect with new people while they are in Paris. These included the new Athlete365 app, the official Paris 2024 transport app, the Olympic Shop and Olympics™ Go! Paris 2024 – the official mobile game for Paris 2024.  71  Supporting Team Samsung Galaxy athletes Samsung has been supporting athletes for almost 40 years. For Paris 2024, Samsung partnered with a roster of inspiring global athletes – including British skateboarder Sky Brown, French surfer Johanne Defay, para swimmer Ugo Didier, Dutch marathoner Sifan Hassan, American skater Jagger Eaton and surfer John John Florence, Australian wheelchair racer Madison de Rozario, Brazilian skateboarder Rayssa Leal, South Korean badminton star Se-young An and football icon Heung-min Son. Team Samsung Galaxy athletes served as the primary voices for ‘Open always wins’ and, by sharing their journeys, demonstrated how Samsung is helping athletes and fans open up to new opportunities through its technologies.  Enabling the first-ever Victory Selfies  Enhancing the Games-time experience for fans  For the first time in Olympic and Paralympic Games history, Samsung also provided its Galaxy Z Flip6 Olympic Edition smartphones for use on the podium at Paris 2024, enabling medallists at the Games to commemorate their crowning moment with a unique “Victory Selfie ”.  Fans and athletes in Paris for the Olympic and Paralympic Games were able to try out the Galaxy Z Flip6 Olympic Edition smartphone and other Galaxy innovations at three pop-up Samsung showcasing experiences across Paris (located at Champs-Elysees 125, Square Marigny and the Village Plaza in the Olympic & Paralympic Village). More than 380,000 visitors to these showcases experienced the latest Galaxy innovations first-hand, discovering new ways to create and communicate with Galaxy AI. They also took part in a historic tradition, as more than 350,000 Samsung Olympic Games pins were distributed to and traded by fans of all ages  A total of 253 selfies were captured throughout the Games, with Samsung’s customised technology then mapping and sorting the images by sport before uploading them to the IOC’s Athlete365 platform, which allowed athletes to save and share their podium experience with family and fans on social media.  Providing tech for a new view of all the action In collaboration with the IOC and Olympic Broadcasting Service (OBS), more than 200 Galaxy S24 Ultra smartphones were installed on the boats used in the Olympic Games Opening Ceremony on the River Seine and the sailing competition in Marseille. Footage was transmitted by Orange through a newly installed, private 5G network and brought fans closer to the excitement.  Powering Games-time operations From managing ticketing systems and stadium entry to facilitating event broadcasts, nearly 15,000 Galaxy devices were used by Paris 2024 staff and volunteers to deliver efficient and seamless operations throughout the Games. This included more than 7,100 Galaxy smartphones, over 2,500 Galaxy Tab series tablets and 5,200 Galaxy Book series laptops.  Launching ‘Together for Tomorrow, Enabling People’ community During the Olympic Games, Samsung and the IOC announced the launch of a new digital community that aims to engage young people around the world with the Olympic Movement and leverage the transformative power of technology and sport to make a meaningful difference in the world. “Together for Tomorrow, Enabling People”, which was unveiled at an event in Paris on 31 July, is a joint initiative between Samsung and the IOC aimed at engaging younger generations and creating a positive impact in the world through sport and technology. The new digital community is designed around the goal of helping young people experience three core values – social  17,000 Samsung Galaxy Z Flip6 Olympic Edition smartphones provided to competing athletes  253  Victory Selfies taken with Samsung Galaxy Z Flip6 Olympic Edition  15,000  Galaxy devices including phones, tablets and note PCs utilised by Paris 2024 organisers  380,000+  fans engaged at the Olympic™ rendezvous @ Samsung pop-up experiences across Paris  3 million  fans from 140 countries participated in the ‘Together for Tomorrow, Enabling People’ community activity; Solve, Move, and Create challenges  350,000+  Samsung Olympic Games Pins distributed to fans and athletes  contribution, health and creativity – and enables them to participate in a series of collaborative Olympic challenges designed to create a better tomorrow. The initiative builds on Samsung’s existing Together for Tomorrow initiatives, which aim to empower and support the next generation to achieve their full potential and pioneer positive social changes."
+      "searchText": "Finance  Institutional  BALANCE SHEET AT 31 DECEMBER 2024 IN THOUSANDS OF SWISS FRANCS 48,958  Current assets  14,529  Current liabilities  26,644  Non-current liabilities  27,656 19,871  Reserves  Non-current assets  TOTAL 68,829  TOTAL 41,173  ASSETS  LIABILITIES AND RESERVES  TOTAL 27,656  Assets  Liabilities  Reserves  • Current assets are split into cash and cash equivalent funds of CHF 5,870 as well as financial investments of CHF 48,749 which include short-term fixed deposits of CHF 24,063. All financial investments are evaluated at their market value at year-end date less a provision for potential future value adjustment of CHF 6,764. Other current assets amount to CHF 1,103. The substantial increase of the investments is mainly due to funds received from the IOC and pertaining to the Olympic Games Paris 2024.  • Current liabilities refer to short-term liabilities (until 31 December 2025) including pre-invoiced income and deposits for events.  • Reserves result from the accumulated profíts carried forward and are a vítal element to guarantee continuous support and development of our activities. Reserves are subject to fluctuation.  • Non-current liabilities reflect long-term (from 1 January 2026 onwards) liabilities such as preinvoiced income and deposits for events as well as dedicated provisions for programmes and projects.  • Non-current assets (fixed assets) are stated at their acquisition cost less the accumulated depreciation calculated over their lifetime.  FIG YEARBOOK 2024 71"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1719,7 +2061,7 @@ export default  {
         resetNumbers("72-no");
         }
       `,
-      "searchText": "72  Toyota “Sports have the power to unite. It has been incredible and inspirational to watch the athletes, their families and communities on the road to their Olympic and Paralympic success. Their relentless pursuit of excellence inspires us all to start our own 'impossible'.” 	Yoshihiro Nakata, President and CEO of Toyota Motor Europe  Fact BOX  Exclusive category: Vehicles, mobility support robots and mobility services Member of the TOP Programme since: 2017"
+      "searchText": "Institutional  Finance  3%  2% 29%  4% 4%  EXPENSES SPLIT 2024  IN % OF TOTAL EXPENSES (EXCL. FINANCIAL RESULT / BUILDING RENTAL RESULT / OTHER NON-OPERATING RESULT)  8%  Events and non-core activities Staff Development incl. Education Operational bodies (EC, TC, Commissions) General Overhead Congress/Council Marketing/Communication  24%  Office Facilities  26%  DEVELOPMENT AND EDUCATIONAL INVESTMENTS  2%  IN THOUSANDS OF SWISS FRANCS  Development Continental Unions  4%  Academies, Age Group Camps and Scholarships  <1%  2% 3%  56%  4%  Anti-doping Judges Educational Programme  5%  Apparatus certification Judges Evaluation Programme IRCOS + New Development Projects Safeguarding (Unit + Commission + Symposium)  TOTAL 4,129  9%  eLearning Equipment Sponsoring  15%  72  FIG YEARBOOK 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1736,7 +2078,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  For the Olympic and Paralympic Games Paris 2024, Toyota delivered a 100 per cent electrified passenger vehicle fleet and an array of inclusive solutions, making sure that the athletes, officials and volunteers could easily move around the Games in a safe and sustainable manner.  Accessible People Mover The Accessible People Mover (APM) is Toyota's electric mobility vehicle designed specifically for Paris 2024 to transport people, goods, and act as a stretcher in emergencies. The APM features integrated wheelchair ramps, comfortable seats, and a top speed of 20 km/h. Its low floor and wide doors ensure easy and safe boarding. Additionally, the APM is eco-friendly, running on battery power and producing zero tailpipe emissions. Designed by Toyota Motor Europe in Belgium and manufactured in Toyota Caetano Portugal, the 250 APM covered 140,000 kilometres during Paris 2024, enhancing the mobility experience for athletes, staff, volunteers, and visitors.  Last-mile mobility solutions Toyota co-developed Yosh-e – the wheelchair e-puller – to bring their vision of “Mobility for all” to life at the Paralympic Games Paris 2024. The Yosh-e converts a classic mechanical wheelchair into a battery-powered electric mobility solution, giving more freedom of movement to wheelchair users. During the Paralympic Games, the Toyota team installed over 240 brackets on athletes’ wheelchairs so that they could make use of the 50 Yosh-e e-pullers, made available through the KINTO app. In addition to the Yosh-e wheelchair puller, Toyota also provided electric last-mile  73  mobility solutions such as C+WalkS and C+WalkT to the volunteers and the athletes of Paris 2024, allowing the latter to save their energy for their performances.  100 per cent electrified vehicle fleet In line with Toyota’s multi-path strategy and commitment to support Paris 2024’s environmental ambitions, the company delivered a 100 per cent electrified passenger vehicle fleet. In fact, approximately 60 per cent of the fleet were zero-tailpipe emissions, including battery electric vehicles (BEV) like the Toyota bZ4X, Proace, Proace Verso and Lexus RZ, as well as fuel-cell electric vehicles (FCEV) like the Toyota Mirai. Additionally, Toyota brought around 1,000 hybrid (HEV) and plug-in hybrid (PHEV) vehicles, including the globally best-selling RAV4 in both PHEV and HEV versions, along with the Toyota Corolla TS, Yaris Cross and Highlander, all featuring hybrid technology. Around 60 per cent of the Toyota fleet was produced in Europe, including 37 per cent in France, contributing to the vision of a sustainable and locally sourced Paris 2024.  100%  electrified passenger fleet  2,700+  electrified vehicles  Hydrogen society Toyota demonstrated its vision of a hydrogen society through more than ten applications, ranging from passenger cars to heavy-duty transport, highlighting the potential of hydrogen technology in achieving carbon neutrality. The diverse fleet included 500 Mirai, 14 Caetano fuel cell buses, 10 fuel cell coaches, two fuel cell Hilux, and others – in total over 10 different applications. Hydrogen-powered, zero tailpipe emission vehicles at Paris 2024 achieved an impressive milestone,  850+  inclusive mobility solutions  covering over one million kilometres – equivalent to 25 trips around the globe, and using nearly 12 tons of hydrogen sourced from renewable origins."
+      "searchText": "Ekaterina Vedeneeva  From Training to Triumph I'm happy with my performances. Reaching this level and making my coach, my country, and supporters proud has been an incredible achievement. I hope to inspire future generations. 6th place - Paris 2024  FIG OFFICIAL PARTNER"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1753,7 +2095,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "74  Visa “The spirit of Paris 2024 was aligned with Visa’s mission to uplift everyone, everywhere. We believe the Games are a powerful platform to drive inclusion and economic growth. We’re delighted to play our part in enabling the success of Paris 2024 for both the Olympic and Paralympic Games by providing the most convenient and secure way for spectators and travelers to pay. We proudly supported Team Visa athletes, showcasing their incredible talent, grit and dedication.” 	 Andrea Fairchild, Senior Vice President of Global Sponsorship Strategy, Visa  Fact BOX  Exclusive category: Payment services, transaction security, credit, debit, prepaid cards, digital wallets Member of the TOP Programme since: 1986"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1770,7 +2112,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  As a founding member of the TOP Programme in 1986 and the first global partner of the International Paralympic Committee (IPC) in 2003, Visa’s long-time relationship with the Olympic and Paralympic Games has always been about empowering athletes to be successful both on and off the field while providing convenient, reliable, and secure payment solutions. Team Visa for Paris 2024 featured 147 athletes representing 67 countries across 40 sports, making this Visa’s largest and most diverse roster yet - featuring 67 men and 80 women, and increasing the representation of Paralympic athletes at Paris 2024. This year's roster of athletes won 100 medals - 55 Olympic and 45 Paralympic medals. As the exclusive Payment Technology Partner, Visa collaborated with the Organising Committee to build a custom payment network, ensuring contactless payments were accepted at 3,500 points of sale in Olympic and Paralympic venues.  Blending sports with culture and commerce To give thanks to Parisians for opening their city and country to the world and providing a vibrant and welcoming atmosphere for all, Visa celebrated the intersection of sport, art, and culture by commissioning six global artists to create works of art to appear on billboards throughout Paris (a global capital for street art). The street art installations highlighted Visa Go, a mobile app designed to help users experience the best of the city. The app enabled access  75  to Team Visa content, and a curated selection of discounts and offers from official partners, local shops, and restaurants. Visa’s aim was to celebrate the Olympic and Paralympic Games and help promote local small businesses and culture through art. The street art included works from leading street artist Marko 93 (France) from Seine-Saint-Denis; influential street artist and activist Swoon (USA); pioneering graffiti artist JonOne (USA); native Parisian artist Olivia De Bona (France); prolific colourblind street artist Alex Senna (Brazil); and multidisciplinary artist Vexta (Australia) and received significant media interest.  147  Team Visa for Paris 2024 featured 147 athletes  Helping to boost the French economy Additionally, the French economy benefited from hosting the Olympic and Paralympic Games, and Visa played a part in this success, according to proprietary data which revealed Visa cardholder spending patterns during the Olympic Games. Not only did Paris attract 42 per cent more Visa cardholders in the first week of the Olympic Games than in the same period in 2023, but other cities hosting Olympic Games events also saw significant increases in visitors and spending, especially among fans who attended the competitions. The most significant year-on-year increase in spending levels in Paris was seen in restaurants: a 49 per cent increase. During the first weekend of the Olympic Games, small businesses in Paris benefitted from a 26 per cent year-on-year rise in sales from Visa cardholders.  100  Team Visa athletes at the Olympic and Paralympic Games won a total of 100 medals  3,500  Contactless payments were accepted at 3,500 points of sale in Paris 2024 venues"
+      "searchText": "Outlook"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1783,15 +2125,15 @@ export default  {
 
       <h1 id="76-no" class="abs merriweatherBd 76-no" style="top:311px;left:432px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 50, "append" : "%"}' ></h1>
 
-      <img class="abs halfScaleC 76-box" style="top:380px;left:-128px;" src="/static/_content/76-box.png"/>
-      <img class="abs halfScaleC 76-box" style="top:529px;left:-63px;" src="/static/_content/76-text-1.png"/>
-      <img class="abs halfScaleC 76-box" style="top:483px;left:-69px;" src="/static/_content/76-lines.png"/>
+      <img class="abs halfScaleC 76-box" style="top:380px;left:-128px;" src="/2024/static/_content/76-box.png"/>
+      <img class="abs halfScaleC 76-box" style="top:529px;left:-63px;" src="/2024/static/_content/76-text-1.png"/>
+      <img class="abs halfScaleC 76-box" style="top:483px;left:-69px;" src="/2024/static/_content/76-lines.png"/>
 
-      <img class="abs halfScaleC 76-world" style="top:559px;left:54px;" src="/static/_content/76-world-1.png"/>
-      <img class="abs halfScaleC 76-world" style="top:559px;left:218px;" src="/static/_content/76-world-2.png"/>
-      <img class="abs halfScaleC 76-world" style="top:638px;left:153px;" src="/static/_content/76-world-3.png"/>
-      <img class="abs halfScaleC 76-world" style="top:733px;left:70px;" src="/static/_content/76-text-2.png"/>
-      <img class="abs halfScaleC 76-world" style="top:727px;left:252px;" src="/static/_content/76-world-4.png"/>
+      <img class="abs halfScaleC 76-world" style="top:559px;left:54px;" src="/2024/static/_content/76-world-1.png"/>
+      <img class="abs halfScaleC 76-world" style="top:559px;left:218px;" src="/2024/static/_content/76-world-2.png"/>
+      <img class="abs halfScaleC 76-world" style="top:638px;left:153px;" src="/2024/static/_content/76-world-3.png"/>
+      <img class="abs halfScaleC 76-world" style="top:733px;left:70px;" src="/2024/static/_content/76-text-2.png"/>
+      <img class="abs halfScaleC 76-world" style="top:727px;left:252px;" src="/2024/static/_content/76-world-4.png"/>
       
       `,
       "script": `
@@ -1807,7 +2149,7 @@ export default  {
         resetNumbers("76-no");
         }
       `,
-      "searchText": "76  Domestic Partnerships “Celebration, engagement and legacy: these three words sum up the partners' contribution. Without our partners, these Games would not have been such a success.” 	 Ludivine Roosebeke, Paris 2024 Partnerships Director  Accor As a Premium Partner of the Olympic Games Paris 2024, Accor played a central role in showcasing France’s world-renowned hospitality and culture on the global stage. As the birthplace of the company, France offered Accor the opportunity to demonstrate its heritage and expertise in delivering exceptional service. The Games became a “sparkling advert” for French tourism, with Accor highlighting the nation’s rich traditions in cuisine, art and culture. Accor was the first hotel group to oversee operations of both the Athletes’ and Media Villages, managing over 90 buildings and 16,000 beds. This immense logistical undertaking was seamlessly executed,"
+      "searchText": "Outlook  World Gym for Life Challenge  WORLD GYM FOR LIFE CHALLENGE RETURNS Record numbers of participants are expected in Lisbon for the fourth edition of the World Gym for Life Challenge – the first since 2017.  A  wait of eight years will come to an end when the World Gym for Life Challenge kicks off in Lisbon (POR) in 2025, adding to the excitement already surrounding an event set to welcome more than 3,000 gymnasts to the Portuguese capital between 22–26 July. That figure represents an increase of more than 50% on the number at the previous edition, while registered participants represent nearly 30 countries – up from 22. The 5,000-capacity MEO Arena will stage the contests and the closing ceremony, while the streets of Lisbon will play their part, too. Open-air performances on two stages in the city centre will follow the opening ceremony, which begins with a parade and concludes at the Praça do Comércio, an historic square on the banks of the River Tagus.  How it works The World Gym for Life Challenge is open to groups of gymnasts of all ages and abilities. Performances have a limit of five minutes, may incorporate any gymnastic element – with or without apparatus – and may be accompanied by music. Four experts will evaluate the choreographies according to their entertainment value, creativity, originality and technical quality. Each group is awarded either a gold, silver or bronze award, with the gold groups invited to perform at the World Gym for Life Gala, held on the final day of the contest. It’s the first of two major Gymnastics for All events Lisbon will host in the space of two years, with the World Gymnaestrada to follow in 2027.  World Gym for Life Challenge timeline  2009  2013  Dornbirn (AUT)  Cape Town (RSA)  2017  Vestfold (NOR)  Cancelled  due to COVID-19 pandemic  76  FIG YEARBOOK 2024  2025  Lisbon (POR)  50%  more athletes in 2025 compared with 2017"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1824,7 +2166,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  77  The partnership also highlighted BPCE’s support for the French sports ecosystem. The group sponsored France’s largest cohort of elite athletes and played an active role in mobilising communities through initiatives like the Olympic Torch Relay. With more than 100,000 employees, Groupe BPCE embraced the spirit of the Games, sharing in the emotions and triumphs of athletes and fans, making Paris 2024 a truly memorable experience for all.  Carrefour Carrefour, one of the world’s leading food retailers, brought its vision of “the food transition for all” to life during Paris 2024. As a Premium Partner, Carrefour demonstrated its commitment to providing high-quality, accessible and affordable food, ensuring that athletes, spectators and participants could experience the Games in a meaningful way. Through its “Nourishing Every Hope” campaign, Carrefour celebrated the aspirations of athletes striving for victory, the joy of fans experiencing the thrills of competition, and the pride of its employees contributing to a historic event. Carrefour’s partnership underscored its role as a vital player in supporting communities and the Olympic Movement.  demonstrating Accor’s ability to deliver tailored solutions for complex global events. Beyond logistics, Accor delighted fans and guests with unique moments at venues such as Le Club France, ensuring a welcoming and memorable experience.  Groupe BPCE With a long-standing commitment to sport, Groupe BPCE became the first Premium Partner of Paris 2024 in 2018, marking the beginning of six years of collaboration that culminated in its vital contributions to the Games’ success. Groupe BPCE financed major infrastructure projects, including the Olympic Village, and developed the largest ticketing system in Olympic history, making the Games accessible to fans across France and beyond."
+      "searchText": "Other major events in 2025  Outlook  MORE TO LOOK FORWARD TO IN 2025  In addition to the usual circuit of FIG events, gymnastics fans will also be able to enjoy two more significant international events in 2025.  Rhine-Ruhr (GER) 2025 FISU World University Games: 16-27 July  H  eld every two years, the Games draws more than 8,000 student-athletes pursuing higher education in parallel with their athletic endeavours. Six locations, including five hubs in the Rhine-Ruhr area and Germany’s capital, Berlin, will serve as campuses for the 2025 edition. Some of the biggest names in Artistic and Rhythmic Gymnastics will be poised to give masterclasses in their specialties.  The World Games: 7-17 August  C  hengdu (CHN) will play host to the 12th edition of The World Games, with gymnastics featuring as one of 35 sports on the programme. After a splashy Games debut in 2022, Parkour is returning with other key events including Tumbling, Double Mini-Trampoline and Acrobatic and Aerobic Gymnastics. Synchronised Trampoline, which was not part of the last edition, will also make its debut. With no world championships in these disciplines this year apart from Trampoline, athlete attention will be riveted on this quadrennial multi-sport event.  FIG YEARBOOK 2024  77"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1835,7 +2177,7 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 78-quote-1" style="top:117px;left:382px;" src="/static/_content/78-quote-1.png"/>
+      <img class="abs halfScaleC 78-quote-1" style="top:117px;left:382px;" src="/2024/static/_content/78-quote-1.png"/>
       
       `,
       "script": `
@@ -1848,14 +2190,14 @@ export default  {
         pg78Anim.stop();
         }
       `,
-      "searchText": "78  EDF A key force in the energy transition, EDF supported Paris 2024 as both a Premium Partner and the Official Supplier of Renewable Energy. EDF’s contributions embodied the Games’ commitment to sustainability and inclusion, making a lasting impact on athletes, fans, and communities. EDF spearheaded initiatives such as the “1,2,3 Swim!” programme, which taught swimming skills to 100,000 children from underserved neighbourhoods. This effort complemented EDF’s wider support for sport, which includes fostering inclusion through its “Un Champion dans mon École” programme to raise awareness of disability issues among youth. The EDF Pavilion, located near the Champs-Élysées, served as a hub for visitors, offering an engaging and festive space to celebrate the Games. EDF’s commitment to Paris 2024 demonstrated its role as a driving force behind the Games’ success and a champion of sustainability and accessibility.  LVMH LVMH brought the essence of French creativity and craftsmanship to the Olympic Games Paris 2024. Through its creative partnership, the company celebrated its mission, “The Art of Crafting Dreams,” and the Olympic values of excellence and inclusivity. Iconic LVMH Maisons contributed their expertise during key moments of the Games. Berluti designed the opening ceremony outfits for the French delegation, while Chaumet crafted the medals, and Louis Vuitton created bespoke trunks for both the Olympic torch and medals. Dior and Moët Hennessy enhanced the Games’ artistic and hospitality experiences, while Sephora played a significant role in the Torch Relays. LVMH also embraced sustainability, designing upcycled outfits for victory ceremonies and engaging with fans through its presence at Champions Park and Club France, ensuring a memorable and inclusive celebration of excellence and culture.  Orange As a Premium Partner and Official Supplier to Paris 2024, Orange played a pivotal role in making Paris 2024 the most connected Games in history. The company was tasked with"
+      "searchText": "Outlook  53rd FIG Artistic Gymnastics World Championships  JAKARTA READY TO WELCOME THE WORLD Indonesia‛s capital city will host the 53rd FIG Artistic Gymnastics World Championships in October 2025.  T  he FIG Artistic Gymnastics World Championships will head to Indonesia for the first time when Jakarta plays host to the 53rd edition between 19–25 October 2025 – the first time the tournament has been staged in south-east Asia. The FIG’s decision to host the championships in Indonesia reflects the country’s growing reputation as a developing gymnastics nation and the broader success of gymnastics in south-east Asia. The World Championships action will take place at the 15,000-capacity Indoor Multifunction Stadium, in the heart of the city, while the training hall will be at the Jakarta Convention Center.  78  FIG YEARBOOK 2024  Fit for the future The tournament’s tagline, Move to Inspire, seeks to encourage healthy lifestyles, increase physical activity and spread the values promoted by gymnastics, with the competition aiming to leave a positive legacy in Indonesia and set new benchmarks for social impact. “We will try to host a new style of World Championships, where the cost of hosting the event will be considered as an investment, which will be recovered through social contribution activities,” said FIG President Morinari Watanabe. “The FIG aims to increase the life expectancy of the elderly and reduce the burden of social security costs through gymnastics.”  “  We believe the World Championships will serve as a catalyst for further development of gymnastics in Indonesia, inspiring young generations to be elite athletes to strive for excellence and proudly represent our nation on the world stage.” Ita Yuliati President of the Indonesia Gymnastics Federation"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 78,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg79.png",
+      "original": "pg79.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1865,7 +2207,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  79  connecting 120 venues, 15,000 athletes, and over 878 sporting events, ensuring billions of fans worldwide could experience the Games in real-time. Orange also supported inclusivity and community engagement through initiatives like the Marathon Pour Tous, the first-ever Olympic event open to the general public. Over 40,000 runners participated, embodying the Games’ spirit of openness and unity. By seamlessly delivering cutting-edge technology and engaging fans on a personal level, Orange helped Paris 2024 reach new heights in connectivity and accessibility.  Sanofi Sanofi celebrated human achievement in sport and science through its partnership with Paris 2024. As a Premium Partner of Paris 2024 and Official Partner of the Olympic and Paralympic Torch Relays, Sanofi demonstrated its commitment to excellence, innovation, and inclusivity. Sanofi’s employees contributed significantly to the Games’ success, with over 2,000 volunteers – the largest cohort at Paris 2024 – and nearly 300 Torchbearers participating in the relays.  Additionally, Sanofi made a lasting impression during the Opening Ceremony with the introduction of Zeus, a symbolic metal horse that captured the spirit of perseverance and determination.  Through these efforts, Sanofi reinforced its dedication to making a positive impact on people’s lives while celebrating the Olympic values of excellence, friendship, and respect."
+      "searchText": "Find us on Find us on  www.taishansports.cn  Premier Global Sports Events Supplier and Servicer Taishan Sports, the official supplier of 50th Artistic & 38th Rhythmic Gymnastics World Championships."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1876,7 +2218,7 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 80-quote-1" style="top:165px;left:373px;" src="/static/_content/80-quote-1.png"/>
+      <img class="abs halfScaleC 80-quote-1" style="top:165px;left:373px;" src="/2024/static/_content/80-quote-1.png"/>
       
       `,
       "script": `
@@ -1889,14 +2231,14 @@ export default  {
         pg80Anim.stop();
         }
       `,
-      "searchText": "Digital Engagement"
+      "searchText": "Outlook  LA28  GYMNASTICS ON THE WORLD STAGE AT LA28 The venues for gymnastics events at the Olympic Games Los Angeles 2028 have been confirmed.  T  he organising committee for the 2028 Olympic and Paralympic Games in Los Angeles announced that Artistic Gymnastics and Trampoline Gymnastics competitions will be held at one of the city’s most iconic venues: the recently renovated Arena in Downtown Los Angeles. The 18,000-capacity stadium is not only a sporting theatre – home to the Lakers National Basketball Association team, the Sparks Women’s National Basketball  80  FIG YEARBOOK 2024  Association team and the National Hockey League’s Kings – but a hub for concerts and other entertainment events. Rhythmic Gymnastics will be staged at the USC Sports Center, a multipurpose indoor arena where athletes and fans will join one of the main competition zones in Los Angeles, adjacent to the LA Memorial Coliseum. This top-tier athletic facility is owned and operated by the University of Southern California.  “  This is a dream scenario for our sport. To have Artistic Gymnastics staged in one of the city‛s most iconic venues is wonderful news.” Morinari Watanabe FIG President"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 80,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg81.png",
+      "original": "pg81.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1913,7 +2255,7 @@ export default  {
       "index": 81,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg82.png",
+      "original": "pg82.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1923,14 +2265,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "82  Digital Engagement THE OLYMPIC GAMES PARIS 2024 GENERATED RECORD-BREAKING DIGITAL ENGAGEMENT, WITH THE IOC PREPARING A MULTI-FACETED, MULTIPLATFORM APPROACH TO REACH MORE PEOPLE THAN EVER BEFORE IN NEW AND INNOVATIVE WAYS  The Olympic Games Paris 2024 set a new benchmark for digital engagement, delivering record-breaking results across platforms and connecting millions of people to the Games in innovative and meaningful ways. Anchored by a multi-faceted, multiplatform approach, the IOC’s digital initiatives reached hundreds of millions of people through immersive storytelling, interactive fan experiences, and dynamic global collaborations. From the launch of the new “Sport. And More Than Sport” brand platform to cutting-edge digital  experiences, Paris 2024 redefined how fans engage with the Olympic Games. Across social media platforms, there were an estimated 412 billion engagements from 270 million posts, representing a 290 per cent increase compared to the previous edition of the Games. These results were the culmination of the IOC's efforts in recent years to grow digital engagement with people during and between the Olympic Games, with this strategic vision driven by Olympic Agenda 2020 and Olympic Agenda 2020+5.  “Sport. And More Than Sport” “Our digital records have been broken across Olympic digital, social media and marketing platforms.” 	 Leandro Larrosa, IOC Digital Engagement & Marketing Director  The “Sport. And More Than Sport” brand platform launched ahead of Paris 2024 and was the unifying theme for digital experiences and content during the Games, celebrating sport’s ability to inspire, empower, and connect with people both on and beyond the field of play.  Paris 2024 on social media  412bn  engagements  270m posts  290%  increase in engagements compared with Tokyo 2020"
+      "searchText": "Quick takes  NEWS IN BRIEF Innovator Kim closes FIG chapter With her goodbye as FIG Vice-President, Nellie Kim (BLR) concluded three decades’ service including a spell as President of the Women’s Artistic Gymnastics Technical Committee. Holder of five Olympic golds, Kim spearheaded the recent integration of Paragymnastics and will continue judging.  Hegyi wins WADA re-election  Dora Hegyi (HUN) was reelected to the WADA Athlete Council in December, earning a new three-year term as one of the eight athletes representing the voices of athletes worldwide at the World Anti-Doping Agency.  82  FIG YEARBOOK 2024  South American gymnasts hit Road to LA28  Nine gymnasts from South America participated in March training camps organised by the national federations of China and Japan. The gymnasts attended the Beijing and Tokyo camps as part of a 2028 Olympic Games project initiated by FIG President Morinari Watanabe.  So long to long-serving Taeymans and Mickevics  After 24 years on the FIG Acrobatic Gymnastics Technical Committee – the last 12 as President – Rosy Taeymans (BEL) stepped down in 2024. Another respected administrator, Arturs Mickevics (LAT), departed as President of the Men’s Artistic Gymnastics Technical Committee after two cycles."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 82,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg83.png",
+      "original": "pg83.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1940,14 +2282,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "IOC Marketing Report Paris 2024  Digital Engagement  83  Record-breaking digital engagement  325m  Olympics.com & Olympics App users  No.1  sports app in over 70 territories  16.7BN engagements on Olympic-owned social handles  32m  more followers of Olympic-owned social handles (151m total)  “Engagement on social media platforms went through the roof, with a 290 per cent increase on the previous edition of the Games. Audiences are following and interacting with the Olympic Games like never before.” 	 Thomas Bach, IOC President"
+      "searchText": "Quick takes  Bui elected to IOC role  Three-time Olympian Kim Bui (GER) was voted on to the International Olympic Committee’s Athletes’ Commission in August. The former artistic gymnast was one of four people elected to the commission by athletes competing at the Olympic Games Paris 2024.  Parkour champion’s secret Olympic cameo Parkour world champion Caryl Cordt-Moller (SUI) had an eye-catching, if unannounced, role at Paris 2024 as one of a small number of freerunners playing the part of the ‘masked ninja’ who spirited the torch along the streets and quays of Paris.  Celebrating 50 years of Acrobatic Gymnastics  September’s worlds marked 50 years since the first World Sports Acrobatics Championships in Moscow (RUS) in 1974. Tumbling featured on the programme and the Soviet Union and Bulgaria then dominated the sport renamed as Acrobatic Gymnastics in the mid-2000s.  FIG President showcases use of AI  In a May presentation to the International Sports Press Association (AIPS), FIG President Morinari Watanabe highlighted potential future uses of artificial intelligence in gymnastics – to eliminate misjudging, to help develop the sport as entertainment, and as a coaching system.  FIG YEARBOOK 2024 83"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 83,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg84.png",
+      "original": "pg84.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1957,619 +2299,9 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "84  It launched with an uplifting short film that encapsulated the “Olympic Spirit”, airing globally across the network of Olympic Media Rights-Holders (MRHs) and Olympic digital channels. In France, the film reached an even broader audience through cinemas, helping to build excitement for the Games. During the Games, “Sport. And More Than Sport” resonated through creator collaborations and interactive fan experiences, such as an interactive art installation, where people in the streets of Paris were invited to reflect on their personal victories over life’s challenges. This also came to life across Olympic social media handles, reacting to the most memorable “More than Sport” moments of the Games, such as Leon Marchand’s medal-winning performances in the pool, which united local fans, and Rebecca Andrade’s sportsmanship, which inspired audiences worldwide. On Olympics.com, the campaign was reflected in powerful athlete stories and human-interest features, generating millions of engagements per post during the Games.  Olympics.com Olympics.com served as the ultimate destination for Olympic fans during Paris 2024, providing a comprehensive source for breaking sports news, video highlights, and original content to more than 325 million unique users during the Olympic Games. Designed to bring fans closer to the action, the platform offered a wide array of features and bespoke coverage in 11 languages, ensuring accessibility for a global audience. The platform produced and published more than 148,000 content assets resulting in three million hours of video watch-time.  498.5m social media engagements on the Sport. AND More than Sport. brand platform  Throughout the Games, Olympics.com published nearly 6,000 stories, with content ranging from event previews and daily highlights to unique behind-thescenes coverage on the surfing events in Tahiti and the vibrant scenes across Paris. Fans could also enjoy in-depth athlete interviews – over 100 in total – and original podcasts featuring legendary sporting figures. The platform's live blogs, available in French, English, Spanish, Italian, Portuguese, German, Japanese, and Mandarin, offered real-time updates and insights, attracting millions of readers, including 5.4 million fans on the English-language blog alone."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 84,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg85.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  Digital Engagement  85  Celebrating and empowering athletes digitally Throughout the Olympic Games Paris 2024, athletes were celebrated digitally, with innovative features recognising their achievements. Through the IOC’s collaboration with Meta platforms, thousands of Olympians received free verification for their accounts, enhancing their online presence and connection with fans. On X (formerly Twitter), Paris 2024 medallists were honoured with custom badges marking their Olympic triumphs, while fans could also join the celebration by using a custom bouquet feature on Google, allowing them to send virtual congratulations to their favourite medal-winning athletes. The IOC also introduced several innovative initiatives during Paris 2024 to empower athletes to connect with fans in new and meaningful ways. Athletes were given unprecedented opportunities to share their Olympic  Interactive features further enriched the fan experience. Visitors could customise medal tables and event schedules, tailoring the platform to their favourite teams, athletes, and sports. The newly introduced Play Hub offered fans opportunities to participate in live meet-and-greets with stars such as skateboard park gold medallist Arisa Trew and Olympic legends Nadia Comaneci and Aly Raisman. Fans could also engage with the Games by voting for their favourite moments, entering contests to win Paris 2024 prizes, and even being featured on the fan-powered social wall, making Olympics.com a vibrant hub for active participation and connection.  journeys on their personal social media accounts, while the IOC also collaborated with celebrities, influencers, and athletes from various fields to promote the Games to younger, non-sport audiences. These partnerships were highly effective in driving traffic to the MRHs’ platforms via targeted links, significantly broadening the Games’ reach. Additionally, the #RoadToParis2024 pilot project, a collaboration between the IOC and the World Federation of the Sporting Goods Industry (WFSGI), allowed eligible WFSGI member sports brands to celebrate their sponsored athletes’ journeys to, during, and after the Games. The initiative generated over three billion social media engagements, amplifying the impact of Paris 2024 and highlighting the athletes’ incredible stories."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 85,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg86.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "86  Collaborating with TOP Partners  THANKS TO OUR WORLDWIDE OLYMPIC PARTNERS  A  s the IOC continues to expand its digital footprint and engagement, a key aspect of its strategy involves close collaboration with the Worldwide Olympic (TOP) Partners. These efforts create meaningful opportunities to build awareness of the Olympic partnerships while connecting partners' brands with Olympic audiences across the IOC’s owned digital platforms and channels, and beyond. Together with its partners, the IOC developed activations designed to reach, engage, inform, entertain, inspire and grow its fanbase worldwide – both during the “flame-to-flame” period between Games and during Games-time itself. This included amplifying partners’ own initiatives as well as co-creating fully integrated campaigns that leveraged a range of assets and capabilities, including customised content, video, social media, email communications, influencer marketing, advertising, paid media and PR.  Keeping the fans informed of every medal and record-breaking moment at Paris 2024, courtesy of Samsung and OMEGA.  edal Alerts: Samsung, and the joint M Together for Tomorrow programme, presented the medal alerts that “broke the news” on Olympics social platforms as medals were awarded.  reaking Record Alerts: Recognising B OMEGA for its role as Official Timekeeper, the IOC posted a branded animation for Olympic and world records. Preparing fans with engaging trivia quizzes and sport explainer videos so they were best-prepared for the competitions, in partnership with Allianz.  ports Explainers: Allianz was the S presenting partner of sport explainer videos for all Olympic and Paralympic disciplines, with videos hosted on Olympics.com and promoted across all digital channels during Paris 2024.   rivia: Together with Allianz, the IOC T invited audiences around the world to learn about the Games through fan engagement Olympic and Paralympic Trivia, from April through Paris 2024. Entertaining fans with branded content featuring athletes, the magic of past Games, unique behind-thescenes experiences from the Athlete Village, and highlighting the impact of Olympic “Firsts”.  agic Moments: A branded content M series with Coca-Cola that celebrated magical moments in Olympic history and during Paris 2024.  thletes for Good: A branded content A series with P&G showcasing how athletes who received grants from P&G make a positive impact and “do good” outside the field of play, while also celebrating their medals at Paris 2024.  he Starting Line: A video series T featuring 10 global Team Toyota athletes who prove that “greatness comes from anywhere” as they shared their unique"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 86,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg87.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  Digital Engagement  Olympic journeys while representing as well as being supported by their local communities.  eloitte Firsts: A branded content series D uncovering the “First Effect”, reframing what victory looks like for humanity. It is built on the truth that winning is a win for one person, but firsts are a win for everyone. They unlock something for humanity and move the world forward. Unique and ambitious collaborations, made possible because of the IOC’s partnerships and its partners' drive to innovate, learn and enhance the fan experience.  ello World: A music-focused joint H activation with Coca-Cola that included the launch of a song for the Olympic Games, written and produced by songwriter, producer and OneRepublic frontman Ryan Tedder. Grammy Awardwinning singer-songwriter Gwen Stefani performed the single alongside eighttime Grammy Award-winning producer and singer-songwriter Anderson. Paak.  y Olympic Rewards: A pilot of a M points-and-rewards-driven platform for Olympic fans around the world, in partnership with Visa. Partners such as Intel and Samsung also activated on the platform for Paris 2024.  igital Panini sticker albums: Developed D by Panini in partnership with Coca-Cola, fans could access digital collectible sticker albums for Paris 2024.  ictory Selfie: The IOC brought the V Victory Selfie 360, from Olympics global and local social channels, amplifying the on-site product placement and athlete engagement around the medal moment.  ogether for Tomorrow – Samsung T Health: With Samsung Health and rewards on MyOlympicRewards, the IOC and Samsung launched a global challenge for Olympic fans to walk around the world between past and future Olympic Games host cities. Together, participants took 297 billion steps and circled the world more than 5,200 times.  87  Let’s Move  120m+  engagements on Olympic social handles  Official App of the Olympic and Paralympic Games Paris 2024 The official app of the Olympic and Paralympic Games Paris 2024 was an essential tool for fans worldwide, offering an all-in-one platform to stay connected with the Games. Completely redesigned for the Olympic Games Paris 2024, the app introduced a host of new features tailored to enhance the spectator experience, both for fans on the ground and for those following the action remotely. Key upgrades included improved schedules, medals and results sections, as well as a live blog that provided instant access to the latest updates. Customisable schedules, medal tables and results allowed fans to tailor their experience, while personalised push notifications ensured they never missed breaking news or results for their favourite sports, teams and athletes. The app also offered exclusive content, including original Olympic news, features and insights, alongside interactive elements such as the Olympic shop, where fans could browse and purchase official merchandise, and an Olympic trivia game that tested users’ knowledge of the Games. For those attending the Games in person, the app provided practical tools to simplify their experience. A dedicated “My Events” section enabled session management, complete with checklists  of essential venue information to ensure a seamless visit. The interactive Games map was another standout feature, guiding fans through must-see venues, fan zones and events across Paris, helping them make the most of their Olympic experience. With its comprehensive functionality and user-friendly design, the Paris 2024 Olympics app served as the ultimate companion – opened 450m times – merging information, entertainment and convenience for Olympic fans.  Let’s Move The IOC’s ongoing “Let’s Move” campaign, launched in collaboration with the World Health Organisation, encourages fans worldwide to embrace physical activity for better health. The “Let’s Move and Celebrate” initiative for Paris 2024 hoped to inspire fans to move through the Olympic Games, through Olympic Day celebrations and digital activations such as recreating iconic athlete celebration moves, and to share them on social media using #LetsMove. The campaign inspired millions of fans worldwide to move and cheer for the athletes on their road to the Olympic Games Paris 2024. With over 120 million engagements on Olympic social handles, “Let’s Move” continued to energise audiences globally, showcasing the joy and inclusivity of sport while supporting the Olympic Movement’s commitment to promoting active lifestyles."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 87,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg88.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "88  Digital Partnerships The IOC’s digital partnership collaborations for Paris 2024 redefined how fans engaged with the Games, offering a seamless blend of innovation, interactivity and storytelling. Through collaborations with 13 leading digital platforms across 27 products, the IOC was able to extend the Games’ reach, providing fans with diverse opportunities to immerse themselves in the action. Dedicated Olympic content hubs on TikTok and YouTube became must-visit destinations for fans, hosting a mix of highlights, storytelling and athlete-driven content. TikTok collectibles allowed fans to unlock rewards from Worldwide Olympic Partners, while trending videos like behind-the-scenes glimpses into the Olympic Village – including the now-famous chocolate muffins – captured global attention. Interactive experiences across Meta’s Instagram, Facebook and WhatsApp enriched fan engagement. Olympic-themed AR filters, custom backgrounds, and WhatsApp sticker packs offered creative ways for fans to connect with the Games, while curated storytelling on Instagram and Facebook also brought Paris 2024 to life. The Olympic Phryges mascot became a star of these activations, appearing in Meta experiences, games and more. For the first time, fans experienced the Games through more than 20 augmented reality (AR) activations. Available via the Olympics app, Snap, and other platforms, these experiences allowed fans to travel back to the Olympic Games Paris 1924, interact with the action at competition venues, and engage with the streets of Paris in new and immersive ways. Global search interest in the Olympic Games peaked during Paris 2024, supported by collaborations with Google and Microsoft. Fans accessed the Games via dedicated Olympic hubs, while promotional efforts on the Play Store and App Store spotlighted the official Olympics app and MRH platforms, ensuring seamless access to information and content. The IOC introduced the first-ever Olympic Creator Programme, bringing together a host of digital creators from around the world. Through partnerships with TikTok, Meta and YouTube, these creators shared diverse perspectives, telling the story of the Games in uniquely creative ways. Their engaging and authentic content captivated millions, further amplifying the reach and impact of Paris 2024.  increase in total engagements on IOC social media handles  174%  Total followers on IOC social media handles  84m  151m"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 88,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg89.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  Digital Engagement  89  1 in 100 Million campaign for IOC Refugee Olympic Team The IOC Refugee Olympic Team inspired millions at Paris 2024, with digital efforts  Olympic-Owned Social Media  highlighting the athletes’ extraordinary journeys. Across Olympic social platforms, the team  garnered 25 million engagements, and its social following tripled during the Games, reflecting the global admiration for these exceptional athletes.  The Olympic social media team curated an extensive content strategy to deepen fan engagement. This included social-first activations such as live scavenger hunts in Paris, interactive art installations, and collaborations with creators. Historic moments from the Olympic archive were also revisited, building anticipation and connecting the legacy of past Games with the energy of Paris 2024. Near-live sporting moments and exclusive behindthe-scenes content provided fans with real-time access to the excitement and personal stories behind the Games.  Engaging Fans in China  In the build-up and during the Olympic Games, IOC owned handles produced 45,000 posts across more than 40 accounts in seven languages, ensuring a constant stream of engaging content for a global audience. During Games time, the accounts added on average 1.6 million new followers daily, underscoring the immense reach and appeal of the Olympic Games.  In July 2024, the platform launched a dedicated Paris Games hub, providing access to medal tables, event schedules, and results, alongside unique engagement opportunities. Fans could participate in predictors, vote for their favourite moments and athletes, and explore sweepstakesstyle activities that kept them actively involved throughout the Games.  Paris 2024 became the most engaged Olympic Games on social media. The IOC’s own digital platforms and social handles generated 16.7 billion engagements, a 174 per cent increase on the previous edition of the Games Olympics social media handles added 32 million new followers for the Games period, bringing the total audience to 151 million. This recordbreaking success reflected the IOC’s strategic focus on platform-specific content that connected with diverse audiences worldwide, particularly younger generations.  Direct Marketing  Youth-focused platforms like TikTok and Instagram were key drivers of this engagement, capturing the attention of audiences through viral trends, athlete-generated content, and creative storytelling.  Personalised communication played a pivotal role in engaging fans during Olympic Games Paris 2024. The IOC delivered 450 million direct messages, including tailored newsletters and push notifications, offering real-time updates,  exclusive content, and seamless user experiences. These efforts resulted in record-breaking engagement levels through direct communications with people around the world.  The Olympics WeChat Mini Program served as a prime engagement platform for Chinese-speaking fans during Paris 2024, offering a tailored experience that combined bespoke content, real-time updates, and interactive features.  To reach new audiences and diversify content, the IOC collaborated with a host of local cultural stars. These activities, which included quizzes and challenges, added a dynamic and playful dimension to fan engagement in the region. The initiative also helped the platform acquire 1.3 million new users, further broadening the reach of the Games in China."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 89,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg90.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": ""
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 90,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg91.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "Ticketing and Hospitality"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 91,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg92.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "92  Ticketing and Hospitality WITH MILLIONS OF PASSIONATE FANS IN PACKED VENUES CREATING AN UNFORGETTABLE ATMOSPHERE, PARIS 2024 SIGNALLED A HUGELY SUCCESSFUL LAUNCH OF A NEW ERA FOR OLYMPIC TICKETING AND HOSPITALITY The Olympic Games Paris 2024 marked a significant milestone for the Olympic ticketing and hospitality programmes, becoming the first edition of the Games to fully implement the IOC’s new centralised model. Launched as part of the  Olympic Agenda 2020+5 reforms, this innovative approach aimed to provide fans around the world with seamless access to tickets and hospitality packages, while simplifying operations, enhancing services to stakeholders, and creating new revenue opportunities.  Record-Breaking Ticket Sales Paris 2024 set a new benchmark for ticket sales, with over 9.5 million tickets sold out of a total of 10 million available, reflecting the Games’ commitment to accessibility and inclusion. The programme prioritised affordability, with one million tickets priced at just EUR 24 and four million tickets available for EUR 50 or less, reflecting Paris 2024’s commitment to hosting accessible and affordable Games, in line with its “Games Wide Open” slogan. The significant demand for tickets was driven by a combination of attractive pricing and the new centralised ticketing platform, which provided fans from around the world with direct access to Olympic tickets at standardised prices.  1m  6m  tickets priced at €24  €  9.5m  tickets sold  1m  fans visited celebration sites across France  fans lined the streets of Paris for the cycling road race  €  4m  tickets priced at €50 or less  280,000 fans visited the Champions Park"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 92,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg93.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  Ticketing and Hospitality  Unprecedented Fan Engagement and Atmosphere The overwhelming demand for tickets and hospitality packages translated into packed venues and vibrant celebrations across France, with enthusiastic fans filling the stands at competition venues and creating an electric atmosphere for athletes and spectators alike. Beyond the venues, Olympic fever spread throughout the country, with six million visitors attending celebration sites across France. The Champs-Élysées, Parc Georges-Valbon, and Marseille Club 2024 sites alone welcomed up to 20,000 people each day, offering fans the chance to engage with the Games  through live screenings, cultural activities, and special events. Fans also embraced the innovative Carrés des Supporters zones located in venue stands, where 145,000 spectators gathered to cheer for athletes, creating a festive environment and adding to the overall excitement of the Games. On the streets of Paris, nearly one million spectators turned out to watch the Olympic road cycling races along the River Seine, while the Champions Park in the shadow of the Eiffel Tower attracted 280,000 visitors to celebrate and cheer for more than 600 medallists.  93  Spectator experience ranks highly According to those surveyed, 85 per cent of Paris 2024 spectators rated their experience as “excellent” or “good” for ticketed events, with this rising to 95 per cent for the free events, and 98 per cent for the Marathon Pour Tous. “Atmosphere”, “visual appearance” an-d “security” were cited as key drivers across all events."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 93,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg94.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "94  Setting the standard for the Olympic Hospitality Experience The Paris 2024 hospitality programme set the standard for Olympic hospitality, offering fans and stakeholders a truly unique way to experience the Games. As the first Olympic Games to implement the IOC’s new global hospitality model, Paris 2024 featured an array of exclusive, ticket-inclusive travel and hospitality packages developed by On Location, the official hospitality provider for the Games. These packages catered to diverse audiences with a range of services and premium experiences.  For the first time, more than 90 per cent of Olympic sports featured dedicated hospitality offerings. Fans were able to choose from various options to suit their preferences and budgets, including: • On-Site Hospitality: High-quality, in-venue experiences within official competition venues, offering shared lounges and private boxes where guests could enjoy the sporting session of their choice while accessing premium services such as gourmet catering, private bars, and exclusive seating areas.  • In The City Hospitality: A groundbreaking concept created specifically for Paris 2024, these packages combined guaranteed tickets to Olympic events with exclusive access to iconic Parisian locations such as the Palais de Tokyo, the Eiffel Tower, and historic venues along the River Seine. These locations offered guests the opportunity to enjoy high-end food and beverages, athlete appearances, interactive activities, and cultural experiences that captured the essence of Paris and the Olympic Games."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 94,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg95.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  Ticketing and Hospitality  • Travel Packages: Tailored to meet the needs of individual fans, families, and corporate clients, the travel packages included tickets to the Games along with accommodation, transport options, guided tours, and exclusive hospitality experiences. These offerings allowed guests to immerse themselves fully in the Olympic experience, making their trip to Paris a once-in-a-lifetime event. In addition to these core packages, Paris 2024’s hospitality programme also featured bespoke options for corporate clients and large groups, providing the flexibility to customise experiences and create unforgettable memories for business partners, employees, and VIP guests.  “Paris 2024 revolutionised the delivery of Olympic Games hospitality, opening up hospitality packages to a larger global audience than ever before, from individuals to corporate clients.” 	 Louise Dier, Director of Hospitality, Paris 2024  A key feature of this programme was the use of the centralised online hospitality platform operated by On Location, which streamlined the purchasing process and provided fans with a single, secure source for all ticket and hospitality needs. The platform, along with a network of official sub-distributors, ensured that every fan had access to authentic hospitality experiences, helping to safeguard against the risks of unauthorised ticket sales and reselling. To further enhance the hospitality experience, the Olympic Museum loaned On Location artefacts and provided content and expertise on exhibition development, curation, and design, as well as visitor experience. The museum played a pivotal role in the project during Paris 2024, dedicating significant resources and expertise to enhance the Olympic Games experience. The Olympic Museum and its artifacts greatly enriched guest experiences across the various Paris 2024 hospitality venues, operated by On Location, where they were showcased.  95  Setting New Standards for Future Games The success of the Paris 2024 ticketing and hospitality programmes not only generated substantial revenue but also set a new benchmark for future Games. By providing a wide range of innovative hospitality offerings, Paris 2024 redefined what it means to experience the Olympic Games, ensuring that fans, stakeholders, and partners enjoyed a memorable journey that extended far beyond the competition venues. The implementation of this centralised model will continue to benefit future Games editions, establishing a consistent and high-quality hospitality experience that enhances the value of the Olympic brand.  NOC Houses: Immersive fan experiences In addition to the excitement of the competition venues, fans at Paris 2024 were treated to the vibrant atmosphere of 37 National Olympic Committee (NOC) Houses across the city, with 31 open to the public and 12 located at La Villette Park, which became known as “Nations Park” during the Games. These vibrant spaces allowed fans to celebrate with Olympic teams, enjoy cultural showcases, and experience unique fan activations. Several NOCs also partnered with TOP Partners, creating engaging activations that showcased innovation and further enhanced the fan experience."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 95,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg96.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "Licensing and Merchandising"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 96,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg97.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": ""
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 97,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg98.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "98  xxx  Licensing and Merchandising THE LICENSING PROGRAMMES FOR THE OLYMPIC GAMES PARIS 2024 WERE AN OVERWHELMING SUCCESS, CAPTURING THE ENTHUSIASM OF MILLIONS OF FANS BOTH IN FRANCE AND AROUND THE WORLD. With over 8,000 officially licensed products available, fans of the Olympic Games Paris 2024 had an extensive range of souvenirs to choose from. From the ever-popular mascots and collectible pins to clothing, accessories, stationery and homewares, the Paris 2024 Organising Committee’s licensing programme truly offered something for everyone.  The wide array of merchandise, sold at 150 official shops and 30,000 points of sale across France, and internationally via the online Olympic Shop, allowed fans to take home a piece of Paris 2024, while generating vital revenue to support the Games. Official merchandise was offered at a price range to suit all budgets, with items ranging from €5 for a selection of pens,  bracelets and notebooks, to €800 for a giant plush made in France. The programme not only celebrated the unique identity of Paris 2024 but also highlighted the Organising Committee’s commitment to sustainability and local craftsmanship, with 90 per cent of licensees being French small and medium-sized enterprises (SMEs)."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 98,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg99.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  Licensing and Merchandising  “We've got 'pin mania' back in full force for this edition of the Games. The products are flying off the shelves.” Etienne Thobois, CEO, Paris 2024  99  The enthusiasm for official merchandise was evident throughout the Games, with hordes of fans flocking to flagship stores at iconic locations such as the megastore situated on the Champs-Élysées, which attracted more than one million visitors. The official Paris 2024 mascots – the Phryges – were particularly popular, with 3.3 million plush toys sold. The wide array of collectible pins and the official posters – including the limited edition night version available online only – were also highly sought after, becoming must-have items for many visitors.  The stunning collection of 250 coins, produced by Monnaie de Paris, included, amongst other values, commemorative €2 coins in gold and silver. For the first time ever, Monnaie de Paris also produced coins with a hexagonal design, reflecting the shape of France itself. In total, seven million coins were sold.  In keeping with Olympic tradition, the Paris 2024 licensing programme also extended to commemorative coins and stamps, which paid tribute to the host city’s iconic monuments as well as celebrating the look of the Games.  With its diverse range of products and a strong focus on local production and sustainability, the Paris 2024 licensing programme was a resounding success, creating a memorable experience for fans and a lasting legacy for the Games.  8,000  different products available  30,000  points of sale throughout France  150  official shops throughout France  1m  visitors to the megastore on the Champs-Elysées  300,000  official posters sold  3.3m  mascot plush toys sold  78  licensees appointed by Paris 2024  90%  of licensees were French SMEs  Meanwhile, the official Paris 2024 stamp, released by La Poste, featured a design showcasing the Games’ visual identity and iconic Parisian sights, with more than one million being sold."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 99,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg100.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "100  IOC Global Licensing Programme Beyond the Paris 2024 licensing programme, the IOC also launched a global licensing initiative for the Games, featuring a wide range of physical and digital products. Collaborating with several new licensees, these Olympic-branded products were released across three collections: the Olympic Games Collection, which promotes the Games globally; the Olympic Heritage Collection, which celebrates the art and design of past Olympic Games; and the Olympic Collection, which helps bring the Olympic values to sports fans and young people globally. The Olympic Games Collection items sold globally included Paris 2024 match and  replica balls for volleyball, beach volleyball and water polo (all produced by Mikasa) and basketball and handball (produced by Molten), as well as Paris 2024 finger skateboards and ramps, developed with Spin Master’s Tech Deck brand, enabling fans to create their own Olympic skateparks. In addition, new apparel items within the Olympic Collection were released in cooperation with Trendyol, an affiliate of TOP Partner Alibaba, while fans were also able to purchase a range of co-branded Looney Tunes merchandise, developed in collaboration with Warner Bros. Discovery Global Consumer Products, including apparel, pins and accessories available on the online Olympic Shop and a limited collection available at Pull& Bear stores.  “Official merchandise enables fans to connect with the Olympic and Paralympic Games and collect their own special piece of Olympic history.”  nne-Sophie Voumard, A Managing Director of IOC Television & Marketing Services"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 100,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg101.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  Licensing and Merchandising  101  Digital offerings connecting with fans globally Fans around the world were also given the chance to connect with the Games via a wide range of digital offerings that provided interactive Olympic experiences. These included OlympicsTM Go! Paris 2024, the official mobile game for the Olympic Games Paris 2024, published by nWay and downloaded by two million fans; digital pins that were minted and distributed to 270,000 fans by nWAY; Paris 2024 online sailing races developed by and available on Virtual Regatta; and the Olympic World – an immersive environment on Roblox that provided a dynamic new platform to engage more than 11 million young people. Olympic fans were also inspired to test themselves in a variety of connected sports challenges available via the Kinomap interactive training app. These unique offerings gave runners, cyclists and rowers around the world the chance to tackle the Olympic courses remotely on their compatible home fitness equipment. For the first time, a digital and physical collectable album was also released for the Olympic Games, with the IOC collaborating with Panini and IOC TOP partner The Coca Cola Company to create a collection of digital and physical card packs for Paris 2024.  Marking 100 years since Paris 1924 In addition to products celebrating the Olympic Games Paris 2024, the IOC also worked with licensees to create products to mark the centenary of the Olympic Games Paris 1924. Offered as part of the Olympic Heritage Collection, these included a limited-edition range of apparel from Lacoste, a commemorative coin developed with the Monnaie de Paris, and special-edition Montblanc writing instruments and dedicated inks and notebooks celebrating the Olympic Games Paris 1924 and Olympic Winter Games Chamonix 1924."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 101,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg102.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "THE OLYMPIC BRAND"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 102,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg103.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": ""
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 103,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg104.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "104  More than  3 out of 4 PEOPLE BELIEVE THAT THE OLYMPIC GAMES ARE EVEN MORE IMPORTANT IN A DIVIDED WORLD"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 104,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg105.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  The Olympic Brand  105  “The independent surveys demonstrate that people believe that the Olympic Movement’s mission to unite the world in peaceful competition is more important than ever in a divided world; and that the Olympic values truly resonate with younger generations.” Thomas Bach, IOC President"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 105,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg106.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "106  THE OLYMPIC BRAND WITH EACH EDITION OF THE GAMES, THE OLYMPIC BRAND GROWS STRONGER, ENRICHED BY THE UNIQUE IDENTITY OF EACH HOST CITY. AT PARIS 2024, IT BLENDED THE TIMELESS SYMBOLISM OF THE OLYMPIC RINGS WITH THE ELEGANCE AND CREATIVITY OF FRANCE The Olympic rings are one of the most recognised symbols in the world, and during the Olympic Games Paris 2024, their enduring appeal was on full display. Towering over the French capital, a giant set of Olympic rings was installed on the iconic Eiffel Tower, measuring 29 meters wide and 13 meters high, and weighing 30 tonnes. Suspended between the first and second floors – approximately 60 metres above the ground – these huge rings became one of Paris’s most photographed sights, standing as a stunning testament to the unifying power of the Games, drawing locals and visitors alike to capture the moment and celebrate the Olympic spirit. For athletes, the Olympic rings were just as iconic and personal. No stay in Paris was complete without posing for a selfie in front of the Olympic Village’s own set of rings – a symbol of their participation in the Games and the realisation of their Olympic dreams. These images, shared widely on social media, reinforced the rings’ timeless appeal and their role in creating unforgettable memories for athletes and fans alike.  Very few symbols can inspire such universal recognition and emotional connection. Yet the Olympic rings transcend sport, embodying the values of excellence, friendship and respect. First designed by Pierre de Coubertin over a century ago, they represent the unity of the five continents in peaceful competition. Independent research commissioned by the IOC confirms their extraordinary reach, with nine out of ten people worldwide able to identify the rings. Beyond their symbolic significance, the Olympic rings are integral to the commercial success of the Olympic Movement. Their universal recognition attracts global partners eager to align with the positive values and extensive reach of the Games, enabling the IOC to continue inspiring the world through sport.  “W hen you enter the track and you see those five rings, that's goosebumps.”  Independent surveys conducted on behalf of the IOC have revealed that people believe that the Olympic Movement’s mission to unite the world in peaceful competition is more important than ever, and that the Olympic values truly resonate with younger generations. In consumer insight studies, 78 per cent of those surveyed said they believed the Olympic Games are more important than ever in a divided world, while three out of four also believed that the IOC was successful in “bringing the world together in peaceful competition” and in “building a better world through sport”. According to an independent brand tracker study conducted in September 2024, the relevance of the Olympic Games for Gen Z is now higher than for the general population, including outperforming other demographic groups in the metrics of “engagement with the Olympics”, “brand affinity” and “brand relevance”. This was driven in particular by the “inspiring stories of the athletes”, the “buzz on social media” and “improved accessibility to content”.  	 Julie Nicolaes (BEL, cycling)  The Olympic Symbol Designed by Baron Pierre de Coubertin in 1913  The relevance of the Olympic Games and the Olympic brand  First shown on an Olympic flag in 1914  Visual representation of Olympism Interlinked rings show how athletes come together at the Games Rings represent the five continents of the world Can be identified by 9 out of 10 people globally"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 106,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg107.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  The Olympic Brand  107  The Olympic Rings & The Eiffel Tower  Illuminated by 100,000 low-intensity LEDs  Weighed approximately 30 tonnes  13  29  metres High  metres wide  “We wanted the most iconic symbol of the Olympics – the rings – to meet the most iconic symbol of Paris – the Eiffel Tower.” Michaël Aloïsio, Managing Director, Paris 2024"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 107,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg108.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "108  THE PARIS 2024 BRAND While the rings provide continuity from one Olympic Games to the next, each edition also introduces its own unique brand identity, reflecting the culture, character, and vision of the host city and nation.  Paris 2024 embraced the spirit of innovation and heritage, creating a brand identity that celebrated the 'French art de vivre' while highlighting inclusivity, sustainability, and the pursuit of excellence.  US gymnast Simone Biles added to her incredible Olympic legacy with four more medals, including team, vault and all-around gold"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 108,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg109.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  The Olympic Brand  109  • Look of the Games Unveiled in February 2023, the Look of the Games featured bold, colourful designs inspired by the iconic paving stones found throughout Paris and France. These geometric shapes symbolised the host nation’s heritage while offering endless customisation possibilities for communities and partners. For the first time, a unified Look was created for both the Olympic and Paralympic Games, reducing both costs and environmental impact.  • Emblem The Paris 2024 emblem, launched in October 2019, brought together the gold medal, Olympic flame and Marianne – a symbol of liberty and French identity. With its feminine design, the emblem commemorated the Olympic Games Paris 1900, where women competed for the first time, and was shared by both the Olympic and Paralympic Games.  • Medals Crafted by Chaumet, a prestigious French jeweller, the Paris 2024 medals featured 18 grams of iron sourced from the Eiffel Tower, embodying the Games’ connection to France’s heritage. The medal design incorporated a hexagon, symbolising France, with fine lines radiating outward to represent the brilliance of athletic achievement.  • Mascots Unveiled in November 2022, “The Phryges” mascots took inspiration from the Phrygian caps, a symbol of freedom rooted in French revolutionary history. These mascots reflected Paris 2024’s vision of inspiring change through sport and became a beloved representation of the Games.  • Olympic Torch Designed by French artist Matthieu Lehanneur, the Paris 2024 Olympic Torch combined concepts of equality, water and peace. Its symmetrical design reflected balance and harmony, while ripples along its surface evoked the River Seine.  • Pictograms Paris 2024 reimagined the Olympic pictograms, elevating them into striking coats of arms representing each sport. These 62 unique designs served as badges of honour for athletes and fans, symbolising pride, belonging and the values of each sports discipline."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 109,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg110.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "110  PRESERVING THE COMMERCIAL VALUE OF THE OLYMPIC BRAND  The Olympic rings are among the most recognised symbols in the world, and their universal appeal lies at the heart of the IOC’s marketing programmes, which offer commercial partners an exclusive association with this iconic emblem. This unique partnership ensures that the Olympic Games can be delivered to the highest standard while promoting sport worldwide. Unauthorised use of the Olympic rings and other Olympic properties1 – known as ambush marketing2 – threatens the integrity of the Olympic brand. Such actions diminish the value of official partnerships, jeopardising the revenue generated to support  athletes and sports organisations globally. Protecting the commercial value of the Olympic brand is therefore essential to safeguarding the future of the Olympic Movement. The IOC works closely with National Olympic Committees (NOCs), Organising Committees for the Olympic Games (OCOGs), and local governments to educate businesses and stakeholders about the importance of official partnerships and the harm caused by ambush marketing. Each infringement is reviewed individually, with the IOC and its partners taking appropriate action to maintain the integrity of the brand and the investment of its partners.  1 Olympic properties (as defined by the Olympic Charter) include without limitation the Olympic symbol, flag, motto, anthem, identifications (including but not limited to “Olympic Games” and “Games of the Olympiad”), designations, emblems, mascots, flame, torches, images and/or terminology, and any and all rights derived from the Olympic Games and/or the Youth Olympic Games. 2 Direct and/or indirect unauthorised association with, exploitation or promotion of, the Olympic properties and/or the Games."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 110,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg111.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  The Olympic Brand  Paris 2024 Brand Protection Programme As part of the agreement to host the Olympic Games, the Paris 2024 Organising Committee and the French government committed to protecting all Olympic-related intellectual properties in accordance with the Olympic Charter. These properties, including emblems, logos, and designations, were safeguarded under French national law, ensuring that their use was strictly controlled and authorised only by the Paris 2024 Organising Committee. The IOC and Paris 2024 implemented a global Brand Protection Programme to uphold the integrity of these intellectual properties and preserve the value of the Olympic brand. This comprehensive programme included: • Monitoring the Internet: Dedicated teams used advanced technologies to identify and address unauthorised use of Olympic properties online, including illegal streaming and unlicensed merchandise.  111  The programme aimed to detect and act against any infringement, ensuring the exclusivity of the Olympic brand. • Collaborating with Law Enforcement: The Paris 2024 Organising Committee worked closely with law enforcement agencies to combat counterfeit goods. These efforts protected the official merchandise and ensured that consumers received authentic products while supporting the Games’ licensed suppliers. • Maintaining Compliance: By overseeing the use of intellectual properties, the programme upheld the commitments made to the IOC by Paris 2024 and safeguarded the investments of official partners. The Paris 2024 Brand Protection Programme played a vital role in defending the commercial and symbolic value of the Olympic Games. Its success ensured that the revenue generated by official partnerships could continue to support the athletes, sports organisations, and the Olympic Movement as a whole.  Global Broadcast and Internet Monitoring The global broadcast of the Olympic Games Paris 2024 relied on the exclusive rights granted to Media Rights-Holders (MRHs). Protecting these rights was a priority for the IOC, as illegal streaming and unauthorised use of audiovisual content poses significant threats to the value of the partnerships. The IOC’s Internet Monitoring Programme (IMP) used cutting-edge technology to prevent and track online violations, particularly live streaming infringements. The programme targeted illegal content across websites, social media platforms, and mobile applications, taking swift action to ensure that viewers accessed the Games through official channels. In addition to enforcement, the IOC and MRHs conducted promotional campaigns to inform audiences worldwide where, when, and how to watch official coverage of the Games. These efforts not only enhanced viewership but also acted as a powerful deterrent against piracy."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 111,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg112.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "ACKNOWLEDGEMENTS"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 112,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg113.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": ""
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 113,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg114.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "“The IOC is proud and grateful to work together with such a dedicated community of commercial partners. Their commitment ensures the Olympic Games continue to inspire and unite globally. And beyond the Olympic Games, they fuel our mission to make the world a better place through sport..” Thomas Bach, IOC President"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 114,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg115.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  Acknowledgements  115  Media Rights-Holders • Albavision-Televideo  • International Media Content  • SBS  • America Movil  • IMG  • Sky Network  • beIN  • Infront  • Supersport  • Caracol  • Japan Consortium  • Telerebelde  • CBC / Radio-Canada  • LiveMode  • Televisa  • Chilevision  • NBCUniversal  • TVES  • China Media Group  • Nine  • TV Publica Argentina  • Dentsu  • Prodena  • Viacom18  • Grupo Globo  • SABC  • Warner Bros. Discovery  Worldwide Olympic Partners  Paris 2024 Premium Partners"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 115,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg116.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "116  Paris 2024 Official Partners • Groupe ADP  • Decathlon  • Air France  • FDJ  • ArcelorMittal  • GL Events Group  • Caisse des Dépôts  • Ile-de-France Mobilités  • Cisco  • Le Coq Sportif  • CMA CGM Group  • PwC  • Danone"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 116,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg117.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  Acknowledgements  117  Paris 2024 Official Supporters • Abatable  • Groupe RATP  • RGS Events  • ABEO  • Highfield  • Saint-Gobain  • Air Liquide  • Hype  • Salesforce  • Airweave  • Indigo  • SCC  • Aquatique Show  • La Poste  • Schneider Electric  • Arena  • Loxam  • SLX  • CRYSTAL  • Lyreco  • SNCF  • Doublet Wasserman  • Miko  • Sodexo Live!  • DXC Technology  • Mondo  • Egis  • MTD  • Syndicat des Eaux d'Île-de-France  • Enedis  • Myrtha Pools  • ES Global  • OnePlan  • Eviden  • Optic 2000  • Fitness Park  • Ottobock  • Fnac Darty  • Randstad  • Garden Gourmet  • Rapiscan Systems  • Gerflor  • Re-uz  • Technogym • Terraillon • Thermo Fisher Scientific • Tourtel Twist • VINCI • Viparis • Westfield"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 117,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg118.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "118  EDITORIAL, DESIGN AND PRODUCTION IOC Touchline  PHOTOGRAPHY IOC Images Paris 2024 Getty Images  RESEARCH  The brand tracker, broadcast research, and consumer and athlete surveys were conducted by Nielsen, Ipsos and Publicis Sport & Entertainment. Across all consumer studies a total of more than 55,000 people in 18 countries were surveyed, with all respondents aged between 13 and 65. International Olympic Committee Maison Olympique, 1007 Lausanne, Switzerland Tel: +41 (0) 21 621 6111 www.olympics.com/ioc © This publication may not be reproduced, even in part, in any form, without the written permission of the IOC. All reproduction, translation and adaptation rights are reserved for all countries."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 118,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg119.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "IOC Marketing Report Paris 2024  Acknowledgements  THANKS TO OUR WORLDWIDE OLYMPIC PARTNERS  119"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 119,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg120.png",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "International Olympic Committee  Maison Olympique, 1007 Lausanne, Switzerland www.ioc.org"
+      "searchText": "www.gymnastics.sport" 
+      
+      
     }]],
     "script": `
     function idOf(id) {
