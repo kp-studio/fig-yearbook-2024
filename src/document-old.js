@@ -1,23 +1,28 @@
 export default  {
   "guid": "437c4aa5-0410-47e4-b976-27dbfeda165b",
-  "title": "FIG Yearbook 2023",
+  "title": "FIG Yearbook 2024",
   "shortTitle": "",
   "description": "",
-  "width": 670,
-  "height": 948,
+  "width": 620,
+  "height": 877,
   "currentLanguage": "EN",
-  //"languages": [],
-  "basePath": "/2023",
-  //"basePath": "",
+  "languages": [{
+    "code": "EN",
+    "text": "English",
+    "href": "#"
+  }],
+  "basePath": "", 
+  //  "basePath": "/2024", 
   "companyLogo": "1-logo-1.png",
-  "publishURL": "https://yearbook.gymnastics.sport/2023/static/_thumbs/",
+  "publishURL": "",
   "externalResources": ["https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"],
   "options": {
     "doublePage": true,
     "rightToLeft": false,
     "searchEnabled": true,
+    "subscribeEnabled": true,
     "downloadEnabled": true,
-    "downloadPath": '/2023/static/_content/fig-2023.pdf',
+    "downloadPath": 'static/_content/fig-yearbook-2024.pdf',
     "printEnabled": false,
     "zoom": {
       "navEnabled": false,
@@ -35,112 +40,84 @@ export default  {
     "editionsEnabled": false,
     "mobileSwitch": false,
     "guideEnabled": false,
-      "galleryCaptions": {
-        '17-1.jpg':'Opening ceremony',
-        '17-2.jpg':'Colours unite',
-        '17-3.jpg':'Colours unite',
-        '17-4.jpg':'Brazil national evening',
-        '17-5.jpg':'Finland group performance',
-        '17-6.jpg':'Three-time Olympian Elizabeth Seitz (GER) took part in the WG23',
-        '17-7.jpg':'Germany national evening',
-        '17-8.jpg':'Germany national evening',
-        '17-9.jpg':'Group performance Australia',
-        '17-10.jpg':'Group performance USA',
-        '17-11.jpg':'Group performance Zimbabwe',
-        '17-12.jpg':'Italy national evening',
-        '17-13.jpg':'Japan national evening',
-        '17-14.jpg':'Netherlands national evening',
-        '17-15.jpg':'Pan-American Gymnastics Union (PAGU) continental evening',
-        '17-16.jpg':'Portugal national evening',
-        '17-17.jpg':'Sweden MalmoÌˆflickorna, gala evening',
-        '17-18.jpg':'Swiss rings, gala evening',
-        '17-19.jpg':'Gala evening',
-        '17-20.jpg':'Portugal delegation, closing ceremony',
+    "galleryCaptions": {
 
-        '23-1.jpg':'Dynamic Hashimoto Daiki (JPN) soared to his second consecutive world All-Around title in Antwerp (BEL).',
-        '23-2.jpg':'Simone Bilesâ€™s (USA) return to the world stage set the gymnastics world abuzz. Stellar results â€”Â four golds and a silver â€” made it seem like she had never been gone.',
-        '23-3.jpg':'The fired up Japanese menâ€™s team returned to the top of the podium for the first time since 2015.',
-        '23-4.jpg':'A jubilant USA womenâ€™s team extended their World Championships winning streak to a record seven consecutive titles.',
-        '23-5.jpg':'A true craftsman on Floor Exercise, all Artem Dolgopyat (ISR) was missing was a world title â€”Â and he finally got it.',
-        '23-6.jpg':'Extraordinary twisting ability on Vault helped Jake Jarman (GBR) become Great Britainâ€™s first world champion on the apparatus.',
-        '23-7.jpg':'Brazilian team pillars Rebeca Andrade and Flavia Saraiva (BRA) share a laugh. ',
-        '23-8.jpg':'Fourth on Still Rings in Antwerp (BEL) a decade ago, Olympic champion Liu Yang (CHN) took a triumphant victory lap in his return to Belgium.',
-        '23-9.jpg':'A focused Lukas Dauser (GER) helped the German men finish sixth, attaining their goal of Olympic qualification.',
-        '23-10.jpg':'Rhys McClenaghan (IRL), winner of Irelandâ€™s first world title in 2022, doubled down on Pommel Horse gold in 2023.',
-        '23-11.jpg':'Newcomer Qiu Qiyuan (CHN) became the Peopleâ€™s Republic of Chinaâ€™s fifth Uneven Bars champion in ten years.',
+      '17-1.jpg':'Light shows a lit up Bercy Arena pre-competition',
+      '17-2.jpg':'A legion of volunteers worked behind the scenes to make the Games go',
+      '17-3.jpg':'A dazzling all-around display_ Simone Biles’s (USA) return to the Olympic stage was an out-and-out triumph. In her third Games, Biles electrified the City of Light with golden performances in the All-Around, on Vault, and with the U.S. team',
+      '17-4.jpg':'Three years after groundbreaking results in Tokyo, Rebeca Andrade (BRA) continued her rise with Floor Exercise gold, All-Around and Vault silver, and a historic team bronze. The results made the 25-year-old Brazil’s most decorated Olympic athlete',
+      '17-5.jpg':'Immensely talented Kaylia Nemour (ALG) surmounted all obstacles to become the first Olympic gymnastics champion from Africa following a lights-out routine on the Uneven Bars',
+      '17-6.jpg':'Nobody was more surprised to see Alice D’Amato (ITA) top the standings on Balance Beam than D’Amato herself. The 21-year-old who once contemplated giving up on the apparatus stunned by grabbing the Olympic title in a topsy-turvy final',
+      '17-7.jpg':'They marched into the Olympic arena determined and marched out victorious. The alpha team of the 21st century, the U.S. has now earned the Women’s Team title at three of the past four Olympics',
+      '17-8.jpg':'USA fans had plenty to cheer about in Paris',
 
-        '24-1.jpg':'Impressive young Italians Caterina Gaddi (ITA, left) and Giulia Perotti (ITA) took a title apiece at the World Junior Championships in Antalya (TUR). ',
-        '24-2.jpg':'Womenâ€™s Vault winner Mia Mainardi (ARG) added Argentina to the list of nations that have won gold at a Junior World Championship.',
-        '24-3.jpg':'To his own self he was true: Hamlet Manukyanâ€™s (ARM) hard work paid off in Junior World titles on Pommel Horse and Still Rings in Antalya (TUR).',
+      '21-1.jpg':'Former World Junior champion Oka Shinnosuke (JPN) was masterful in his Olympic debut. With golds in the All-Around, Horizontal Bar, and team competition, the relatively unknown 20-year-old left Paris as the new face of men’s gymnastics',
+      '21-2.jpg':'Only the second athlete from the Philippines ever to win Olympic gold, Carlos Yulo (PHI) etched his name into history twice, first by claiming the title on Floor Exercise, then by doing it again on Vault the next day',
+      '21-3.jpg':'Smooth-swinging Rhys McClenaghan (IRL) rode a wave of confidence and preparation en route to becoming Ireland’s first Olympic gymnastics champion',
+      '21-4.jpg':'No one even came close. Zou Jingyuan’s (CHN) impeccable form on Parallel Bars gave him his second Olympic gold by an extraordinary 0.7 margin',
+      '21-5.jpg':'One ringman to rule them all. Just as sensational as he was in Tokyo, Liu Yang (CHN) celebrated his second consecutive Olympic title on Still Rings days before his 30th birthday',
+      '21-6.jpg':'The Chinese led through five rotations in the Men’s Team final, but it all came apart on Horizontal Bar. That opened the door for Japan to pip their continental rival for gold, much to team members’ delight',
 
-        '28-1.jpg':'Day one: Chiba Kenta (JPN), Photographer: Tim Clayton - Media: Corbis',
-        '28-2.jpg':'Day two: Nicola Bartolini (ITA), Photographer: Tom Weller - German Gymnastics Federation',
-        '28-3.jpg':'Day three: Selina Kickinger (AUT), Photographer: Simone Ferraro - Italian Gymnastics Federation',
-        '28-4.jpg':'Day four: Kaya Kazuma (JPN), Photographer: Slobodan Kadic - Media: Total Croatia News',
-        '28-5.jpg':'Day five: Brazil WAG Team, Photographer: Christian Degroote - Belgian Gymnastics Federation (Gymfed)',
-        '28-6.jpg':'Day six: Hashimoto Daiki (JPN), Photographer: Amy Sanderson - Media: Pan American Gymnastics Union (PAGU)',
-        '28-7.jpg':'Day seven: Rebeca Andrade (BRA), Simone Biles (USA), Shilese Jones (USA), Photographer: Takuya Matsumoto - Media: The Yomiuri Shimbun',
-        '28-8.jpg':'Day eight: Qiu Qiyuan (CHN), Photographer: Yuki Honma - Media: Jiji Press',
-        '28-9.jpg':'Day nine: Jake Jarman (GBR), Photographer: Simone Ferraro - Italian Gymnastics Federation',
+      '24-1.jpg':'Favoured for the Olympic title since she swept the golds at the 2023 World Championships, Darja Varfolomeev (GER)',
+      '24-2.jpg':'Two exquisitely crafted routines from the Chinese brought their Group the golden result it had been working toward the entire Olympic cycle',
+      '24-3.jpg':'Boryana Kaleyn (BUL) rose to the occasion splendidly for silver, Bulgaria’s first individual Rhythmic medal in 36 years',
+      '24-4.jpg':'The secret to the Israeli Group’s success? Plain old hard work, team members said. On the Olympic floor, they saw their efforts pay off in silver',
+      '24-5.jpg':'The most successful Italian rhythmic gymnast in history. The expressive Sofia Raffaeli (ITA) overcame an early mistake to claim the bronze medal',
+      '24-6.jpg':'The always-entertaining Italian Group delivered two artistic performances to conclude their Games with a second consecutive Olympic bronze',
 
-        '32-1.jpg':'With an astonishing five golds in Valencia (ESP), Darja Varfolomeev (GER) established herself not only as World champion, but a chief contender for the Olympic title.',
-        '32-2.jpg':'The Peopleâ€™s Republic of Chinaâ€™s maiden World title in Rhythmic Gymnastics came courtesy of the Group 5 Hoops exercise. ',
-        '32-3.jpg':'Polished to the tips of their toes, the Israeli Group took a historic All-Around title, the nationâ€™s first in Rhythmic Gymnastics.',
-        '32-4.jpg':'With routines dripping with elegance and expression, 2022 World champion Sofia Raffaeli (ITA) added three silvers and a bronze to her burgeoning collection.',
-        '32-5.jpg':'Crowd favorite Stiliana Nikolovaâ€™s (BUL) stylish work earned her two medals: team gold and Ball bronze.',
-        '32-6.jpg':'Spectators in the Valencia Feria showered Sofia Raffaeli (ITA) with gifts.',
+      '26-1.jpg':'First silver, then bronze, and now gold at last! From her Olympic debut in Rio in 2016 to her ultimate triumph in Paris, Bryony Page (GBR) has taken us all on an extraordinary ride',
+      '26-2.jpg':'Tokyo 2020 gold medallist Ivan Litvinovich (AIN) was a portrait of security and serenity as he became the first man to earn back-to-back Olympic Trampoline titles',
+      '26-3.jpg':'In her first major international competition, 19-year-old Viyaleta Bardzilouskaya (AIN) seemed every inch the seasoned veteran as she flipped to silver',
+      '26-4.jpg':'After silver at the 2023 World Championships, 18-year-old Wang Zisai (CHN) stayed consistent to maintain his place on the podium',
+      '26-5.jpg':'Years of competing as an underdog came to an end in a single moment for bronze medallist Sophiane Methot (CAN)',
+      '26-6.jpg':'Twice a World champion, in Paris Yan Langy (CHN) pulled on his immense difficulty to hoist him onto the Olympic podium',
+      '26-7.jpg':'Medallists were all smiles for the post-victory ceremony podium selfie',
+      '26-8.jpg':'A moment of international camaraderie between Olympic high-fliers',
 
-        '36-1.jpg':'Jubilation for Bulgariaâ€™s juniors: The nation reigned over the team and Group All-Around competitions at Junior Worlds.',
-        '36-2.jpg':'After All-Around silver, Israelâ€™s juniors struck gold twice in apparatus finals in Cluj-Napoca (ROU).',
+      '34-1.jpg':'Fiery performances like this one from Raziya Seyidli and Aghasif Rahimov (AZE) helped the sizzling duo earn gold for Balance and Combined',
+      '34-2.jpg':'Extraordinary throws — including one never done before — helped the untouchable Chinese Men’s Group earn four golds, the maximum number possible at an Acrobatic Gymnastics World Championships',
+      '34-3.jpg':'The best Belgian Women’s Pair to emerge in a decade, the assured Maysae Bououch and Silke Macharis swept the World titles in their category',
+      '34-4.jpg':'One of the most pleasant surprises of the Guimarães Worlds was the high-flying display of Anastasiia Semenovych and Bohdan Ivanyk (UKR), unexpected winners of the Dynamic gold',
+      '34-5.jpg':'Best friends Murad Rafiyev and Daniel Abbasov (AZE) poured years of collective work into their routines in Guimarães, resulting in the first two World titles for an Azerbaijani Men’s Pair',
+      '34-6.jpg':'The superb quality of Ma Yixing, Gu Quanjia, and Ding Wenyan’s (CHN) Combined exercise lifted the group to gold ahead of their Belgian rivals',
+      '34-7.jpg':'A perfectly executed season by Sofie Jaeken, Mirte Vercauteren, and Lauren Verbrugghe (BEL) concluded with the Belgian trio as World champions in the Balance and Dynamic categories',
+      '34-8.jpg':'Crisp and precise, Yang Fudi and Yao Chenyufei (CHN) did their part to help China win its first team victory in 30 years at the World Championships',
+      '34-9.jpg':'Technical judges at the Guimarães World Championships',
+      '34-10.jpg':'A hearty crowd rooted strongly for Portuguese gymnasts, but roared their approval for everyone in Guimarães',
 
-        '38-1.jpg':'Just 17, Wang Zisai (CHN) established himself as the new young face of Chinese menâ€™s Trampoline at the Birmingham Worlds.',
-        '38-2.jpg':'Double delight for Great Britainâ€™s Isabelle Songhurst and Bryony Page: their results confirmed that Team GB could qualify two women to the Olympic Games.',
-        '38-3.jpg':'Trampoline and DMT competitor Ruben Padilla (USA) seemed to be everywhere at once in Birmingham. Three golds made him the most successful gymnast at the World Championships.',
-        '38-4.jpg':'A World champion in 2022, Fabian Vogel (GER) came to this Worlds with new partner Caio Lauxtermann â€”Â and won a second title.',
-        '38-5.jpg':'Jubilation for Azerbaijan: on his fifth try, Tumbling specialist Mikhail Malkin (AZE) became a World champion at last!',
-        '38-6.jpg':'The no. 1 in Womenâ€™s Synchro pair: Nicole Ahsinger and Sarah Webster (USA) ended a half-century wait for a U.S. World title in Womenâ€™s Synchro.',
-        '38-7.jpg':'Enfin! The French men were the golden team in Trampoline for the first time since 1996.',
-        '38-8.jpg':'The top tumbler in prelims at the past two World Championships, difficulty queen Candy Briere-Vetillardâ€™s (FRA) golden dreams finally turned into reality in Birmingham.',
-        '38-9.jpg':'Womenâ€™s World team champions Peopleâ€™s Republic of China opted not to change a winning formula: The same four who won in 2022 claimed a second title in 2023. ',
-        '38-10.jpg':'Silver in 2018 and bronze in 2021, gold was all that was missing from Melania Rodriguezâ€™s (ESP) DMT trophy case. Not anymore!',
+      '36-1.jpg':'A routine inspired by The Nutcracker made sure Christmas came early for Hungary’s Aerobic Dance team, which captured its first World title in the category',
+      '36-2.jpg':'If the season leading up to the World Championships was difficult for him, Miquel Mane (ESP) betrayed no sign of it onstage. Victorious in 2021, he was again best in the world in 2024',
+      '36-3.jpg':'The Republic of Korea chose “Pirates of the Caribbean” as the theme for their 2024 Aerobic Step routine — a fitting choice for the team that wound up carting off the gold',
+      '36-4.jpg':'Absent for several years at the World Championships, the People’s Republic of China heralded their return to major international competition with two titles, including from its formidable Group',
+      '36-5.jpg':'Having both savoured World titles as individuals, longtime training partners Saito Mizuki and Kitazume Riri (JPN) made gold in Mixed Pairs their ultimate goal for 2024 — and they got it',
+      '36-6.jpg':'A feisty performance from Italy’s Aerobic Dance team helped the host nation claim its first ever World team title ahead of Romania and China',
+      '36-7.jpg':'Zhang Jingshan, Wang Zhenao, and Zhang Qingzhou (CHN) arrived in Pesaro with the goal of pleasing the crowd with their routine, where the trio portrays pop stars. Turns out the judges liked it too, and made them world champions for the first time',
+      '36-8.jpg':'A six-year wait to return to the World Championships was rewarded with gold for 2018 women’s champion Kitazume Riri (JPN), who could not contain her emotion at the end of her routine',
+      '36-9.jpg':'Italian colours and a love of Aerobic Gymnastics were evident everywhere you looked at the Pesaro Worlds',
 
-        '48-1.jpg':'Jakarta (INA)',
-        '48-2.jpg':'Jakarta (INA)',
-        '48-3.jpg':'Jakarta (INA)',
-        '48-4.jpg':'Kuala Lumpur (MAS)',
-        '48-5.jpg':'Kuala Lumpur (MAS)',
-        '48-6.jpg':'Kuala Lumpur (MAS)',
-        '48-7.jpg':'Kuala Lumpur (MAS)',
-        '48-8.jpg':'Kuala Lumpur (MAS)',
-        '48-9.jpg':'Kuala Lumpur (MAS)',
-        '48-10.jpg':'Kuala Lumpur (MAS)',
-        '48-11.jpg':'Bangkok (THA)',
-        '48-12.jpg':'Bangkok (THA)',
-        '48-13.jpg':'Hanoi (VIE)',
-        '48-14.jpg':'Hanoi (VIE)',
-        '48-15.jpg':'Hanoi (VIE)',
-        '48-16.jpg':'Manila (PHI)',
-        '48-17.jpg':'Manila (PHI)',
+      '38-1.jpg':'Andrea Consolini (ITA), Caryl Cordt-Moller (SUI) and Jaroslav Chum (CZE) during the Men’s Speed World Championships medal ceremony in Kitakyushu (JPN)',
+      '38-2.jpg':'The Women’s Speed podium in Kitakyushu',
+      '38-3.jpg':'Ella Bucio (MEX) in mid-air in Kitakyushu – her first Speed title, two years after becoming Freestyle world champion in Tokyo',
+      '38-4.jpg':'Elis Torhall (SWE), crowned World Champion for the first time, with Shiohata Mutsuhiro (JPN) and Tangui Van Schingen (NED) on the Men’s Freestyle podium in Kitakyushu',
+      '38-5.jpg':'Ella Bucio (MEX), Chunsong Shang (CHN), former Artistic Gymnastics team medallist turned Parkour athlete and newly crowned World Freestyle Champion, and Audrey Johnson (USA) in Kitakyushu',
+      '38-6.jpg':'Elis Torhall (SWE) celebrates with friends',
+      '38-7.jpg':'Eye-catching event promotion at Kokura Station (Kitakyushu) for the 2024 World Championships',
+      '38-8.jpg':'The outdoor field of play at twilight with Kokura castle visible in the background',
+      '38-9.jpg':'FIG President Morinari Watanabe welcomes the delegations at the Opening Ceremony in Kitakyushu, where all five continents were represented, highlighting the diversity of Parkour',
+      '38-10.jpg':'10.	The judges at the 2nd FIG Parkour World Championships in Kitakyushu',
 
-        '50-1.jpg':'Davide Rizzi (ITA) greets young fans during the qualification round at the Montpellier (FRA) World Cup in 2023. More than half a million spectators attended the FISE festival over the five days of competition. ',
-        '50-2.jpg':'Her Womenâ€™s Speed winning streak now stretches more than 30 months â€“ Miranda Tibbling (SWE) dominates the course and the competition in Sofia, Bulgaria. ',
-        '50-3.jpg':'Ella Bucio (MEX) and Adela Merkova (CZE) proudly share the season title at the end of a hotly contested FIG Parkour World Cup series. ',
-        '50-4.jpg':'Left for dust: Jaroslav Chum (CZE) powers to victory in the Menâ€™s Speed event at the Sofia (BUL) World Cup. ',
-        '50-5.jpg':'No hard feelings: Andrea Consolini (ITA) celebrates with Jaroslav Chum (CZE) at the Sofia (BUL) World Cup. Consolini collected Bronze while Chum took both Gold and the World Cup Series title. ',
-        '50-6.jpg':'Elis Torhall (SWE) is celebrated after collecting the 2023 World Cup series title and making history by landing the first triple swing gainer in FIG competition.  ',
-        '50-7.jpg':'Montpellier Speed champion Luca Dimarchi (ITA) soars in Sofia (BUL) at the 2023 World Cup. ',
-        '50-8.jpg':'An ecstatic Audrey Johnson (USA) celebrates her first podium finish at the Sofia (BUL) World Cup. ',
-        '50-9.jpg':'World Championship Bronze medallist Davide Rizzi (ITA) showing impressive connections across the scaffolds at the Sofia World Cup. ',
-        '50-10.jpg':'World Championship Bronze medallist Tangui Van Schingen (NED) in training in Sofia, Bulgaria. Athletes have just one day to prepare their run on the course, which changes at every event. ',
+      '39-1.jpg':'There was plenty of suspense in the Final Men’s Speed Run in Montpellier (FRA) – Caryl Cordt-Moller (SUI) and Jaroslav Chum (CZE)',
+      '39-2.jpg':'Miranda Tibbling (SWE) continuing her domination here with Sara Banchoff Tzancoff (ARG) in the Women’s Speed final in Montpellier',
+      '39-3.jpg':'Nathanael Trier (FRA) in the Men’s Freestyle qualification in Montpellier – before winning the event',
+      '39-4.jpg':'Two Chinese athletes (Shang Chunsong and Li Meihui) on the Women’s Freestyle podium in Montpellier with Ella Bucio (MEX)',
+      '39-5.jpg':'Team-mates Luca Demarchi and Andrea Consolini (ITA) go head-to-head in the Men’s Speed final',
+      '39-6.jpg':'Sara Banchoff Tzancoff (ARG) and Noa Man (NED) in the Women’s Speed qualification at the PK World Cup 2024 in Coimbra (POR). This was to be Argentina’s first World Cup victory and the first Speed title not won by Miranda Tibbling since 2021',
+      '39-7.jpg':'Elis Torhall (SWE) in the Men’s Freestyle final in Coimbra – winner of both the final and the overall ranking for the year',
+      '39-8.jpg':'Audrey Johnson (USA) in action during the Women’s Freestyle qualification – on her way to her first World Cup victory',
 
-
-
-
-
-
-
-      },
     },
+    "fullscreenEnabled": true,
+  },
     "pages": [[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -149,31 +126,15 @@ export default  {
       "startIndex": 0,
       "original": "pg1.jpg",
       "zoom": null,
-      "content": `
-        <img class="halfScaleC 1-logo-1" style="top:558px; left:-76px;" src="/2023/static/_content/1-logo-1.png" />
-
-        <img class="halfScale 1-title-1" style="top:709px; left:169px;" src="/2023/static/_content/1-title-1.png" />
-        <img class="halfScale 1-title-2" style="top:859px; left:384px;" src="/2023/static/_content/1-title-2.png" />
-        
-
-        <div class="addContentLink" style="top:626px;left:147px;width:88px;height:12px;">
-          <a href="https://gymnastics.sport/" target="_blank"></a>
-        </div>
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg1Anim = new TimelineMax();
-          pg1Anim.fromTo(cOf("1-logo-1"), 0.6, {scale:0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.8)
-          .fromTo(cOf("1-title-1"), 1, {opacity:0, x:-120}, {opacity:1, x:0, ease: Power2.easeOut}, 1.3) 
-          .fromTo(cOf("1-title-2"), 1.1, {opacity:0, x:-80}, {opacity:1, x:0, ease: Power2.easeOut, onComplete: flashContentLinksThreeTimes}, 1.6)
         }
 
         function onPageLeave() {
-          pg1Anim.stop();
-          removeContentLinks();
-      }
+        }
       `,
-      "searchText": ""
+      "searchText": "International Olympic Committee  IOC MARKETING REPORT PARIS 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -182,22 +143,12 @@ export default  {
       "startIndex": 0,
       "original": "pg2.jpg",
       "zoom": null,
-      "content": `
-
-      <div class="addContentLink" style="top:79px; left:258px; width:156px; height:18px;">
-        <a href="https://www.milano-pro-sport.com/" target="_blank"></a>
-      </div>
-      `,
-
+      "content": ``,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
         }
-  
+
         function onPageLeave() {
-          removeContentLinks();
         }
       `,
       "searchText": ""
@@ -210,89 +161,70 @@ export default  {
       "original": "pg3.jpg",
       "zoom": null,
       "content": `
+      
+      <img class="abs halfScaleC 3-title-1" style="top:79px;left:-38px;" src="/static/_content/3-title-1.png"/>
+
+      <div class="addContentLink" onclick="Publish.goToPage(4);" style="top:197px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(6);" style="top:252px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(7);" style="top:262px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(8);" style="top:272px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(9);" style="top:283px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(10);" style="top:294px; left:63px; width:334px; height:12px;"></div> 
+
+      <div class="addContentLink" onclick="Publish.goToPage(12);" style="top:330px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(14);" style="top:350px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(16);" style="top:360px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(20);" style="top:370px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(24);" style="top:380px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(26);" style="top:391px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(28);" style="top:403px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(30);" style="top:413px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(32);" style="top:425px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(34);" style="top:435px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(36);" style="top:447px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(38);" style="top:457px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(40);" style="top:467px; left:63px; width:334px; height:12px;"></div>   
+
+      <div class="addContentLink" onclick="Publish.goToPage(42);" style="top:502px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(44);" style="top:522px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(46);" style="top:532px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(48);" style="top:544px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(50);" style="top:554px; left:63px; width:334px; height:12px;"></div>   
+
+      <div class="addContentLink" onclick="Publish.goToPage(52);" style="top:589px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(54);" style="top:609px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(58);" style="top:620px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(62);" style="top:631px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(64);" style="top:642px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(66);" style="top:652px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(68);" style="top:662px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(70);" style="top:673px; left:63px; width:334px; height:12px;"></div>  
+
+      <div class="addContentLink" onclick="Publish.goToPage(74);" style="top:707px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(76);" style="top:728px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(77);" style="top:739px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(78);" style="top:749px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(80);" style="top:759px; left:63px; width:334px; height:12px;"></div> 
+
+      <div class="addContentLink" onclick="Publish.goToPage(82);" style="top:795px; left:63px; width:334px; height:12px;"></div>  
+      
+      <div class="contentLink" style="top:516px;left:435px;width:90px;height:14px">
+        <a href="https://www.gymnastics.sport" target="_blank"></a>
+      </div>
 
 
-        <!-- HIGHLIGHTS... -->
-        <div class="abs" style="top:40px;">
-          <div class="addContentLink" style="top:208px; left:62px; width:368px; height:12px;" onclick="Publish.goToPage(4)"></div>
-
-          <div class="abs" style="top:267px; left:62px; width:368px; height:69px;">
-            <div class="addContentLink" style="top:-24px; left:0px; width:100%; height:16px;" onclick="Publish.goToPage(6)"></div>
-            <div class="addContentLink" style="top:0px; left:0px; width:100%; height:12px;" onclick="Publish.goToPage(6)"></div>
-            <div class="addContentLink" style="top:12px; left:0px; width:100%; height:12px;" onclick="Publish.goToPage(7)"></div>
-            <div class="addContentLink" style="top:24px; left:0px;width:100%; height:12px;" onclick="Publish.goToPage(8)"></div>
-            <div class="addContentLink" style="top:36px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(9)"></div>
-            <div class="addContentLink" style="top:48px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(10)"></div>
-            <div class="addContentLink" style="top:60px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(12)"></div>
-          </div>
-
-          <!-- SPORTS -->
-          <div class="abs" style="top:382px;left:62px;width:368px;height:122px;">
-            <div class="addContentLink" style="top:-22px;left:0px;width:100%;height:16px;" onclick="Publish.goToPage(14)"></div>
-
-            <div class="addContentLink" style="top:0px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(16)"></div>
-            <div class="addContentLink" style="top:12px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(22)"></div>
-            <div class="addContentLink" style="top:24px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(32)"></div>
-            <div class="addContentLink" style="top:36px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(38)"></div>
-            <div class="addContentLink" style="top:48px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(44)"></div>
-            <div class="addContentLink" style="top:60px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(46)"></div>
-            <div class="addContentLink" style="top:72px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(48)"></div>
-            <div class="addContentLink" style="top:84px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(54)"></div>
-          </div>
-
-          <!-- MEDIA -->
-          <div class="abs" style="top:523px;left:62px;width:368px;height:79px;">
-            <div class="addContentLink" style="top:-22px;left:0px;width:100%;height:16px;" onclick="Publish.goToPage(56)"></div>
-
-            <div class="addContentLink" style="top:0px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(58)"></div>
-            <div class="addContentLink" style="top:12px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(60)"></div>
-            <div class="addContentLink" style="top:24px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(62)"></div>
-            <div class="addContentLink" style="top:36px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(64)"></div>
-            <div class="addContentLink" style="top:48px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(66)"></div>
-            <div class="addContentLink" style="top:60px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(68)"></div>
-          </div>
-
-          <!-- INSTITUTIONAL -->
-          <div class="abs" style="top:641px;left:62px;width:368px;height:89px;">
-            <div class="addContentLink" style="top:-25px;left:0px;width:100%;height:16px;" onclick="Publish.goToPage(70)"></div>
-
-            <div class="addContentLink" style="top:0px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(72)"></div>
-            <div class="addContentLink" style="top:12px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(73)"></div>
-            <div class="addContentLink" style="top:24px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(74)"></div>
-            <div class="addContentLink" style="top:36px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(75)"></div>
-            <div class="addContentLink" style="top:48px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(76)"></div>
-            <div class="addContentLink" style="top:60px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(77)"></div>
-            <div class="addContentLink" style="top:72px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(78)"></div>
-            <div class="addContentLink" style="top:84px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(80)"></div>
-            <div class="addContentLink" style="top:96px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(82)"></div>
-          </div>
-
-
-          <!-- OUTLOOK -->
-          <div class="abs" style="top:795px;left:62px;width:368px;height:36px;">
-            <div class="addContentLink" style="top:-25px;left:0px;width:100%;height:16px;" onclick="Publish.goToPage(86)"></div>
-
-            <div class="addContentLink" style="top:0px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(88)"></div>
-            <div class="addContentLink" style="top:12px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(90)"></div>
-            <div class="addContentLink" style="top:24px;left:0px;width:100%;height:12px;" onclick="Publish.goToPage(92)"></div>
-          </div>
-        </div>
-        <div class="addContentLink" style="top:555px;left:474px;width:87px;height:11px;">
-          <a href="https://www.gymnastics.sport/" target="_blank"></a>
-        </div>
       `,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
-  
+
         function onPageLeave() {
-          removeContentLinks();
         }
       `,
-      "searchText": "CONTENTS INTRODUCTION Presidentâ€™s foreword						  4  HIGHLIGHTS OF 2023 Olympic Games qualification World Gymnaestrada Brick Parkour Asian Tour All Gymnastics Safeguarding Education  6 7 8 9 10 12  SPORT					  14  Gymnastics for All Artistic Gymnastics Rhythmic Gymnastics Trampoline Gymnastics Acrobatic Gymnastics Aerobic Gymnastics Parkour Hear from the athletes  16 22 32 38 44 46 48 54  MEDIA AND MARKETING					 56 Fan engagement Media operations TV Sponsors Fujitsu technology Fujitsu Infinity Award  58 60 62 64 66 68  INSTITUTIONAL						  70  Hiroshima summit peace message Safeguarding Showing solidarity Executive Committee Commissions and working groups ITA Academies Education Finance  72 73 74 75 76 77 78 80 82  OUTLOOK 				  86  Congress Paris 2024 Technical Committee Visions  88 90 92  USEFUL LINKS 				  94  FÃ©dÃ©ration Internationale de Gymnastique, Av. de la Gare 12 A, 1001 Lausanne, Switzerland Tel +41 (0)21 321 55 10 www.gymnastics.sport This publication may not be reproduced, even in part, in any form, without the written permission of the FIG. Production: Touchline Photography: Bulgarian Trampoline Federation, Egypt Gymnastics Federation, FÃ©dÃ©ration FranÃ§aise de Gymnastique/Maryne Lesquelen, FIG/Volker Minkus, FIG/Jean-Pierre Limery, Florian Petean, International Aerobic Federation (IAF), Paris 2024/ Mairie de Paris - SCAU/NP2F, Paris 2024/Ph.Guignard/Air-Images.net, Polish Gymnastic Association, Royal Belgian Gymnastics Federation, Simone Ferraro Printed by Pureprint.  The FIG Yearbook is printed at a carbon-neutral printer, on a 100% recycled and carbonbalanced paper stock.  FIG YEARBOOK 2023  03"
+      "searchText": "IOC Marketing Report Paris 2024  Contents  3  CONTENTS Forewords				  4  Games Wide Open			  10  Olympic Marketing Overview  22  Broadcasting				  26  Partnerships				  40  Digital Engagement			  80  Ticketing and Hospitality		  90  Licensing and Merchandising		  96  The Olympic Brand			  102  Acknowledgements			  112"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -309,7 +241,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Introduction  President's foreword  PRESIDENTâ€™S FOREWORD Morinari Watanabe FIG President IOC member  2  023 was an exciting and busy year for gymnastics, with the World Gymnaestrada and successful World Championships, as well as many other FIG events around the globe. Nevertheless, this past year also reminded us of the importance of being together in solidarity and respect. Once again, the world faced political challenges and natural disasters, and we had to learn to overcome the obstacles that crossed our path. This is where the power of sport came into play. We saw how united the gymnastics community is, with generous donations and support. It is in this spirit that we were amazed by the 17th World Gymnaestrada in Amsterdam, Netherlands, with thousands of participants coming together from all over the world for a week of celebration of gymnastics. We also witnessed breathtaking performances from our athletes at the 40th FIG Rhythmic Gymnastics World Championships in Valencia, Spain, the 52nd FIG Artistic Gymnastics World Championships in Antwerp, Belgium, and at the 37th FIG Trampoline Gymnastics World Championships in Birmingham, Great Britain. Olympic berths for the Olympic Games Paris 2024 were at stake, so the level was at its highest and the atmosphere as thrilling as ever. The 2nd Junior World Championships in Rhythmic and Artistic Gymnastics in Cluj-Napoca, Romania, and Antalya, TÃ¼rkiye, respectively, showed us that the future of the sport is bright, with  04  FIG YEARBOOK 2023  promising young athletes soaring to the top level. More than ever, the focus was on the development of the sport across all five continents. Educational activities took place around the world, and we held our last Executive Committee meeting of the year in Dhaka, Bangladesh. The new Brick Parkour Asian Tour, staged in five countries of Southeast Asia, contributed to the development of Parkour in the region, bringing together the Parkour communities in each country. Our work in safeguarding continued, with a second symposium being held alongside the Artistic Gymnastics World Championships in Antwerp. The success and high attendance of the event show that we are making significant progress in this area. You can read more about it in the Institutional section of this Yearbook. If I had to summarise 2023 in one word, it would be â€˜friendshipâ€™. In the spirit of Olympism, I truly believe that the raison dâ€™Ãªtre of sport is to help make the world a better place, and 2023 was a perfect example of how much it can contribute to society."
+      "searchText": "“The Olympic Games are first and foremost about sport. As we have seen in Paris, they are also about so much more than sport.” Thomas Bach, President, International Olympic Committee"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -326,7 +258,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": ""
+      "searchText": "5  FOREWORD BY THOMAS BACh T  he Olympic Games Paris 2024 were truly Olympic Games of a new era. The first Olympic Games delivered fully under our Olympic Agenda reforms: younger, more urban, more inclusive, more sustainable. The first ever Olympic Games with full gender parity. A record 84 per cent of the potential global audience followed the Games. This equates to around five billion people and underlines the massive success of the Games in Paris. This record-breaking reach was made possible thanks to our Media RightsHolders, with more coverage made available and watched than ever before, in particular on digital and social media platforms, and the many activations of our Worldwide Olympic Partners. I would personally like to congratulate all of them on their outstanding contributions to the success of these Olympic Games. The IOC is proud and grateful to work together with such a dedicated community of commercial partners. Their commitment ensures the Olympic Games continue to inspire and unite globally. And beyond the Olympic Games, they fuel our mission to make the world a better place through sport. Paris 2024 came at the right time for the expectations of our world, with independent consumer research demonstrating that people believe the Olympic Movement’s mission to unite the world in peaceful competition is more important than ever in a divided world, and that the IOC was successful in this effort. Another landmark achievement is that the Olympic values truly resonate with younger generations, as our research shows. These values were on full display in the Olympic Village, where athletes from  the territories of 206 National Olympic Committees and the IOC Refugee Olympic Team lived peacefully together under one roof. They created a culture of peace, sending a powerful message across the globe. This message of togetherness, of joie de vivre – this message of peace: this is what people all around the world were longing for. But these Olympic Games could only inspire the world because our French hosts prepared the stage – and what an amazing stage it was. Millions of people celebrating the athletes in the streets of Paris and all across France. Millions of spectators in iconic venues creating an overwhelming atmosphere. More than half of the world’s population sharing in this spectacular showcase of the unity of humankind in all our diversity. The Olympic Games Paris 2024 were a celebration of the athletes and sport at its best. They were a remarkable celebration of the values we hold dear – excellence, solidarity and peace. The Olympic Games are first and foremost about sport. As we have seen in Paris, they are also about much so much more than sport. The partnerships with our Worldwide Olympic Partners and Media RightsHolders, which made all of this possible, are truly a perfect reflection of our Olympic motto: Faster, Higher, Stronger – Together.  Thomas Bach, President, International Olympic Committee"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -343,7 +275,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Highlights of 2023  HIGHLIGHTS 		 OF 2023 06  FIG YEARBOOK 2023  Olympic Games qualification  OLYMPIC GAMES QUALIFICATION  More gymnasts book their place In 2023, multiple teams sealed qualification for Paris 2024. In both the menâ€™s and womenâ€™s competitions at the FIG Artistic World Championships in Antwerp (BEL), nine teams qualified, with all Olympic gymnastics events set to take place between 27 July and 10 August.  Pictured The Arena Porte de la Chapelle will host the Rhythmic Gymnastics events at Paris 2024"
+      "searchText": "“Paris 2024 was a collective project, a vision shared by the entire nation and only made possible by the commitment of our public and private teammates.” Tony Estanguet, President, Paris 2024 Organising Committee"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -360,7 +292,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "World Gymnaestrada Highlights of 2023  WORLD GYMNAESTRADA  A celebration of gymnastics The 17th World Gymnaestrada, hosted in Amsterdam (NED), brought together more than 19,000 gymnasts. The showpiece event highlighted the diversity of the global gymnastics community, with 55 countries represented across the 487 performance groups.  Pictured Participants take a selfie at the World Gymnaestrada  FIG YEARBOOK 2023 07"
+      "searchText": "7  FOREWORD BY Tony Estanguet T  his summer, France wrote a bold new chapter in the history of the Olympic and Paralympic Games. It was a season of remarkable records and emotions that will forever remain in the hearts of the French people and beyond. From the beginning, we aspired to make these Games different, to demonstrate that it is possible to organise Games that are both spectacular and responsible. Paris 2024 was a collective project, a vision shared by the entire nation and only made possible by the commitment of our public and private teammates. I would like to extend my sincere thanks to President Bach, the French Government, the City of Paris, the Île-de-France Region, the Métropole du Grand Paris and the Seine-SaintDenis department for their unwavering support and contributions throughout this journey. We are very grateful to the partners, official suppliers and licensees who were all vital to the delivery of the Games. And are very grateful to the broadcasters who were the key to sharing the stories of the competitions. Together, we showed the extraordinary achievements that become possible when we unite around a shared and bold set of ambitions. I would like to express my sincere thanks and gratitude to all the athletes of the Paris 2024 Olympic Games. They surpassed every expectation,  showing resilience, determination and the true spirit of Olympism. They are now part of the extraordinary legacy of these Games. To the fans, both in the venues and watching around the world, thank you! You created an atmosphere like no other, making these Games unforgettable for everyone involved. We worked hard to engage people with Paris 2024, whether digitally or in person, like never before. From our social media posts and the Opening Ceremony on the Seine, to the Mass Event Running and the Champions Park, we delivered on our vision of a Games Wide Open. A heartfelt thank you also goes to the 45,000 volunteers whose dedication, passion and tireless efforts brought these Games to life. Your contributions were the backbone of Paris 2024, and your commitment ensured that the Games were a success. To everyone who played a role in making Paris 2024 an extraordinary success, un grand merci.  Tony Estanguet, President, Paris 2024 Organising Committee"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -377,7 +309,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Highlights of 2023  HIGHLIGHTS 		 OF 2023 08  FIG YEARBOOK 2023  Brick Parkour Asian Tour  BRICK PARKOUR ASIAN TOUR Spreading the sport  Visiting five countries in less than three weeks, the Brick Parkour Asian Tour brought the sport to children and budding athletes across the continent. â€œWe became a family for one month â€“ on a mission for Parkour,â€ said Charles PerriÃ¨re, President of the FIG Parkour Commission.  Pictured Javier Rodriguez (MEX) on the Brick Parkour Asian Tour in Southeast Asia"
+      "searchText": "“With record-breaking viewership across television, digital platforms and social media, Paris 2024 stands as the most followed Olympic Games in history.” Jiří Kejval, Chair IOC Marketing Commission"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -394,7 +326,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "All Gymnastics  Highlights of 2023  ALL GYMNASTICS  Spreading the sport The launch of the innovative allgymnastics.tv digital platform gave viewers around the world unprecedented coverage of the sport in 2023, with access to every single exercise from qualifying at each of the World Championships, starting with the Rhythmic Gymnastics World Championships in Valencia (ESP).  Pictured Media operations at the FIG Artistic Gymnastics World Championships  FIG YEARBOOK 2023  09"
+      "searchText": "9  FOREWORD BY Jiří Kejval T  he Olympic Games Paris 2024 were truly historic, not only for the athletes but also for the global audience who followed this unforgettable event. More than half of the world’s population tuned in to experience the magic of these Games. With record-breaking viewership across television, digital platforms and social media, Paris 2024 stands as the most followed Olympic Games in history. This remarkable reach was made possible by the tireless efforts of our Media Rights-Holders and Olympic Broadcasting Services, who provided more comprehensive coverage than ever before. Whether on television, digital platforms or social media, fans had unprecedented access to the excitement and drama of the Games. The engagement across social platforms alone exceeded 12 billion, showcasing the vast global interest and bringing the Olympic spirit to younger and more diverse audiences. Our dedicated efforts to attract non-sport fans, particularly younger generations, through collaborations with influencers and athletes from various fields, further expanded our reach. A key driver of this success was the extraordinary support from our Worldwide Olympic Partners. Their contributions went far beyond traditional sponsorship. From technology and  infrastructure to innovative marketing campaigns, their presence could be felt everywhere – in the streets of Paris, the Olympic Village and across global markets. These partners were instrumental in staging the Games and promoting the Olympic values around the world. This Marketing Report highlights the achievements of our media and commercial partners, whose collaborative efforts not only helped make Paris 2024 a resounding success but also supported the development of sport worldwide. By redistributing 90 per cent of the revenue generated through our marketing programmes, the IOC continues to empower athletes and sports organisations globally. The Olympic Games Paris 2024 set a new standard for future Games, and we are deeply grateful to everyone who made this possible.  Jiří Kejval, Chair, IOC Marketing Commission"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -411,7 +343,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Highlights of 2023  HIGHLIGHTS 		 OF 2023 10  FIG YEARBOOK 2023  Safeguarding  SAFEGUARDING  Creating a safe environment The second Safe Sport Journey Symposium, hosted in Antwerp (BEL), like the first edition saw strong attendance with 150 people present and another 130 following online. Athletes, coaches and others all shared their thoughts in an open discussion, with an update also provided on the new Safeguarding Certificate for coaches.  Pictured The graphic developed at the second Safe Sport Journey Symposium - illustration by Joyce Van Kerckhove - Visual Harvesting"
+      "searchText": "Games Wide Open"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -421,23 +353,24 @@ export default  {
       "original": "pg11.jpg",
       "zoom": null,
       "content": `
-
-      <!-- WEB -->
-      <div class="addContentLink" style="top:884px; left:499px; width:129px; height:15px;">
+      
+      
+      <div class="contentLink" style="top:840px;left:248px;width:200px;height:16px">
         <a href="https://www.spieth-gymnastics.com/" target="_blank"></a>
       </div>
 
       `,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){flashContentLinksThreeTimes();}, 1000);
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
-          removeContentLinks();
         }
       `,
-      "searchText": "REACH THE MAXIMUM since 1831  Official Supplier 2023: World Championships AG: Antwerp (BEL) European Championships RG: Baku (AZE) Pan American Games: Santiago de Chile (CHL) European Youth Olympic Festival 2023: Maribor (SLO) Special Olympics World Games: Berlin (GER) World Cup AG: Cottbus | Baku World Cup RG: Palaio Faliro I Sofia I Tashkent I Baku I Milan World Challenge Cup AG: Varna I Osijek I Mersin I Szombathely  Visit our new website: www.spieth-gymnastics.com"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -454,7 +387,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Highlights of 2023  HIGHLIGHTS 		 OF 2023 12  FIG YEARBOOK 2023  Education  EDUCATION  Learning goes global In addition to the continued growth of the FIGâ€™s eLearning platform, with more than 3,000 new users registered in its second year, 2023 saw the FIGâ€™s educators visit 26 countries, delivering educational activities including Academies, Age Group camps and Olympic Solidarity courses.  Pictured Artistic and Aerobic FIG Academies took place in Egypt throughout 2023"
+      "searchText": "12  Games Wide Open THE OLYMPIC GAMES PARIS 2024 SHOWCASED THE WORLD’S BEST ATHLETES AND THE UNIFYING POWER OF SPORT, WITH REMARKABLE ACHIEVEMENTS AND HISTORIC FIRSTS SET AGAINST THE ICONIC BACKDROPS OF THE VIBRANT HOST CITY The Olympic Games Paris 2024 brought the world together for 19 unforgettable days, showcasing remarkable achievements by athletes and the vibrant energy of the host nation. Set against the backdrop of one of the world’s most iconic cities, Paris 2024 lived up to its promise of delivering “Games Wide Open”, with historic performances, breathtaking venues and inspirational moments of unity and sportsmanship, leaving  a lasting impression on fans and athletes alike. The Games began with a spectacular Opening Ceremony on the River Seine, where athletes from the territories of 206 National Olympic Committees (NOCs) and the IOC Refugee Olympic Team paraded on boats against the stunning backdrop of Paris. This unique ceremony transformed the heart of the city into an Olympic stage, capturing the  “This was France completely in love with the Olympic Games. Millions on the streets of Paris, full venues everywhere and unrivalled atmosphere.” Thomas Bach, IOC President"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -462,32 +395,6 @@ export default  {
       "subIndex": 0,
       "startIndex": 0,
       "original": "pg13.jpg",
-      "zoom": null,
-      "content": `
-
-      <!-- WEB -->
-      <div class="addContentLink" style="top:528px; left:119px; width:256px; height:16px;">
-        <a href="https://www.americanathletic.com/" target="_blank"></a>
-      </div>
-
-      `,
-      "script": `
-        function onPageEnter() {
-          setTimeout(function(){flashContentLinksThreeTimes();}, 1000);
-        }
-
-        function onPageLeave() {
-          removeContentLinks();
-        }
-      `,
-      "searchText": ""
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 13,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg14.jpg",
       "zoom": null,
       "content": ``,
       "script": `
@@ -497,7 +404,34 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": ""
+      "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  13  Paris 2024 in numbers  imagination of millions and setting the tone for Games defined by innovation and inclusivity. This groundbreaking approach saw Paris itself become a star of the Games, with its historic landmarks transformed into spectacular sporting venues. Archery took place at Les Invalides, beach volleyball unfolded beneath the Eiffel Tower, fencing lit up the Grand Palais, and equestrian events graced the grounds of the Château de Versailles. These iconic locations and many others provided awe-inspiring backdrops to the sporting action, seamlessly blending the city’s cultural heritage with the energy and excitement of the Olympic Games. In line with Paris 2024’s vision, these Games spread beyond Paris too, involving the whole of France. Sailing took place in Marseille, shooting in Châteauroux, some handball and basketball in Lille, and surfing in Tahiti, while football was shared between Lyon, Nantes, Bordeaux, Saint-Etienne, Nice, Marseille and Paris. And the performances of the athletes were no less breathtaking than the venues, with an array of extraordinary achievements, historic firsts and recordbreaking feats. French swimmer Léon Marchand and judoka Teddy Riner both became national icons with their multiple gold medals, uniting fans in spontaneous celebrations throughout the city. Simone Biles returned to the Olympic stage in stunning fashion, leading Team USA to gold in gymnastics and adding to her incredible legacy. Other sporting giants rose to the occasion as well. Serbian tennis star Novak Djokovic finally won the Olympic singles gold that had eluded him for four editions of the Games, while Katie Ledecky’s victory in the women’s 1,500m freestyle took her career total to nine Olympic gold medals in the pool, tying her with gymnast Larissa Latynina for the most Olympic titles won by a female athlete. Sweden’s Armand  32  Sports  50/50  329  15  medal events  Quota places were distributed equally between men and women, making Paris 2024 the first gender equal Olympic Games  new events Athletes from the territories of  206  NOCs + the IOC Refugee Olympic Team  20  mixed-gender events"
+    }],[{
+      "guid": "00000000-0000-0000-0000-000000000000",
+      "title": "",
+      "index": 13,
+      "subIndex": 0,
+      "startIndex": 0,
+      "original": "pg14.jpg",
+      "zoom": null,
+      "content": `
+      
+      <img class="abs halfScaleC 14-quote-1" style="top:392px;left:369px;" src="/static/_content/14-quote-1.png"/>
+      <h1 id="14-no" class="abs merriweatherBd 14-no" style="top:311px;left:429px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 35}' ></h1>
+      
+      `,
+      "script": `
+        function onPageEnter() {
+        pg14Anim = new TimelineMax();
+        pg14Anim.fromTo(cOf("14-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("14-no")[0])}}, 1)
+        .fromTo(cOf("14-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
+        }
+
+        function onPageLeave() {
+        pg14Anim.stop();
+        resetNumbers("14-no");
+        }
+      `,
+      "searchText": "Global Games 91 NOCs and the IOC Refugee Olympic Team won medals 1st ever medal for the IOC Refugee Olympic Team Cindy Ngamba bronze, boxing, women’s 75kg  4 NOCs won their first Olympic Games gold medal  Botswana  Letsile Tebogo athletics, men’s 200m  Dominica  Thea LaFond athletics, women’s triple jump  Guatemala  Adriana Ruano shooting, women’s trap  Saint Lucia  Julien Alfred athletics, women’s 100m  4 NOCs won their first Olympic medals  Albania  Chermen Valiev bronze, wrestling, men’s 74kg freestyle  Cape Verde  David de Pina bronze, boxing, men’s 51kg  Dominica  Thea LaFond gold, athletics, women’s triple jump  Saint Lucia  Julien Alfred gold, athletics, women’s 100m"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -514,7 +448,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Sport"
+      "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  “I think that’s the beauty of the Olympics – you have such a multicultural and multinational crowd.” Novak Djokovic (SRB, tennis) 'Mondo' Duplantis, meanwhile, soared higher than any athlete in history at Paris 2024, winning gold in the men’s pole vault at an astounding 6.25m to break his own world record – one of 32 world records broken during the course of the Games. Paris 2024 provided plenty of historic firsts too, with four National Olympic Committees winning their first ever Olympic gold medals. From Saint Lucia’s Julien Alfred winning the women’s 100m and Thea LaFond’s victory in the triple jump for Dominica, to Letsile Tebogo of Botswana triumphing in the men’s 200m and Guatemalan shooter Adriana Ruano’s podium-topping performance in the women’s trap, these moments underscored the universality of the Games. Francisca Crovetto also wrote  15"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -523,9 +457,7 @@ export default  {
       "startIndex": 0,
       "original": "pg16.jpg",
       "zoom": null,
-      "content": `
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
         }
@@ -533,7 +465,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Sport  World Gymnaestrada  Pictured 2023 World Gymnaestrada FIG Gala  16  FIG YEARBOOK 2023"
+      "searchText": "16  her name into the record books as she became the first female Olympic champion from Chile by winning the women’s skeet event, while Cuban Greco-Roman wrestling star Mijaín Lopez ended his career on a high, making history as the first athlete to win five consecutive gold medals.  Beyond the sporting highlights, moments of sportsmanship and unity defined Paris 2024. In a memorable display of the Olympic values, China’s He Bing Jiao consoled an injured Carolina Marín of Spain during the badminton semifinals, exemplifying the respect and camaraderie that the Games inspire.  But Paris 2024 wasn’t just about victories – these were also the first Olympic Games in history with full gender parity, thanks to the distribution of an equal number of quota places to female and male athletes by the IOC. That spirit of inclusion extended throughout the Games, with the Champions Park, at the foot of the Eiffel Tower, bringing fans closer to the action with parades for medal-winners, and the Marathon Pour Tous giving thousands of members of the public the chance to take part in marathon and 10km running events along the Olympic route in the heart of Paris.  In a similar vein, the IOC Refugee Olympic Team once again captured hearts, with 37 athletes competing across 12 sports, demonstrating the resilience and determination of individuals displaced by conflict. Their performances reminded the world of the transformative power of sport to provide hope and opportunity, with boxer Cindy Ngamba making history in the women’s 75kg event as she clinched bronze to win the IOC Refugee Olympic Team’s first ever medal.  Across France, six million people visited celebration sites, demonstrating the deep enthusiasm and support for the Games, while fans packed venues and lined the streets of Paris, creating an electric atmosphere that added to the magic of the competition.  “It just gives me the tingles and I think that’s the Olympics; it just gives you this energy you can’t find anywhere else.” Jessica Fox (AUS, canoe slalom)  3 out of 4 people believe the IOC was successful in 'bringing the world together in peaceful competition' at Paris 2024  The inclusion of surfing in Tahiti and urban sports in Paris’s dynamic settings also brought new energy to the Olympic programme, expanding its appeal and relevance. Breaking, making its Olympic debut, added a fresh cultural dimension to the event, appealing to younger audiences and bridging the gap between traditional sports and contemporary culture.  As the Games drew to a close, IOC President Thomas Bach captured the essence of the event, remarking that the athletes had helped 'to make the City of Light shine brighter than ever before', while it became clear that Paris 2024 had truly fulfilled its vision of “Games Wide Open”, uniting the world through sport and creating a truly inclusive and innovative celebration.  95%  of athletes surveyed rated their overall experience positively"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -544,43 +476,33 @@ export default  {
       "zoom": null,
       "content": `
 
-      <!-- 2 links needed -->
-      <div class="addContentLink" style="top:221px; left:436px; width:177px; height:20px;">
-        <a href="https://www.youtube.com/playlist?list=PLNYqWWimiG-NTXi3jaorGNtySK5EeBEio" target="_blank"></a>
-      </div>
-      <div class="addContentLink" style="top:238px; left:218px; width:87px; height:20px;">
-        <a href="https://www.youtube.com/playlist?list=PLNYqWWimiG-NTXi3jaorGNtySK5EeBEio" target="_blank"></a>
-      </div>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:260px; left:520px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/simone-biles-women-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
 
-      <!-- Anim -->
-      <img class="halfScale 17-quote-1" style="top:745px; left:219px;" src="/2023/static/_content/17-quote-1.png" />
+      <img class="abs halfScaleC 17-quote-1" style="top:457px;left:375px;" src="/static/_content/17-quote-1.png"/>
+      <h1 id="17-no" class="abs merriweatherReg 17-no" style="top:737px;left:438px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 11}' ></h1>
 
       <!--Gallery-->
       <img
       class="abs halfScaleC halfpulse animatedpulse pointer"
-      style="top:869px; left:117px;"
+      style="top:320px; left:520px;"
       onclick="pg17_gallery(0)"
-      src="/2023/static/_content/white-camera.png"
+      src="/static/_content/white-camera.png"
       />
-
-
+      
       `,
       "script": `
         function onPageEnter() {
-          pg17Anim = new TimelineMax();
-          pg17Anim.fromTo(cOf("17-quote-1"), 1, {opacity:0, y:-50}, {opacity:1, y:0, ease: Power2.easeOut, onComplete: flashContentLinksThreeTimes}, 1)
-
-
-
+        pg17Anim = new TimelineMax();
+        pg17Anim.fromTo(cOf("17-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[0])}}, 1)
+        .fromTo(cOf("17-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
         }
 
         function onPageLeave() {
-            removeContentLinks();
-            pg17Anim.stop();
-
+        pg17Anim.stop();
+        resetNumbers("17-no");
         }
       `,
-      "searchText": "World Gymnaestrada  Sport  UNITED BY A LOVE OF GYMNASTICS Seventy years after the first edition, the 17th World Gymnaestrada in Amsterdam showcased the impressive diversity of the global Gymnastics for All (GfA) community.  F  or the many gymnastics lovers present at the World Gymnaestrada in Amsterdam (NED), the memory of the RAI Convention Centre humming with energy and excitement will not fade quickly. This joyful gathering of the GfA community took place between 30 July  â€œ  Forever means for your whole life.â€ Doreen Wilson 90-year-old performer in the Eastern Greys group from New South Wales, Australia  and 5 August, drawing almost 19,000 gymnasts to the latest edition of this quadrennial event, which opened and closed at Amsterdamâ€™s historic Olympic Stadium. Overall, 487 performance groups representing five continents took part and they came from places as far afield as Fiji and the Cook Islands, Argentina and Zimbabwe, and the territory of the Cree-Saulteaux Indigenous people â€“ the Peepeekisis Cree Nation 81 â€“ in Canadaâ€™s Saskatchewan province. â€œThe World Gymnaestrada is a moment where the gymnastics community gets together from all around the world,â€ said RogÃ©rio ValÃ©rio, President of the FIGâ€™s GfA Committee. â€œThe most positive memories for all were the feeling of friendship, the possibility of meeting people from all around the world, and doing gymnastics together.â€ The World Gymnaestrada offers a non-competitive platform for gymnasts of all abilities â€“ and all ages. â€œForever means for your whole life,â€ affirmed Doreen Wilson, a 90-year-old  FIG YEARBOOK 2023  17"
+      "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  17  Olympic Solidarity at Paris 2024  The Olympic Solidarity programme helped thousands of athletes qualify for and compete at the Games by providing crucial funding to cover training, equipment and other essential costs, leading to outstanding results.  USD 590m  invested in the Olympic cycle leading up to Paris 2024  USD 38m  75  215  teams from  26 gold  140  20 silver  directed into scholarships  NOCs in eight sports received Team Support Grants  1,560  599  athletes (843 men; 717 women) from 195 NOCs in 27 sports received scholarships for their training towards Paris 2024  74  refugee athletes from 24 host countries, representing 14 sports, received grants to support their efforts to qualify for Paris 2024  medals won by scholarship-holders  29 bronze  195  NOCs received Olympic Solidarity athlete scholarship funding for Paris 2024  Olympic Solidarity individual scholarship-holders competed at Paris 2024  1  medal and 3 diplomas won by Refugee Athlete Support Grant beneficiaries  303 men  296  5  women  medals won by teams who received Olympic Solidarity Team Support grants  3  gold  1  silver  1  bronze  For  2025 to 2028 there will be a  10% increase Olympic Solidarity Scholarship holder Arshad Nadeem threw an Olympic record of 92.97 metres to clinch gold in the men’s javelin, becoming the first Pakistani athlete to win an Olympic gold medal in an individual sport  to the Olympic Solidarity budget, taking it to a total of  USD 650m"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -591,35 +513,21 @@ export default  {
       "zoom": null,
       "content": `
 
-        <!-- Numbers -->
-        <h1 class="abs worksansB 18-no"
-          style="top: 200px; left: 338px; font-size: 1.6em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"  
-          data-number='{"to": 55}' ></h1>
-        <h1 class="abs worksansB 18-no"
-          style="top: 256px; left: 329px; font-size: 1.6em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"  
-          data-number='{"to": 487}' ></h1>
-        <h1 class="abs worksansB 18-no"
-          style="top: 313px; left: 330px; font-size: 1.6em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"  
-          data-number='{"to": 375}' ></h1>
-        <h1 class="abs worksansB 18-no"
-          style="top: 369px; left: 322px;  font-size: 1.6em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"  
-          data-number='{"to": 750, "append": "+"}' ></h1>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:510px; left:457px;" src="/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/usa-women-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      
+      <h1 id="18-no" class="abs merriweatherBd 18-no" style="top:384px;left:481px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 2}' ></h1>
+      
       `,
       "script": `
         function onPageEnter() {
-          pg18Anim = new TimelineMax();
-          pg18Anim.fromTo(cOf("18-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("18-no")[0]);}}, 1)
-          .fromTo(cOf("18-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("18-no")[1]);}}, 1.1)
-          .fromTo(cOf("18-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("18-no")[2]);}}, 1.2)
-          .fromTo(cOf("18-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("18-no")[3]);}}, 1.3)
+        pg18Anim = new TimelineMax();
+        pg18Anim.fromTo(cOf("18-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("18-no")[0])}}, 1)
         }
 
         function onPageLeave() {
-          pg18Anim.stop();
-          resetNumbers("18-no")
         }
       `,
-      "searchText": "Sport  World Gymnaestrada  performer in the Eastern Greys group from New South Wales, Australia, echoing the GfA Committeeâ€™s new fundamental. Among the highlights were the national performances held in the evenings. These shine a light on the diversity of gymnastics, allowing different countries to display their traditions and the areas of gymnastics in which they excel. The end of the week brought the traditional high point of the FIG Gala which, with a newly introduced limit of one act per country, involved performances by gymnasts from 17 nations. â€œItâ€™s our showcase,â€ said ValÃ©rio, noting the involvement of groups of different ages, levels and abilities. The Olympic Stadium also provided the setting for the large group performances, which are a particular tradition of Northern European nations such as Finland â€“ whose performances involved more than 1,100 gymnasts â€“ while other outdoor performances took place on city stages at Vondelpark and the RAI. Seventy years after the first World Gymnaestrada in Rotterdam, Amsterdamâ€™s second turn as host city came stamped with the tagline â€˜Be Amazedâ€™. â€œIt has gone amazingly well,â€ was the verdict of Local Organising Committee President Manon Crijns as,  2023 World Gymnaestrada in numbers  55  countries were represented  487  performance groups took part  375  volunteers helped out  750+  group performances were held  back at the Olympic Stadium, the week ended with a symbolic flag handover to Portugal, host of the next edition in Lisbon in 2027.  Left Morinari Watanabe and the delegation of Portugal Pictured 2023 World Gymnaestrada FIG Gala  18  FIG YEARBOOK 2023"
+      "searchText": "18  “It’s an incredible honour to represent the United States on this global stage, especially in a moment that can bring the whole world together.” LeBron James (USA, basketball)  “Such an honour. I haven’t found the right words to describe my Olympic experience.” Simone Biles (USA, gymnastics)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -628,32 +536,15 @@ export default  {
       "startIndex": 0,
       "original": "pg19.jpg",
       "zoom": null,
-      "content": `
-
-        <img class="halfScale 19-quote" style="top:103px; left:70px;" src="/2023/static/_content/19-quote-1.png" />
-
-        <img class="halfScale 19-quote" style="top:261px; left:70px;" src="/2023/static/_content/19-quote-2.png" />
-
-        <img class="halfScale 19-quote" style="top:410px; left:70px;" src="/2023/static/_content/19-quote-3.png" />
-
-        <img class="halfScale 19-quote" style="top:103px; left:285px;" src="/2023/static/_content/19-quote-4.png" />
-
-        <img class="halfScale 19-quote" style="top:260px; left:286px;" src="/2023/static/_content/19-quote-5.png" />
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-
-          pg19Anim = new TimelineMax();
-
-          pg19Anim.staggerFromTo(cOf("19-quote"), 0.6, {opacity:0, x:120}, {opacity:1, x:0, ease: Power2.easeOut}, 0.1, 0.8)
         }
 
         function onPageLeave() {
-          pg19Anim.stop();
         }
       `,
-      "searchText": "World Gymnaestrada  IN THEIR WORDS  â€œ  The communication. The acceptance. The sense I am a gymnast. I love everything about it â€“ I love the energy and the people applauding me.â€ Ana Luisa Mortean (BRA) a gymnast with autism from the Atenas Gymnastics Club, Campinas, on why taking part meant so much  â€œ  The World Gymnaestrada makes it possible for her to feel one of us. The truth is she has often felt very excluded but now she feels part of the group and I think the whole group learns from her.â€ Jucilene Aparecida da Silva (BRA) Anaâ€™s mother  â€œ  Sport  â€œ  It is more than I was expecting. Iâ€™ve been exposed to different forms of gymnastics Iâ€™ve never seen before.â€ Vanessa Nzombe (ZIM) from the ZimGym all-girls group  â€œ  We have been practising our whole life in our ways and to be able to show it off with our fellow Canadians was a great opportunity for us to help show the world who Canada truly is.â€ Christopher â€˜Guyâ€™ Bird (CAN) one of 15 Cree-Saulteaux who performed with Saskatchewan Gymnastics  I hadnâ€™t been in front of that many people before. It feels amazing to be included.â€ Emilene Taulo-Amo (COK) the solitary gymnast from the Cook Islands, who performed with an Oceanian group  FIG YEARBOOK 2023  19"
+      "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  19  “The Olympic Games, for me without a doubt, is the most important event in the world of sport.” Rafa Nadal (ESP, tennis)  “The energy here in Paris has been incredible.” Katie Ledecky (USA, swimming)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -664,18 +555,22 @@ export default  {
       "zoom": null,
       "content": `
 
-
+       <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:770px; left:160px;" src="/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/japan-men-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      
+      <img class="abs halfScaleC 20-quote-1" style="top:109px;left:376px;" src="/static/_content/20-quote-1.png"/>      
+      
       `,
       "script": `
         function onPageEnter() {
-
+        pg20Anim = new TimelineMax();
+        pg20Anim.fromTo(cOf("20-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
-
+        pg20Anim.stop();
         }
       `,
-      "searchText": "Sport  GfA Colloquium  SEEKING THE RIGHT IMPACT  The sharing of knowledge at the 2023 FIG Gymnastics for All Colloquium centred on questions of sustainability and legacy.  20  FIG YEARBOOK 2023  â€œI  t was fantastic to have participants from all five continents sharing their experiences and discussing good practice in Gymnastics for All and in our events â€“ what they do, why they do it, how they work to be more sustainable and the different legacies to empower the future.â€ This was how RogÃ©rio ValÃ©rio, President of the FIG Gymnastics for All (GfA) Committee, summed up the success of the FIG Gymnastics for All Colloquium in Athens (GRE) from 28-30 March. The event, hosted by the Hellenic Gymnastics Federation (EGO), was"
+      "searchText": "20  “Absolutely amazing. It's honestly one of the best golf tournaments I've ever been involved in.” Rory McIlroy (IRL, golf)  “The crowd was what moved me the most.” Rayssa Leal (BRA, skateboarding)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -686,45 +581,33 @@ export default  {
       "zoom": null,
       "content": `
 
-      <!-- Linky, Numbers, Animation -->
+      <h1 id="21-no" class="abs merriweatherBd 21-no" style="top:481px;left:445px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 8}' ></h1>
+      <h1 id="21-no" class="abs merriweatherBd 21-no" style="top:707px;left:497px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
+  
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:610px; left:430px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/oka-shinnosuke-men-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
 
-      <img class="halfScale 21-quote-1" style="top:203px; left:386px;" src="/2023/static/_content/21-quote-1.png" />
-
-
-      <div class="addContentLink" style="top:234px; left:384px; width:86px; height:16px;">
-        <a href="https://www.gymnastics.sport/publicdir/gfaebook/ " target="_blank"></a>
-      </div>
-
-      <div class="addContentLink" style="top:398px; left:282px; width:156px; height:16px;">
-        <a href="https://www.gymnastics.sport/publicdir/gfaebook/ " target="_blank"></a>
-      </div>
-
-      <div class="addContentLink" style="top:410px; left:270px; width:67px; height:16px;">
-        <a href="https://www.gymnastics.sport/publicdir/gfaebook/ " target="_blank"></a>
-      </div>
-
-
-
-
-
-      <h1 class="abs merriweatherB 21-no"
-         style="top: 818px; left: 479px; font-size: 2.0em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-         data-number='{"to": 41}' ></h1>
-
+      <!--Gallery-->
+        <img
+        class="abs halfScaleC halfpulse animatedpulse pointer"
+        style="top:550px; left:430px;"
+        onclick="pg21_gallery(0)"
+        src="/static/_content/white-camera.png"
+        />
+      
       `,
       "script": `
         function onPageEnter() {
-          pg21Anim = new TimelineMax();
-          pg21Anim.fromTo(cOf("21-quote-1"), 1.0, {opacity:0, x:50}, {opacity:1, x:0, ease: Power2.easeOut, onComplete: flashContentLinksThreeTimes}, 1.0);
-          pg21Anim.fromTo(cOf("21-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("21-no")[0]);}}, 1);
+        pg21Anim = new TimelineMax();
+        pg21Anim.fromTo(cOf("21-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("21-no")[0])}}, 1)
+        pg21Anim.fromTo(cOf("21-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("21-no")[1])}}, 1.1);
         }
 
         function onPageLeave() {
-          pg21Anim.stop();
-          removeContentLinks();
+        pg21Anim.stop();
+        resetNumbers("21-no");
         }
       `,
-      "searchText": "GfA Colloquium  Sport  A global story  â€œ  This free ebook illustrates the diversity, inclusivity and benefits of GfA practice, with stories and research from around the world to connect and inspire us.â€ Petrina Hutchinson  The FIG GfA Committee launched an ebook in July exploring the development, practice and impact of the GfA movement. â€˜Gymnastics for All: Worldwide Experiencesâ€™ is the title of the book, edited by Committee members Marco Bortoleto (BRA) and Petrina Hutchinson (AUS), and it was released on the opening day of the World Gymnaestrada. The book contains views from different parts of the globe, looking into the history and philosophy of the GfA movement and considering its importance in society today. Additionally, it offers insights from performers and administrators as well as academic analysis. As a digital publication, it is available to download for free from the FIG website  an opportunity to share knowledge about events, their purpose and their impact, and more than 70 delegates from 41 countries took part. As well as presentations on future FIG events, delegates learned about GfA activities staged by different continental and national federations â€“ from gymnastics festivals in Greece to Bulgariaâ€™s Golden Age Gym Festival 2023 and on to EUROGYM 2024 in Norway. Sustainability and the challenge of creating â€˜greenâ€™ events was a significant discussion point, with the  Colloquium hearing about lessons learned from the 2015 and 2019 editions of the World Gymnaestrada, with additional insights from experts from the University of Lausanne and the City of Lausanne, who offered guidelines for achieving more environmentally-friendly events. The legacy factor of festivals was also on the agenda, with remarks that this means inspiring growth and greater participation with â€œmore clubs, more participants, more gymnasts, more and better events â€“ this is really the legacyâ€.  and the electronic format allows for the possibility of adding further chapters in the years to come.  CHAPTER AND VERSE â€“ INSIDE THE PAGES OF THE EBOOK  â€¢ Historical data on GfA; development within GfA and international GfA events â€¢ Historical review of the Fundamentals course â€¢ Reflections on the importance of GfA for the wellbeing of society â€¢ Information on the organisation of events and their success in promoting gymnastics on different continents â€¢ â€˜Visual memoryâ€™ with a selection of GfA images from World Gymnaestradas  41 countries represented in Athens  FIG YEARBOOK 2023  21"
+      "searchText": "IOC Marketing Report Paris 2024  Games Wide Open  21  “Nothing can describe my emotion.” Zheng Qinwen (CHN, tennis)  “I think these were the best Olympics ever, because of all the beautiful venues that perfectly represented France.” Antoine Dupont (FRA, rugby sevens)  “Paris 2024 has been an epic experience.” Beatrice Chebet (KEN, athletics)"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -741,140 +624,45 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Sport  Artistic Gymnastics  BACK WITH A BANG  The World Championship stage in Antwerp saw triumphant returns from familiar faces and qualification for Paris 2024 for numerous national teams.  W  hile menâ€™s champion Hashimoto Daiki (JPN) dazzled at the 2023 FIG Artistic Gymnastics World Championships in Antwerp (BEL), the biggest story was the triumphant return of Simone Biles (USA). It was as if Biles had never been away as the former Olympic champion not only reclaimed her 2019 All-Around crown but won the Balance Beam and Floor Exercise golds as well as earning a silver in Vault. And her feat, during qualifying, of completing a Yurchenko double pike vault â€“ becoming the first woman to complete it at a World Championships â€“ means she now has a fifth gymnastics element named after her. With Biles leading the way, the United States women secured a record-breaking seventh straight Team title, ahead of Brazil and France.  22  FIG YEARBOOK 2023  Brazilâ€™s silver was their first Team medal at the Worlds while Franceâ€™s bronze was only their second medal in the event â€“ 73 years after the first. Brazil had much else to celebrate as Rebeca Andrade won her second world title on Vault along with silvers in the All-Around and Floor competitions. Chinese newcomer Qiu Qiyuan capped a strong debut season with gold on the Uneven Bars, just ahead of Kaylia Nemour (ALG), whose silver was the first World Championship medal attained by an African gymnast.  Above right Hashimoto Daiki (JPN) Below Simone Biles (USA) Below right Kaylia Nemour (ALG)"
+      "searchText": "Olympic Marketing Overview"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 22,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg23.jpg",
+      "original": "pg23.png",
       "zoom": null,
-      "content": `
-        <!-- Animation, numbers -->
-
-        <!--Quotes!-->
-        <img class="halfScale 23-quote-1" style="top:724px; left:165px;" src="/2023/static/_content/23-quote-1.png" />
-
-        <!--Numbers!-->
-        <h1 class="abs worksansB 23-no"
-        style="top: 252px; left: 542px; font-size: 1.6em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 16}' ></h1>
-
-        <h1 class="abs worksansB 23-no"
-        style="top: 376px; left: 541px; font-size: 1.6em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 10}' ></h1>
-
-        <h1 class="abs worksansB 23-no"
-        style="top: 466px; left: 549px; font-size: 1.6em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 5}' ></h1>
-
-        <!--Medals!-->
-        <div class="abs" style="top:341px; left:521px;">
-          <!--Row1-->
-          <img class="halfScale 23-medal-1" style="top:0px; left:0px;" src="/2023/static/_content/23-medal-1.png" />
-          <img class="halfScale 23-medal-1" style="top:0px; left:14px;" src="/2023/static/_content/23-medal-1.png" />
-          <img class="halfScale 23-medal-1" style="top:0px; left:28px;" src="/2023/static/_content/23-medal-1.png" />
-          <img class="halfScale 23-medal-1" style="top:0px; left:42px;" src="/2023/static/_content/23-medal-1.png" />
-          <img class="halfScale 23-medal-1" style="top:0px; left:56px;" src="/2023/static/_content/23-medal-1.png" />
-
-          <!--Row2-->
-          <img class="halfScale 23-medal-2" style="top:19px; left:0px;" src="/2023/static/_content/23-medal-1.png" />
-          <img class="halfScale 23-medal-2" style="top:19px; left:14px;" src="/2023/static/_content/23-medal-1.png" />
-          <img class="halfScale 23-medal-2" style="top:19px; left:28px;" src="/2023/static/_content/23-medal-1.png" />
-          <img class="halfScale 23-medal-2" style="top:19px; left:42px;" src="/2023/static/_content/23-medal-1.png" />
-          <img class="halfScale 23-medal-2" style="top:19px; left:56px;" src="/2023/static/_content/23-medal-1.png" />
-        </div>
-
-        <!--Gallery-->
-        <img
-        class="abs halfScaleC halfpulse animatedpulse pointer"
-        style="top:270px; left:-8px;"
-        onclick="pg23_gallery(0)"
-        src="/2023/static/_content/white-camera.png"
-        />
-
-        <!--Video-->
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:822px; left:-3px;" src="/2023/static/_content/91-play-4.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/key-moments-of-the-2023-worlds-women-s-artistic-gymnastics?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
-
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:227px; left:342px;" src="/2023/static/_content/91-play-3.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/key-moments-of-the-2023-worlds-men-s-artistic-gymnastics?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
-
-
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg23Anim = new TimelineMax();
-
-          // Numbers
-          pg23Anim.fromTo(cOf("23-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("23-no")[0]);}}, 1);
-          pg23Anim.fromTo(cOf("23-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("23-no")[1]);}}, 1);
-          pg23Anim.fromTo(cOf("23-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("23-no")[2]);}}, 1);
-
-          // Quotes
-          pg23Anim.fromTo(cOf("23-quote-1"), 1.0, {opacity:0, y:-50}, {opacity:1, y:0, ease: Power2.easeOut}, 1.0);
-
-
-          // Medals
-          pg23Anim.staggerFromTo(cOf("23-medal-1"), 0.6, {opacity:0, y:-20}, {opacity:1, y:0, ease: Power2.easeOut}, 0.1, 0.8);
-          pg23Anim.staggerFromTo(cOf("23-medal-2"), 0.6, {opacity:0, y:-20}, {opacity:1, y:0, ease: Power2.easeOut}, 0.1, 1.3);
         }
 
         function onPageLeave() {
-          resetNumbers("23-no");
-          pg23Anim.stop();
         }
       `,
-      "searchText": "World Championships in numbers ARTISTIC  16 countries won at least one medal  Hashimoto into double figures Held between 30 September and 8 October, these 52nd World Championships were the first featuring cameras, rather than 3D sensors, in place on all 10 apparatus as the use of Fujitsuâ€™s Judging Support System continued to evolve. If that was a novelty, the protagonist in the Menâ€™s Artistic Gymnastics competition was the familiar figure of Hashimoto, winner  of golds in the All-Around, Horizontal Bar and Team events: 10 medals in all. After the first rotation of the AllAround final he actually ranked 17th yet recovered to retain his crown. His efforts in the team final, meanwhile, helped Japan secure only their second gold in this event in the past 45 years. Elsewhere, Artem Dolgopyat (ISR) and Lukas Dauser (GER) earned their first world titles on Floor Exercise and Parallel Bars respectively â€“ the latter after several near misses â€“ and Jake Jarman (GBR) achieved the same feat on Vault after producing a Yonekura and Dragulescu. Rhys McClenaghan (IRL) claimed his second Pommel Horse gold while Liu Yang (CHN) triumphed on Still Rings.  10  World Championship medals won by Hashimoto Daiki  5  elements now named after Simone Biles (in Vault, Floor Exercise and Balance Beam)  â€œ  Kaylia Nemourâ€™s success is a great example for Africa. Itâ€™s very important to see that itâ€™s possible to get a medal and hopefully other girls there will be inspired.â€ Donatella Sacchi President of the Womenâ€™s Artistic Gymnastics Technical Committee  FIG YEARBOOK 2023  23"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 23,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg24.jpg",
+      "original": "pg24.png",
       "zoom": null,
       "content": `
-
-      <!-- Linky -->
-      <div class="addContentLink" style="top:561px;  left:307px;  width:134px; height:20px;">
-        <a href="https://www.youtube.com/playlist?list=PLNYqWWimiG-NaqIXqpJM7ari-KbyJscqB " target="_blank"></a>
-      </div>
-
-      <!--Numbers-->
-      <h1 class="abs merriweatherB 24-no"
-      style="top: 639px; left: 466px; font-size: 2.0em; font-weight:300; margin:0; color:#E63C25; padding:0; margin:0;"
-      data-number='{"to": 15}' ></h1>
-
-      <!--Gallery-->
-      <img
-      class="abs halfScaleC halfpulse animatedpulse pointer"
-      style="top:794px; left:212px;"
-      onclick="pg24_gallery(0)"
-      src="/2023/static/_content/white-camera.png"
-      />
-
-
-
-
+      
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:500px; left:324px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/darja-varfolomeev-individual-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      
       `,
       "script": `
         function onPageEnter() {
-          pg24Anim = new TimelineMax();
-          pg24Anim.fromTo(cOf("24-no")[0], 0.1, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("24-no")[0]); flashContentLinksThreeTimes();}}, 0.8);
-
-          // setTimeout(function(){flashContentLinksThreeTimes();}, 2000);
-
         }
 
         function onPageLeave() {
-            removeContentLinks();
-            resetNumbers("24-no");
-            pg24Anim.stop();
         }
       `,
-      "searchText": "Sport  Artistic Gymnastics  PARIS-BOUND Nine teams earned Olympic quotas at the 2023 FIG Artistic Gymnastics World Championships in Antwerp in both the menâ€™s and womenâ€™s competitions.  MENâ€™S  WOMENâ€™S  Qualified in Antwerp, 2023 USA Canada Germany Italy Switzerland Spain TÃ¼rkiye Netherlands Ukraine  Qualified in Antwerp, 2023 China Brazil Italy Netherlands France Japan Australia Romania Republic of Korea  Qualified in Liverpool, 2022 China Japan Great Britain  Qualified in Liverpool, 2022 USA Great Britain Canada  RETURN OF THE JUNIORS Four years after the inaugural edition, the second FIG Artistic Gymnastics Junior World Championships took place in Antalya (TUR) between 29 March and 2 April. Girls aged 14-15 and boys aged 16-17 took part, with 64 nations represented in all.  24  FIG YEARBOOK 2023  15 medals won by table-topping Japan, including nine golds"
+      "searchText": "24  Olympic Marketing Overview AS A NON-PROFIT ORGANISATION, THE INTERNATIONAL OLYMPIC COMMITTEE USES THE REVENUES GENERATED FROM THE OLYMPIC GAMES TO ASSIST ATHLETES AND DEVELOP SPORT WORLDWIDE. The Olympic Games generate substantial revenues that are almost unparalleled across the sporting world thanks to a range of marketing programmes that are coordinated by the International Olympic Committee (IOC).  These programmes not only help ensure the successful staging of the Olympic Games, but also assist athletes and develop sport worldwide, while promoting the Olympic values to a global audience.  These revenues are primarily generated by the IOC through three key streams: 1. Media Rights – Representing the largest portion of income, media rights ensure global broadcast coverage, allowing billions of people to experience the magic of the Games. 2. The Olympic Partner (TOP) Programme – As the highest level of sponsorship, the TOP Programme brings together leading multinational companies that provide essential financial resources, products and services for the Games. 3. Licensing and Merchandising – Through the sale of official Olympic products, fans can connect with the Games by purchasing licensed memorabilia, from apparel to souvenirs."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -885,66 +673,26 @@ export default  {
       "zoom": null,
       "content": `
 
-      <!-- Linky -->
-      <div class="addContentLink" style="top:175px; left:98px; width:84px; height:16px;">
-        <a href="https://www.gymnastics.sport/site/news/displaynews.php?urlNews=3828228 " target="_blank"></a>
-      </div>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:600px; left:428px;" src="/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/people-s-republic-of-china-group-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
 
-      <!--NOTE: CHECK VALIDITY OF PLACEMENT-->
-      <div class="addContentLink" style="top:796px; left:101px; width:101px; height:15px;">
-        <a href="https://www.gymnastics.sport/site/news/displaynews.php?urlNews=4008467" target="_blank"></a>
-      </div>
-
-      <!--Numbers-->
-      <h1 class="abs merriweatherB 25-no"
-      style="top: 656px; left: 479px; font-size: 2.0em; font-weight:300; margin:0; color:#E63C25; padding:0; margin:0;"
-      data-number='{"to": 20}' ></h1>
-
-      <!--Popup-->
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:468px; left:490px;" src="/2023/static/_content/black-globe.png" />
-
-      <div class="abs contentLinkNone" style="top:481px; left:506px; width:59px; height:61px;" onclick="showTwentyFivePopOne()"></div>
-
-      <div id="25-pop-1" class="standardTransition contentOverlay hidden noclick">
-        <img class="halfScale" src="/2023/static/_content/25-pop-1.jpg" style="top:0px; left:0px;"/>
-        <img class="" src="/2023/static/_content/white-cross.png" style="top:30px; left:613px;" />
-        <div class="abs contentLinkNone" style="top:29px; left:612px; width:32px; height:32px;" onclick="closeTwentyFivePopOne()"></div>
-      </div>
-
-
-
-
-
-
-
+      <img class="abs halfScaleC 25-quote-1" style="top:604px;left:372px;" src="/static/_content/25-quote-1.png"/>
+      <h1 id="25-no" class="abs merriweatherBd 25-no" style="top:498px;left:496px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
+      
+      
       `,
       "script": `
         function onPageEnter() {
-          pg25Anim = new TimelineMax();
-          pg25Anim.fromTo(cOf("25-no")[0], 0.1, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("25-no")[0]); flashContentLinksThreeTimes();}}, 0.8);
-
-
-          //setTimeout(function(){
-          //  flashContentLinksThreeTimes();
-          //}, 2000);
-        }
-
-        function showTwentyFivePopOne(){
-          showOverlay('25-pop-1');
-        }
-
-        function closeTwentyFivePopOne(){
-          hideOverlay('25-pop-1');
+        pg25Anim = new TimelineMax();
+        pg25Anim.fromTo(cOf("25-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("25-no")[0])}}, 1)
+        .fromTo(cOf("25-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
         }
 
         function onPageLeave() {
-          removeContentLinks();
-          resetNumbers("25-no");
-          hideOverlay('25-pop-1');
-          pg25Anim.stop();
+        pg25Anim.stop();
+        resetNumbers("25-no");
         }
       `,
-      "searchText": "Artistic Gymnastics  Sport  WORLD CUP SERIES T he World Cup series comprised events in Cottbus (GER), Doha (QAT), Baku (AZE) and Cairo (EGY) between February and April 2023. After a clean sweep in Parallel Bars in 2022, Illia Kovtun (UKR) retained his Parallel Bars title and also won on Horizontal Bar while finishing tied with Milad Karimi (KAZ) on Floor Exercise, losing gold on a tie-break. Meanwhile, Artur Davtyan (ARM) won on Vault, Nariman Kurbanov (KAZ) on Pommel Horse and Nikita Simonov (AZE) on Still Rings. At 47, Oksana Chusovitina (UZB) continued to impress by winning the Vault title for the second year running but the other titles all went the way of Italy, with Alice Dâ€™Amato (ITA) taking the Uneven Bars and Floor Exercise titles and Giorgia Villa (ITA) prevailing on Balance Beam.  WORLD CHALLENGE CUP SERIES  T  his series ran from May to September 2023 with events in six cities â€“ Varna (BUL), Tel Aviv (ISR), Osijek (CRO), Mersin (TUR), Szombathely (HUN) and finally Paris (FRA), whose Olympic arena staged the finale.  It was a series that showcased the spread of talent globally: 26 gymnasts representing 20 nations won medals. In the womenâ€™s competition, Georgia Godwin (AUS) emerged as chief protagonist by winning the series title on every apparatus except Uneven Bars â€“ and even there she had an element named after her. Barbora Mokosova (SVK) was the gold medallist on Uneven Bars. In the menâ€™s Vault competition, Artur Davtyan (ARM) took his unbeaten streak through the World Challenge Cup with wins in Varna and Osijek but eventually needed a tie-breaker to pip Nazar Chepurnyi (UKR) to gold. Elsewhere, Tin Srbic (CRO) retained his Horizontal Bar title and there were also golds for Eddie Penev (BUL) on Floor Exercise; Matvei Petrov (ALB) on Pommel Horse; Vinzenz Hoeck (AUT) on Still Rings; and Krisztofer Meszaros (HUN) on Parallel Bars.  20  nations won medals  Above Nellie Kim, FIG Vice-President, and Illia Kovtun (UKR) Far left Nakamura Haruka (JPN) Middle left Angel Barajas (COL) Left Georgia Godwin (AUS)  FIG YEARBOOK 2023  25"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Marketing Overview  In total, through the sale of broadcasting and marketing rights, as well as other income streams, the revenue for the Olympiad that spanned 2017 to 2020/21 was USD 7.6 billion. This revenue is distributed across the Olympic Movement to support athletes, National Olympic Committees (NOCs), International Federations (IFs) and other Olympic stakeholders.  25  Olympic Revenue Sources  USD 7.6BN 4%  Other revenue  5%  Other rights  In total, the IOC redistributes 90 per cent of its income, ensuring that every day, USD 4.2 million is allocated to sports development worldwide. This funding supports the staging of the Games, assists smaller nations in developing their sporting programmes, and ensures that athletes have the resources they need to achieve their best.  30%  TOP Programme marketing rights  61%  Media rights  *Based on IOC’s audited financial statements for 2017-2020/21  Where the revenue goes  90%  Individual athletes and coaches, via Olympic Solidarity funding National Olympic Committees (NOCs), which prepare athletes and teams to compete in the Olympic Games International Sports Federations (IFs), which run and oversee the development of their sports around the world Organising Committees for the Olympic Games (OCOGs), which are in charge of staging the Olympic Games Other Olympic Movement and sport organisations to promote the worldwide development of sport  10%  IOC activities to develop sport and operations of the IOC"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -953,7 +701,21 @@ export default  {
       "startIndex": 0,
       "original": "pg26.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+
+      
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:190px; left:10px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/bryony-page-women-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+     
+      <!--Gallery-->
+        <img
+        class="abs halfScaleC halfpulse animatedpulse pointer"
+        style="top:130px; left:10px;"
+        onclick="pg26_gallery(0)"
+        src="/static/_content/white-camera.png"
+        />
+      
+      
+      `,
       "script": `
         function onPageEnter() {
         }
@@ -961,7 +723,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Sport  Artistic Gymnastics  SAFETY FIRST W ork continued in 2023 on the new Code of Points and a significant step came with the FIG Executive Committeeâ€™s approval of a compulsory tension-control system device for Uneven Bars and Horizontal Bar for all competitions, starting in 2025. While the Womenâ€™s Artistic Gymnastics Technical Committee has looked to re-emphasise the artistic component of the sport, for the Menâ€™s Artistic Gymnastics Technical Committee the focus has been on  26  FIG YEARBOOK 2023  reducing the number of elements on apparatus â€“ from 10 to eight. The committeeâ€™s president, Arturs Mickevics, said this was important to reduce overload during the training and competition process, duly â€œdecreasing the risk of the injuries connected with overtrainingâ€. He considered the planned new â€œstick bonusâ€ â€“ for all apparatus except Pommel Horse â€“ another important amendment. â€œSticking is an exciting characteristic of our sport, easily noticeable for the audience and truly spectacular.â€"
+      "searchText": "Olympic Broadcasting"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -972,18 +734,22 @@ export default  {
       "zoom": null,
       "content": `
 
-      <div class="addContentLink" style="top:901px; left:474px; width:98px; height:20px;">
-        <a href="mailto:intl-1@senoh.co.jp"></a>
-      </div>
-
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:360px; left:400px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/ivan-litvinovich-men-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      
+      <img class="abs halfScaleC 27-quote-1" style="top:566px;left:5px;" src="/static/_content/27-quote-1.png"/>
+      <h1 id="27-no" class="abs merriweatherReg 27-no" style="top:517px;left:66px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 3}' ></h1>
+      
       `,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){flashContentLinksThreeTimes();}, 1000);
+        pg27Anim = new TimelineMax();
+        pg27Anim.fromTo(cOf("27-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("27-no")[0])}}, 1)
+        .fromTo(cOf("27-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
         }
 
         function onPageLeave() {
-          removeContentLinks();
+        pg27Anim.stop();
+        resetNumbers("27-no");
         }
       `,
       "searchText": ""
@@ -993,36 +759,7 @@ export default  {
       "index": 27,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg28.jpg",
-      "zoom": null,
-      "content": `
-
-      <!--Gallery-->
-      <img
-      class="abs halfScaleC halfpulse animatedpulse pointer"
-      style="top:739px; left:79px;"
-      onclick="pg28_gallery(0)"
-      src="/2023/static/_content/white-camera.png"
-      />
-
-
-
-      `,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "Sport  Artistic Gymnastics  PHOTOS OF THE DAY  A  t the 2023 FIG Artistic Gymnastics World Championships in Antwerp (BEL), photographers submitted images to a â€˜photo of the dayâ€™ competition across the nine days of action, with two winning photographs showcased here.  Pictured Athlete: Qiu Qiyuan (CHN) Photographer: Yuki Honma Media: Jiji Press Above right Athlete: Chiba Kenta (JPN) Photographer: Tim Clayton Media: Corbis  28  FIG YEARBOOK 2023"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 28,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg29.jpg",
+      "original": "pg28.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1032,192 +769,119 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Artistic Gymnastics  Sport  FIG YEARBOOK 2023 29"
+      "searchText": "28  Olympic Games Paris 2024:  the most followed Games ever  Australian swimmers Mollie O’Callaghan (left) and Ariarne Titmus (right) embrace after winning gold and silver respectively in the women’s 200m freestyle"
+    }],[{
+      "guid": "00000000-0000-0000-0000-000000000000",
+      "title": "",
+      "index": 28,
+      "subIndex": 0,
+      "startIndex": 0,
+      "original": "pg29.png",
+      "zoom": null,
+      "content": `
+      
+      <div class="contentLink" style="top:841px;left:402px;width:200px;height:16px">
+        <a href="https://www.eurotramp.com/" target="_blank"></a>
+      </div>
+
+      `,
+      "script": `
+        function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
+        }
+
+        function onPageLeave() {
+        }
+      `,
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  84%  A record  of the potential global audience followed the Games*  29  This equals around  5 billion people Or more than half the world’s population  There were  13X more  engagements on the social media handles of Media Rights-Holders (MRHs) than there were for Tokyo 2020  There was a  25% increase  in the amount of coverage watched with 28.7 billion hours of footage viewed around the world on MRH platforms  This meant every viewer watched on average 9 hours of coverage, a 20% increase on the previous Games  In the home market of France,  95%  of the potential audience watched an average of 24 hours of coverage  70%  of the global audience watched on both television and digital platforms  Paris 2024 generated more coverage on MRH platforms than ever before  308,741 hours  178,002 hours  of digital coverage (Up 42% from Tokyo 2020)  of linear TV coverage (Up 18% from Tokyo 2020)  *Potential global audience with access to follow the Olympic Games and over the age of four years old."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 29,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg30.jpg",
+      "original": "pg30.png",
       "zoom": null,
-      "content": `
-        <!-- Women Artistic Gymnastics -->
-        <div class="addContentLink" style="top:717px; left:65px; width:56px; height:14px;">
-          <a href="https://youtu.be/gs83Dc-eq1E" target="_blank"></a>
-        </div>
-
-        <!-- Nakamura series -->
-        <div class="addContentLink" style="top:784px; left:65px; width:62px; height:14px;">
-          <a href="https://youtu.be/gu-Cc0qq0WQ" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:797px; left:65px; width:52px; height:14px;">
-          <a href="https://youtu.be/gu-Cc0qq0WQ" target="_blank"></a>
-        </div>
-        <!-- end -->
-
-        <div class="addContentLink" style="top:811px; left:65px; width:60px; height:14px;">
-          <a href="https://youtu.be/dM5JOFqzwZk" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:825px; left:65px; width:60px; height:14px;">
-          <a href="https://youtu.be/HQIhIXo-OV4" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:866px; left:65px; width:56px; height:14px;">
-          <a href="https://youtu.be/ITzMB51To1A" target="_blank"></a>
-        </div>
-
-        <!-- Mens Artistic Gymnastics -->
-
-        <div class="addContentLink" style="top:716px; left:358px; width:64px; height:14px;">
-          <a href="https://www.youtube.com/watch?v=uIWGg-8cUx8&feature=youtu.be" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:732px; left:358px; width:64px; height:14px;">
-          <a href="https://www.youtube.com/watch?v=DQVT0vGghX0" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:772px; left:358px; width:64px; height:14px;">
-          <a href="https://www.youtube.com/watch?v=Vn14NLN6DDc " target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:788px; left:358px; width:52px; height:14px;">
-          <a href="https://www.youtube.com/watch?v=AxqFRbIIFW8&feature=youtu.be" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:826px; left:358px; width:56px; height:14px;">
-          <a href="https://www.youtube.com/watch?v=vntQRTz_5rw&feature=youtu.be" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:867px; left:358px; width:68px; height:14px;">
-          <a href="https://www.youtube.com/watch?v=e_6sry5x3Ac" target="_blank"></a>
-        </div>
-
-        <!-- Ana Barbosu -->
-        <div class="addContentLink" style="top:586px; left:269px; width:62px; height:14px;">
-          <a href="https://youtu.be/Ic2wFo5yW5g" target="_blank"></a>
-        </div>
-
-
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
         }
 
         function onPageLeave() {
-          removeContentLinks();
         }
       `,
-      "searchText": "Sport  Artistic Gymnastics Gymnastics  NEW NAMED ELEMENTS IN CODE OF POINTS Menâ€™s and Womenâ€™s Artistic Gymnastics welcomed 11 new named elements between them in 2023.  I  n 2023, there were five new named elements ratified in Womenâ€™s Artistic Gymnastics and six in Menâ€™s. The new named element with the highest difficulty was performed by Simone Biles on Vault on her return to international competition. She performed it in qualifying for the World Championships â€“ a routine comprising a round-off and flic-flac on and a piked double salto backward off. Jake Jarman (GBR) received a new named element on Floor Exercise at the FIG World Challenge Cup in Paris, comprising a double salto straight backward 3 Â½ turn with element value I.  At the Junior World Championships in Antalya (TUR), two new elements were named for gymnasts: Nakamura Haruka (JPN) and Dachi Dolidze (GEO), performed on Uneven Bars and Pommel Horse, respectively. With Alexa Moreno (MEX) having performed the same element as Nakamura on Uneven Bars at the 2011 World Championships, her name was retroactively added and the element will be listed as Moreno/Nakamura in the Code of Points. Ana Barbosu (ROU) also performed a new element on Floor Exercise. However, with an A value, it is not eligible to be named.  Womenâ€™s Artistic Gymnastics Vault  The Biles 2 6.4 difficulty (Vault is the only apparatus where a numeric difficulty value is assigned)  D (0.4 difficulty) E (0.5 difficulty) G (0.7 difficulty)  Floor Exercise The Moerz  30  FIG YEARBOOK 2023  Menâ€™s Artistic Gymnastics Floor Exercise The Minami The Jarman  H (0.8 difficulty) I (0.9 difficulty)  Pommel Horse  Uneven Bars The Moreno/ Nakamura The Godwin The Nemour  Above The Biles 2 illustration by Koichi Endo  C (0.3 difficulty)  The Dolidze The Reid  Still Rings The Zou 2  D (0.4 difficulty) E (0.5 difficulty)  E  Horizontal Bar  The Valverde  E  (0.5 difficulty)  (0.5 difficulty)"
+      "searchText": "30  Broadcasting THE OLYMPIC GAMES PARIS 2024 MARKED A NEW MILESTONE IN OLYMPIC BROADCASTING, ACHIEVING UNPRECEDENTED GLOBAL REACH AND ENGAGEMENT  “Paris 2024 demonstrated the unprecedented global appeal of the Olympic Games. Working with our Media Rights-Holder partners, more coverage was made available and watched than ever, in particular on digital and social media platforms.” Thomas Bach, IOC President A record 84 per cent of the potential global audience* followed the Olympic Games Paris 2024, according to independent research conducted on behalf of the IOC. This equals around five billion people and means that more than half of the world’s population followed the inspirational achievements of the Olympic athletes and the magic of the Olympic Games, underlining the massive success of the Games in Paris. Media Rights-Holders (MRHs) delivered record results, driven in large part by increased visibility on digital channels. Globally, there were 13 times more social media engagements on MRH handles than for Tokyo 2020. Some 70 per cent of the global audience watched on both television and digital platforms, with MRHs offering more coverage on more platforms than ever before. There was a 25 per cent increase in the amount of coverage watched, with 28.7 billion hours of footage viewed around the world on MRH platforms. This meant every viewer watched on average nine hours of coverage, a 20 per cent increase on the previous Games. In the home market of France, 95 per cent of the potential audience watched an average of 24 hours of coverage of the Olympic Games.  An OBS camera operator captures former world champion skateboarder Gustavo Ribeiro (POR) in action in Paris  Record Coverage and Global Reach As the host broadcaster for the Olympic Games, Olympic Broadcasting Services (OBS) produced a record 11,000 hours of content for Paris 2024, surpassing any previous Games. This included 3,575 hours of live sports, ceremonies and Champions Park coverage, and represented a 15.8 per cent increase compared to the Olympic Games Tokyo 2020, enabling MRHs to deliver comprehensive, live coverage around the world across all platforms. As a result, global audiences experienced unprecedented access to the Games, with traditional TV and digital streaming providing deeper and more interactive engagement than ever before.  Athlete-Centric Coverage “I have been watching the Olympic Games on television ever since I was able to, so it is a special feeling to live them here, in Paris.” Lucas Corvee (FRA), badminton  Paris 2024 continued OBS’s tradition of innovation, enhancing the viewer experience through even more immersive storytelling and the use of cutting-edge technology. OBS was committed to delivering innovative coverage that not only  captured the essence of Olympic excellence but also immersed global audiences in the Olympic journey and the personal stories of their favourite athletes. With more athlete-centric and behind-the-scenes coverage, OBS brought the athletes’ stories to the forefront, helping broadcasters deepen viewers' understanding of the sport and foster greater engagement. Technological innovations also played a key role in elevating broadcast coverage to new levels. Cinematic lenses with a shallow depth of field created a more intimate and immersive experience, while a wide array of new data-driven graphics provided real-time, detailed insights into athletes’ performances. Viewers also enjoyed more multi-angle camera replays, offering previously unseen perspectives that fully immersed fans in the action. Additionally, the expanded use of ‘Athlete Moments’ featured emotional, virtual family reunions in post-competition coverage, bringing audiences worldwide closer to the adrenaline, emotion and spirit of the occasion after the athletes walked off the fields of play.  *Potential global audience with access to follow the Olympic Games and over the age of 4 years old"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 30,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg31.jpg",
+      "original": "pg31.png",
       "zoom": null,
-      "content": `
-
-        <div class="addContentLink" style="top:908px; left:227px; width:306px; height:25px;">
-          <a href="https://www.pastorellisport.com/" target="_blank"></a>
-        </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
-
         }
 
         function onPageLeave() {
-
-          removeContentLinks();
-
         }
       `,
-      "searchText": "Professional sportswear and equipment supplier Rhythmic Gymnastics  www.pastorellisport.com"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  31  How the Games were broadcast  19,000  pieces of content made available to MRHs via OBS's cloud-based content delivery platform  11,000+ hours of content produced by OBS  499  Athlete Moments completed  72  182  broadcast sublicensees  36  Media Rights-Holders (including the Olympic Channel)  NOCs engaged through the Athlete Moment initiative  Grant Holloway (USA) uses the Athlete Moment to celebrate with friends and family after winning gold in the men's 110m hurdles  8,300+ broadcast personnel  1,200  OBS cameras  100,000+ highlight clips created automatically by AI  3,680+  microphones"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 31,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg32.jpg",
+      "original": "pg32.png",
       "zoom": null,
       "content": `
-
-      <!--Gallery-->
-      <img
-      class="abs halfScaleC halfpulse animatedpulse pointer"
-      style="top:298px; left:43px;"
-      onclick="pg32_gallery(0)"
-      src="/2023/static/_content/white-camera.png"
-      />
-
-      <!--Video-->
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:519px; left:25px;" src="/2023/static/_content/32-blueplay-1.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/key-moments-of-the-2023-worlds-rhythmic-gymnastics?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
-
-
-
+      
+      <div class="contentLink" style="top:841px;left:402px;width:200px;height:16px">
+        <a href="https://www.eurotramp.com/" target="_blank"></a>
+      </div>
+      
+      
       `,
       "script": `
-        function onPageEnter() {
-        }
-
+      function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
+      }
         function onPageLeave() {
         }
       `,
-      "searchText": "Sport  Rhythmic Gymnastics  NEW SENSATION German teenager Darja Varfolomeev won five golds as Spain hosted the 40th Rhythmic Gymnastics World Championships.  T  he highlight of the year for the Rhythmic Gymnastics community was the World Championships in Valencia (ESP) from 23-27 August. As nearly 30,000 spectators across five days looked on, there was no doubting who was the star of the show. That was 16-year-old Darja Varfolomeev (GER), the 2022 AllAround silver medallist who took a mighty leap forward as she won gold in every single event. Sofia Raffaeli (ITA) came away with three silvers â€“ for All-Around, Hoop and Ball â€“ while the All-Around bronze medal was taken by Daria Atamanov (ISR), making her first appearance of 2023 after returning from a long-term injury.  32  FIG YEARBOOK 2023  The Group competition was dominated by Israel and the Peopleâ€™s Republic of China. The Israel team â€“ comprising Shani Bakanov, Eliza Banchuk, Adar Friedmann, Romi Paritzki, Ofir Shaham and Diana Svertsov â€“ earned gold medals in the All-Around and 3 Ribbons/2 Balls, with China winning the 5 Hoops title along with silver medals in the other two events."
+      "searchText": "32  A New Era of Broadcast Technology Paris 2024 marked a transformative milestone in broadcast technology, with Artificial Intelligence (AI) showcasing its unparalleled capability to analyse live data at speeds beyond human capacity, setting new benchmarks in Olympic coverage. AI played a crucial role in optimising broadcast operations, driving content creation and delivering data in innovative ways. Multi-camera replay systems powered by cloud-based AI and deep learning generated 3D models and texture mappings to offer unprecedented insights into the intricacies of each performance. Other advancements included AI-driven motion tracking and intelligent stroboscopic analysis, which provided broadcasters and audiences with real-time data visualisations and insights into athletes’ performances.  For the first time, specific applications featured real-time trajectory analysis for archery, enhanced data graphics for diving, serve reaction time for tennis, and ball spin detection for table tennis. OBS also introduced Automatic Highlights Generation, enabling MRHs to curate personalised highlight reels across 14 sports/disciplines based on their preferences. In addition, OBS Cloud, first introduced at Tokyo 2020, played a crucial role once again, enabling MRHs to streamline their operations and deliver content more efficiently. This cloud-based solution, developed in collaboration with Worldwide Olympic Partner Alibaba, allowed broadcasters to operate remotely, reducing the Games' broadcast footprint and improving flexibility and scalability in broadcast operations. OBS also partnered with Worldwide Olympic Partner Intel to develop a  “We aimed to bring viewers closer to the action and emotions of the Games, enhancing their experience and fostering a stronger connection with the athletes and the Olympic spirit.” Yiannis Exarchos, CEO, OBS more flexible and modular production environment, enabling OBS to deploy next-generation, virtualised production units for live coverage for the first time in an Olympic Games. The continued integration of these technologies ensured that Paris 2024 was not only the most-followed Games but also one of the most technologically advanced, establishing new standards for efficiency and sustainability in the broadcast industry."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 32,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg33.jpg",
+      "original": "pg33.png",
       "zoom": null,
       "content": `
-
-        <!-- Numbers -->
-        <h1 class="abs merriweatherB 33-no"
-        style="top: 736px; left: 278px; font-size: 2.0em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 62}' ></h1>
-
-        <h1 class="abs merriweatherB 33-no"
-        style="top: 732px; left: 387px; font-size: 2.0em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 9}' ></h1>
-
-        <h1 class="abs merriweatherB 33-no"
-        style="top: 737px; left: 477px; font-size: 2.0em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 16}' ></h1>
-
-
+      
+       <div class="contentLink" style="top:816px;left:351px;width:159px;height:16px">
+        <a href="https://www.gymnova.com/" target="_blank"></a>
+      </div>
+      
       `,
       "script": `
         function onPageEnter() {
-          pg33Anim = new TimelineMax();
-          pg33Anim.fromTo(cOf("33-no")[0], 0.1, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("33-no")[0]);}}, 0.8);
-          pg33Anim.fromTo(cOf("33-no")[1], 0.2, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("33-no")[1]);}}, 0.8);
-          pg33Anim.fromTo(cOf("33-no")[2], 0.3, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("33-no")[2]);}}, 0.8);
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
-          resetNumbers("33-no");
-          pg33Anim.stop();
         }
       `,
-      "searchText": "Rhythmic Gymnastics  Sport  Pictured Darja Varfolomeev (GER) Right Spectators in Valencia (ESP) Below right Chinese group  World Championships in numbers RHYTHMIC  62  countries taking part  9 countries on the podium  16  Age of Darja Varfolomeev as she became the youngest Rhythmic gymnast to achieve a clean sweep of World Championship golds  FIG YEARBOOK 2023  33"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  33  Expanding the Reach of Paris 2024 Paris 2024 showcased innovative partnerships and groundbreaking collaborations that elevated the Games to new heights, engaging diverse audiences worldwide:  Host Country Engagement: France Télévisions, in collaboration with the Paris 2024 Organising Committee, created programming that brought the Olympic spirit into the homes of millions. Initiatives included the daily programme Au Jeux Citoyens, which aired for over a year leading up to the Games, and the nationally celebrated arrival of the Olympic Flame in Marseille, which kicked off the Olympic Torch Relay through mainland France and overseas territories.  Gaming Innovations: The IOC and Visa partnered to launch Olympic World on Roblox, introducing the Olympic spirit to younger audiences. With over 11.1 million visits in just 14 days, it became the most successful sports property on the platform, demonstrating the power of gaming in engaging new fans.  Social and Creator Collaborations: Paris 2024 featured the first-ever Olympic Creator Programme, developed in collaboration with MRHs, Meta, YouTube and TikTok. The programme invited more than 100 leading digital creators from around the world to experience the Games and share their unique experiences via social media, helping to promote Paris 2024 coverage. Official broadcasters like NBC in the USA and Warner Bros. Discovery in Europe also partnered with social platforms and celebrities to amplify their reach.  Content Partnerships: The IOC’s collaboration with Netflix delivered Simon Biles Rising and Sprint, two docuseries that featured in Netflix’s global Top 10 and generated pre-Games anticipation. A third documentary series on the Olympic basketball tournament will be released in 2025, further extending the storytelling journey.  Through these diverse initiatives, Paris 2024 achieved unparalleled global reach, bringing the Games to life for fans of all ages and interests."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1228,62 +892,29 @@ export default  {
       "zoom": null,
       "content": `
 
-        <!-- Animation NOTE: ANIMATION BLINKS SOMETIMES? WHY? -->
-        <img class="halfScale 34-quote-1" style="top:479px; left:464px;" src="/2023/static/_content/34-quote-1.png" />
-
-        <!-- Linky -->
-        <div class="addContentLink" style="top:211px; left:85px; width:110px; height:14px;">
-          <a href="https://www.youtube.com/watch?v=aTJvvWdg424" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:633px; left:146px; width:84px; height:14px;">
-          <a href="https://www.youtube.com/watch?v=ughHL8yTSlg" target="_blank"></a>
-        </div>
-        <div class="addContentLink" style="top:645px; left:55px; width:22px; height:14px;">
-          <a href="https://www.youtube.com/watch?v=ughHL8yTSlg" target="_blank"></a>
-        </div>
-
-        <!--popup-->
-
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:386px; left:558px;" src="/2023/static/_content/black-globe.png" />
-
-        <div class="abs contentLinkNone" style="top:402px; left:573px; width:61px; height:59px;" onclick="showThirtyFourPopOne()"></div>
-
-        <div id="34-pop-1" class="standardTransition contentOverlay hidden noclick">
-          <img class="halfScale" src="/2023/static/_content/34-pop-1.jpg" style="top:0px; left:0px;"/>
-          <img class="" src="/2023/static/_content/white-cross.png" style="top:30px; left:613px;" />
-          <div class="abs contentLinkNone" style="top:29px; left:612px; width:32px; height:32px;" onclick="closeThirtyFourPopOne()"></div>
-
-        </div>
-
-
+      <img class="abs halfScaleC 34-quote-1" style="top:181px;left:184px;" src="/static/_content/34-quote-1.png"/>
+      
+      <!--Gallery-->
+        <img
+        class="abs halfScaleC halfpulse animatedpulse pointer"
+        style="top:520px; left:60px;"
+        onclick="pg34_gallery(0)"
+        src="/static/_content/white-camera.png"
+        />
+      
       `,
       "script": `
         function onPageEnter() {
-          pg34Anim = new TimelineMax();
-
-          pg34Anim.fromTo(cOf("34-quote-1"), 1, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut, onComplete: flashContentLinksThreeTimes}, 1);
-
-          // pg18Anim.fromTo(cOf("18-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("18-no")[0]);}}, 1)
-
-        }
-
-        function showThirtyFourPopOne(){
-          showOverlay('34-pop-1');
-        }
-
-        function closeThirtyFourPopOne(){
-          hideOverlay('34-pop-1');
+        pg34Anim = new TimelineMax();
+        pg34Anim.fromTo(cOf("34-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
-          hideOverlay('34-pop-1');
-          removeContentLinks();
-          pg34Anim.stop();
-
+        pg34Anim.stop();
+        resetNumbers("34-no");
         }
       `,
-      "searchText": "Sport  Rhythmic Gymnastics  WORLD CUP SERIES  T  he 2023 World Cup series ran from 17 March to 23 April, spanning five countries, and it ended with a tie-breaker required to separate Sofia Raffaeli (ITA), the winner, from Stiliana Nikolova (BUL) in the Individual All-Around competition after both finished on 145 points. Nikolova ended up with three golds all the same â€“ prevailing with the Ball, Clubs and Ribbon. Takhmina Ikromova (UZB), 18, took third place in the ranking with Darja Varfolomeev (GER) in fourth. Israel dominated the Group competition, taking the top AllAround rank by a whisker from China, with Bulgaria in third, and then also triumphing in both the 5 Hoops and 3 Ribbons/2 Balls exercises.  WORLD CHALLENGE â€œ  CUP SERIES  â€œM  any nations now have the hope they can be at the top,â€ said Noha Abou Shabana, President of the Rhythmic Gymnastics Technical Committee, and this was reflected by the success of Brazil in the Group competition at the World Challenge Cup in Cluj-Napoca (ROU) in July. The Brazil group surprised Italy and Bulgaria to take the 3 Ribbons/2 Balls title and they also took silver  Many nations now have the hope they can be at the top.â€  behind Italy with the 5 Hoops. With Brazil also winning All-Around bronze and Barbara Domingos taking Ribbon bronze, this was the first time a country outside Europe or Asia had earned four medals at a World or World Challenge Cup. The fact Mexico joined them on the podium with a bronze medal in 5 Hoops was another encouraging sign of rising competitive levels.  Noha Abou Shabana President of the Rhythmic Gymnastics Technical Committee  Above Stiliana Nikolova (BUL) Left Brazilian group"
+      "searchText": "34  Global Audience Highlights France  The Opening Ceremony achieved the highest audience in the history of French television, with an average of  24.4 million viewers  France Télévisions was watched by almost  60 million  94%  French viewers  Léon Marchand (FRA, swimming)  On average, a French person (4+) watched more than  24 hours  of the French population aged 4+ watched the Games  Peak audience of  of the event  france.tv generated more than  200 million views over the course of the Games  1 billion  views for clips published on France Télévisions’ social media pages  Europe  4x400m mixed relay team (NED, athletics)  Cumulative reach of more than  More than  215 million  in Europe viewing Olympics content on Warner Bros. Discovery’s platforms – 23% more than Olympic Games Tokyo 2020  viewers during Léon Marchand’s fourth gold medal win  Warner Bros. Discovery’s average linear television audiences for Paris 2024 were double those of Tokyo 2020  “Paris 2024 has again demonstrated the value of bringing premium sport and entertainment together to drive audience and engagement at scale.” 	 Andrew Georgiou, President and Managing Director, Warner Bros. Discovery UK & Ireland and WBD Sports Europe  15 million  5.2 billion  More than  7 billion  minutes streamed over the course of the Games – six times more than Tokyo 2020  video views of Warner Bros. Discovery Olympics posts on social media – ten times more than Tokyo 2020"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1293,24 +924,22 @@ export default  {
       "original": "pg35.jpg",
       "zoom": null,
       "content": `
-
-        <div class="addContentLink" style="top:911px; left:246px; width:191px; height:16px;">
-          <a href="http://www.sasaki-sports.co.jp/" target="_blank"></a>
-        </div>
+      
+      <h1 id="35-no" class="abs merriweatherBd 35-no" style="top:539px;left:438px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 11}' ></h1>
 
       `,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
+        pg35Anim = new TimelineMax();
+        pg35Anim.fromTo(cOf("35-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("35-no")[0])}}, 1)
         }
 
         function onPageLeave() {
-          removeContentLinks();
+         pg35Anim.stop();
+        resetNumbers("35-no");
         }
       `,
-      "searchText": ""
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  35  USA  Paris 2024 content registered a record  “The Olympics reestablished their unique power to reassemble the American media audience.”  6.55 billion  Napheesa Collier (USA, basketball)  impressions across NBC Sports social channels – a 184% increase compared with Tokyo 2020  	 Gary Zenkel, President, NBC Olympics  Total Audience Delivery (TAD) of  Olympic coverage reached  30.6 million  152  viewers across the combined live Paris Prime and U.S. primetime periods – up 82% from Tokyo 2020  Led by Peacock,  23.5 billion  consecutive summer Olympic nights as the primetime no.1 show  minutes of Paris 2024 coverage was streamed – up 40% from all prior Summer and Winter Games combined  Great Britain “These figures across digital, linear, online and audio demonstrate that BBC Sport’s unique multiplatform offer is capable of uniting the nation with the very best of British storytelling.”  Keely Hodgkinson (GBR, athletics)  Keely Hodgkinson's gold medal in the women’s 800m final was the most watched event with  9.1 million viewers on BBC One and BBC iPlayer  	 Alex Kay-Jelski, Director of BBC Sport  36.1 million  BBC Sport's coverage of Paris 2024 was streamed a record-breaking  218 million  times online – more than double the 104 million streams recorded during the Olympic Games Tokyo 2020  viewers watched 15 minutes or more of the Paris Olympics on BBC TV - equivalent to 59% of the UK population"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1321,47 +950,28 @@ export default  {
       "zoom": null,
       "content": `
 
-        <!-- linky -->
-        <div class="addContentLink" style="top:306px; left:196px; width:42px; height:12px;">
-          <a href="https://www.youtube.com/watch?v=mt149Zy1B9c" target="_blank"></a>
-        </div>
-        <div class="addContentLink" style="top:318px; left:75px; width:61px; height:12px;">
-          <a href="https://www.youtube.com/watch?v=mt149Zy1B9c" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:352px; left:215px; width:41px; height:12px;">
-          <a href="https://www.youtube.com/playlist?list=PLNYqWWimiG-OnIwahxsq1kWOM9ukLOkCZ" target="_blank"></a>
-        </div>
-        <div class="addContentLink" style="top:363px; left:58px; width:165px; height:12px;">
-          <a href="https://www.youtube.com/playlist?list=PLNYqWWimiG-OnIwahxsq1kWOM9ukLOkCZ" target="_blank"></a>
-        </div>
-        <div class="addContentLink" style="top:375px; left:58px; width:72px; height:12px;">
-          <a href="https://www.youtube.com/playlist?list=PLNYqWWimiG-OnIwahxsq1kWOM9ukLOkCZ" target="_blank"></a>
-        </div>
-
-
+        <img class="abs halfScaleC 36-quote-1" style="top:323px;left:218px;" src="/static/_content/36-quote-1.png"/>
+      
         <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
-        style="top:619px; left:46px;"
+        style="top:140px; left:260px;"
         onclick="pg36_gallery(0)"
-        src="/2023/static/_content/white-camera.png"
+        src="/static/_content/white-camera.png"
         />
-
-
+      
       `,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
+        pg36Anim = new TimelineMax();
+        pg36Anim.fromTo(cOf("36-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
-          removeContentLinks();
+        pg36Anim.stop();
         }
       `,
-      "searchText": "Sport  Rhythmic Gymnastics  SPOTLIGHT ON YOUTH A seminar provided lessons for junior gymnasts before history was made at the 2nd FIG Rhythmic Gymnastics Junior World Championships.  O  ne of the most successful educational activities in 2023 was the â€˜Road to Cluj-Napocaâ€™ webinar, which drew almost 300 participants from around 80 national federations in late June. It was aimed at juniors preparing for the 2nd FIG Rhythmic Gymnastics Junior World Championships in Cluj-Napoca (ROU) between 7-9 July. The purpose was to provide participants with information to help them get ready for the event â€“ and key topics included safeguarding, nutrition and logistics (such as what to pack). Additionally, there were motivational video messages from senior gymnasts â€“ each accompanied by the slogan â€˜Proud of you. You can do it!â€™.  A Star is born Of the nine gold medals available at the Junior World Championships, Bulgaria won four, Israel three and Poland two. Liliana Lewinska (POL) became the first Polish gymnast to win a World Championships medal, before repeating the feat, emerging victorious in both Clubs and Ribbon.  36  FIG YEARBOOK 2023  Pictured Liliana Lewinska (POL)"
+      "searchText": "36  Australia  The dominance of Nine’s Olympics coverage led to 9News recording its 10 highest rating bulletins of the year during Paris 2024  “The Olympics are more than just a sporting event. They're a cultural phenomenon that resonates deeply with Australians from all walks of life. They unite the nation in a way that few other events can, bringing together millions of viewers across the country.” 	 Michael Healy, Director of Television, Nine Jessica Fox (AUS, canoe slalom)  A national total TV reach of  Nine’s coverage was broadcast to a national total television reach of  19.5 million  people across Channel 9, 9Gem and 9Now  5.6 million  9Now achieved a 16% incremental reach, with  2.7 million  viewers tuning in exclusively to the Olympics through 9Now out of an overall national reach of 7.5m on Australia’s no. 1 commercial freeto-air streaming platform  Canada  Skylar Park (CAN, taekwondo)  “Canadians shared in the excitement of Canada’s spectacular athletes — their incredible triumphs as well as their disappointments. The sense of pride they inspired in us lifted us all — it’s why the Olympics matter and why, as Canada’s national public broadcaster, we are so proud to bring them to Canadians, from coast to coast to coast.” 	 Catherine Tait, President and CEO, CBC/Radio-Canada  viewers aged 16-39 tuned into the broadcast, in the crucial demographic of people aged 25-54, more than 8.1m viewers tuned into Nine’s coverage of Paris 2024  Canadians consumed a record-breaking  7 in 10  Canadians (27m) tuned in for CBC/Radio-Canada's coverage of Paris 2024  24.3 million  hours of Paris 2024 content on CBC/Radio-Canada’s digital and streaming platforms, an increase of 170% over Tokyo 2020 and 121% over Beijing 2022"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1371,77 +981,50 @@ export default  {
       "original": "pg37.jpg",
       "zoom": null,
       "content": `
-
-      <!--Linky-->
-      <div class="addContentLink" style="top:53px; left:169px; width:308px; height:30px;">
-        <a href="https://www.venturelli.com/it/ " target="_blank"></a>
-      </div>
-
+      
+      <h1 id="37-no" class="abs merriweatherBd 37-no" style="top:400px;left:496px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
+      
       `,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){flashContentLinksThreeTimes();}, 1000);
+        pg37Anim = new TimelineMax();
+        pg37Anim.fromTo(cOf("37-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("37-no")[0])}}, 1)
         }
 
         function onPageLeave() {
-          removeContentLinks();
+        pg37Anim.stop();
+        resetNumbers("37-no");
         }
       `,
-      "searchText": ""
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  37  Brazil Eduarda Santos Lisboa and Ana Patricia Silva Ramos (BRA, beach volleyball)  140.4 million reached with Globo’s Paris 2024 coverage across TV Globo, SporTV and GloboPlay  5 billion videos views  81%  of households reached by TV Globo, with TV ratings up 10% compared with Tokyo 2020  An innovative media rights deal with LiveMode (CazéTV) resulted in an audience of 56m people reached on its YouTube channel, with over 4.8m concurrent viewers for the women’s football final and women’s volleyball bronze medal game. More than 127m people were also reached on Instagram, and overall there were over  SporTV attracted an audience three times greater than all other pay TV channels on Olympic days  Germany  Double the streaming reach and consumption on Globoplay compared with Tokyo 2020  On the ZDFMediathek digital platform, on the days when the Games were broadcast on ZDF, an average of  9.93 million  ARD & ZDF reached  visits per day were achieved, up 62% compared with Tokyo 2020  53.4 million  viewers with their television broadcasts, representing around two thirds of the population Nelvie Raman Tiafack (GER, boxing)  ARD-ZDF digital offerings had recorded  The most successful Olympic broadcast on Das Erste was the coverage of the Opening Ceremony, which averaged  10.44 million  viewers over four hours, with a market share of 45.5%. This made it the most watched broadcast of the Olympic Games in 20 years  225 million  The audience share of ZDF’s Closing Ceremony coverage was  40.5%  with its Paris 2024 broadcast reaching 52% of the potential audience across the event  visits by the final Saturday, recording 65m hours of consumption"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 37,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg38.jpg",
+      "original": "pg38.png",
       "zoom": null,
       "content": `
-
-        <!--Linky-->
-        <div class="addContentLink" style="top:575px; left:258px; width:187px; height:12px;">
-          <a href="https://www.youtube.com/watch?v=Q-siYh31TIY" target="_blank"></a>
-        </div>
-        <div class="addContentLink" style="top:587px; left:258px; width:28px; height:12px;">
-          <a href="https://www.youtube.com/watch?v=Q-siYh31TIY" target="_blank"></a>
-        </div>
-
-        <!--Numbers-->
-        <h1 class="abs merriweatherB 38-no"
-        style="top: 805px; left: 322px; font-size: 2.0em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 7}' ></h1>
-
-
-        <!--Animation-->
-        <img class="halfScale 38-quote-1" style="top:288px; left:487px;" src="/2023/static/_content/38-quote-1.png" />
-
-        <!--Gallery-->
+      
+      <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
-        style="top:698px; left:464px;"
+        style="top:480px; left:550px;"
         onclick="pg38_gallery(0)"
-        src="/2023/static/_content/white-camera.png"
+        src="/static/_content/black-camera.png"
         />
-
-        <!--Videos-->
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:173px; left:455px;" src="/2023/static/_content/38-redplay-1.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/key-moments-of-the-2023-worlds-trampoline-gymnastics?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
-
-
+      
+      
       `,
       "script": `
         function onPageEnter() {
-          pg38Anim = new TimelineMax();
-          pg38Anim.fromTo(cOf("38-no")[0], 0.2, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("38-no")[0]);}}, 0.7);
-          pg38Anim.fromTo(cOf("38-quote-1"), 1.0, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut, onComplete: flashContentLinksThreeTimes}, 1.0)
         }
 
         function onPageLeave() {
-          pg38Anim.stop();
-          resetNumbers("38-no");
-          removeContentLinks();
         }
       `,
-      "searchText": "Sport  Trampoline Gymnastics  LIGHTING UP THE WORLDS  The Trampoline Gymnastics World Championships showcased several innovations and were followed by the inaugural Junior Worlds.  L  ights, camera, action! The 37th Trampoline Gymnastics World Championships in Birmingham (GBR) were the high point of 2023 for the discipline and not just for the feats of the gymnasts on the field of play. Staged between 9-12 November, this was a Worlds that underlined the impact of recent innovations made, in collaboration with Swiss Timing, to the presentation of the sport to make it more appealing to fans, such as the display on the big screen of each athleteâ€™s horizontal displacement as they land. Indeed from the presenters skilfully guiding spectators through each event through to the â€˜building blockâ€™ reveal of the scores â€“ component by component on the big screen â€“ Birmingham offered an enjoyable spectacle for a combined audience of almost 15,000 across the four days at the Utilita Arena. On the field of play, the United States finished top of the medal table for the first time in a generation with four golds. Ruben Padilla led the way with his second world title in Double  Mini-Trampoline as well as DMT Team gold. Nicole Ahsinger and Sarah Webster became the first US Womenâ€™s Synchronised pair to win a world title in 51 years while there was another American gold in the Mixed All-Around competition. Great Britain ranked second in the table and the host nationâ€™s 11 medals included a second Womenâ€™s Individual Trampoline world title for Bryony Page and an historic first Team gold in Womenâ€™s DMT. After a 15-year winning sequence in the Menâ€™s Individual Trampoline had ended for China at the previous yearâ€™s World Championships, the 2021 gold medallist Yan Langyu reclaimed his crown, with 17-year-old prodigy Wang Zisai ensuring a Chinese one-two. For France, there was a first Menâ€™s Team gold since 1996 while Candy BriÃ¨re-Vetillard won their first Womenâ€™s Tumbling gold since that same year. The 20-year-old was honoured as The World Games Athlete of November 2023 â€“ which did not just mean a diploma and branded gift for her but welcome recognition for Tumbling as a whole.  â€œ  The sport presentation was great, with the big screens and music and lights and also the commentators.â€ Christophe Lambert President of the Trampoline Gymnastics Technical Committee  Showcase for Youth With school groups adding to a lively atmosphere inside the Utilita Arena, the Trampoline Gymnastics World Age Group Competitions (WAGC) followed the Worlds between 16-19 November. Over 850 competitors aged from 11-21 took part in an event split into four groups. Twentythree nations won medals, Great Britain leading the way with 11 followed by Australia (10), Japan and the USA (nine each). In each discipline, the eight finalists from the 13-14 and 15-16 age groups advanced to the inaugural Junior World Championships on the final day, with a passionate crowd cheering on the young athletes.  38  FIG YEARBOOK 2023  7 golds won by Japan, more than any other nation  Top Bryony Page (GBR) Main Yan Langyu (CHN) Bottom Ruben Padilla (USA)"
+      "searchText": "38  Japan  TVer, the streaming service of commercial broadcasters, had record numbers, with approximately  21 million  More than  105 million  Kagami Yuka (JPN, wrestling)  Japanese people watched some coverage of Paris 2024 across the Japanese Consortium’s TV channels, representing almost 90% of the potential viewers  CHina  Digital coverage reached over  31 billion  video views across CCTV's Yangshipin streaming service, CCTV News and the CCTV Sports app, all setting new standards  CCTV's national network audience share reached  35.75%  during the Games, an increase of 27% over the same number of days before the Opening Ceremony  The highest single-day audience share of the CCTV channel group reached  CCTV News had  13.19 billion Men’s team (CHN, table tennis)  38.33%  setting a new record for single-day audience share outside of key holidays (Spring Festival, Lantern Festival and National Day) since August 2016  people using the service, and the total number of views exceeding 110m. The total playback time reached 23m hours  As the main live broadcast channel for the event, CCTV-5 maintained the top spot in audience share on both networks during the Olympics, with an average national network share of  11.72%  the highest in the past five Olympic Games and an increase of 12% over the previous Olympic Games  video views, while CCTV Sports app had almost 17 times more daily visiting users than before the Games. CCTV Sports had 3.4bn views, with the majority (2.6bn) on live streams  CCTV's Yangshipin streaming service received  14.5 billion  video views, setting new historical records, with the daily average reaching twice that of Tokyo 2020. The app also topped the overall list of app downloads for 16 consecutive days. On social media, the apps' accounts recorded over 6.1bn videos views, with short content representing half of those"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1452,37 +1035,30 @@ export default  {
       "zoom": null,
       "content": `
 
-        <!-- Numbers -->
-        <h1 class="abs worksansB 39-no"
-        style="top: 255px; left: 548px; font-size: 1.6em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 4}' ></h1>
+      <img class="abs halfScaleC 39-line-1" style="top:628px;left:-114px;" src="/static/_content/39-line-1.png"/>
+      <img class="abs halfScaleC 39-quote-1" style="top:574px;left:-156px;" src="/static/_content/39-quote-1.png"/>
 
-        <h1 class="abs worksansB 39-no"
-        style="top: 368px; left: 545px; font-size: 1.6em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 11}' ></h1>
-
-        <h1 class="abs worksansB 39-no"
-        style="top: 481px; left: 550px; font-size: 1.6em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 1}' ></h1>
+      <!--Gallery-->
+        <img
+        class="abs halfScaleC halfpulse animatedpulse pointer"
+        style="top:125px; left:545px;"
+        onclick="pg39_gallery(0)"
+        src="/static/_content/white-camera.png"
+        />
 
       `,
       "script": `
         function onPageEnter() {
-
-          pg39Anim = new TimelineMax();
-          pg39Anim.fromTo(cOf("39-no")[0], 0.2, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("39-no")[0]);}}, 1);
-          pg39Anim.fromTo(cOf("39-no")[1], 0.2, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("39-no")[1]);}}, 1.1);
-          pg39Anim.fromTo(cOf("39-no")[2], 0.2, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("39-no")[2]);}}, 1.2);
-
+        pg39Anim = new TimelineMax();
+        pg39Anim.fromTo(cOf("39-line-1"), 0.7, {opacity:0, x:50}, {opacity:1, x:0, ease: Power2.easeOut}, 1)
+        .fromTo(cOf("39-quote-1"), 0.7, {opacity:0, y:30}, {opacity:1, y:0, ease: Power2.easeOut}, 1.2);
         }
 
         function onPageLeave() {
-
-          resetNumbers("39-no");
-          pg39Anim.stop();
+        pg39Anim.stop();
         }
       `,
-      "searchText": "World Championships in numbers TRAMPOLINE  4 USA topped the medals table after winning four golds  11 nations who earned at least one medal  1 Georgia won their first World Championships medal: a Womenâ€™s Team bronze  FIG YEARBOOK 2023  39"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Broadcasting  39  “70 per cent of the global audience watched on both television and digital platforms, with our Media Rights-Holding Partners offering more coverage on more platforms than ever before.” Anne-Sophie Voumard, Managing Director, IOC Television and Marketing Services  India  The network reported  2.6  Neeraj Chopra (IND, athletics)  times more advertising revenues than previous Games, using innovative ad assets  170 million  watched across Viacom18 platforms including JioCinema and Sport18 TV channels, with broadcast commentary in multiple local languages  Over  5 billion  minutes of consumption were recorded across these platforms  New Zealand Sky’s digital platforms, Sky Sport Now and Sky Go, also experienced significant volumes of activity during the Games as more than  Additionally, Sky’s social channels achieved strong engagement across YouTube, X, TikTok, Facebook, and Instagram throughout the Games. More than  1,200 posts  Ellesse Andrews (NZL, track cycling)  – at an average of over 42 daily posts – showcasing medalwinning performances, exclusive interviews and other highlights of the Games led to 44.8m impressions, 32.7m video views, 2.9m engagements and an audience growth of 35,000  350,000  unique viewers flocked to both platforms to stream Sky’s Olympics coverage almost 21m times, averaging 1.3m daily streams A total of  2.8 million  people – 57% of New Zealand’s population – watched the Olympic Games, including free-to-air on Sky Open, at an average of 1.4m viewers per day"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1492,52 +1068,32 @@ export default  {
       "original": "pg40.jpg",
       "zoom": null,
       "content": `
+      
+      <img class="abs halfScaleC 40-speech-img" style="top:31px;left:-19px;" src="/static/_content/40-speech-img-1.png"/>
 
-        <!-- Linky -->
-        <div class="addContentLink" style="top:364px; left:87px; width:155px; height:12px;">
-          <a href="https://www.youtube.com/watch?v=VvP5lQGXMsE " target="_blank"></a>
-        </div>
-        <div class="addContentLink" style="top:376px; left:74px; width:29px; height:12px;">
-          <a href="https://www.youtube.com/watch?v=VvP5lQGXMsE " target="_blank"></a>
-        </div>
+      <img class="abs halfScaleC 40-subtitle" style="top:99px;left:-89px;" src="/static/_content/40-title-1.png"/>
+      <img class="abs halfScaleC 40-subtitle" style="top:188px;left:88px;" src="/static/_content/40-subtitle-1.png"/>
 
-
-        <!--Popup-->
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:398px; left:501px;" src="/2023/static/_content/black-globe.png" />
-
-        <div class="abs contentLinkNone" style="top:413px; left:516px; width:61px; height:61px;" onclick="showFourtyPopOne()"></div>
-
-        <div id="40-pop-1" class="standardTransition contentOverlay hidden noclick">
-          <img class="halfScale" src="/2023/static/_content/40-pop-1.jpg" style="top:0px; left:0px;"/>
-          <img class="" src="/2023/static/_content/white-cross.png" style="top:30px; left:613px;" />
-          <div class="abs contentLinkNone" style="top:29px; left:612px; width:32px; height:32px;" onclick="closeFourtyPopOne()"></div>
-        </div>
-
-
-
-
+      <img class="abs halfScaleC 40-speech" style="top:513px;left:-116px;" src="/static/_content/40-speech-5.png"/> 
+      <img class="abs halfScaleC 40-speech" style="top:125px;left:158px;" src="/static/_content/40-speech-2.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:125px;left:-118px;" src="/static/_content/40-speech-1.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:512px;left:157px;" src="/static/_content/40-speech-6.png"/>    
+      <img class="abs halfScaleC 40-speech" style="top:313px;left:160px;" src="/static/_content/40-speech-4.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:313px;left:-116px;" src="/static/_content/40-speech-3.png"/>
+     
       `,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
-        }
-
-        function showFourtyPopOne(){
-          showOverlay('40-pop-1');
-        }
-
-        function closeFourtyPopOne(){
-          hideOverlay('40-pop-1');
+        pg40Anim = new TimelineMax();
+        pg40Anim.staggerFromTo(cOf("40-subtitle"), 0.6, {opacity:0, x: 40}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1)
+        .staggerFromTo(cOf("40-speech"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.4);
         }
 
         function onPageLeave() {
-          hideOverlay('40-pop-1');
-          removeContentLinks();
+        pg40Anim.stop();
         }
       `,
-      "searchText": "Sport  Trampoline Gymnastics  WORLD CUP SERIES T  he 2023 FIG Trampoline World Cup series took in five venues â€“ Baku (AZE), Santarem (POR), Coimbra (POR), Palm Beach (USA) and Varna (BUL) â€“ and it concluded with Chinese gymnasts triumphant in both the Menâ€™s and Womenâ€™s Individual Trampoline competitions as Wang Zisai and Zhu Xueying took the respective honours. Wang finished behind compatriot Yan Langyu in Santarem and Coimbra before winning  his first World Cup in Palm Beach. The 17-year-old then finished second once again in Varna. Meanwhile, Tokyo 2020 gold medallist Zhu dominated the circuit as the only female competitor to win four individual medals across the World Cup Series in 2023.  Above Wang Zisai (CHN) Left Zhu Xueying (CHN)  40  FIG YEARBOOK 2023"
+      "searchText": "Olympic Partnerships"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1547,22 +1103,26 @@ export default  {
       "original": "pg41.jpg",
       "zoom": null,
       "content": `
-
-      <!-- Linky -->
-      <div class="addContentLink" style="top:910px; left:442px; width:216px; height:18px;">
-        <a href="https://www.eurotramp.com/en/" target="_blank"></a>
-      </div>
+      
+      <img class="abs halfScaleC 41-speech" style="top:-49px;left:-116px;" src="/static/_content/41-speech-1.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:307px;left:168px;" src="/static/_content/41-speech-6.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:123px;left:-113px;" src="/static/_content/41-speech-3.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:-49px;left:165px;" src="/static/_content/41-speech-2.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:329px;left:-113px;" src="/static/_content/41-speech-5.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:126px;left:168px;" src="/static/_content/41-speech-4.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:558px;left:-81px;" src="/static/_content/41-speech-7.png"/>       
+      <img class="abs halfScaleC 41-image" style="top:530px;left:167px;" src="/static/_content/41-image.png"/>
 
       `,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
+        pg41Anim = new TimelineMax();
+        pg41Anim.staggerFromTo(cOf("41-speech"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.4)
+        .fromTo(cOf("41-image"), 0.7, {opacity:0, x: 40}, {opacity: 1, x: 0, ease: Power2.easeOut}, 2.9);
         }
 
         function onPageLeave() {
-          removeContentLinks();
+         pg41Anim.stop();
         }
       `,
       "searchText": ""
@@ -1572,7 +1132,7 @@ export default  {
       "index": 41,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg42.jpg",
+      "original": "pg42.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -1582,92 +1142,41 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Sport  Trampoline Gymnastics  APPARATUS ADVANCES  The World Championships featured new trampoline frame pads from Eurotramp.  E  fforts to increase the safety of gymnasts continued in 2023 with the introduction of new trampoline frame pads in time for the Birmingham Worlds, following a successful trial at the World Cup in Varna in October. â€œGymnasts loved them and the coaches were very happy with them,â€ said Christophe Lambert, President of the Trampoline Gymnastics Technical Committee. â€œThey are thicker and have new foam which absorbs the shocks.â€ Technology is helping the discipline in other areas, too, such as with the Judges Evaluation Programme, used this year to help select the judges for the Olympic Games Paris 2024 as well as offering them more detailed individual feedback for educational purposes.  42  FIG YEARBOOK 2023"
+      "searchText": "42  Olympic Partnerships THE WORLDWIDE OLYMPIC PARTNERS TOOK THEIR SUPPORT FOR THE OLYMPIC MOVEMENT TO NEW HEIGHTS AT THE OLYMPIC GAMES PARIS 2024, PROVIDING CRUCIAL PRODUCTS, TECHNOLOGY AND SERVICES THAT MADE THE GAMES A SUCCESS The success of the Olympic Games Paris 2024 was made possible in large part by the unwavering support of the Worldwide Olympic Partners. As members of The Olympic Partners (TOP) Programme, these leading multinational companies played a vital role in ensuring the smooth running of the Games by providing essential products, services, technology and expertise. Their contributions supported almost every aspect of the Games, from day-to-day operations at competition venues to the support provided to athletes from around the world. Launched by the IOC in 1985, the TOP Programme has become the leading sports sponsorship programme in the world, offering exclusive global marketing rights within specific product categories. Over the years, the programme has not only generated crucial funding for the Olympic Movement but also enabled  the development of groundbreaking innovations that continue to enhance the Olympic experience for athletes and fans alike.  Olympic values and celebrated the achievements of the athletes, further increasing global engagement with the Games  For Paris 2024, the TOP Partners once again demonstrated their integral role in the successful staging of the Games. Their partnerships helped ensure that more athletes from more National Olympic Committees (NOCs) could compete on the world’s biggest stage, while also providing the financial security that allows the Olympic Movement to thrive. With 90 per cent of IOC revenue redistributed to support sport worldwide, the contributions of the TOP Partners benefit athletes and organisations at all levels, from grassroots initiatives to Olympic teams.  The following pages showcase the invaluable contributions that the TOP Partners made to the Olympic Games and how their support helped ensure the success of Paris 2024.  In addition to their direct impact on the Games, the TOP Partners ran global marketing campaigns that promoted the  “Without the support of our Worldwide Olympic Partners, without their technology, expertise, people, services, products and financing, the Olympic Games would simply not be possible.” Jiri Kejval, Chair, IOC Revenues and  Commercial Partnerships Commission"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 42,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg43.jpg",
+      "original": "pg43.png",
       "zoom": null,
-      "content": `
-
-        <div class="addContentLink" style="top:858px; left:77px; width:219px; height:16px;">
-          <a href="mailto:md-zcy@gaofeisports.com"></a>
-        </div>
-
-        <div class="addContentLink" style="top:876px; left:77px; width:210px; height:16px;">
-          <a href="mailto:admin@gaofeisports.com"></a>
-        </div>
-
-        <div class="addContentLink" style="top:893px; left:77px; width:192px; height:17px;">
-          <a href="https://www.gaofeisports.com/" target="_blank"></a>
-        </div>
-
-      `,
+      "content": ``,
       "script": `
-        function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
-        }
+       function onPageEnter() {
+    }
 
         function onPageLeave() {
-          removeContentLinks();
         }
       `,
-      "searchText": ""
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  43  How the TOP Partners supported Paris 2024  $ Financial support, with revenues from the TOP Programme being redistributed to Olympic teams and the Paris 2024 Organising Committee  Essential products, services and expertise to ensure smooth Games-time operations  Initiatives to support participating athletes  Global marketing campaigns to promote the Olympic Games and celebrate the athletes  Unique Games-time experiences to enhance fan engagement"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 43,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg44.jpg",
+      "original": "pg44.png",
       "zoom": null,
-      "content": `
-
-        <!-- Numbers -->
-        <h1 class="abs merriweatherB 44-no"
-        style="top: 255px; left: 470px; font-size: 2.0em; font-weight:300; margin:0; color:#E63C25; padding:0; margin:0;"
-        data-number='{"to": 4}' ></h1>
-
-
-        <!--Popup-->
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:559px; left:459px;" src="/2023/static/_content/black-globe.png" />
-
-        <div class="abs contentLinkNone" style="top:575px; left:474px; width:60px; height:58px;" onclick="showFortyFourPopOne()"></div>
-
-        <div id="44-pop-1" class="standardTransition contentOverlay hidden noclick">
-          <img class="halfScale" src="/2023/static/_content/44-pop-1.jpg" style="top:0px; left:0px;"/>
-          <img class="" src="/2023/static/_content/white-cross.png" style="top:30px; left:613px;" />
-          <div class="abs contentLinkNone" style="top:29px; left:612px; width:32px; height:32px;" onclick="closeFortyFourPopOne()"></div>
-        </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg44Anim = new TimelineMax();
-          pg44Anim.fromTo(cOf("44-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("44-no")[0]);}}, 1);
-        }
-
-
-        function showFortyFourPopOne(){
-          showOverlay('44-pop-1');
-        }
-
-        function closeFortyFourPopOne(){
-          hideOverlay('44-pop-1');
         }
 
         function onPageLeave() {
-          hideOverlay('44-pop-1');
-          resetNumbers("44-no");
-          pg44Anim.stop();
         }
       `,
-      "searchText": "Sport  Acrobatic Gymnastics  PORTUGAL LEAD THE PACK  The 2023 World Cup series ended with a hat-trick of Portuguese titles and a welcome comeback for athletes from China.  T  he 2023 World Cup series in Acrobatic Gymnastics featured a trio of events â€“ in Maia (POR), Puurs (BEL) and RzeszÃ³w (POL) â€“ and it concluded with several Portuguese success stories. For the Womenâ€™s Pair (Monica Lima, Maria MarvÃ£o), Womenâ€™s Group (Carolina Marques, Joana Pinto, Eduarda Portela) and Menâ€™s Group (Vicente Colaco, Goncalo Sampaio, Nuno Santos, JoÃ£o Teles), the last event in RzeszÃ³w in June concluded with their names at the top of the world rankings. In the case of Lima and MarvÃ£o, gold in Puurs and silver in RzeszÃ³w ensured their first place. The Womenâ€™s Group also had a gold and a silver to show for their World Cup efforts, though they were not the only trio to catch the eye as the newcomers from Belgium â€“ Sofie Jaeken, Lauren Verbrugghe and Mirte Vercauteren â€“ won on their World Cup debut in Puurs and followed it up with a second gold in RzeszÃ³w. Elsewhere, the 2022 world champions Angel Felix and Braiden McDougall (USA) became the first American Menâ€™s Pair to win a World Cup series, after taking gold in the first two events before their great rivals, Balance world champions Daniyel Dil and Vadim Shulyar (KAZ), bounced back to win in RzeszÃ³w. Finally, the Mixed Pairs title went to Raziya Seyidli and Aghasif Rahimov (AZE) after they picked up golds in Maia and RzeszÃ³w. The biggest of the World Cup events was in RzeszÃ³w where 101 athletes from 15 countries took part â€“ including China, whose athletes were participating for the first time since before the pandemic. And the Chinese marked their return in style by winning gold in the Menâ€™s Group competition courtesy of Ma Xuefeng, Shi Jingwei, Shi Junjie and Zhang Minghe, the veteran four-member team whose previous  44  FIG YEARBOOK 2023  international outing had come in 2019. Overall, gymnasts from nine different countries won medals at the RzeszÃ³w event â€“ an encouraging number.  FORWARD STEP FOR JUDGING The first World Cup event of the year in Maia was noteworthy as the first to feature execution and artistry real-time judging. The discipline had already seen the introduction of technology for judging difficulty and this now marked another step forward with a view to future World Championships. Rosy Taeymans, President of the Acrobatic Gymnastics Technical Committee, said: â€œWe wanted to go to real-time judging and judges have a screen with the tariff sheet on so they know which elements will be performed and have to give their deduction at the moment it happens.â€ According to Taeymans there is now more clarity for coaches too who, immediately after the performance, can see on a screen the scoring for different elements in their athletesâ€™ performances.  4 After four years athletes from the Peopleâ€™s Republic of China returned to the World Cup stage"
+      "searchText": "44  AB InBev “AB InBev is proud to be the first global beer sponsor for the Olympic Games. Beer and sports are better together, and with no-alcohol Corona Cero leading the way, we offered Olympic fans more choices as they cheered on their favourite athletes and teams going for gold.” Michel Doukeris, CEO, AB InBev  Fact BOX  Exclusive category: Beer (alcohol and no-alcohol varieties) Member of the TOP Programme since: 2024"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1677,22 +1186,121 @@ export default  {
       "original": "pg45.jpg",
       "zoom": null,
       "content": `
+      
+      <img class="abs halfScaleC 45-text" style="top:125px;left:30px;" src="/static/_content/45-text.png"/>
+      <img class="abs halfScaleC 45-line" style="top:133px;left:-61px;" src="/static/_content/45-line-1.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:92px;" src="/static/_content/45-text-icon-1.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:192px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 24, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:233px;" src="/static/_content/45-text-icon-2.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:335px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 25, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:384px;" src="/static/_content/45-text-icon-3.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:483px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 26, "append" : "%"}' ></h1>
 
-        <!-- Animation -->
-        <img class="halfScale 45-quote-1" style="top:671px; left:484px;" src="/2023/static/_content/45-quote-1.png" />
+      <img class="abs halfScaleC 45-line" style="top:271px;left:-57px;" src="/static/_content/45-line-1.png"/>
+      <img class="abs halfScaleC 45-line" style="top:436px;left:35px;" src="/static/_content/45-line-3.png"/>
+      <img class="abs halfScaleC 45-image" style="top:92px;left:42px;" src="/static/_content/45-image-1.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:324px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 81, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:253px;" src="/static/_content/45-text-icon-4.png"/>>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:316px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 469, "append" : "k"}' ></h1>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:422px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 116, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:348px;" src="/static/_content/45-text-icon-5.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:416px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 303, "append" : "m"}' ></h1>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:503px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 254, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:464px;" src="/static/_content/45-text-icon-6.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:513px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 18.6, "decimals" : 1, "append" : "m"}' ></h1>
 
+      <img class="abs halfScaleC 45-line" style="top:590px;left:-70px;" src="/static/_content/45-line-4.png"/>   
+      <img class="abs halfScaleC 45-image" style="top:261px;left:212px;" src="/static/_content/45-image-2.png"/>
+      <img class="abs halfScaleC 45-text" style="top:428px;left:409px;" src="/static/_content/45-text-1.png"/>
+      <img class="abs halfScaleC 45-line" style="top:436px;left:497px;" src="/static/_content/45-line-2.png"/>
+
+      <img class="abs halfScaleC 45-text-icon" style="top:458px;left:122px;" src="/static/_content/45-text-icon-7.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:539px;left:241px; font-size: 0.9em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 834, "append" : "k"}' ></h1>
+
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:459px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 31.21, "decimals" : 2, "append" : "%"}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:446px;left:398px;" src="/static/_content/45-text-icon-8.png"/>
+
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:491px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 193}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:481px;left:409px;" src="/static/_content/45-text-icon-9.png"/>
+
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:523px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 25176, "comma" : true}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:510px;left:422px;" src="/static/_content/45-text-icon-10.png"/>
+
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:555px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 659}' ></h1>
+      <img class="abs halfScaleC 45-text-icon" style="top:546px;left:422px;" src="/static/_content/45-text-icon-11.png"/>
+
+      <img class="abs halfScaleC 45-text-icon" style="top:581px;left:99px;" src="/static/_content/45-text-icon-12.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:192px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 24, "append" : "%"}' ></h1>
+     
+      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:232px;" src="/static/_content/45-text-icon-13.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:305px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 52, "append" : "%"}' ></h1>
+  
+      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:342px;" src="/static/_content/45-text-icon-14.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:417px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 45, "append" : "%"}' ></h1>
+
+      <img class="abs halfScaleC 45-text-icon" style="top:579px;left:459px;" src="/static/_content/45-text-icon-15.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:522px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 65, "append" : "%"}' ></h1>
+  
+      <img class="abs halfScaleC 45-text-icon" style="top:711px;left:69px;" src="/static/_content/45-text-2.png"/>
+      
+      <img class="abs halfScaleC 45-text-icon" style="top:692px;left:277px;" src="/static/_content/45-text-3.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:713px;left:302px; font-size: 1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 1, "append" : "m"}' ></h1>
+
+      <img class="abs halfScaleC 45-text-icon" style="top:689px;left:449px;" src="/static/_content/45-text-4.png"/>
+      <h1 id="45-no" class="abs workSansBd 45-no" style="top:713px;left:469px; font-size: 1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 56, "append" : "k"}' ></h1>
+
+      <img class="abs halfScaleC 45-sm-icon" style="top:255px;left:87px;" src="/static/_content/45-sm-icon-1.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:422px;left:120px;" src="/static/_content/45-sm-icon-2.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:579px;left:94px;" src="/static/_content/45-sm-icon-3.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:703px;left:61px;" src="/static/_content/45-sm-icon-4.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:706px;left:246px;" src="/static/_content/45-sm-icon-5.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:704px;left:424px;" src="/static/_content/45-sm-icon-6.png"/>
+      
+      <img class="abs halfScaleC 45-code" style="top:749px;left:15px;" src="/static/_content/45-code.png"/>
+      
       `,
       "script": `
         function onPageEnter() {
-          pg45Anim = new TimelineMax();
-          pg45Anim.fromTo(cOf("45-quote-1"), 1, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut, onComplete: flashContentLinksThreeTimes}, 1);
+        pg45Anim = new TimelineMax();
+        pg45Anim.staggerFromTo(cOf("45-text"), 0.6, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.7, 1)
+        .staggerFromTo(cOf("45-line"), 0.7, {opacity:0, x: 50}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.1)
+        .staggerFromTo(cOf("45-text-icon"), 0.3, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.2)
+        .staggerFromTo(cOf("45-sm-icon"), 0.3, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 2.8)
+        .staggerFromTo(cOf("45-image"), 0.4, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.3)
+      
+        .fromTo(cOf("45-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[0])}}, 1.3)
+        .fromTo(cOf("45-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[1])}}, 1.4)
+        .fromTo(cOf("45-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[2])}}, 1.5)
+        .fromTo(cOf("45-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[3])}}, 1.8)
+        .fromTo(cOf("45-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[4])}}, 1.9)
+        .fromTo(cOf("45-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[5])}}, 2)
+        .fromTo(cOf("45-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[6])}}, 2.1)
+        .fromTo(cOf("45-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[7])}}, 2.2)
+        .fromTo(cOf("45-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[8])}}, 2.3)
+        .fromTo(cOf("45-no")[9], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[9])}}, 2.6)
+
+        .fromTo(cOf("45-no")[10], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[10])}}, 2.7)
+        .fromTo(cOf("45-no")[11], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[11])}}, 2.8)
+        .fromTo(cOf("45-no")[12], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[12])}}, 2.9)
+
+        .fromTo(cOf("45-no")[13], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[13])}}, 3.5)
+        .fromTo(cOf("45-no")[14], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[14])}}, 3.6)
+        .fromTo(cOf("45-no")[15], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[15])}}, 3.7)
+        .fromTo(cOf("45-no")[16], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[16])}}, 3.8)
+        .fromTo(cOf("45-no")[17], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[17])}}, 3.9)
+
+        .fromTo(cOf("45-no")[18], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[18])}}, 4.5)
+        .fromTo(cOf("45-no")[19], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[19])}}, 4.6)
+
+        .fromTo(cOf("45-code"), 0.5, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 4.9)
         }
 
         function onPageLeave() {
-          pg45Anim.stop();
+        pg45Anim.stop();
+        resetNumbers("45-no");
         }
       `,
-      "searchText": "Acrobatic Gymnastics  Sport  Far left Chinese group Left Maria MarvÃ£o and Monica Lima (POR)  â€œ  We wanted to go to real-time judging and judges have a screen with the tariff sheet on so they know which elements will be performed and have to give their deduction at the moment it happens.â€ Rosy Taeymens President of the Acrobatic Gymnastics Technical Committee  FIG YEARBOOK 2023  45"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  45  For centuries, beer and sports have brought people together to create friendships, connections and unforgettable experiences. AB InBev, the world’s leading brewer, built on that legacy in 2024 by becoming a Worldwide Olympic Partner and choosing a no-alcohol beer, Corona Cero, as the first global beer sponsor of the Olympic and Paralympic Games.  alcohol beer with no-alcohol beer, like Corona Cero.  Sports are a strong force for positive change and AB InBev brands have a long history of award-winning and responsible sports marketing. During the Olympic Games Paris 2024, Corona Cero reached Olympic fans around the world with messages of connection, moderation and celebration. Together with the IOC, AB InBev highlighted a shared commitment to responsible consumption.  In addition, AB InBev hosted the Corona Cero Relaxation Lounge in the Olympic Village, providing a space for athletes to unwind and connect.  This included giving fans more ways to responsibly celebrate the Games by providing clear and actionable tips to consumers of legal drinking age, including eating before and while drinking; never drinking and driving; and alternating  1,000+  bartenders/servers trained globally in Responsible Beverage Service (RBS) as part of Smart Drinking efforts.  11  Golden Venues across 4 continents using the same seats as from the Olympic Games venues in iconic sunset destinations.  5,000+  limited-edition Corona Cero Golden Bottles gifted to Olympians at the Olympic Village  Hundreds of servers, staff and hospitality management worldwide were also trained and certified in responsible beverage service (RBS) to help prevent sales to minors, identify and address signs of impairment and prevent drunk driving.  For Every Golden Moment Activated in more than 40 markets globally, Corona Cero’s “For Every Golden Moment” platform invited the world to get outside and reconnect with nature – a theme that brings a fresh perspective of relaxation and celebration to the Olympic Games. By highlighting the emotion of golden moments from Olympians at the Games, the platform drew parallels with golden moments experienced by everyone in their daily lives, such as a beautiful sunset. From breaking records to raising a glass of golden beer to cheer on your favourite team, the platform aimed to remind consumers of the power of these meaningful moments.  With its Golden Venues activation, Corona Cero also brought the same seats as from the Olympic Games venues in Paris to iconic sunset destinations across four continents. The locations were selected for their remarkable sunsets, scenic beauty, and cultural significance, offering visitors a unique opportunity to enjoy a touch of the Olympics amidst spectacular natural settings.  The campaign included films, social media activations, out-of-home advertising, experiential events, and trade promotions. Olympic-themed bottles were also available in select markets worldwide.  Offering award-winning, no-alcohol Corona Cero during the Olympic Games brought more choice to fans around the world and it was a perfect fit for this global celebration.  Corona Cero also tapped into some of the Games’ most iconic moments in real-time to drive local relevance and ensure the Games were celebrated worldwide. One example was following Gabriel Medina’s stunning mid-air celebration, when the brand leveraged its partnership with the Brazilian surfer to create a social and out-of-home campaign in key markets.  Toasting to a Future with More Cheers Cheering and celebrating sport over a beer is universal, and this partnership illustrates the opportunity for the beer category to positively engage with fans around the world while helping to create a future with more cheers."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1703,408 +1311,185 @@ export default  {
       "zoom": null,
       "content": `
 
-      <!--Popup-->
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:863px; left:275px;" src="/2023/static/_content/black-globe.png" />
+      <img class="abs halfScaleC 46-box" style="top:420px;left:-25px;" src="/static/_content/46-box-1.png"/>
+      <img class="abs halfScaleC 46-box" style="top:421px;left:137px;" src="/static/_content/46-box-2.png"/>
+      <img class="abs halfScaleC 46-box" style="top:582px;left:-25px;" src="/static/_content/46-box-3.png"/>
+      <img class="abs halfScaleC 46-box" style="top:582px;left:137px;" src="/static/_content/46-box-4.png"/>
 
-      <div class="abs contentLinkNone" style="top:878px; left:290px; width:60px; height:60px;" onclick="showFortySixPopOne()"></div>
-
-      <div id="46-pop-1" class="standardTransition contentOverlay hidden noclick">
-        <img class="halfScale" src="/2023/static/_content/46-pop-1.jpg" style="top:0px; left:0px;"/>
-        <img class="" src="/2023/static/_content/white-cross.png" style="top:30px; left:613px;" />
-        <div class="abs contentLinkNone" style="top:29px; left:612px; width:32px; height:32px;" onclick="closeFortySixPopOne()"></div>
-      </div>
-
-
+      <h1 id="46-no" class="abs bebasNeueBd 46-no" style="top:560px;left:108px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append" : "%"}' ></h1>
+      <h1 id="46-no" class="abs bebasNeueBd 46-no" style="top:560px;left:269px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append" : "%"}' ></h1>
+      <h1 id="46-no" class="abs bebasNeueBd 46-no" style="top:722px;left:108px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 60, "append" : "%"}' ></h1>
+      <h1 id="46-no" class="abs bebasNeueBd 46-no" style="top:722px;left:267px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 68, "append" : "%"}' ></h1>
+      
       `,
       "script": `
         function onPageEnter() {
-        }
-
-        function showFortySixPopOne(){
-          showOverlay('46-pop-1');
-        }
-
-        function closeFortySixPopOne(){
-          hideOverlay('46-pop-1');
+        pg46Anim = new TimelineMax();
+        pg46Anim.staggerFromTo(cOf("46-box"), 0.8, {opacity:0, x: 45}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1)
+        pg46Anim.fromTo(cOf("46-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[0])}}, 1.3)
+        pg46Anim.fromTo(cOf("46-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[1])}}, 1.5)
+        pg46Anim.fromTo(cOf("46-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[2])}}, 1.7)
+        pg46Anim.fromTo(cOf("46-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[3])}}, 1.9)
         }
 
         function onPageLeave() {
-          hideOverlay('46-pop-1');
+        pg46Anim.stop();
+        resetNumbers("46-no");
         }
       `,
-      "searchText": "Sport  Aerobic Gymnastics  THREE OF A KIND A trio of World Cup events in 2023 featured prominent performances by established stars.  F  or the first time since 2018, there were three stops on the Aerobic World Cup circuit â€“ a positive sign given the wish to expand this series.  The events took place in Cantanhede (POR) in March, in Tokyo (JPN) in April, and finally in Bucharest (ROU) in October. From a technical perspective the trend towards more aerobic movements was evident while the podium featured an intriguing mix of old and new faces. In her first competitions outside Japan since 2019, 2018 world champion Kitazume Riri (JPN) rolled back the years by winning the Womenâ€™s Individual title with gold in Cantanhede and Tokyo. In the Japanese capital, she also claimed a Mixed Pairs victory with Saito Mizuki in their first World Cup competition as a duo. Miquel Mane (ESP), the 2021 world champion and 2022 silver medallist, earned the Menâ€™s Individual title thanks to his silver in Tokyo and gold in Bucharest. Reigning world champion Anastasiia Kurashvili (UKR) won the Mixed Pairs title with her partner Stanislav Halaida, while the Trio title went to Maelys Lenclos, Clara Lestruhaut and Victoria Trosset (FRA). France also won the Group event, while Romania took the honours in Dance.  46  FIG YEARBOOK 2023"
+      "searchText": "46  Airbnb “Paris 2024 has been Airbnb’s biggest hosting event ever with more than half a million guests welcomed during the Olympics and Paralympics. In partnership with our community of hosts, we have gone above and beyond to meet this unique occasion and contribute to make the Games a unique moment of connection and inclusivity, from investing in customer support and bolstering the offer of accessible accommodation in the Paris region to offering iconic stays and in-venue viewing experiences.” Emmanuel Marill, Regional Director for EMEA, Airbnb  Fact BOX  Exclusive category: Unique Accommodation Products, Unique Experiences Services and Olympian Experiences Services Member of the TOP Programme since: 2019"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 46,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg47.jpg",
+      "original": "pg47.png",
       "zoom": null,
-      "content": `
-
-        <!-- Animation -->
-        <img class="halfScale 47-quote-1" style="top:732px; left:79px;" src="/2023/static/_content/47-quote-1.png" />
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg47Anim = new TimelineMax();
-          pg47Anim.fromTo(cOf("47-quote-1"), 1, {opacity:0, y:30}, {opacity:1, y:0, ease: Power2.easeOut, onComplete: flashContentLinksThreeTimes}, 1)
         }
 
         function onPageLeave() {
-          pg47Anim.stop();
         }
       `,
-      "searchText": "Aerobic Gymnastics  Sport  A BETTER TOMORROW  Efforts to provide more Aerobic events and opportunities for athletes as well as developing nations gathered pace in 2023.  T  â€œ  We wanted to open the door to nations as you need to participate in some type of international competition â€“ it motivates and stimulates you and can raise your training level. We would like to give as many opportunities as possible.â€  he Aerobic Gymnastics Technical Committee took several measures to ensure more competitions for their athletes, starting with the decision to make it non-compulsory to raise the floor for World Cups. This will reduce the financial burden of hosting an event and will therefore help increase the number of World Cups. â€œThis way we can have more hosting nations,â€ said Tammy Yagi-Kitagawa, President of the Aerobic Gymnastics Technical Committee. Another decision of note was the change to the Accreditation Rules to allow nations to send up to three athletes to the Menâ€™s and Womenâ€™s Individual competitions at the World Championships â€“ rather than just one. Approved by the Executive Committee in November, this will be in place for the 2024 World Championships and is aimed at giving more athletes the realistic target of a place on the world stage and, with it, added motivation. The Technical Committee also gained approval to hold a Junior World Championships test event at the 2024 World Age Group Competition (WAGC) in Pesaro (ITA) for the Junior category (15-17). Yagi-Kitagawa said: â€œI am hoping that by providing this incentive, more junior athletes will continue in the sport.â€ It is also worth highlighting the decision to allow Level 4 judges to serve as an E- or A- judge at continental championships and World Cups, where necessary â€“ a step taken not only to give upcoming judges more experience but also to ease the financial burden on host countries by reducing the need to invite more experienced judges from other countries and indeed continents.  Pictured Kitazume Riri and Saito Mizuki (JPN)  Tammy Yagi-Kitagawa President of the Aerobic Gymnastics Technical Committee FIG YEARBOOK 2023 47"
+      "searchText": "47  Paris 2024 was the biggest hosting event in Airbnb’s history, with more guests staying in local homes on its platform than at any event, ever before. Airbnb worked with the IOC to make the Olympic Games Paris 2024 a success for all and provide an unforgettable experience to everyone.  Experiences Hosted by Athletes  This was made possible also by a campaign launched in collaboration with Paralympic athletes Axel Allétru and Sofyane Mehiaoui and aimed at making the Games more accessible for all. Allétru and Mehiaoui became Airbnb hosts in the adapted category, inspiring more hosts to offer stays at homes with accessibility features during the Games.  To celebrate the Olympic Games Paris 2024 and in the spirit of bringing the Games to everyone, Airbnb partnered with 24 Olympic and Paralympic athletes, including basketball legend Tony Parker, to host more than 100 Airbnb Experiences. These unique Experiences allowed 1,600 guests to attend competitions alongside inspiring athletes who have made a significant impact in their sports. This initiative celebrated the spirit of athleticism and diversity during this iconic event while giving more fans access to the Games and the athletes.  Athlete Support Programmes  Unique Stays  Since their launch in 2021, both programmes have offered a combined value of more than USD 20 million in Airbnb credit to more than 30,000 athletes around the world who have booked 20,000 stays in more than 100 countries with Airbnb. As Official Partner of the Refugee Paralympic Team, Airbnb also supported the team’s athletes with training and other expenses as they prepared for the Paris 2024 Paralympic Games.  Airbnb offered a once-in-a-lifetime opportunity for two guests to spend the night in the iconic Clock Room of the Musée d'Orsay during the Opening Ceremony of the Olympic Games Paris 2024. The room was transformed into a luxurious bedroom by Mathieu Lehanneur, the designer of the Olympic and Paralympic torch for Paris 2024. In addition, Lehanneur hosted an exclusive experience on the Musée d'Orsay terrace, allowing 30 Olympic fans to witness athletes parading on the Seine while experiencing a blend of Olympic festivities, arts, design, and Parisian charm. The project generated significant press interest and social media buzz worldwide.  Accessible stays In order to ensure that people with accessibility needs could fully enjoy and participate in the Games, Airbnb made 1,000 listings with step-free accessibility features available in the Paris Region.  Airbnb also launched two multi-year programmes to support athletes. The Airbnb Athlete Travel Grant runs annually and provides USD 2,000 in Airbnb credit to selected athletes to support the cost of accommodations as they travel, train and compete. The Airbnb500 delivers USD 500 in Airbnb credit to every eligible Olympian and Paralympian competing at the Games in recognition of their incredible efforts and accomplishments.  500,000+  guests welcomed by Airbnb hosts during the Games  100  Airbnb Experiences hosted by athletes, allowing 1,600 guests to attend competitions alongside inspiring athletes  1,000+  listings with step-free accessibility features available in the Paris Region  Out-of-home campaign  Olympic Torch Relay: La Maison du Sport  To commemorate Paris 2024, Airbnb designed a unique out-of-home campaign centred around Airbnb 'Categories' that strongly resonate with the local community, while also celebrating the Games in France. The campaign aimed to actively engage with the celebration of this significant and unifying moment, showcasing Airbnb's presence within the heart of this historic event. Strategically positioned in high-traffic areas throughout Paris, including major airports, train stations, and metro stations, the ads captured the attention of a wide audience.  The Airbnb team travelled across France with the Paris 2024 Olympic Torch Relay, offering locals the chance to win tickets to Olympic events and meet renowned athletes such as basketball superstar Tony Parker or Olympic swimming champions Laure Manaudou and Camille Lacour. Local families were greeted at La Maison du Sport, a portable Airbnb home where guests participated in family-friendly games and activities. Airbnb also offered 100 hosts from the platform the unique opportunity to represent their regions as torchbearers."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 47,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg48.jpg",
+      "original": "pg48.png",
       "zoom": null,
-      "content": `
-
-        <!--Linky NOTE: WHY IS THE FLASH NOT DELAYED??-->
-        <div class="addContentLink" style="top:205px; left:167px; width:119px; height:12px;">
-          <a href="https://www.youtube.com/watch?v=hf9DA8Gs4zY&list=PLNYqWWimiG-NEVly1A0Z9jLjx92E_WlF9&index=2  " target="_blank"></a>
-        </div>
-        <div class="addContentLink" style="top:222px; left:57px; width:29px; height:12px;">
-          <a href="https://www.youtube.com/watch?v=hf9DA8Gs4zY&list=PLNYqWWimiG-NEVly1A0Z9jLjx92E_WlF9&index=2  " target="_blank"></a>
-        </div>
-
-        <!--Animation-->
-        <!--big circle-->
-        <div class="abs" style="top:590px; left:211px;">
-          <!--Circles-->
-          <img class="halfScaleC 48-circle" style="top:209px; left:216px;" src="/2023/static/_content/48-circle-1.png" />
-          <img class="halfScaleC 48-circle" style="top:153px; left:182px;" src="/2023/static/_content/48-circle-2.png" />
-          <img class="halfScaleC 48-circle" style="top:86px; left:174px;" src="/2023/static/_content/48-circle-3.png" />
-          <img class="halfScaleC 48-circle" style="top:40px; left:205px;" src="/2023/static/_content/48-circle-4.png" />
-          <img class="halfScaleC 48-circle" style="top:83px; left:296px;" src="/2023/static/_content/48-circle-5.png" />
-
-          <!--Lines-->
-          <img class="halfScaleC 48-line" style="top:158px; left:171px;" src="/2023/static/_content/48-line-1.png" />
-          <img class="halfScaleC 48-line" style="top:83px; left:184px;" src="/2023/static/_content/48-line-2.png" />
-          <img class="halfScaleC 48-line" style="top:37px; left:153px;" src="/2023/static/_content/48-line-3.png" />
-          <img class="halfScaleC 48-line" style="top:22px; left:194px;" src="/2023/static/_content/48-line-4.png" />
-
-          <!--Text-->
-          <img class="halfScale 48-title-1" style="top:130px; left:3px;" src="/2023/static/_content/48-title-1.png" />
-
-          <img class="halfScale 48-text" style="top:157px; left:3px;" src="/2023/static/_content/48-text-1.png" />
-          <img class="halfScale 48-text" style="top:193px; left:3px;" src="/2023/static/_content/48-text-2.png" />
-          <img class="halfScale 48-text" style="top:230px; left:3px;" src="/2023/static/_content/48-text-3.png" />
-          <img class="halfScale 48-text" style="top:267px; left:3px;" src="/2023/static/_content/48-text-4.png" />
-          <img class="halfScale 48-text" style="top:268px; left:191px;" src="/2023/static/_content/48-text-5.png" />
-
-        </div>
-
-
-        <!--Numbers-->
-        <h1 class="abs merriweatherB 48-no"
-        style="top: 499px; left: 278px; font-size: 2.0em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 3000, "comma":true}' ></h1>
-
-        <!--Gallery-->
-        <img
-        class="abs halfScaleC halfpulse animatedpulse pointer"
-        style="top:338px; left:267px;"
-        onclick="pg48_gallery(0)"
-        src="/2023/static/_content/white-camera.png"
-        />
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-
-          pg48Anim = new TimelineMax();
-          pg48Anim.fromTo(cOf("48-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function() {
-            animateNumber(cOf("48-no")[0]);
-            flashContentLinksThreeTimes();
-          }}, 1);
-
-          pg48Anim.staggerFromTo(cOf("48-circle"), 0.6, {scale:0}, {scale:0.5, ease: Back.easeOut.config(1.70)}, 0.1, 0.8);
-          pg48Anim.staggerFromTo(cOf("48-line"), 0.65, {scale:0}, {scale:0.5, ease: Back.easeOut.config(1.00)}, 0.1, 0.8);
-
-          pg48Anim.fromTo(cOf("48-title-1"), 0.6, {opacity:0, x:-30}, {opacity:1, x:0, ease: Power2.easeOut}, 0.75);
-          pg48Anim.staggerFromTo(cOf("48-text"), 0.6, {opacity:0, x:-30}, {opacity:1, x:0, ease: Power2.easeOut}, 0.1, 0.8);
-
-
-
-
-          //setTimeout(function(){
-          //  flashContentLinksThreeTimes();
-          //}, 2000);
-
-
         }
 
         function onPageLeave() {
-            pg48Anim.stop();
-            resetNumbers("48-no");
-            removeContentLinks();
         }
       `,
-      "searchText": "Sport  Parkour  PARKOURâ€™S TOUR DE FORCE The worldwide development of the sport continued with the Brick Parkour Asian Tour having a particularly inspiring effect.  A  continental tour that brought excitement and inspiration to the Parkour communities in five countries. Pictured That was the Brick Parkour Asian The Brick Parkour Tour, which featured workshops and Asian Tour gives local competitions at each of its five stops children their first across Southeast Asia â€“ Indonesia, taste of Parkour Malaysia, Philippines, Thailand and Vietnam. â€œThe Brick Parkour Asian Tour was a fantastic opportunity to showcase the sport,â€ said Charles PerriÃ¨re, President of the Parkour Commission of this groundbreaking venture which proved a major highlight of 2023 for the sport. â€œWe started with countries with not so many resources but with big Parkour communities.â€ Born out of a suggestion by FIG President Morinari Watanabe and supported by Brick, a supplier of Parkour equipment, the tour featured two days of activities â€“ competitions and workshops â€“ for budding athletes and schoolchildren at each stop. people attended International athletes Audrey Johnson tour events (USA), Caryl Cordt-Moller (SUI), Javier â€˜Xaviaâ€™ Rodriguez (MEX) and Stephania Zitis (AUS) joined the tour to provide inspiration to current and future generations of Parkour participants and fans. â€œWe brought them with us to run the workshops and to act as role models,â€ explained PerriÃ¨re. â€œWe became a family for one month â€“ on a mission for Parkour.â€ After the success of this inaugural tour, the concept will be used in different Brick tour itinerary regions in future years, continuing with the 1 12-13 August: AEON Mall, Brick Parkour CentroBSD City, Jakarta, Indonesia Caribe Tour in 2024.  3,000  4 5  3  2  2 15-16 August: AEON Mall Shah Alam, Kuala Lumpur, Malaysia  3 22-23 August: Central World,  1  Bangkok, Thailand  4 26-27 August: AEON Mall Ha Dong, Hanoi, Vietnam  48  FIG YEARBOOK 2023  5 30-31 August: Quirino Grandstand, Manila, Philippines"
+      "searchText": "48  Alibaba “The Olympic Games has been an invaluable global platform for Alibaba to showcase our cloud and AI technology. We are proud to enable the digital transformation of the world’s largest and most complex sporting event.” Joe Tsai, Chairman of Alibaba Group  Fact BOX  Exclusive category: Cloud infrastructure, Cloud services and e-commerce platform services Member of the TOP Programme since: 2017"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 48,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg49.jpg",
+      "original": "pg49.png",
       "zoom": null,
-      "content": `
-
-       <!--Animation-->
-       <img class="halfScale 49-quote-1" style="top:109px; left:113px;" src="/2023/static/_content/49-quote-1.png" />
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg49Anim = new TimelineMax();
-          pg49Anim.fromTo(cOf("49-quote-1"), 1, {opacity:0, x:50}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
-          pg49Anim.stop();
-
         }
       `,
-      "searchText": "Parkour  Sport  â€œ  We had competitions and workshops and welcomed children from local schools â€“ we had 200 kids a day!â€ Charles PerriÃ¨re President of the Parkour Commission  BUILDING BLOCKS For both the local Parkour community on each stop of the tour and the national federation, the tour provided the opportunity to discuss development with FIG officials and it bequeathed an instant legacy in the form of two sets of Brick training equipment, a gift from the tour sponsor to help with the growth of Parkour. In the case of Jakarta, the Indonesian capital, the training  sets were put to good use three months later in the staging of a Parkour Age Group camp. There were participants from Southeast Asia present at both that camp and the Parkour Academy in Hiroshima (JPN) in the same month as the ripple effect of the tour continued. â€œThese countries sent their athletes and coaches to get their certificates,â€ the FIG Parkour Commission President said. â€œThey were motivated to carry on and it was such a pleasure to see them again.â€  FIG YEARBOOK 2023 49"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  Since Alibaba Group’s TOP partnership started in 2017, its E-commerce and Cloud divisions have been driving digital transformation for the world’s largest sports events with its proven e-commerce expertise and cloud technologies; from enabling the 'biggest technological change' in the Olympic broadcasting industry for more than 50 years to creating more engaging online experience for sports fans, helping to reduce the carbon footprint of the Games and enhancing the experience for everyone involved. During Paris 2024, and in collaboration with the IOC, Alibaba.com launched a new edition of the Athlete365 Business Accelerator programme to help athletes develop their business ideas and to support their post-career entrepreneurship. Meanwhile, Alibaba Cloud contributed to the Olympic Games Paris 2024 by leveraging its AI-powered cloud technology advancements that revolutionise broadcasting, audience engagement, energy efficiency, and support for gender equality through its innovative cloud-native and AI-enabled solutions. The partnership between Alibaba Group and the IOC continues to set new standards for operational efficiency, sports fans engagement, and environmental responsibility, heralding a new era for the international sporting community. The launch of OBS Cloud 3.0, a collaborative effort between Alibaba Cloud and Olympic Broadcasting Services (OBS), marks a pivotal advancement in Olympic broadcasting. This AI-powered cloud technology served as the main infrastructure for various broadcasting functions.  49  which facilitated a deeper understanding of pivotal game moments and were made available on OBS' Content+ platform for comprehensive media analysis to all MRHs, covering a range of sports including basketball, gymnastics, tennis, beach volleyball and rugby sevens. Alibaba Cloud also helped restore and colourise Olympic archive footage from the Olympic Games Paris 1924, allowing contemporary audiences to experience these iconic moments in enhanced viewing quality and vivid colours. Furthermore, Alibaba Cloud utilised its AI-powered colourisation technology to produce 'To the Greatness of Her', an eight-minute short film highlighting the evolution of gender equality in sports. This is aligned with the Olympic AI Agenda launched in April 2024. In addition, Alibaba Cloud supported the IOC to deploy its data-driven, AI-enabled sustainability solution – Energy Expert – to help measure and analyse the electricity consumption at all competition venues during Paris 2024. By migrating the intelligence related to the power consumption and demand of the competition venues to the cloud-based platform for the first time, the solution is designed to enable more accurate analysis and better-informed power consumption planning for future Olympic Games.  Additionally, Alibaba Cloud’s showcase at the International Broadcast Centre (IBC), demonstrated the cloud pioneer’s latest cloud and AI innovations for the broadcasting and sports industry, welcoming more than 10,000 people during the Games. Visitors could interact with Alibaba Cloud Bao, a digital avatar powered by Alibaba’s large language model Qwen; play a virtual kayaking game and even send postcards and stickers produced by Alibaba Cloud’s AI image generator Tongyi Wanxiang.  On-site activations  In addition, Alibaba Cloud collaborated with the IOC to launch a Media Archiving AI Solution. This cloud-based solution provided enhanced visual search functions, automatic categorisation of multimedia content, and video highlight production through AI-powered media asset management services, marking a significant breakthrough in sports media archiving  To create a more entertaining and engaging spectator experience, Alibaba Cloud unveiled Alibaba Cloud Memento, an innovative tool that transforms participants' static images into immersive motion videos with the help of AI technology. More than 12,000 spectators experienced this transformative technology first-hand at three iconic venues: the Eiffel Tower Stadium, Champs De Mars Arena, and Invalides. The spectators could take home a video of themselves performing sports from Olympic Games, such as archery, beach volleyball, judo and wrestling created by the latest intelligent cloud-based innovation through Cloud Memento. The videos also featured historic landmarks such as the Eiffel Tower using cloud-based smart technology converting 2D snapshots into dynamic animated videos, showcasing complex sports moves with remarkable consistency and continuity.  Multi-Camera Replay Systems by OBS Cloud also provided 360-degree, framefreeze slow-motion replays. Footage was sent to the cloud, where Alibaba Cloud's AI-driven computing capabilities enabled live spatial reconstruction and real-time 3D rendering before being shared as replays,  More than 32,000 people also visited Alibaba Wonder Avenue – a dedicated Paris 2024 showcase launched by Alibaba Group at the eastern end of Champs Elysées Avenue, adjacent to the Paris 2024 Official Megastore. Designed to showcase the future online shopping  As part of OBS Cloud 3.0, OBS Live Cloud became the main method of remote distribution to Media Rights-Holders (MRHs) for the first time in the history of the Olympic Games, taking over from satellite which was launched during the Olympic Games Tokyo 1964.  in the era of artificial intelligence, Alibaba Wonder Avenue featured a smart e-commerce assistant, powered by Alibaba Cloud’s proprietary large language model Qwen, that provided a customised service for each visitor. During the journey, participants could experience the power of AI first-hand, leveraging Qwen’s multilingual and image generation capabilities.  32,000+  visitors experienced the AI-powered e-commerce experience at Alibaba Wonder Avenue  9,400  videos generated and shared by visitors to Alibaba’s Cloud Memento activation  2,000  interactions with the Alibaba Cloud Bao digital avatar at the La Rivière Alibaba Cloud Showcase"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 49,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg50.jpg",
+      "original": "pg50.png",
       "zoom": null,
-      "content": `
-
-
-        <!-- Linky -->
-        <div class="addContentLink" style="top:376px; left:163px; width:27px; height:12px;">
-          <a href="https://www.youtube.com/watch?v=0eeNUjP42YQ&list=PLNYqWWimiG-O1FSRFf8fG_PcORQX5COeU&index=2" target="_blank"></a>
-        </div>
-        <div class="addContentLink" style="top:388px; left:55px; width:58px; height:12px;">
-          <a href="https://www.youtube.com/watch?v=HJQA6jzTf4g" target="_blank"></a>
-        </div>
-
-        <!--Numbers-->
-        <h1 class="abs merriweatherB 50-no"
-        style="top: 393px; left: 270px; font-size: 2.0em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 5}' ></h1>
-
-        <!--Gallery-->
-        <img
-        class="abs halfScaleC halfpulse animatedpulse pointer"
-        style="top:817px; left:178px;"
-        onclick="pg50_gallery(0)"
-        src="/2023/static/_content/white-camera.png"
-        />
-
-        <!--Popup-->
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:817px; left:111px;" src="/2023/static/_content/white-globe.png" />
-
-        <div class="abs contentLinkNone" style="top:830px; left:123px; width:66px; height:63px;" onclick="showFiftyPopOne()"></div>
-
-        <div id="50-pop-1" class="standardTransition contentOverlay hidden noclick">
-          <img class="halfScale" src="/2023/static/_content/50-pop-1.jpg" style="top:0px; left:0px;"/>
-          <img class="" src="/2023/static/_content/white-cross.png" style="top:30px; left:613px;" />
-          <div class="abs contentLinkNone" style="top:29px; left:612px; width:32px; height:32px;" onclick="closeFiftyPopOne()"></div>
-
-        </div>
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-
-          pg50Anim = new TimelineMax();
-          pg50Anim.fromTo(cOf("50-no")[0], 0.3, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("50-no")[0]);}}, 0.6);
-
-          setTimeout(function(){flashContentLinksThreeTimes();}, 2000);
-        }
-
-        function showFiftyPopOne(){
-          showOverlay('50-pop-1');
-        }
-
-        function closeFiftyPopOne(){
-          hideOverlay('50-pop-1');
         }
 
         function onPageLeave() {
-          hideOverlay('50-pop-1');
-          resetNumbers("50-no");
-          pg50Anim.stop();
-          removeContentLinks();
-
         }
       `,
-      "searchText": "Sport  Parkour  SWEDES MAINTAIN WORLD CUP SUPREMACY Montpellier (FRA) and Sofia (BUL) provided the stops on the World Cup series in 2023 â€“ when again it was the Swedish flag that flew highest.  A  s in 2022, Swedenâ€™s Elis Torhall (SWE) and Miranda Tibbling (SWE) triumphed in both Sofia and Montpellier in their respective events of Menâ€™s Freestyle and Women's Speed. For Tibbling, those successes extended a winning streak that now includes five World Cups, a World Championship title and a World Games gold medal. Torhall made history by landing the first triple swing gainer in FIG competition. Meanwhile, Ella Bucio (MEX) and Adela Merkova (CZE) tied for Womenâ€™s Freestyle, with Jaroslav Chum (CZE) collecting the Menâ€™s Speed series title.  5 The series welcomed five new nations in 2023 with Jordan, Slovakia, Serbia, Romania and Bolivia taking part for the first time  Above Elis Torhall (SWE) Inset Miranda Tibbling (SWE)  50  FIG YEARBOOK 2023"
+      "searchText": "50  Allianz “Au revoir and merci Paris! It has been an incredible honour to be part of the Olympic and Paralympic Movements, bringing the spirit of the Games to millions worldwide. As we wrap up 29 unforgettable days of Olympic and Paralympic achievements, we celebrate the extraordinary athletes and the legacy that Paris 2024 will leave behind.” Eike Bürgel, Global Head of Olympic & Paralympic Programme at Allianz  Fact BOX  Exclusive category: Insurance Member of the TOP Programme since: 2021"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 50,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg51.jpg",
+      "original": "pg51.png",
       "zoom": null,
       "content": `
-
-      <div class="addContentLink" style="top:908px; left:557px; width:86px; height:13px;">
-      <a href="https://brickparkour.com/ " target="_blank"></a>
+      
+      <div class="contentLink" style="top:849px;left:221px;width:180px;height:16px">
+        <a href="https://www.sasaki-sports.co.jp/" target="_blank"></a>
       </div>
-
+      
       `,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){flashContentLinksThreeTimes();}, 1000);
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
-          removeContentLinks();
         }
       `,
-      "searchText": "Gymnastics for all/ World Gymnaestrada  Sport  FIG YEARBOOK 2023 51"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  51  As the Worldwide Insurance Partner for the Olympic and Paralympic Games Paris 2024, Allianz provided its core expertise to support the entire sports ecosystem before, during and after the Games. This included offering commercial coverages for key venues such as the Velodrome, Aquatics Centre and Media Centre, as well as providing ticket cancellation insurance for fans. Allianz also rolled out a comprehensive medical assistance programme for 155,000 athletes, staff, volunteers and members of the Olympic and Paralympic family. Through these often ‘intangible’ solutions and services, Allianz played a crucial role in ensuring the smooth and secure operation of the Games, protecting participants and stakeholders from start to finish.  its global 'Get Ready' campaign and various market activities across more than 60 countries. These initiatives kicked off at the start of 2024 and aimed to foster a deep connection with the Olympic spirit and engage new target groups. In France, Allianz unfurled giant banners and branding in rail stations across the city to celebrate the countdown to the Games. From July through September, Club France had an exclusive area to showcase Allianz at Parc des Nations at La Villette. Here, around 10,000 visitors took part in immersive activities around the theme of sport and health protection.  A total of 49 Team Allianz athletes competed at the Olympic Games and 54 at the Paralympic Games, cheered on by more than 2,000 Allianz colleagues and supported by hundreds of Allianz volunteers who worked behind the scenes and on the ground to help ensure the Games’ success. Athletes are at the heart of Allianz’s partnership with the Olympic and Paralympic Movements, receiving not only financial backing but also career guidance through mentoring and financial literacy programmes. Whether their next step is on or off the field, Allianz is proud to support athletes as they prepare for the next chapter of their lives. Some of them have even become Allianz employees.  Fans had the opportunity to engage with the Allianz brand through explainer videos covering 55 Olympic sports and disciplines, as well as 22 Paralympic sports. Through QR codes in venues and via the official Paris 2024 website and app, Allianz enabled the audience to get ready for the best experience at the Olympic and Paralympic Games with these videos.  Allianz also brought the Movements to life for its employees, customers, distribution partners and fans through  60+  markets activated around the world  In Italy, the company produced a TV docuseries showcasing the journeys of seven Italian Team Allianz Ambassadors.  Overall, Allianz’s role at the Paris 2024 Games was multifaceted, encompassing extensive insurance coverage, robust athlete support, and global campaigns that engaged diverse audiences. Through these initiatives, Allianz contributed to the success of the Games and helped bring to life the power of sports to elevate and unite people from around the world transcending social and cultural barriers.  20m+  impressions for Olympic Sports Explainers  2bn  digital impressions for Get Ready campaign"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 51,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg52.jpg",
+      "original": "pg52.png",
       "zoom": null,
-      "content": `
-
-        <!--Animation-->
-        <img class="halfScale 52-number-1" style="top:191px; left:504px;" src="/2023/static/_content/52-number-1.png" />
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg52Anim = new TimelineMax();
-          pg52Anim.fromTo(cOf("52-number-1"), 1, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
-          pg52Anim.stop();
         }
       `,
-      "searchText": "Sport  Parkour  TECHNICAL UPDATES T he 2023 season launched with updates to the technical regulations and table of tricks based on feedback after the previous yearâ€™s World Championships. Meanwhile, feedback on the rules has driven improvements in the competition structure and rules for the next World Cup series. The FIG Executive Committee approved the revised version of the 2022â€“2024 Code of Points, which came into force on 1 January 2024. The main changes are a new 0.1 point increment for deductions in the execution score (instead of 0.5), the introduction of an overall difficulty for the three most difficult tricks and an open scoring scale (instead of a cap at 30 points).  GLOBAL EDUCATION DRIVE I t was not just in Southeast Asia that they felt the benefits of efforts to develop Parkour, with FIG educators travelling to all five continental unions in 2023. Beginning in Australia, with the countryâ€™s first Parkour Age Group camp, FIG experts visited communities in Oceania, Europe, Africa, Asia and the Americas.  52  FIG YEARBOOK 2023  0.1 New point increment for deductions in the execution score  Pictured Ella Bucio (MEX)"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 52,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg53.jpg",
-      "zoom": null,
-      "content": `
-
-        <!-- Linky -->
-        <div class="addContentLink" style="top:837px; left:198px; width:287px; height:23px;">
-          <a href="https://cannice-sports.com/" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:921px; left:357px; width:157px; height:16px;">
-          <a href="mailto:export@cannice-sports.com"></a>
-        </div>
-
-      `,
-      "script": `
-        function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
-        }
-
-        function onPageLeave() {
-            removeContentLinks();
-        }
-      `,
-      "searchText": "Gymnastics for all/ World Gymnaestrada  Sport  No. 6596, East Dongfanghong Road, Economic and Development Zone, Dezhou, ShandongFIG Province, China53 YEARBOOK 2023 Tel: +86 (0) 534 8100909 - E-mail: expor t@cannice-spor ts.com"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  Atos, as the Worldwide IT Partner of the Olympic and Paralympic Games and engaged with the Olympic Movement for the past 35 years, integrated, managed and secured the critical IT systems to offer billions of fans around the world the most digital Olympic and Paralympic Games in history. Atos was the leading technology integrator, from programme management to systems integration, and the provider of over 150 core applications.  The most digital and secure Olympic and Paralympic Games in history To prepare for Paris 2024, Atos carried out more than 250,000 hours of testing from the Integration Testing Lab (ITL) in Madrid, where the Olympic Management System (OMS) and the Olympic Diffusion System (ODS) are homologated, as well as from the Technology Operation Centre (TOC) located in Paris.  250,000  hours of testing over 15 months  1,894  workstations with the on-site and remote Commentators Information System  0.35  seconds to deliver real-time results via the Olympic Diffusion System  53  The OMS was responsible for the more than 400,000 accreditations delivered during Paris 2024, as well as the competition schedule, the voting applications for athletes participating in the IOC Athletes’ Commission election, the Volunteers’ Portal and the management of operational teams. The ODS announced real-time results for the 1,026 sporting events for media and the Olympic and Paralympic families. This included the Commentator Information System (CIS), which provided from-the-field as well as background information on athletes, and the MyInfo application for remote journalists to access athlete information and news from their devices to follow the news published by the Olympic Information Service. From the TOC, Atos coordinated a team of 15 technology partners comprising more than 2,000 experts, all working to make the Olympic and Paralympic Games Paris 2024 fully connected, secure and digitally enabled. Atos also leveraged the TOC to coordinate the CTOC (Central Technology Operation Centre) located in Barcelona, with 90 Atos experts and more than 350 Venue IT Managers across all Paris 2024 operational locations. The TOC deployed a wide range of IT equipment to support the running of the competitions and delivery of results. Atos also supported the 60 Venue Results Managers, responsible for correctly gathering and publishing performance data and statistics on the ODS within a timeframe of 0.35 seconds, before it was broadcast on the competition’s websites and other media.  Atos introduced innovations like an AI-enabled Volunteer Portal, cybersecurity mesh architecture, and a Smart Knowledge Hub with GenAI for Paris 2024. Their advanced systems ensured operational efficiency, proactive threat protection, and rapid incident response, supporting the Olympic and Paralympic Games’ critical infrastructure.  Celebrating What Matters The Atos campaign for Paris 2024, 'Celebrating What Matters', highlighted the importance of athletic achievements and technological advancements, and showed Atos teams' significant role in making these moments accessible through their expertise and technology. In that spirit, Atos organised an exclusive behind-the-scenes programme for its customers, partners and media, showcasing the technological backbone of the Olympic Games and offering an immersive Olympic experience through Olympic events, and tours of the TOC and other Atos IT premises. Atos employees were also actively engaged through an internal sports and wellbeing programme, with five challenges celebrating team spirit and encouraging physical activity. Winners received rewards such as tickets, opportunities to meet Olympians, and official merchandise."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 53,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg54.jpg",
+      "original": "pg54.png",
       "zoom": null,
-      "content": `
-
-        <!-- Animations -->
-        <img class="halfScaleC 54-title-1" style="top:144px; left:164px;" src="/2023/static/_content/54-title-1.png" />
-
-        <img class="halfScaleC 54-quote" style="top:-85px; left:239px;" src="/2023/static/_content/54-quote-1.png" />
-        <img class="halfScaleC 54-quote" style="top:-40px; left:-66px;" src="/2023/static/_content/54-quote-2.png" />
-        <img class="halfScaleC 54-quote" style="top:264px; left:-65px;" src="/2023/static/_content/54-quote-3.png" />
-        <img class="halfScaleC 54-quote" style="top:521px; left:-12px;" src="/2023/static/_content/54-quote-4.png" />
-        <img class="halfScaleC 54-quote" style="top:486px; left:211px;" src="/2023/static/_content/54-quote-5.png" />
-
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg54Anim = new TimelineMax();
-          pg54Anim.fromTo(cOf("54-title-1"), 0.6, {scale:0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.8);
-          pg54Anim.staggerFromTo(cOf("54-quote"), 0.6, {scale:0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.1, 1.0);
-          // pg54Anim.fromTo(cOf("1-logo-1"), 0.6, {scale:0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.8);
         }
 
         function onPageLeave() {
-          pg54Anim.stop();
         }
       `,
-      "searchText": "Sport  Hear from the athletes  â€œ  Amalia Lica  Rhythmic Gymnastics  â€œ  Guo Qiqi  â€œI just tell myself to be patient, to be calm, not to freak out. Thatâ€™s it!â€  Rhythmic Gymnastics Group â€œWe had three beliefs: belief in ourselves, belief in our teammates and belief in our coaches. We all struggled, we all fought with our best to get here, to become the best of ourselves.â€  HEAR FROM  â€œ  Kaylia Nemour  Womenâ€™s Artistic Gymnastics â€œI am super proud to have won this medal for Algeria and for Africa.â€  â€œ  Dylan Schmidt  Trampoline Gymnastics â€œGrateful I get to experience both the highs and the lows; it wouldnâ€™t be sport without it.â€  54  FIG YEARBOOK 2023  THE ATHLETES Discover the motivation behind the moments  â€œ  Khoi Young  Menâ€™s Artistic Gymnastics â€œWe always say that we want to come here and hit every set but we know itâ€™s not going to be perfect and the most important thing is to get back up and finish.â€"
+      "searchText": "54  Bridgestone “The Olympic and Paralympic Games Paris 2024 were an unrivalled global celebration of performance, passion, and perseverance. Their successful delivery reminded us of the power of the Olympic and Paralympic Movements to unite people across borders and help create a better world for future generations through sport. Bridgestone was proud to showcase our products and solutions in support of the athletes, organisers, volunteers and fans who made this moment so memorable.” 	 Thierry Jupsin, Vice President of Brand Marketing for Bridgestone in the Americas, Europe, Middle East and Africa  Fact BOX  Exclusive category: Tyres, certain tyre and automotive vehicle services, self-propelled bicycles, seismic isolation bearings and a variety of diversified products Member of the TOP Programme since: 2014"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 54,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg55.jpg",
+      "original": "pg55.png",
       "zoom": null,
-      "content": `
-
-        <!-- Animations -->
-        <img class="halfScaleC 55-quote" style="top:-102px; left:261px;" src="/2023/static/_content/55-quote-1.png" />
-        <img class="halfScaleC 55-quote" style="top:-89px; left:44px;" src="/2023/static/_content/55-quote-2.png" />
-        <img class="halfScaleC 55-quote" style="top:151px; left:-59px;" src="/2023/static/_content/55-quote-3.png" />
-        <img class="halfScaleC 55-quote" style="top:219px; left:292px;" src="/2023/static/_content/55-quote-4.png" />
-        <img class="halfScaleC 55-quote" style="top:476px; left:274px;" src="/2023/static/_content/55-quote-5.png" />
-        <img class="halfScaleC 55-quote" style="top:314px; left:101px;" src="/2023/static/_content/55-quote-6.png" />
-        <img class="halfScaleC 55-quote" style="top:496px; left:-48px;" src="/2023/static/_content/55-quote-7.png" />
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg55Anim = new TimelineMax();
-          pg55Anim.staggerFromTo(cOf("55-quote"), 0.6, {scale:0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.1, 0.8);
         }
 
         function onPageLeave() {
-          pg55Anim.stop();
         }
       `,
-      "searchText": "Hear from the athletes  Sport  â€œ  â€œ  Almog Green  Trampoline Gymnastics  â€œI have no words to describe the full feelings and the satisfaction that comes from facing new challenges!â€  â€œIâ€™m just so proud of my mental and physical work and extremely grateful. Behind these medals thereâ€™s a team, and Iâ€™m so excited for what we have been building.â€  Camilla Gomes  Acrobatic Gymnastics  â€œ  Aghasif Rahimov  â€œ  Acrobatic Gymnastics â€œWe worked hard, trained, improved our programme and achieved a successful result. We will continue to work, as we have a lot of competitions ahead.â€  Basel Elzamek  Aerobic Gymnastics â€œYou can always succeed at being yourself.â€  â€œ  Stephania Zitis Parkour  â€œ  Thais Fernandez  Aerobic Gymnastics â€œI have shown myself that the passion that I feel for gymnastics is bigger than any obstacle!â€  â€œThe key ingredient to enjoying anything is always going to be the people, communities and relationships you have there.â€  â€œ  Davide Rizzi Parkour  â€œYou have power. You can really do whatever you want to do and nothing is stopping you. You can be free to express yourself to the fullest with movement. Thatâ€™s one hell of a feeling.â€  FIG YEARBOOK 2023  55"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  Bridgestone supported Paris 2024 operations with premium products and services to help enhance the experience for athletes, staff, fans and visitors. From advanced tyres and automotive service to bicycles and adaptive sports equipment, the company’s contributions showcased its commitments to safety, sustainability, inclusivity and innovation.  Advanced Tyres and Service for the Paris 2024 Fleet Bridgestone helped keep the official Olympic and Paralympic fleet in motion by supplying premium tyres for more than 1,000 of Toyota’s 100 per cent electrified passenger vehicles. In total, 5,374 tyres were provided to fit the vehicles in original production and support as-needed replacement on-site in Paris. This offering included the Bridgestone Turanza 6 and Bridgestone Alenza 001 tyres featuring the company’s new ENLITEN technology. More than three dozen Bridgestoneowned Speedy and First Stop service centres across the region also combined to provide tyre and glass maintenance for the Paris 2024 fleet throughout the Games. These efforts included mobile service vans that performed maintenance at Paris 2024 transportation hubs to help vehicles get back on the road quickly.  Supporting Safe and Accessible Transportation Bridgestone supported road safety education for Games-time and beyond through an e-learning module that outlined the importance of tyres and how to care for them. The training was offered to the nearly 4,000 volunteer drivers who piloted the Paris 2024 fleet during the Olympic and Paralympic Games. In addition to supporting the 100 per cent electrified passenger vehicle fleet, Bridgestone provided high-performing tyre fitments for some of Toyota’s inclusive mobility offerings. This included tyres for 250 zero tailpipe emission electric Accessible People Mover (APM) vehicles specifically designed to transport people with physical disabilities. Bridgestone also collaborated with Paris 2024 partner Decathlon to provide more than 600 bicycles for convenient use at different venues. The bikes were popular modes of non-motorised transportation for athletes within the Olympic and Paralympic Village, as well as staff and volunteers at competition sites. The majority of these bicycles are being donated to local community  55  organisations in partnership with Ville de Paris to help continue the legacy of Paris 2024.  Helping Athletes Prepare to Perform Bridgestone believes athletes are the heart and soul of the Olympic and Paralympic Games, and it proudly partnered with more than 40 Olympians, Paralympians and hopefuls to support their journeys. This roster of Bridgestone athlete ambassadors from nine different countries combined to win 20 medals at Paris 2024. Bridgestone also supported several adaptive athletes from the USA and Japan with customised rubber equipment at the Paris 2024 Paralympic Games. These innovation opportunities included the use of Bridgestone tyre rubber and technology for gloves, wheelchair hand rims, prosthetic running blades, spike plates, wheelchair tyres, and more.  Bringing the Olympic and Paralympic Spirit to Life The excitement and emotion of the Olympic and Paralympic Games Paris 2024 served as a primary connection point for Bridgestone with its employees and customers around the world. In particular, multiple global initiatives related to Paris 2024 helped create engagement and build pride with the company’s 130,000 employees. These activities led to more than 400 Bridgestone employees being able to experience Paris 2024 first-hand as runners in the Marathon Pour Tous, Paris 2024 volunteers, torchbearers, or employee recognition ticket recipients.  Dozens more had the opportunity to purchase tickets and support as spectators. The company also hosted more than 800 customers and partners in Paris during Games-time to strengthen business relationships and showcase innovation.  5,374  premium tyres provided to Paris 2024  4,000  Paris 2024 drivers offered road safety e-learning  644  bicycles supplied to Olympic Village and other venues  40  Team Bridgestone athlete ambassadors who combined to win 20 medals"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 55,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg56.jpg",
+      "original": "pg56.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2114,14 +1499,14 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": ""
+      "searchText": "56  Coca-Cola “Paris 2024 was an Olympic and Paralympic Games of a generation, showcasing the greatness in everyday moments. The Coca-Cola Company is proud to have played our part by supporting athletes on the global stage, while creating memorable experiences for millions of fans and spectators in Paris and around the world.” 	Brad Ross, VP Global Sports & Entertainment Marketing and Partnerships, The Coca-Cola Company  Fact BOX  Exclusive category: Non-alcoholic beverages Olympic Partner since: 1928"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 56,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg57.jpg",
+      "original": "pg57.png",
       "zoom": null,
       "content": ``,
       "script": `
@@ -2131,191 +1516,55 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Media and Marketing"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  57  In its role as a Worldwide Olympic Partner, The Coca-Cola Company refreshed athletes, officials and spectators at the Olympic and Paralympic Games Paris 2024 with its wide product portfolio of beverages, including Coca-Cola, Powerade, Fuze Tea, Costa Coffee and more.  The group of established and emerging athletes from across the globe were hand-picked to carry the torch of the company’s longstanding partnership with the Olympic and Paralympic Games.  In addition, The Coca-Cola Company launched a series of activations across its portfolio of brands to engage fans and athletes alike while delivering a more inclusive experience.  Marking a historic moment in its 96-year relationship with the Olympic Movement, The Coca-Cola Company teamed up with the IOC on a new music collaboration for Paris 2024 that aimed to connect people and inspire them to unite in the celebration of music and sports.  Celebrating Everyday Greatness The Coca-Cola Company chose “Celebrate Everyday Greatness” as its theme for the Olympic and Paralympic Games Paris 2024, with a campaign designed to champion life’s everyday moments – both big and small – that can turn into something great. This theme was featured across a range of Coca-Cola brands to engage fans in the lead-up to the Games, and also inspired Coca-Cola Trademark’s global ‘It’s Magic When the World Comes Together’ campaign, which showcased the power of sport to unite people and foster cross-cultural connection.  Team Coca-Cola Continuing its long tradition of supporting athletes, The Coca-Cola Company announced a global roster of athletes representing Team Coca-Cola for Paris 2024. The team comprised dozens of competitors with diverse identities and talents, who each contributed to the “Celebrate Everyday Greatness” campaign by championing the little moments of personal excellence that helped them make their mark on the world.  'Hello World' music collaboration  'Hello World (Song of the Olympics™)' 'captured the exciting and celebratory spirit of the Olympic and Paralympic Games and was made available worldwide via all major streaming services, with an accompanying music video featuring highlights from past Games. Created by songwriter, producer, and OneRepublic frontman Ryan Tedder, the song was performed by Grammy Awardwinning global superstar Gwen Stefani and Grammy Award-winning producer, songwriter, and artist Anderson .Paak, who also collaborated with Tedder on the song’s lyrics.  Championing packaging collection & recycling Coca-Cola provided packaging options such as dispensed using reusable cups, returnable glass bottles, aluminium cans, and 100 per cent rPET bottles (excluding caps and labels) to help minimise waste, reduce carbon emissions and facilitate the recycling or reuse of the bottles to give them new life or so that they could be refilled.  1,500  Torchbearers chosen to spread real magic during the Olympic and Paralympic Torch Relays  168  placard bearers selected to precede the delegations during the Paralympic Games Opening Ceremony  6  free Coke Studio™ concerts across France, engaging 270,000 people"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 57,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg58.jpg",
+      "original": "pg58.png",
       "zoom": null,
-      "content": `
-
-      <div class="addContentLink" style="top:472px; left:303px; width:50px; height:50px; border-radius:50%;">
-        <a href="https://www.tiktok.com/@figymnastics/video/7270819839999003937?_t=8mo30jYzGeP&_r=1" target="_blank"></a>
-      </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){flashContentLinksThreeTimes();}, 1000);
         }
 
         function onPageLeave() {
-          removeContentLinks();
         }
       `,
-      "searchText": "Media and Marketing  Fan engagement  DIGITAL DIGEST  A major update to the Google Analytics platform in 2023, with GA4 replacing Universal Analytics in the middle of the year, led to a change in the way visits to the FIG website were tracked and presented.  T  aking the six months of statistics provided by the new platform for the second half of 2023 yielded 1.3 million visitors for the period that included the yearâ€™s three senior World Championships. When extrapolated to the full year, this represents an increase compared with the 2 million visits recorded for the full year in 2022. On social media, the ability to offer near-live clippings from World Championship events responded to the needs of the FIGâ€™s fans and led to a considerable increase in engagement on Instagram, where the number of followers increased by 59% versus 2022 and the total number of engagements jumped by an impressive 266% year-on-year. In its first full year, the FIG TikTok account showed that the right type of content can achieve staggering results when the clip of Sofia Raffaeliâ€™s qualification routine with clubs and ribbon reached nearly 6 million views, making it the most popular post of the year. Video content on the FIG YouTube channel remained popular, with the number of subscribers increasing by 50,000 and fans consuming almost 2 million hours of video content over the year.  58  FIG YEARBOOK 2023  astics  @figymn  Sofia Raffaeliâ€™s qualification routine with clubs and ribbon reached nearly 6 million views, making it the most popular TikTok post of the year."
+      "searchText": "58  The First Effect campaign was showcased through 35 ads across iconic Parisian locations, spotlighting Olympians and Paralympians who achieved a first  Deloitte “The Paris 2024 Games demonstrated the unifying power of sport, bringing together people from all over the world in a celebration of excellence. As the Worldwide Management Consulting Partner of the IOC, Deloitte is proud to have played a pivotal role, leveraging our deep experience to help bring the Olympics Games to the entire world.” Joe Ucuzoglu, Deloitte Global CEO  Fact BOX  Exclusive category: Management and Business Consulting Services Member of the TOP Programme since: 2022"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 58,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg59.jpg",
+      "original": "pg59.png",
       "zoom": null,
       "content": `
 
-
-        <!--Animations-->
-        <!--CircleIcons-->
-        <img class="halfScale 59-icon" style="top:276px; left:185px;" src="/2023/static/_content/59-icon-1.png" />
-        <img class="halfScale 59-icon" style="top:387px; left:349px;" src="/2023/static/_content/59-icon-2.png" />
-        <img class="halfScale 59-icon" style="top:379px; left:388px;" src="/2023/static/_content/59-icon-3.png" />
-        <img class="halfScale 59-icon" style="top:332px; left:457px;" src="/2023/static/_content/59-icon-4.png" />
-        <img class="halfScale 59-icon" style="top:115px; left:445px;" src="/2023/static/_content/59-icon-5.png" />
-
-        <!--Paths-->
-        <img class="halfScale 59-path" style="top:292px; left:143px;" src="/2023/static/_content/59-path-1.png" />
-        <img class="halfScale 59-path" style="top:422px; left:366px;" src="/2023/static/_content/59-path-2.png" />
-        <img class="halfScale 59-path" style="top:410px; left:411px;" src="/2023/static/_content/59-path-3.png" />
-
-        <img class="halfScale 59-path" style="top:349px; left:491px;" src="/2023/static/_content/59-path-4.png" />
-        <img class="halfScale 59-path-1" style="top:421px; left:559px;" src="/2023/static/_content/59-path-4-1.png" />
-
-        <img class="halfScale 59-path" style="top:131px; left:480px;" src="/2023/static/_content/59-path-5.png" />
-
-        <!--Boxes-->
-        <img class="halfScale 59-box" style="top:345px; left:97px;" src="/2023/static/_content/59-box-1.png" />
-        <img class="halfScale 59-box" style="top:469px; left:329px;" src="/2023/static/_content/59-box-2.png" />
-        <img class="halfScale 59-box" style="top:530px; left:397px;" src="/2023/static/_content/59-box-3.png" />
-
-        <img class="halfScale 59-box" style="top:375px; left:505px;" src="/2023/static/_content/59-box-4.png" />
-        <img class="halfScale 59-box-1" style="top:440px; left:498px;" src="/2023/static/_content/59-box-4-1.png" />
-
-        <img class="halfScale 59-box" style="top:155px; left:519px;" src="/2023/static/_content/59-box-5.png" />
-
-
-        <!--Numbers-->
-        <h1 class="abs merriweatherB 59-no-1"
-        style="top: 364px; left: 110px; font-size: 1.0em; font-weight:300; margin:0; color:#007ABF; padding:0; margin:0;"
-        data-number='{"to": 890000, "comma":true}' ></h1>
-        <h1 class="abs merriweatherB 59-no-1"
-        style="top: 488px; left: 347px; font-size: 1.0em; font-weight:300; margin:0; color:#E30E65; padding:0; margin:0;"
-        data-number='{"to": 90000, "comma":true}' ></h1>
-        <h1 class="abs merriweatherB 59-no-1"
-        style="top: 550px; left: 415px; font-size: 1.0em; font-weight:300; margin:0; color:#FFF371; padding:0; margin:0;"
-        data-number='{"to": 84400, "comma":true}' ></h1>
-        <h1 class="abs merriweatherB 59-no-1"
-        style="top: 395px; left: 527px; font-size: 1.0em; font-weight:300; margin:0; color:#5CB678; padding:0; margin:0;"
-        data-number='{"to": 259000, "comma":true}' ></h1>
-        <h1 class="abs merriweatherB 59-no-1"
-        style="top: 175px; left: 541px; font-size: 1.0em; font-weight:300; margin:0; color:#A3D8E7; padding:0; margin:0;"
-        data-number='{"to": 780000, "comma":true}' ></h1>
-
-        <!--NumbersBox-->
-        <h1 class="abs merriweatherB 59-no-2"
-        style="top: 483px; left: 533px; font-size: 0.85em; font-weight:300; margin:0; color:#5CB678; padding:0; margin:0;"
-        data-number='{"to": 259000, "comma":true}' ></h1>
-        <h1 class="abs merriweatherB 59-no-2"
-        style="top: 500px; left: 536px; font-size: 0.85em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 59, "preppend":"(+", "append":"%)"}' ></h1>
-        <h1 class="abs merriweatherB 59-no-2"
-        style="top: 541px; left: 539px; font-size: 0.85em; font-weight:300; margin:0; color:#5CB678; padding:0; margin:0;"
-        data-number='{"to": 5.26, "decimals":2, "append":"m"}' ></h1>
-        <h1 class="abs merriweatherB 59-no-2"
-        style="top: 556px; left: 531px; font-size: 0.85em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 266, "preppend":"(+", "append":"%)"}' ></h1>
-        <h1 class="abs merriweatherB 59-no-2"
-        style="top: 597px; left: 543px; font-size: 0.85em; font-weight:300; margin:0; color:#5CB678; padding:0; margin:0;"
-        data-number='{"to": 140, "append":"m"}' ></h1>
-        <h1 class="abs merriweatherB 59-no-2"
-        style="top: 612px; left: 535px; font-size: 0.85em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 92, "preppend":"(+", "append":"%)"}' ></h1>
-
-
-        <!-- Linky! -->
-        <div id="circle-style-content-link" class="addContentLink" style="top:117px; left:447px; width:32px; height:32px;">
-        <a href="https://www.facebook.com/fig.gymnastics " target="_blank"></a>
-        </div>
-        <div id="circle-style-content-link" class="addContentLink" style="top:381px; left:392px; width:32px; height:32px;">
-        <a href="https://x.com/gymnastics " target="_blank"></a>
-        </div>
-        <div id="circle-style-content-link" class="addContentLink" style="top:279px; left:188px; width:32px; height:32px;">
-        <a href="https://www.youtube.com/user/figchannel " target="_blank"></a>
-        </div>
-        <div id="circle-style-content-link" class="addContentLink" style="top:334px; left:459px; width:32px; height:32px;">
-        <a href="https://www.instagram.com/figymnastics " target="_blank"></a>
-        </div>
-        <div id="circle-style-content-link" class="addContentLink" style="top:389px; left:351px; width:32px; height:32px;">
-        <a href="https://www.tiktok.com/@figymnastics " target="_blank"></a>
-        </div>
-
-
-
-
+            
+      <div class="contentLink" style="top:776px;left:182px;width:268px;height:18px">
+        <a href="https://www.cannice-sports.com/" target="_blank"></a>
+      </div>
+      
+      <a onclick="Publish.openVideo('/static/_content/pg59-vid.mp4')">
+          <img class="abs halfpulse animatedpulse halfScaleC pointer" style="left:337px;top:55px" src="/paris2024/static/_content/play-white.png">
+      </a>
+      
       `,
       "script": `
         function onPageEnter() {
-
-          pg59Anim = new TimelineMax();
-
-          // ICONS
-          pg59Anim.staggerFromTo(cOf("59-icon"), 0.3, {scale:0}, {scale:0.5, ease: Back.easeOut.config(0.6)}, 0.1, 0.8);
-          //pg1Anim.fromTo(cOf("1-logo-1"), 0.6, {scale:0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.8);
-
-          pg59Anim.staggerFromTo(cOf("59-path"), 0.375, {scale:0}, {scale:0.5, ease: Back.easeOut.config(0.6)}, 0.1, 0.8);
-          pg59Anim.staggerFromTo(cOf("59-box"), 0.425, {scale:0}, {scale:0.5, ease: Back.easeOut.config(0.6)}, 0.1, 0.8);
-
-          pg59Anim.fromTo(cOf("59-path-1"), 0.5, {scale:0}, {scale:0.5, ease: Back.easeOut.config(0.6)}, 1.1);
-          pg59Anim.fromTo(cOf("59-box-1"), 0.5, {scale:0}, {scale:0.5, ease: Back.easeOut.config(0.6)}, 1.1);
-
-
-
-
-          // YT
-          pg59Anim.fromTo(cOf("59-no-1")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-1")[0]);}}, 1);
-
-
-          // TT
-          pg59Anim.fromTo(cOf("59-no-1")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-1")[1]);}}, 1.1);
-
-
-          // X
-          pg59Anim.fromTo(cOf("59-no-1")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-1")[2]);}}, 1.2);
-
-
-          // IG NOTE: While what we have here is acceptable we could, for example, combine all of this into one reffed line.
-          pg59Anim.fromTo(cOf("59-no-1")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-1")[3]);}}, 1.3);
-
-          pg59Anim.fromTo(cOf("59-no-2")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-2")[0]);}}, 1.45);
-          pg59Anim.fromTo(cOf("59-no-2")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-2")[1]);}}, 1.45);
-          pg59Anim.fromTo(cOf("59-no-2")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-2")[2]);}}, 1.45);
-          pg59Anim.fromTo(cOf("59-no-2")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-2")[3]);}}, 1.45);
-          pg59Anim.fromTo(cOf("59-no-2")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-2")[4]);}}, 1.45);
-          pg59Anim.fromTo(cOf("59-no-2")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-2")[5]);}}, 1.45);
-
-
-
-          // FB
-          pg59Anim.fromTo(cOf("59-no-1")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("59-no-1")[4]); flashContentLinksThreeTimes();}}, 1.5);
-
-
-
-          //setTimeout(function(){ // DOES NOT WORK! REASON: removeContentLinks(); DOES NOT DESTROY LINK OBJ!
-          //  flashContentLinksThreeTimes();
-          //}, 2000);
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
-          pg59Anim.stop();
-          resetNumbers("59-no-1");
-          resetNumbers("59-no-2");
-          removeContentLinks();
         }
       `,
-      "searchText": "Fan engagement  Media and Marketing  Facebook 780,000  Total fan base  YouTube 890,000  Instagram 259,000  TikTok 90,000  Followers  259,000 (+59%)  X 84,400  Total engagements  5.26m (+266%)  Total impressions  140m (+92%)  FIG YEARBOOK 2023  59"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  59  9  medals won by Team Deloitte athletes  The first-ever global Team Deloitte won a total of nine medals for their respective countries  Paris 2024 was Deloitte’s first Olympic and Paralympic Games as a Worldwide Olympic and Paralympic Partner. Deloitte furthered its “partnership with purpose” with the IOC by applying its deep management and business consulting acumen to help the IOC realise the possibilities of the Olympic Movement, including enhancing and securing the IOC’s digital ecosystem, supporting its sustainability goals, and creating more engaging, effective Olympic and Paralympic Games experiences in the future.  Transforming Fan Experiences and Enhancing Technology Operations During the Olympic Games Paris 2024, Deloitte and the IOC announced an expansion of their Worldwide Olympic Partnership, with Deloitte set to take on the role of Games Technology Integration Partner for the Olympic Games, the Paralympic Games, and the Youth Olympic Games. In Paris, Deloitte created an immersive experience in its hospitality space, Maison Deloitte, to share examples of the innovations that will be delivered through this expanded category and work to date, including an augmented reality sustainability art installation, a gamified cyber security host city installation, and a commentator booth with AI-powered factoids for participants to test out. In the first two years of the partnership, Deloitte developed and established the  Olympic Fan Data platform powered by Converge™ by Deloitte for Sports, reaching more than 300 million fans during Paris 2024. Additionally, Deloitte launched the Olympic Games Learning Platform for more than 2,000 users across four Organising Committees, enabling the continuity of knowledge across the Games.  Team Deloitte Earns Nine Medals The first-ever global Team Deloitte had 10 Deloitte professionals, one Deloitte alumnus, and four sponsored athletes competing in 11 different sports at Paris 2024, winning a total of nine medals for their respective countries.  The First Effect Campaign Co-created with the IOC, The First Effect campaign redefined victory for humanity by highlighting individuals doing something incredible for the first time and quantifying the impact firsts have on the world. During Paris 2024, Deloitte celebrated 48 new firsts, including the first Olympic Games with an equal number of male and female athletes and the first medal for both the Refugee Olympic and Paralympic Team, resulting in over 225 million impressions across the campaign on social and digital channels. The campaign was showcased through 35 ads across iconic Parisian locations, spotlighting Olympians and Paralympians who achieved a first.  225m+  impressions for The First Effect campaign  1st  Games for Deloitte as a TOP Partner  Celebrating the 2024 Climate Action Awards As the presenting partner of the IOC Climate Action Awards, Deloitte hosted an event featuring influential figures from sports, business, and environmental advocacy to announce the 2024 finalists and discuss climate action through sport. These awards recognise and reward projects from National Olympic Committees, International Federations, and athletes aimed at reducing the environmental impact of sport. Following Paris 2024, four winners were awarded for their efforts to inspire the wider Olympic Movement to take climate action. Through these initiatives, Deloitte played a crucial role in enhancing the Olympic and Paralympic Games experience, supporting sustainability, and celebrating significant achievements at Paris 2024."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2326,40 +1575,38 @@ export default  {
       "zoom": null,
       "content": `
 
-        <!-- Numbers -->
-        <h1 class="abs merriweatherB 60-no"
-        style="top: 772px; left: 462px; font-size: 1.9em; font-weight:300; margin:0; color:#E63C25; padding:0; margin:0;"
-        data-number='{"to": 895399, "comma":true}' ></h1>
+       <img class="abs halfScaleC 60-block" style="top:338px;left:38px;" src="/static/_content/60-subtitle.png"/>
+       <img class="abs halfScaleC 60-block" style="top:359px;left:-50px;" src="/static/_content/60-block-1.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:368px;left:125px;" src="/static/_content/60-icon-1.png"/>
+       <img class="abs halfScaleC 60-block" style="top:403px;left:-16px;" src="/static/_content/60-block-2.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:414px;left:125px;" src="/static/_content/60-icon-2.png"/>
+       <img class="abs halfScaleC 60-block" style="top:450px;left:21px;" src="/static/_content/60-block-3.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:459px;left:125px;" src="/static/_content/60-icon-3.png"/>
+       <img class="abs halfScaleC 60-block" style="top:496px;left:56px;" src="/static/_content/60-block-4.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:506px;left:125px;" src="/static/_content/60-icon-4.png"/>
+       <img class="abs halfScaleC 60-block" style="top:528px;left:91px;" src="/static/_content/60-block-5.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:552px;left:125px;" src="/static/_content/60-icon-5.png"/>
 
-        <!--Linky-->
-        <div class="addContentLink" style="top:252px; left:148px; width:94px; height:16px;">
-          <a href="https://eurovisionsport.com/explore/federation?id=LandingPage-FIG" target="_blank"></a>
-        </div>
-        <div class="addContentLink" style="top:268px; left:55px; width:97px; height:16px;">
-        <a href="https://eurovisionsport.com/explore/federation?id=LandingPage-FIG" target="_blank"></a>
-        </div>
-
-
-
+       <img class="abs halfScaleC 60-text" style="top:390px;left:159px;" src="/static/_content/60-text-1.png"/>
+       <img class="abs halfScaleC 60-text" style="top:436px;left:122px;" src="/static/_content/60-text-2.png"/>
+       <img class="abs halfScaleC 60-text" style="top:483px;left:110px;" src="/static/_content/60-text-3.png"/>
+       <img class="abs halfScaleC 60-text" style="top:529px;left:56px;" src="/static/_content/60-text-4.png"/>
+       <img class="abs halfScaleC 60-text" style="top:576px;left:41px;" src="/static/_content/60-text-5.png"/>
+      
       `,
       "script": `
         function onPageEnter() {
-
-          pg60Anim = new TimelineMax();
-          pg60Anim.fromTo(cOf("60-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){
-            animateNumber(cOf("60-no")[0]);
-            flashContentLinksThreeTimes();
-          }}, 1);
-
+        pg60Anim = new TimelineMax();
+        pg60Anim.staggerFromTo(cOf("60-block"), 0.5, {opacity:0, y:40}, {opacity:1, y:0, ease: Power2.easeOut}, 0.2, 1)
+        .staggerFromTo(cOf("60-icon"), 0.8, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.1)
+        .staggerFromTo(cOf("60-text"), 0.7, {opacity:0, x:40}, {opacity:1, x:0, ease: Power2.easeOut}, 0.2, 1.2);
         }
 
         function onPageLeave() {
-          resetNumbers("60-no");
-          removeContentLinks();
-          pg60Anim.stop();
+        pg60Anim.stop();
         }
       `,
-      "searchText": "Media and Marketing  Media operations  A BIG LEAP FORWARD The innovative All Gymnastics digital platform gave fans across the globe access to live streaming of every minute of qualifying at three World Championships.  F  or the first time ever, in 2023 gymnastics fans could watch every single exercise from qualifying at each of the yearâ€™s three FIG World Championships. This was the product of a collaboration between the FIG and partner Eurovision Sport, who teamed up to offer live digital coverage of qualifying at the World Championships for Rhythmic, Artistic and Trampoline Gymnastics. The place to view the live streams was the free-to-air allgymnastics.tv, which complemented the FIGâ€™s YouTube channel as the primary platform for video coverage and footage alike. The first All Gymnastics live streaming took place at the Rhythmic Gymnastics World Championships in Valencia (ESP) in August. Thanks to isolated camera feeds on all apparatus â€“ the same cameras used for IRCOS (Instant Replay and Control System), the FIGâ€™s video support system â€“ viewers could follow the action from their favourite gymnasts on each day of qualification at each event. If this was straightforward for Rhythmic Gymnastics, with only one performance on the field of play at any given time, when it came to the Artistic Gymnastics World Championships in Antwerp (BEL), this meant streaming the action from each of the six different apparatus simultaneously. A live stream of the finals of all three World Championships was also made available on the platform for those regions around the world without TV coverage of the event from a rights-holder.  60  FIG YEARBOOK 2023  CONTENT PROVIDER It was not just fans of the sport who benefitted from this innovation, with All Gymnastics providing broadcasters with daily highlight clips along with full routines from the qualifying rounds. The additional content was accessible via a media bank which featured every single qualifying exercise by each competing gymnast  895,399 Unique viewers over three days of qualifying at the Artistic Gymnastics World Championships, with 252,302 total hours viewed"
+      "searchText": "60  Intel  Fact BOX  “By implementing Intel AI Platforms at Paris 2024, we enabled a more connected and enhanced experience for all and demonstrated the powerful potential of this technology to revolutionise the world of sport for athletes, organisers and fans around the world.”  Exclusive category: 5G technology platforms, VR, 3D and 360 content development platforms, artificial intelligence platforms, sports performance platforms, drones and processors   arah Vickers, Head of Intel’s Olympic and Paralympic S Games Programme  Member of the TOP Programme since: 2017"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2368,23 +1615,15 @@ export default  {
       "startIndex": 0,
       "original": "pg61.jpg",
       "zoom": null,
-      "content": `
-
-      <!-- Animation -->
-      <img class="halfScale 61-quote-1" style="top:741px; left:284px;" src="/2023/static/_content/61-quote-1.png" />
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg61Anim = new TimelineMax();
-          pg61Anim.fromTo(cOf("61-quote-1"), 1, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
-          pg61Anim.stop();
         }
       `,
-      "searchText": "Media Operations  â€“ a valuable resource for, for example, broadcasters in countries whose gymnasts may have not reached the finals but whose efforts warranted media attention all the same. â€œWe created, in collaboration with Eurovision Sport, a media bank where the broadcasters were able to access every single qualification clip of their athletes and that was very interesting for news coverage,â€ said Olivier Strebel, the FIGâ€™s Marketing and Television Director.  Media and Marketing  â€œ  The launch of the All Gymnastics TV platform is an important step towards the digital transformation of gymnastics content, bringing all digital content to one single platform. Thanks to our partnership with Eurovision Sport, we are also able to offer live streaming of qualifying events at the World Championships, which will help grow the engagement of the gymnastics community and promote the sport globally.â€ Morinari Watanabe, FIG President  FIG YEARBOOK 2023  61"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  61  Since becoming a Worldwide Olympic Partner in 2017, Intel has brought gamechanging innovation to the onsite and broadcast experience. As the Official AI Platform Partner of the Olympic and Paralympic Games Paris 2024, Intel powered the adoption of AI technology to enhance the experience of the Olympic and Paralympic Games for fans, athletes, organisers and viewers around the world.  Automatic Highlights Generation  Intel worked with the IOC, Olympic Broadcasting Services (OBS) and other members of the ecosystem to spotlight AI’s potential to broaden access to sport through talent identification, power enhanced broadcast viewing capabilities, and enable an accessible and streamlined onsite experience. These technology applications included:  Volumetric Video  Intel AI Platform Experience To take attendees on an immersive journey of becoming an Olympic hopeful, Intel powered the AI Platform Experience at the Stade de France during the Olympic Games. Attended by more than 10,500 fans, the AI-powered fan activation used AI and computer vision to analyse athletic drills and match each participant’s profile to an Olympic sport. Trained on Intel Gaudi accelerators, running on Intel Xeon processors with built-in AI acceleration and optimised with OpenVINO, the experience demonstrated AI’s capability to identify athletic abilities and improve talent detection.  Revolutionary 8K OTT Broadcast Workflow Delivery Paris 2024 was the first edition of the Olympics to utilise Intel Xeon processors to showcase an end-to-end 8K livestreaming experience. Broadcast servers powered by the latest Intel Xeon Scalable processors with Intel Deep Learning Boost technology encoded and compressed 391 hours of total streaming at 8K/60FPS/HDR, which were distributed by OBS to eight countries worldwide.  To deliver customised content to fans, OBS Automatic Highlights Generation, trained on the Intel Geti platform, used AI to package tailored highlights across more than 30 sporting events for the first time. This effort resulted in the production of more than 100,000 personalised videos during the Games.  Two volumetric video studios set up at the International Broadcast Centre and the Olympic and Paralympic Village helped bring fans immersive 3D videos of their favourite athletes. Powered by Intel Xeon processors and optimised with Intel OpenVINO, the studios rendered more than 3,000 augmented reality clips for sharing across all platforms, demonstrating new immersive ways for fans to engage with athletes.  Universal Accessibility Wayfinding Solution Intel’s AI platform technology enabled greater accessibility at the Team USA training site in Paris and the International Paralympic Committee headquarters in Bonn, Germany. Leveraging AI built on Intel Xeon, athletes and staff could access indoor and voice navigation via a smartphone application, helping to ease wayfinding across venues.  Athlete365 Chatbot An AI-powered chatbot enabled athletes and their teams to access operational information, procedures, policies and other Olympic and Paralympic Games-time knowledge via a conversational chatbot trained on Intel Gaudi 2 AI accelerators.  10,500+  participants at the Intel AI Platform Experience  100,000+  custom videos produced via OBS Automatic Highlights Generation  With a peak of 147 queries per hour, athletes could better focus their time on training and performance rather than searching for operational details.  3,000+  volumetric video clips produced  391  hours of 8K streaming encoded and compressed at 8K/60FPS/HDR"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2393,29 +1632,15 @@ export default  {
       "startIndex": 0,
       "original": "pg62.jpg",
       "zoom": null,
-      "content": `
-
-        <!--  Numbers -->
-        <h1 class="abs merriweatherB 62-no"
-        style="top: 508px; left: 365px; font-size: 2.0em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 325}' ></h1>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg62Anim = new TimelineMax();
-          pg62Anim.fromTo(cOf("62-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){
-            animateNumber(cOf("62-no")[0]);
-          }}, 1);
-
         }
 
         function onPageLeave() {
-          pg62Anim.stop();
-          resetNumbers("62-no");
         }
       `,
-      "searchText": "Media and Marketing  TV  MORE GROWTH FOR STREAMING Television services for gymnastics continued to evolve in 2023, with viewers tuning in from all around the world.  T  otal online coverage across six events amounted to 1,700 hours, reaching 325 million cumulative viewers globally. The Artistic Gymnastics World Championships accounted for half of the coverage but approximately 80% of the overall media impact. The yearâ€™s two Junior World Championships generated some interest, mainly in the host markets and through streaming platforms.  TV/OTT* â€“ Coverage and Audience Analysis: â€¢ Artistic Gymnastics Junior World Championships - Antalya (TUR) â€¢ Rhythmic Gymnastics Junior World Championships - Cluj-Napoca (ROU) â€¢ World Gymnaestrada Amsterdam (NED) â€¢ Rhythmic Gymnastics World Championships - Valencia (ESP) â€¢ Artistic Gymnastics World Championships - Antwerp (BEL) â€¢ Trampoline Gymnastics World Championships - Birmingham (GBR) *Over-the-top â€“ streaming services that deliver content over the internet  62  FIG YEARBOOK 2023  325 million cumulative viewers globally  LAUNCH OF ALLGYMNASTICS.TV The inaugural year of allgymnastics.tv proved to be a triumph, with a ninefold increase in streaming consumption. Among the top markets per event on allgymnastics.tv were Spain (for Rhythmic Gymnastics) and the USA (for Artistic Gymnastics). Exceptional average watch times were recorded for all events, with each surpassing 20 minutes. In summary, the transition to allgymnastics.tv from YouTube has yielded overwhelmingly positive results, with a threefold increase in unique users. Furthermore, the level and frequency of consumption are on an upward trajectory, with a substantial increase in the number of views."
+      "searchText": "62  Mengniu “Starting from humble beginnings in a house in the Inner Mongolia autonomous region 25 years ago, Mengniu Group has risen to become one of the top eight dairy companies in the world and the first Worldwide Olympic Partner from the dairy industry. The Olympic spirit inspires people to pursue excellence and challenge their limits. This striving for progress is right in line with Mengniu's ‘Born to Excel’ spirit of enterprise. In the future, Mengniu will continue to contribute to the Olympic Movement and celebrate the resilience and excellence of everyone from around the world.” Gao Fei, CEO of Mengniu Group  Fact BOX  Exclusive category: Non-alcoholic beverages and dairy Member of the TOP Programme since: 2019"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2424,27 +1649,15 @@ export default  {
       "startIndex": 0,
       "original": "pg63.jpg",
       "zoom": null,
-      "content": `
-
-        <!-- linky -->
-        <div class="addContentLink" style="top:873px; left:61px; width:129px; height:23px;">
-          <a href="https://www.ebu.ch/sport" target="_blank"></a>
-        </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
         }
 
         function onPageLeave() {
-
-            removeContentLinks();
         }
       `,
-      "searchText": "ONLY THE EBU CAN GUARANTEE SO MUCH  MULTI-PLATFORM EXPOSURE  We believe in pushing the boundaries, to finding new solutions, to doing whatever it takes to make sport a part of everyoneâ€™s life. We use the collective power of public service media organizations to showcase sport at its best. For federations, itâ€™s an opportunity to build visibility and help their sport thrive. Itâ€™s an attitude that makes everyone a winner. www.ebu.ch/sport"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  Mengniu’s Olympic campaign for Paris 2024 embodied its core creative idea: “Nourishing the Strength of Everyone in the World.” This guiding principle extended the spirit of the Games beyond athletes to celebrate the strength and potential inherent in all individuals, inspiring people to strive for excellence in their own lives. Through innovative activations, cultural celebrations, and sustainability initiatives, Mengniu connected deeply with global audiences while reinforcing its role as both an Olympic TOP Partner and a “Sports Partner for Everyone.” In the lead-up to Paris 2024, Mengniu supported key events like the Olympic Qualifier Series in Shanghai, showcasing its commitment to athletes and fans alike. On Team China’s departure day for Paris, Mengniu collaborated with Chinese singer Han Hong to present “Blossoms All the Way,” an inspirational anthem that celebrated the journey to excellence shared by Team China and the wider community.  Fan engagement initiatives During the Games, Mengniu connected deeply with audiences through creative storytelling and innovative experiences. On the opening day of Paris 2024, Mengniu premiered an Olympic-themed short film, “The Opening,” created in collaboration with renowned director Zhang Yimou’s team. Based on the theme of “Born to Excel,” the film captured Mengniu’s journey from the grasslands of China to the global stage, intertwining the brand’s commitment to excellence with the indomitable Olympic spirit. Mengniu also engaged fans during medal-winning moments with its  63  “Mengniu Treats You to a Cup” initiative, celebrating victories by inviting consumers to share in the glory. Campaigns like “Excellence Beyond the Arena” and “Excellence Knows No Gender” reinforced the message that success belongs to everyone who strives for greatness, resonating with diverse audiences worldwide.  Celebrating culture and sustainability Mengniu hosted the first “China Night” event alongside the IOC, uniting athletes, ambassadors, and everyday heroes to share inspiring stories of perseverance. By the Seine, Mengniu transformed its “To the Milky Way” activation into an open-air running track made from recycled milk cartons. This unique installation allowed participants to actively engage in sport while celebrating Paris 2024’s “Games Wide Open” vision. Sustainability was also a key focus of Mengniu’s campaign. The company’s GREEN development strategy – highlighting governance, responsibility, carbon neutrality, and inclusive nutrition – was brought to life through its Desert Oasis activation at the Eiffel Tower Stadium. This space mirrored Mengniu’s environmental restoration work in the Ulan Buh Desert, where the company has planted 98 million trees and greened 220 square kilometres to create an organic milk source, showcasing its commitment to a greener future while offering fans a relaxing, natural retreat. Through these efforts, Mengniu seamlessly blended sustainability, culture, and sport, empowering everyone to embrace the Olympic values of excellence, inclusion, and respect.  China Night event promoted cultural exchange during the Games  Milky Way activation along the River Seine featured a running track made of recycled materials  Desert Oasis showcase offered fans a shaded relaxation space at the Eiffel Tower Stadium"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2454,40 +1667,62 @@ export default  {
       "original": "pg64.jpg",
       "zoom": null,
       "content": `
+      
+      <img class="abs halfScaleC 64-text" style="top:-178px;left:-62px;" src="/static/_content/64-image.png"/>
+      <img class="abs halfScaleC 64-text" style="top:128px;left:24px;" src="/static/_content/64-text-1.png"/>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:357px;left:128px; font-size: 2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 947}' ></h1>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:507px;left:128px; font-size: 2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 864}' ></h1>
+      <img class="abs halfScaleC 64-icon-text" style="top:234px;left:75px;" src="/static/_content/64-icon-text-1.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:383px;left:63px;" src="/static/_content/64-icon-text-2.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:511px;left:69px;" src="/static/_content/64-icon-text-3.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:230px;left:132px;" src="/static/_content/64-icon-text-4.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:361px;left:182px;" src="/static/_content/64-text-2.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:469px;left:209px;" src="/static/_content/64-icon-text-5.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:517px;left:215px;" src="/static/_content/64-icon-text-6.png"/>
 
-        <!-- Linky -->
-        <div class="addContentLink" style="top:181px; left:389px; width:36px; height:13px;">
-          <a href="https://www.dove.com/us/en/stories/campaigns/confident-sports.html " target="_blank"></a>
-        </div>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:348px;left:293px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 832}' ></h1>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:346px;left:442px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 115}' ></h1>
+      <img class="abs halfScaleC 64-line" style="top:369px;left:59px;" src="/static/_content/64-line-1.png"/>
 
-        <div class="addContentLink" style="top:198px; left:56px; width:66px; height:13px;">
-          <a href="https://www.dove.com/us/en/stories/campaigns/confident-sports.html " target="_blank"></a>
-        </div>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:424px;left:297px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 610}' ></h1>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:424px;left:439px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 337}' ></h1>
 
-        <!--Animation-->
-        <img class="halfScale 64-quote-1" style="top:448px; left:461px;" src="/2023/static/_content/64-quote-1.png" />
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:494px;left:346px; font-size: 1.2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 602}' ></h1>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:542px;left:318px; font-size: 1.2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 80}' ></h1>
+      <img class="abs halfScaleC 64-line" style="top:515px;left:91px;" src="/static/_content/64-line-2.png"/>
+     
+      <img class="abs halfScaleC 64-icon-text" style="top:610px;left:256px;" src="/static/_content/64-text-3.png"/>
+      <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:637px;left:304px; font-size: 1.2em; font-weight: 300; color: #a7d1df; padding: 0px; margin: 0px;"  data-number='{"to": 4}' ></h1>
+      <img class="abs halfScaleC 64-line" style="top:623px;left:147px;" src="/static/_content/64-line-3.png"/>
 
+      <img class="abs halfScaleC 64-piechart" style="top:393px;left:393px;" src="/static/_content/64-piechart.png"/>   
+      
       `,
       "script": `
         function onPageEnter() {
+        pg64Anim = new TimelineMax();
+        pg64Anim.staggerFromTo(cOf("64-text"), 0.6, {opacity:0, y: 50}, {opacity: 1, y: 0, ease: Power2.easeOut}, 0.2, 1)
+        .staggerFromTo(cOf("64-icon-text"), 0.6, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.2)
+        .fromTo(cOf("64-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[0])}}, 1.4)
+        .fromTo(cOf("64-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[1])}}, 1.5)
 
-          pg64Anim = new TimelineMax();
-          pg64Anim.fromTo(cOf("64-quote-1"), 1, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut, onComplete: function() {
-            flashContentLinksThreeTimes();
-          }}, 1);
-
-
-          //setTimeout(function(){
-          //  flashContentLinksThreeTimes();
-          //}, 1000);
+        .fromTo(cOf("64-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[2])}}, 2)
+        .fromTo(cOf("64-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[3])}}, 2.1)
+        .fromTo(cOf("64-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[4])}}, 2.2)
+        .fromTo(cOf("64-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[5])}}, 2.3)
+        .fromTo(cOf("64-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[6])}}, 2.4)
+        .fromTo(cOf("64-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[7])}}, 2.5)
+        .fromTo(cOf("64-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("64-no")[8])}}, 2.6)
+        .staggerFromTo(cOf("64-line"), 0.5, {opacity:0, x: 60}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 2.2)
+       .fromTo(cOf("64-piechart"), 0.6, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 2.9);
         }
 
         function onPageLeave() {
-          removeContentLinks();
-          pg64Anim.stop();
+        pg64Anim.stop();
+        resetNumbers("64-no");
         }
       `,
-      "searchText": "Media and Marketing  Sponsors  CONFIDENCE BOOST The FIG teamed up with skin-care brand Dove to promote body confidence in younger athletes.  O  n an outdoor stage at the FIG World Gymnaestrada on 4 August, a panel discussion took place exploring the question of body confidence in gymnastics. It occurred under the aegis of the FIG and Dove, the skin-care brand, with the goal of discussing a project aimed at promoting selfesteem among gymnasts, notably girls aged between 11 and 17. Kat Schneider, a researcher at the Centre for Appearance Research at the University of the West of England in Bristol (GBR), was joined on the stage at Amsterdamâ€™s RAI Convention Centre by former Gymnastics for All Committee President and FIG Honorary Vice-President Margaret Sikkens  Ahlquist (SWE), FIG Safeguarding Commission member Jeffrey Thomson (CAN), coach Melina Bradley (USA) and gymnast Skye Selner (USA). There, she explained the purpose of the BodyConfident Sport initiative ahead of its launch in October. The initiative is part of the Dove self-esteem project and comprises two educational modules designed to teach coaches and athletes the fundamentals of â€˜body-confident sportâ€™. The first module, entitled â€˜Body-confident coachingâ€™ entails three modules of 20 minutes that can be studied online. The second involves in-person sessions between a coach and a group of 10-20 athletes.  â€œ  Our research in collaboration with the Dove self-esteem project specifically looks at adolescent girls from the ages of 11-17. This is a very good time to intervene because body image issues occur at a young age.â€ Kat Schneider from the Centre for Appearance Research at the University of the West of England  Milano partnership agreed The FIG signed a 12-month agreement with leotard manufacturer Milano. The FIG gained a new clothing partner in 2023 with the signing of a one-year partnership agreement with Milano Pro Sport. In the process, the British manufacturer became the FIGâ€™s Official Gymnastics Leotard Partner, with a view to establishing a longerterm partnership from 2024.  64  FIG YEARBOOK 2023  FIG President Morinari Watanabe said. 'We look forward to collaborating with a reputable brand in the gymnastics leotards industry. FIG and Milano Pro Sport are wellaligned brands and we hope that the partnership will continue for many years to come'."
+      "searchText": "64  OMEGA “Paris 2024 was such an energising and memorable experience for us all. The athletes were at the peak of their power, and it was OMEGA’s honour to measure each result and witness another summer of unforgettable sporting moments. We have now been part of the Olympic Games for 92 years and the inspiration and passion we feel is just as strong as ever.” Raynald Aeschlimann, President and CEO, OMEGA  Fact BOX  Exclusive category: Timepieces, timing, scoring and venue results systems and services Member of the TOP Programme since: 2003"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2497,18 +1732,23 @@ export default  {
       "original": "pg65.jpg",
       "zoom": null,
       "content": `
-
-
-
+      
+      <div class="contentLink" style="top:776px;left:181px;width:270px;height:18px">
+        <a href="https://www.gaofeisports.com/" target="_blank"></a>
+      </div>
+      
       `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
         }
       `,
-      "searchText": "Official Equipment Supplier  Shop Spieth America  Where Innovation Meets Gymnastics"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  For the 31st time since 1932, OMEGA fulfilled the role of Official Timekeeper at the Olympic Games, recording dreams in all 329 Olympic events across 32 sports. Continuing its legacy of precise measurement, the Swiss brand brought more than 90 years of experience to its timekeeping role and arrived in Paris with the most advanced technology it has ever delivered. A total of 550 OMEGA Timekeepers were deployed across the venues, who relied on 350 tonnes of equipment.  New Photofinish Camera One of OMEGA’s new timekeeping innovations at Paris 2024 was the Scan‘O’Vision ULTIMATE photofinish camera. Now enhanced with the highest resolution of any photofinish camera on the market, the technology captured up to 40,000 digital images per second on the finish line of races to provide each official result. The men’s 100m final in Paris was the closest in history and the ULTIMATE played a critical role in helping to decide that historic moment.  Timekeeping Highlights In total, 132 Olympic records were measured by OMEGA during Paris 2024, as well as 38 world records. Some of the most notable were the four Olympic records in swimming set by Léon Marchand of France, as well as the new world record in the men’s pole vault, reached by Mondo Duplantis of Sweden.  65  OMEGA House OMEGA House was the Swiss brand’s exclusive home for the duration of the Olympic Games Paris 2024. Located near the Musée d'Orsay, the venue welcomed members to relax during the day in a variety of sophisticated spaces and OMEGAthemed rooms, while by night, the house hosted a series of VIP events and special evenings, enjoyed alongside OMEGA’s family of celebrity friends.  The OMEGA Pavilion Located in the middle of the Parc de Bercy, the OMEGA Pavilion was an interactive venue that showcased OMEGA’s role as Official Timekeeper. Through a series of revealing installations, visitors were able to get hands-on with a variety of sports, and truly understand the timing behind each one. The main highlight was the Race of Champions experience, where visitors could test their sprinting skills on a 10m running track and digitally compete against real Olympic or Paralympic athletes.  OMEGA Marketing The visuals for OMEGA’s Paris 2024 marketing transformed Paris into a dreamlike playground, where the most recognisable city sights became a stage for sporting glory. The brand’s TVC played with scale and optical illusion to seamlessly blend OMEGA’s sporting ambassadors with iconic Parisian surroundings, and included original music performed by rapper SDM.  550  OMEGA timekeepers positioned on-site  38  new world records measured  3  unique OMEGA watches created for Paris 2024  OMEGA Paris 2024 Watches Three new OMEGA watches were created in honour of the Olympic and Paralympic Games Paris 2024. • The Speedmaster Chronoscope emphasises the brand’s spirit of precision timing and features tachymeter, telemeter, and pulsometer scales on the dial. • The sporty and bold Seamaster Diver 300M includes a bezel made from 18K gold, making the link between time and victory. • The vintage-style Paris 2024 Bronze Gold Edition incorporates the iconic materials of gold, silver and bronze, as an emotive reminder of the medals that every athlete strives for."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2525,7 +1765,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Media and Marketing  Fujitsu technology  FULL SUPPORT FOR ARTISTIC GYMNASTICS JUDGES The use of the Fujitsu Judging Support System (JSS) was extended to include all 10 apparatus at the World Championships in Antwerp.  F  ujitsuâ€™s partnership with the FIG bore more fruit in 2023 with its Judging Support System (JSS) officially approved for use on every Artistic Gymnastics apparatus. This latest advance meant that there were cameras, rather than 3D sensors, in place on all 10 apparatus at the yearâ€™s Artistic Gymnastics World Championships in Antwerp (BEL). The JSS is employed in the event of blocked scores or inquiries and it was introduced officially at the 2019 World Championships in Stuttgart (GER). It is able to achieve real-time movement capture to support the analysis of elements and it does this with an advanced AI solution that uses camera-based image analysis. In May, the FIG approved its official use on every apparatus. It had been used on seven apparatus at the 2022 World Championships in Liverpool (GBR) and, after a successful testing period, the green light was given for its use on the Men's Artistic Gymnastics Floor Exercise, Women's Artistic Gymnastics Floor Exercise and Men's Artistic Gymnastics Parallel Bars.  66  FIG YEARBOOK 2023"
+      "searchText": "66  Panasonic “The Paris 2024 Games represented a once-in-a-lifetime opportunity for us, as a Worldwide Partner, to collaborate closely with the IOC, IPC and the Paris 2024 Organising Committee to deliver memorable Games. We poured our hearts into providing our latest AV solutions, broadcast equipment, and sound systems to ensure that the event would be a resounding success and a truly unforgettable experience for everyone involved.” 	Tak Kosugi, Head of Worldwide Olympic & Paralympic Marketing at Panasonic  Fact BOX  Exclusive category: Audio/TV/video equipment, home appliances Member of the TOP Programme since: 1987"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2534,15 +1774,63 @@ export default  {
       "startIndex": 0,
       "original": "pg67.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+       <h1 id="67-no" class="abs merriweatherBd 67-no" style="top:602px;left:144px; font-size: 1.5em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 32, "comma" : true }' ></h1>
+
+       <h1 id="67-no" class="abs merriweatherBd 67-no" style="top:646px;left:462px; font-size: 1em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 302, "append": "-" }' ></h1>
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:647px;left:505px; font-size: 1em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 46, "append": "%" }' ></h1>
+
+       <h1 id="67-no" class="abs merriweatherBd 67-no" style="top:683px;left:461px; font-size: 1em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 358, "append": "-" }' ></h1>
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:683px;left:505px; font-size: 1em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 54, "append": "%" }' ></h1>
+
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:753px;left:189px; font-size: 1em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append": "%" }' ></h1>
+
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:773px;left:279px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 3}' ></h1>
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:315px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 8}' ></h1>
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:351px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 8}' ></h1>
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:389px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 4}' ></h1>
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:426px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 5}' ></h1>
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:465px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:499px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 2}' ></h1>
+       <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:538px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
+
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:254px;" src="/static/_content/67-icon-1.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:291px;" src="/static/_content/67-icon-2.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:327px;" src="/static/_content/67-icon-3.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:364px;" src="/static/_content/67-icon-4.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:401px;" src="/static/_content/67-icon-5.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:437px;" src="/static/_content/67-icon-6.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:474px;" src="/static/_content/67-icon-7.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:511px;" src="/static/_content/67-icon-8.png"/>
+      
+      `,
       "script": `
         function onPageEnter() {
+        pg67Anim = new TimelineMax();
+        pg67Anim.fromTo(cOf("67-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[0])}}, 1)
+        .fromTo(cOf("67-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[1])}}, 1.1)
+        .fromTo(cOf("67-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[2])}}, 1.2)
+        .fromTo(cOf("67-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[3])}}, 1.3)
+        .fromTo(cOf("67-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[4])}}, 1.4)
+        .fromTo(cOf("67-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[5])}}, 1.1)
+        .staggerFromTo(cOf("67-icon"), 0.3, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.4)
+        .fromTo(cOf("67-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[6])}}, 1.9)
+        .fromTo(cOf("67-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[7])}}, 2)
+        .fromTo(cOf("67-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[8])}}, 2.2)
+        .fromTo(cOf("67-no")[9], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[9])}}, 2.3)
+        .fromTo(cOf("67-no")[10], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[10])}}, 2.4)
+        .fromTo(cOf("67-no")[11], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[11])}}, 2.5)
+        .fromTo(cOf("67-no")[12], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[12])}}, 2.6)
+        .fromTo(cOf("67-no")[13], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[13])}}, 2.7)
         }
 
         function onPageLeave() {
+        pg67Anim.stop();
+        resetNumbers("67-no");
         }
       `,
-      "searchText": "Fujitsu technology  Moreover, where cameras were in operation on only five apparatus â€“ Pommel Horse, Still Rings, Menâ€™s Vault, Womenâ€™s Vault, Balance Beam â€“ at the 2022 Worlds in Liverpool, in Antwerp there were video cameras on all apparatus, providing angular information through on-screen multi-angle views. The use of cameras instead of 3D sensors means that the body-data  Media and Marketing  measurements that were carried out on every gymnast during podium training days at previous World Championships are no longer necessary. For the Superior Jury this represents another step forward in the use of technology to support their work, with the IRCOS video replay system also at their disposal.  FIG YEARBOOK 2023  67"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  67  In line with the Organising Committee's mission to make Paris 2024 the most sustainable Games, Panasonic committed to providing the following state-of-the-art AV solutions: • Panasonic's KAIROS' IT/IP platform helped deliver video content to public video boards at nearly every competition venue. This groundbreaking solution transformed workflows and streamlined operations, allowing Olympic Broadcasting Services (OBS) to produce compelling content for up to three venues from a single KAIROS Core, creating memorable moments for all. • 58 PTZ cameras were installed in 29 press rooms to consolidate and provide simultaneous translation at the Main Press Centre (MPC). This effort drastically helped reduce the need for equipment and travel to each competition venue during the Games, making it easier for voices from around the world to be heard and celebrated. • In the largest deployment of projectors ever seen at a single edition of the Olympic and Paralympic Games, Panasonic proudly installed 160 laser projectors to light up competition venues and dazzle audiences with projection mapping at La Defense Arena, the Vélodrome, and during the Opening Ceremony of the Paralympic Games. Panasonic’s labour-saving projection technology not only minimised the use of resources for transportation, storage, and installation but also significantly reduced the event's carbon footprint.  Taking Urban Sports and Breaking to the Next Level with Technics As part of the Panasonic portfolio, Technics DJ turntables and headphones were supplied to iconic venues such as the breaking competition, where a unique blend of sound and vibes  As founding partner of the programme, Panasonic proudly collaborated with many IOC Young Leaders who came from all around the world to promote their projects and passions with the local audiences.  immersed the audience in the world of breaking and urban sports. In addition, to celebrate Technics' powerful influence on hip-hop culture, Panasonic organised an unforgettable event at La Concorde, inviting visitors to experience the world of hip-hop with DJ turntable tutorials, break-dancing classes, and graffiti spray-painting trial walls, creating the perfect bridge between hip-hop culture, urban sports, and the Olympic Movement.  280,000  visitors to the Champions Park, where Panasonic shared their passion for the Olympic Movement  Heartfelt celebrations and memorable moments at Champions Park As the official Presenting Partner at the Champions Park, the iconic venue where Olympians were celebrated throughout the Games, Panasonic hosted a pre-show using its AV equipment and Technics DJ turntables to ensure everyone was ready to share their passion. The Dance Cam pre-show was a symbolic and impactful on-site activation that united attendees in celebrating the Games. Panasonic’s on-site activation featured memorable surprises, including appearances by Olympic legends and Team Panasonic ambassadors Nathan Chen and Michael Phelps, leaving a lasting impression on all present. Additionally, located near Champions Park in the Trocadero Gardens, the IOC Young Leaders booth promoted the initiatives of the joint IOC and Panasonic programme that aims to create a brighter future through sport.  160  projectors, marking the highest number ever utilised in a single edition of the Games  26  venues featured Panasonic's revolutionary KAIROS' IT/IP platform to simplify workflows and streamline operations"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2559,7 +1847,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Media and Marketing  Fujitsu Infinity Award  FRENCH WOMEN AND SWISS MEN HONOURED For the third year running, the Fujitsu Infinity Award was a significant sponsor activation at the Artistic Gymnastics World Championships.  I  ntroduced in 2019, the Fujitsu Infinity Award recognises teams who demonstrate outstanding spirit and technical precision as well as the ability to overcome sizeable challenges to make their mark on the world stage. At the 2023 Artistic Gymnastics World Championships, the recipients of the award were two teams who produced their respective nationâ€™s best performance for decades â€“ Franceâ€™s women and Switzerlandâ€™s men. Bronze medallists in the Womenâ€™s Team competition, Franceâ€™s Marine Boyer, Lorette Charpy, Coline Devillard, MÃ©lanie de Jesus dos Santos, Morgane Osyssek-Reimer and Djenna Laroui  68  FIG YEARBOOK 2023  became only the second French womenâ€™s team to claim a place on the World Championship podium. Meanwhile, the Swiss menâ€™s team of Christian Baumann, Luca Giubellini, Florian Langenegger, Noe Seifert, Taha Serhani and Dominic Tamsel recorded their best finish since 1954 in fifth place. Each team received a trophy and a cheque for USD 5,000 during a ceremony after the Menâ€™s All-Around final. The awards were presented by FIG President Morinari Watanabe and Yoshinami Takahashi, Head of Global Business Solutions at Fujitsu Ltd.  Above The French women's Artistic Gymnastics team"
+      "searchText": "68  P&G “After 14 years of partnership, we continue to be moved by the superior performance of Olympic and Paralympic athletes. I had the honour of visiting Paris to see our brands in action – serving athletes in the Olympic and Paralympic Village Paris 2024. Our brands have been doing this for a long time, and still, it is so special to see how they show up to support athletes by providing the comforts of home so they can focus on performing at their best when it matters most.” 	Marc Pritchard, Chief Brand Officer, P&G  Fact BOX  Exclusive category: Personal care, healthcare and household care products Member of the TOP Programme since: 2010"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2576,7 +1864,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": ""
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  P&G brands supported the athletes of Paris 2024 by providing more complimentary products and services in the Olympic and Paralympic Village than ever before to help to meet their everyday needs. For the first time, Pampers sponsored a Village Nursery, a comfortable and convenient place for athlete parents to make precious memories with their little ones during the Games. A place for feeding, bonding and playtime, the Nursery also provided the highest quality Pampers diapers and wipes for the more than 60 families who booked to experience the space. In the Beauty & Grooming Salon, brands like Head & Shoulders, Pantene, Mielle, Gillette and Braun provided complimentary haircuts, styling, and facial grooming so athletes could look and feel their best as they stepped onto the world’s biggest sporting stage. In all, the brands delivered more than 2,900 beauty and grooming services to athletes from 147 countries. In addition, Ariel sponsored the laundry rooms, delivering 60,000 loads of coldwater cleaning for athletes’ clothes and uniforms. Oral-B sponsored the dental clinic to give athletes the confidence of healthy smiles. Always and Tampax provided period protection products throughout the restrooms in the Village. And each athlete received a P&G Everyday Champions welcome kit with P&G brand products to support their health and hygiene needs.  Everyday Champion Brands Inspired by the highest performance of the best athletes in the world, more than 30 of P&G’s household and personal care brands launched Olympic and Paralympic Games-inspired marketing campaigns, featuring the highest performance products that serve people every day.  69  These campaigns came to life in-store and online across more than 250 retailers in over 40 countries. P&G brands also united behind the theme of “Everyday Champions,” providing products that give their best every day to meet the household and personal care needs of athletes, families, and fans – just like Olympians and Paralympians give their best to their sport.  Athletes for Good P&G and its brands continued the Athletes for Good (AFG) programme for Paris 2024, in partnership with the IOC and IPC, awarding 20 grants of USD 24,000 each to charities athletes nominated, to fuel the positive work they are doing together. Just as P&G brands aim to deliver superior performance every day and make a positive impact in the community, so, too, do the athletes recognised with AFG grants. P&G is delighted to help these athletes continue to make a meaningful impact beyond the sporting field of play.  Paris 2024 Podiums Together with the IOC, IPC, and Paris 2024 Organising Committee, P&G helped create the ultimate symbol of performance – the Olympic and Paralympic Games Paris 2024 podiums. The podium represents the pinnacle of an athlete's journey, after years of perseverance in the daily pursuit of sporting excellence. P&G brands share this same commitment to creating top-performing products that consumers can count on every day. Created in the host country of France – from the materials and design inspired by the iconic work of Gustave Eiffel to the manufacturing and assembly – the podium symbolised excellence, creativity, and know-how. P&G was honoured to play a role in creating a platform that athletes are proud to stand on after the achievement of a lifetime.  2,900  beauty and grooming services delivered to athletes in the Olympic Village  60+  athlete parents booked in to experience the Olympic Village Nursery  30  P&G brands launched Games-inspired marketing campaigns"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2593,7 +1881,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": ""
+      "searchText": "70  Samsung  Fact BOX  “Samsung continues to unite fans around the world with innovative technology as a proud partner of the Olympic Movement for over three decades, and Paris 2024 was another incredible experience for us all. Together with the IOC, we delivered seamless operations throughout all aspects of the Olympic Games, creating invaluable moments of connection and inspiration for all Olympic families and athletes” 	YH Lee, President of the Global Marketing Office, Samsung Electronics  As the official Wireless Communications and Computing Equipment partner of the Olympic and Paralympic Games, Samsung played a crucial role in supporting Paris 2024. The company utilised its cutting-edge mobile technologies to transform the ways in which the Olympic  and Paralympic communities, athletes, and fans communicated and shared their experiences. This revolution in connectivity and interaction made the Games and its operation more accessible and engaging for all participants, significantly enhancing the overall experience.  Exclusive category: Wireless communications equipment and computing equipment Member of the TOP Programme since: 1997  ‘Open always wins’ Samsung’s central message for the Olympic and Paralympic Games Paris 2024, ‘Open always wins,’ aimed to reflect the brand's belief that an open mind turns every new experience into a meaningful achievement, opening up new perspectives and endless possibilities. This message was at the heart of all Samsung’s activations throughout the Games and was brought to life through the stories of Team Samsung Galaxy athletes, who demonstrated how being open enables you to do extraordinary things."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2602,15 +1890,43 @@ export default  {
       "startIndex": 0,
       "original": "pg71.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+
+      <img class="abs halfScaleC 71-bar" style="top:-26px;left:53px;" src="/static/_content/71-bar-1.png"/>
+      <h1 id="71-no" class="abs workSansBd 71-no" style="top:295px;left:86px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 19871, "comma" : true }' ></h1>
+      <h1 id="71-no" class="abs workSansBd 71-no" style="top:166px;left:84px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 48958, "comma" : true }' ></h1>
+      <h1 id="71-no" class="abs workSansMed 71-no" style="top:354px;left:75px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 68829, "comma" : true }' ></h1>
+
+      <img class="abs halfScaleC 71-bar" style="top:48px;left:186px;" src="/static/_content/71-bar-2.png"/>
+      <h1 id="71-no" class="abs workSansBd 71-no" style="top:166px;left:216px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 14429, "comma" : true }' ></h1>
+      <h1 id="71-no" class="abs workSansBd 71-no" style="top:205px;left:215px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 26644, "comma" : true }' ></h1>
+      <h1 id="71-no" class="abs workSansMed 71-no" style="top:355px;left:208px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 41173, "comma" : true }' ></h1>
+
+      <img class="abs halfScaleC 71-bar" style="top:195px;left:321px;" src="/static/_content/71-bar-3.png"/>
+      <h1 id="71-no" class="abs workSansBd 71-no" style="top:275px;left:350px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 27656, "comma" : true }' ></h1>
+      <h1 id="71-no" class="abs workSansMed 71-no" style="top:355px;left:340px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 27656, "comma" : true }' ></h1>
+
+      `,
       "script": `
         function onPageEnter() {
+        pg71Anim = new TimelineMax();
+        pg71Anim.staggerFromTo(cOf("71-bar"), 0.5, {scaleY: 0, transformOrigin: "bottom center"}, {scaleY: 0.5, ease: Power2.easeOut}, 0.2, 1)
+        .fromTo(cOf("71-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("71-no")[0])}}, 1.2)
+        .fromTo(cOf("71-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("71-no")[1])}}, 1.3)
+        .fromTo(cOf("71-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("71-no")[2])}}, 1.4)
+        .fromTo(cOf("71-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("71-no")[3])}}, 1.5)
+        .fromTo(cOf("71-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("71-no")[4])}}, 1.6)
+        .fromTo(cOf("71-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("71-no")[5])}}, 1.7)
+        .fromTo(cOf("71-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("71-no")[6])}}, 1.8)
+        .fromTo(cOf("71-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("71-no")[7])}}, 1.9)
         }
 
         function onPageLeave() {
+        pg71Anim.stop();
+        resetNumbers("71-no");
         }
       `,
-      "searchText": "Institutional"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  Galaxy Z Flip6 Olympic Edition All eligible athletes competing at Paris 2024 were gifted their own custom-built Olympic Edition of Samsung’s Galaxy Z Flip6 smartphone, specifically designed to enhance their Games-time experience. As well as being the first-ever Olympic Edition smartphone to feature Galaxy AI, the devices also came pre-loaded with a full suite of exclusive services and useful apps, including an eSIM of 100GB 5G data, an unlimited complimentary public transport access card and several official Olympic apps, designed to help the athletes open up new experiences and connect with new people while they are in Paris. These included the new Athlete365 app, the official Paris 2024 transport app, the Olympic Shop and Olympics™ Go! Paris 2024 – the official mobile game for Paris 2024.  71  Supporting Team Samsung Galaxy athletes Samsung has been supporting athletes for almost 40 years. For Paris 2024, Samsung partnered with a roster of inspiring global athletes – including British skateboarder Sky Brown, French surfer Johanne Defay, para swimmer Ugo Didier, Dutch marathoner Sifan Hassan, American skater Jagger Eaton and surfer John John Florence, Australian wheelchair racer Madison de Rozario, Brazilian skateboarder Rayssa Leal, South Korean badminton star Se-young An and football icon Heung-min Son. Team Samsung Galaxy athletes served as the primary voices for ‘Open always wins’ and, by sharing their journeys, demonstrated how Samsung is helping athletes and fans open up to new opportunities through its technologies.  Enabling the first-ever Victory Selfies  Enhancing the Games-time experience for fans  For the first time in Olympic and Paralympic Games history, Samsung also provided its Galaxy Z Flip6 Olympic Edition smartphones for use on the podium at Paris 2024, enabling medallists at the Games to commemorate their crowning moment with a unique “Victory Selfie ”.  Fans and athletes in Paris for the Olympic and Paralympic Games were able to try out the Galaxy Z Flip6 Olympic Edition smartphone and other Galaxy innovations at three pop-up Samsung showcasing experiences across Paris (located at Champs-Elysees 125, Square Marigny and the Village Plaza in the Olympic & Paralympic Village). More than 380,000 visitors to these showcases experienced the latest Galaxy innovations first-hand, discovering new ways to create and communicate with Galaxy AI. They also took part in a historic tradition, as more than 350,000 Samsung Olympic Games pins were distributed to and traded by fans of all ages  A total of 253 selfies were captured throughout the Games, with Samsung’s customised technology then mapping and sorting the images by sport before uploading them to the IOC’s Athlete365 platform, which allowed athletes to save and share their podium experience with family and fans on social media.  Providing tech for a new view of all the action In collaboration with the IOC and Olympic Broadcasting Service (OBS), more than 200 Galaxy S24 Ultra smartphones were installed on the boats used in the Olympic Games Opening Ceremony on the River Seine and the sailing competition in Marseille. Footage was transmitted by Orange through a newly installed, private 5G network and brought fans closer to the excitement.  Powering Games-time operations From managing ticketing systems and stadium entry to facilitating event broadcasts, nearly 15,000 Galaxy devices were used by Paris 2024 staff and volunteers to deliver efficient and seamless operations throughout the Games. This included more than 7,100 Galaxy smartphones, over 2,500 Galaxy Tab series tablets and 5,200 Galaxy Book series laptops.  Launching ‘Together for Tomorrow, Enabling People’ community During the Olympic Games, Samsung and the IOC announced the launch of a new digital community that aims to engage young people around the world with the Olympic Movement and leverage the transformative power of technology and sport to make a meaningful difference in the world. “Together for Tomorrow, Enabling People”, which was unveiled at an event in Paris on 31 July, is a joint initiative between Samsung and the IOC aimed at engaging younger generations and creating a positive impact in the world through sport and technology. The new digital community is designed around the goal of helping young people experience three core values – social  17,000 Samsung Galaxy Z Flip6 Olympic Edition smartphones provided to competing athletes  253  Victory Selfies taken with Samsung Galaxy Z Flip6 Olympic Edition  15,000  Galaxy devices including phones, tablets and note PCs utilised by Paris 2024 organisers  380,000+  fans engaged at the Olympic™ rendezvous @ Samsung pop-up experiences across Paris  3 million  fans from 140 countries participated in the ‘Together for Tomorrow, Enabling People’ community activity; Solve, Move, and Create challenges  350,000+  Samsung Olympic Games Pins distributed to fans and athletes  contribution, health and creativity – and enables them to participate in a series of collaborative Olympic challenges designed to create a better tomorrow. The initiative builds on Samsung’s existing Together for Tomorrow initiatives, which aim to empower and support the next generation to achieve their full potential and pioneer positive social changes."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2620,23 +1936,61 @@ export default  {
       "original": "pg72.jpg",
       "zoom": null,
       "content": `
+      
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:77px;left:493px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 29, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:52px;left:382px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 2, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:50px;left:330px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 3, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:83px;left:287px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 4, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:99px;left:270px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 4, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:176px;left:267px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 8, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:324px;left:268px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 24, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:394px;left:367px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 26, "append" : "%"}' ></h1>
 
-        <!-- Animation -->
-        <img class="halfScale 72-quote-1" style="top:222px; left:460px;" src="/2023/static/_content/72-quote-1.png" />
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:525px;left:535px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 56, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:456px;left:457px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 1, "preppend": "<", "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:457px;left:362px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 2, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:472px;left:339px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 2, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:493px;left:316px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 3, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:503px;left:269px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 4, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:525px;left:250px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 4, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:562px;left:249px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 5, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:633px;left:234px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 9, "append" : "%"}' ></h1>
+      <h1 id="72-no" class="abs workSansBd 72-no" style="top:784px;left:317px; font-size: 0.65em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 15, "append" : "%"}' ></h1>
 
-
+      <h1 id="72-no" class="abs bebasNeueBd 72-no" style="top:638px;left:391px; font-size: 1.2em; font-weight: 300; color: #000000; padding: 0px; margin: 0px;"  data-number='{"to": 4129, "comma": true}' ></h1>
+      
       `,
       "script": `
         function onPageEnter() {
-          pg72Anim = new TimelineMax();
-          pg72Anim.fromTo(cOf("72-quote-1"), 1, {opacity:0, x:50}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
+        pg72Anim = new TimelineMax();
+        pg72Anim.fromTo(cOf("72-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[0])}}, 1)
+        pg72Anim.fromTo(cOf("72-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[1])}}, 1.1)
+        pg72Anim.fromTo(cOf("72-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[2])}}, 1.2)
+        pg72Anim.fromTo(cOf("72-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[3])}}, 1.3)
+        pg72Anim.fromTo(cOf("72-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[4])}}, 1.4)
+        pg72Anim.fromTo(cOf("72-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[5])}}, 1.5)
+        pg72Anim.fromTo(cOf("72-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[6])}}, 1.6)
+        pg72Anim.fromTo(cOf("72-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[7])}}, 1.7)
+
+        pg72Anim.fromTo(cOf("72-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[8])}}, 1.1)
+        pg72Anim.fromTo(cOf("72-no")[9], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[9])}}, 1.2)
+        pg72Anim.fromTo(cOf("72-no")[10], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[10])}}, 1.3)
+        pg72Anim.fromTo(cOf("72-no")[11], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[11])}}, 1.4)
+        pg72Anim.fromTo(cOf("72-no")[12], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[12])}}, 1.5)
+        pg72Anim.fromTo(cOf("72-no")[13], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[13])}}, 1.6)
+        pg72Anim.fromTo(cOf("72-no")[14], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[14])}}, 1.7)
+        pg72Anim.fromTo(cOf("72-no")[15], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[15])}}, 1.8)
+        pg72Anim.fromTo(cOf("72-no")[16], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[16])}}, 1.9)
+        pg72Anim.fromTo(cOf("72-no")[17], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[17])}}, 2)
+        pg72Anim.fromTo(cOf("72-no")[18], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[18])}}, 2.1)
         }
 
         function onPageLeave() {
-          pg72Anim.stop();
+        pg72Anim.stop();
+        resetNumbers("72-no");
         }
       `,
-      "searchText": "Institutional  Hiroshima summit peace message  PEACE IS THE WORD  A delegation of gymnasts visited Japan to send a message to the G7 leaders.  â€œT  he gymnastics family wishes for peace in the world as soon as possibleâ€. That was the message delivered by a group of leading gymnasts in a special encounter with Japanâ€™s Prime Minister Kishida Fumio in Tokyo on 27 April. To mark the G7 summit in Hiroshima, FIG President Morinari Watanabe invited gymnasts, past and present, from each of the countries involved to meet Mr Kishida, who was chairing the summit, and to present their message of peace on a certificate that they had all signed. â€œBy inviting gymnasts from the G7 countries as a symbolic representation of this community, visiting such an emotionally charged location, I hope that we can spread this message of peace at a time when the world really needs it,â€ said Mr Watanabe ahead of the visit. The group of gymnasts, led by Japanese Olympians Murakami Mai and Uchimura Kohei, travelled from  72  FIG YEARBOOK 2023  MESSENGERS OF PEACE The group representing the gymnastics family in Japan comprised: Emma Spence (CAN) Katherine Uchida (CAN) Lorette Charpy (FRA) Giarnni Regini-Moran (GBR) Marcel Nguyen (GER) Alexandra Agiurgiuculese (ITA) Murakami Mai (JPN) Uchimura Kohei (JPN) Nastia Liukin (USA)  Tokyo to Hiroshima, venue of the summit, where they visited the cityâ€™s Peace Memorial Park and gave a gymnastics demonstration to schoolchildren.  â€œ  Thank you President Watanabe, Japanese Gymnastics and the FIG for bringing us all together and reminding us all how special our sport is, and how it can, in fact, unite us all. Through peace, all is possible.â€ Nastia Liukin"
+      "searchText": "72  Toyota “Sports have the power to unite. It has been incredible and inspirational to watch the athletes, their families and communities on the road to their Olympic and Paralympic success. Their relentless pursuit of excellence inspires us all to start our own 'impossible'.” 	Yoshihiro Nakata, President and CEO of Toyota Motor Europe  Fact BOX  Exclusive category: Vehicles, mobility support robots and mobility services Member of the TOP Programme since: 2017"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2645,47 +1999,15 @@ export default  {
       "startIndex": 0,
       "original": "pg73.jpg",
       "zoom": null,
-      "content": `
-
-        <!-- linky -->
-        <div class="addContentLink" style="top:318px; left:69px; width:157px; height:13px;">
-          <a href="https://www.youtube.com/watch?v=weAhfHl2Yvk" target="_blank"></a>
-        </div>
-
-        <!--Numbers-->
-        <h1 class="abs merriweatherB 73-no"
-        style="top: 354px; left: 489px; font-size: 2.0em; font-weight:300; margin:0; color:#E63C25; padding:0; margin:0;"
-        data-number='{"to": 2200, "comma":true, "append":"+"}' ></h1>
-
-        <h1 class="abs merriweatherB 73-no"
-        style="top: 471px; left: 489px; font-size: 2.0em; font-weight:300; margin:0; color:#E63C25; padding:0; margin:0;"
-        data-number='{"to": 280, "append":"+"}' ></h1>
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-
-          pg73Anim = new TimelineMax();
-          pg73Anim.fromTo(cOf("73-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("73-no")[0]);}}, 1)
-                  .fromTo(cOf("73-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){
-                    animateNumber(cOf("73-no")[1]);
-                    flashContentLinksThreeTimes();
-                  }}, 1);
-
-          // setTimeout(function(){
-          //   flashContentLinksThreeTimes();
-          // }, 1000);
         }
 
         function onPageLeave() {
-          removeContentLinks();
-          resetNumbers("73-no");
-          pg73Anim.stop();
-
         }
       `,
-      "searchText": "Safeguarding  Institutional  SAFE SPORT JOURNEY GOES ON Sharing experience was the focus as Antwerp hosted the second edition of â€˜Our Safe Sport Journeyâ€™.  E  nsuring a safe environment for gymnasts and coaches alike is an ongoing mission for the FIG â€“ and it continued in 2023 with the second Safe Sport Journey Symposium. Like the first edition in Liverpool (GBR), this two-day event took place during the Artistic Gymnastics World Championships and it drew almost 300 participants to the first day on 4 October. More than 150 attendees were present, with another 130 following online, and they listened to speakers including safeguarding experts, coaches and gymnasts â€“ all brought together by the FIG and the Royal Belgian Gymnastics Federation, who together organised the opening dayâ€™s programme. â€œSafeguarding is not only for gymnasts, but to protect all the people involved in the sport and that includes coaches,â€ said FIG Secretary General Nicolas Buompane, who sees a growing collective understanding of what safeguarding means.  Two months earlier, the FIG had introduced a new Safeguarding Certificate for coaches and Donatella Sacchi, President of the FIG Safeguarding Commission, gave an explanation of this mandatory course designed to improve coachesâ€™ knowledge of safeguarding matters. â€œBy introducing this certificate, the FIG is trying to protect athletes, but also coaches, as, by raising their awareness, we help them avoid unintentional and accidental negative behaviours,â€ Sacchi said. Also highlighted was the importance of communication â€“ of gymnasts feeling free to speak up â€“ and of a good gymnast/coach relationship, with insights from Sato Hiroaki, national coach of the Japanese Menâ€™s Artistic Gymnastics team. National federation representatives explained their work in implementing safeguarding policies â€“ and efforts at national level were also discussed in the afternoon workshops that followed.  2,200+ coaches have already been awarded the Safeguarding Certificate  280+ attendees followed the symposium in person and online  Pictured Artur Mariano (BRA) and athletesâ€™ representative Catalina Ponor (ROU)  FIG YEARBOOK 2023  73"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  For the Olympic and Paralympic Games Paris 2024, Toyota delivered a 100 per cent electrified passenger vehicle fleet and an array of inclusive solutions, making sure that the athletes, officials and volunteers could easily move around the Games in a safe and sustainable manner.  Accessible People Mover The Accessible People Mover (APM) is Toyota's electric mobility vehicle designed specifically for Paris 2024 to transport people, goods, and act as a stretcher in emergencies. The APM features integrated wheelchair ramps, comfortable seats, and a top speed of 20 km/h. Its low floor and wide doors ensure easy and safe boarding. Additionally, the APM is eco-friendly, running on battery power and producing zero tailpipe emissions. Designed by Toyota Motor Europe in Belgium and manufactured in Toyota Caetano Portugal, the 250 APM covered 140,000 kilometres during Paris 2024, enhancing the mobility experience for athletes, staff, volunteers, and visitors.  Last-mile mobility solutions Toyota co-developed Yosh-e – the wheelchair e-puller – to bring their vision of “Mobility for all” to life at the Paralympic Games Paris 2024. The Yosh-e converts a classic mechanical wheelchair into a battery-powered electric mobility solution, giving more freedom of movement to wheelchair users. During the Paralympic Games, the Toyota team installed over 240 brackets on athletes’ wheelchairs so that they could make use of the 50 Yosh-e e-pullers, made available through the KINTO app. In addition to the Yosh-e wheelchair puller, Toyota also provided electric last-mile  73  mobility solutions such as C+WalkS and C+WalkT to the volunteers and the athletes of Paris 2024, allowing the latter to save their energy for their performances.  100 per cent electrified vehicle fleet In line with Toyota’s multi-path strategy and commitment to support Paris 2024’s environmental ambitions, the company delivered a 100 per cent electrified passenger vehicle fleet. In fact, approximately 60 per cent of the fleet were zero-tailpipe emissions, including battery electric vehicles (BEV) like the Toyota bZ4X, Proace, Proace Verso and Lexus RZ, as well as fuel-cell electric vehicles (FCEV) like the Toyota Mirai. Additionally, Toyota brought around 1,000 hybrid (HEV) and plug-in hybrid (PHEV) vehicles, including the globally best-selling RAV4 in both PHEV and HEV versions, along with the Toyota Corolla TS, Yaris Cross and Highlander, all featuring hybrid technology. Around 60 per cent of the Toyota fleet was produced in Europe, including 37 per cent in France, contributing to the vision of a sustainable and locally sourced Paris 2024.  100%  electrified passenger fleet  2,700+  electrified vehicles  Hydrogen society Toyota demonstrated its vision of a hydrogen society through more than ten applications, ranging from passenger cars to heavy-duty transport, highlighting the potential of hydrogen technology in achieving carbon neutrality. The diverse fleet included 500 Mirai, 14 Caetano fuel cell buses, 10 fuel cell coaches, two fuel cell Hilux, and others – in total over 10 different applications. Hydrogen-powered, zero tailpipe emission vehicles at Paris 2024 achieved an impressive milestone,  850+  inclusive mobility solutions  covering over one million kilometres – equivalent to 25 trips around the globe, and using nearly 12 tons of hydrogen sourced from renewable origins."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2694,23 +2016,15 @@ export default  {
       "startIndex": 0,
       "original": "pg74.jpg",
       "zoom": null,
-      "content": `
-
-        <!-- Animation -->
-        <img class="halfScale 74-quote-1" style="top:693px; left:474px;" src="/2023/static/_content/74-quote-1.png" />
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg74Anim = new TimelineMax();
-          pg74Anim.fromTo(cOf("74-quote-1"), 1, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
-          pg74Anim.stop();
         }
       `,
-      "searchText": "Institutional  Showing solidarity  PRESIDENTâ€™S SUPPORT FOR DISASTER VICTIMS Morinari Watanabe made two visits to TÃ¼rkiye in the wake of the earthquake that struck the country in February.  S  olidarity from the FIG in the most difficult moments â€“ that was the purpose of President Morinari Watanabeâ€™s March trip to TÃ¼rkiye. Mr Watanabeâ€™s two-day visit to the cities of Adana and Hatay, close to the border with Syria, came in response to the 6 February earthquake that brought such devastation to southern and central TÃ¼rkiye as well as northern and western Syria. The FIG had already pledged financial support and equipment donations to the gymnastics community in the region, and fundraising activities later took place at the 2nd Artistic Gymnastics Junior World Championships in Antalya in late March, when participants wore emblems showing support for the two stricken countries. During his visit in March, the FIG President saw a gymnasium being used  74  FIG YEARBOOK 2023  as a shelter and another damaged by the impact of the earthquake. â€œIt is important for the FIG and gymnastics families around the world to remember the pain of TÃ¼rkiye and Syria, and we need to do this for at least the next 10 years,â€ he said. The importance of not forgetting the people affected by the earthquake led Mr Watanabe to return to TÃ¼rkiye in October for a follow-up visit. The FIG President remains mindful of the support the gymnastics community gave to the people affected by the 2011 Japanese earthquake and tsunami â€“ notably at that yearâ€™s Artistic Gymnastics World Championships in Tokyo. Later in October he flew to Morocco to meet members of the gymnastics community in the Marrakesh area, which had suffered its own devastating earthquake on 8 September.  â€œ  There is always something that can be done, not only immediately after a disaster, but also on a long-term basis, to be close to peopleâ€™s hearts and to help them recover.â€ Morinari Watanabe FIG President"
+      "searchText": "74  Visa “The spirit of Paris 2024 was aligned with Visa’s mission to uplift everyone, everywhere. We believe the Games are a powerful platform to drive inclusion and economic growth. We’re delighted to play our part in enabling the success of Paris 2024 for both the Olympic and Paralympic Games by providing the most convenient and secure way for spectators and travelers to pay. We proudly supported Team Visa athletes, showcasing their incredible talent, grit and dedication.” 	 Andrea Fairchild, Senior Vice President of Global Sponsorship Strategy, Visa  Fact BOX  Exclusive category: Payment services, transaction security, credit, debit, prepaid cards, digital wallets Member of the TOP Programme since: 1986"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2727,7 +2041,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Executive Committee  Institutional  â€˜INDIVIDUAL NEUTRAL ATHLETESâ€™ TO COMPETE The FIG Executive Committeeâ€™s biggest decision in 2023 was the ruling that athletes from Russia or Belarus could return to FIG competitions if compliant with strict requirements on neutrality.  T  he FIG Executive Committee opened the door to the participation in its competitions of â€˜individual neutral athletesâ€™ from Russia or Belarus. This followed a recommendation made by the International Olympic Committee (IOC) in March 2023. Speaking after the Executive Committeeâ€™s meeting in May, FIG President Morinari Watanabe confirmed that the FIG would follow the IOCâ€™s lead. Thus, in July, the Executive Committee â€“ while condemning the invasion of Ukraine by Russia and affirming its ongoing support for victims of the war in Ukraine â€“ announced the conditions for participation in FIG-sanctioned events of â€œathletes and support personnel of Russian and Belarusian sporting nationalityâ€. They could participate as â€˜individual neutral athletesâ€™ without any involvement or association with the  Russian Federation or the Republic of Belarus, their respective national federations or national Olympic committees. Such athletes cannot wear any symbols or colours associated with their countries and cannot have any national anthem played when competing. Ultimately, though, as the FIG stressed, the decision on whether Russian and Belarusian athletes would be eligible for the Olympic Games Paris 2024 was the responsibility of the IOC. Several measures aimed at ensuring strict compliance with the neutrality requirements were later approved by the Executive Committee in November as Ad-hoc Rules. Gymnasts wishing to obtain the status of â€˜individual neutral athleteâ€™ were duly able to apply to the FIG in accordance with these Ad-hoc Rules â€“ with successful applicants eligible to participate in FIG-sanctioned events from 1 January 2024.  WORLDS SCHEDULED The Executive Committee awarded World Championships to the following national federations: Artistic Gymnastics â€¢ 55th World Championships â€“ Chengdu (CHN), 28 September - 6 October 2027 Rhythmic Gymnastics â€¢ 41st World Championships â€“ Rio de Janeiro (BRA), 20-24 August 2025 â€¢ 42nd World Championships â€“ Berlin (GER), 30 September - 4 October 2026 Trampoline Gymnastics â€¢ 40th World Championships â€“ Sofia (BUL), 10-13 November 2027 (with 33rd World Age Group Competitions to follow between 17-20 November) Acrobatic Gymnastics â€¢ 30th World Championships and 14th World Age Group Competitions â€“ Holon (ISR) in 2026 (precise dates TBC). This followed the postponement of the events in Holon, scheduled for March 2024  EXECUTIVE COMMITTEE MEETINGS 2023 â€¢ 1-2 March, Lausanne (SUI) â€¢ 12-13 May, Antalya (TUR) â€¢ 19-20 July, Lausanne (SUI) â€¢ 9 November, by video conference â€¢ 22-23 November, Dhaka (BAN)  FIG YEARBOOK 2023 75"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  As a founding member of the TOP Programme in 1986 and the first global partner of the International Paralympic Committee (IPC) in 2003, Visa’s long-time relationship with the Olympic and Paralympic Games has always been about empowering athletes to be successful both on and off the field while providing convenient, reliable, and secure payment solutions. Team Visa for Paris 2024 featured 147 athletes representing 67 countries across 40 sports, making this Visa’s largest and most diverse roster yet - featuring 67 men and 80 women, and increasing the representation of Paralympic athletes at Paris 2024. This year's roster of athletes won 100 medals - 55 Olympic and 45 Paralympic medals. As the exclusive Payment Technology Partner, Visa collaborated with the Organising Committee to build a custom payment network, ensuring contactless payments were accepted at 3,500 points of sale in Olympic and Paralympic venues.  Blending sports with culture and commerce To give thanks to Parisians for opening their city and country to the world and providing a vibrant and welcoming atmosphere for all, Visa celebrated the intersection of sport, art, and culture by commissioning six global artists to create works of art to appear on billboards throughout Paris (a global capital for street art). The street art installations highlighted Visa Go, a mobile app designed to help users experience the best of the city. The app enabled access  75  to Team Visa content, and a curated selection of discounts and offers from official partners, local shops, and restaurants. Visa’s aim was to celebrate the Olympic and Paralympic Games and help promote local small businesses and culture through art. The street art included works from leading street artist Marko 93 (France) from Seine-Saint-Denis; influential street artist and activist Swoon (USA); pioneering graffiti artist JonOne (USA); native Parisian artist Olivia De Bona (France); prolific colourblind street artist Alex Senna (Brazil); and multidisciplinary artist Vexta (Australia) and received significant media interest.  147  Team Visa for Paris 2024 featured 147 athletes  Helping to boost the French economy Additionally, the French economy benefited from hosting the Olympic and Paralympic Games, and Visa played a part in this success, according to proprietary data which revealed Visa cardholder spending patterns during the Olympic Games. Not only did Paris attract 42 per cent more Visa cardholders in the first week of the Olympic Games than in the same period in 2023, but other cities hosting Olympic Games events also saw significant increases in visitors and spending, especially among fans who attended the competitions. The most significant year-on-year increase in spending levels in Paris was seen in restaurants: a 49 per cent increase. During the first weekend of the Olympic Games, small businesses in Paris benefitted from a 26 per cent year-on-year rise in sales from Visa cardholders.  100  Team Visa athletes at the Olympic and Paralympic Games won a total of 100 medals  3,500  Contactless payments were accepted at 3,500 points of sale in Paris 2024 venues"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2737,18 +2051,34 @@ export default  {
       "original": "pg76.jpg",
       "zoom": null,
       "content": `
-      
-        
+
+      <h1 id="76-no" class="abs merriweatherBd 76-no" style="top:311px;left:432px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 50, "append" : "%"}' ></h1>
+
+      <img class="abs halfScaleC 76-box" style="top:380px;left:-128px;" src="/static/_content/76-box.png"/>
+      <img class="abs halfScaleC 76-box" style="top:529px;left:-63px;" src="/static/_content/76-text-1.png"/>
+      <img class="abs halfScaleC 76-box" style="top:483px;left:-69px;" src="/static/_content/76-lines.png"/>
+
+      <img class="abs halfScaleC 76-world" style="top:559px;left:54px;" src="/static/_content/76-world-1.png"/>
+      <img class="abs halfScaleC 76-world" style="top:559px;left:218px;" src="/static/_content/76-world-2.png"/>
+      <img class="abs halfScaleC 76-world" style="top:638px;left:153px;" src="/static/_content/76-world-3.png"/>
+      <img class="abs halfScaleC 76-world" style="top:733px;left:70px;" src="/static/_content/76-text-2.png"/>
+      <img class="abs halfScaleC 76-world" style="top:727px;left:252px;" src="/static/_content/76-world-4.png"/>
       
       `,
       "script": `
         function onPageEnter() {
+        pg76Anim = new TimelineMax();
+        pg76Anim.fromTo(cOf("76-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("76-no")[0])}}, 1)
+        .staggerFromTo(cOf("76-box"), 0.6, {opacity:0, y: 50}, {opacity: 1, y: 0, ease: Power2.easeOut}, 0.2, 1)
+        .staggerFromTo(cOf("76-world"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.5);
         }
 
         function onPageLeave() {
+        pg76Anim.stop();
+        resetNumbers("76-no");
         }
       `,
-      "searchText": "Institutional  Commissions and working groups  COMMISSIONS AND WORKING GROUPS The FIG has seven commissions along with several working groups to help build a better future for gymnastics. Here we highlight some of the main work undertaken by them in 2023.  W  hat is the mission of the FIG? And its values? And just how is it perceived from the outside? Questions of this kind featured in the survey that formed part of a rebranding project that began in 2022 and continued in 2023 with a view to establishing a new brand identity for the FIG in 2024. Driven by the Branding, Marketing and TV Rights Commission, the rebranding project comprised meetings with all stakeholders as well as a survey of over 2,500 people. The Competition Innovation Working Group looked at possible changes to the format of FIG competitions and the process of qualifying for Olympic Games and World Championships. â€œItâ€™s about asking what we want from our events and how to give them value,â€ said Nicolas Buompane, the FIG Secretary General.  Safety matters The Anti-Doping, Medical and Mental Health Commission proposed several changes to the Rules for the Medical Organisation of FIG Competitions and Events â€“ notably concerning concussion and how to respond to head injuries. The Executive Committee also approved several changes to the Apparatus Norms  76  FIG YEARBOOK 2023  that the Apparatus Commission had proposed. The main change was that the Tension Control System (TCS) for Uneven Bars, Horizontal Bar and Still Rings will become mandatory for the Olympic Games, World Championships, World Cups, Youth Olympic Games, Junior World Championships and World Challenge Cups from 2025. The system, already used at the 2022 Artistic Gymnastics World Championships, allows coaches and athletes to set the same tension on the cables in training halls, the warm-up hall and competition hall. It prevents failure of the apparatus due to too high or too low tension in the cables and reduces the possibility of damage to apparatus, and especially to the ground anchors, due to high cable tension. The Executive Committee also approved raising the height of the Uneven Bars by a further 5cm to allow a maximum of 10cm increase in competitions for gymnasts who touch the mat with their feet during exercise. Elsewhere, the Rhythmic Gymnastics Technical Committee worked on updating the Code of Points for the next cycle (2025-28). With input from the Medical Commission, they have modified elements that might lead to chronic knee injuries and others affecting the back â€“ specifically arched backs."
+      "searchText": "76  Domestic Partnerships “Celebration, engagement and legacy: these three words sum up the partners' contribution. Without our partners, these Games would not have been such a success.” 	 Ludivine Roosebeke, Paris 2024 Partnerships Director  Accor As a Premium Partner of the Olympic Games Paris 2024, Accor played a central role in showcasing France’s world-renowned hospitality and culture on the global stage. As the birthplace of the company, France offered Accor the opportunity to demonstrate its heritage and expertise in delivering exceptional service. The Games became a “sparkling advert” for French tourism, with Accor highlighting the nation’s rich traditions in cuisine, art and culture. Accor was the first hotel group to oversee operations of both the Athletes’ and Media Villages, managing over 90 buildings and 16,000 beds. This immense logistical undertaking was seamlessly executed,"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2757,95 +2087,15 @@ export default  {
       "startIndex": 0,
       "original": "pg77.jpg",
       "zoom": null,
-      "content": `
-
-        <!--Animation-->
-        <img class="halfScaleC 77-beaker-1" style="top:-192px; left:-57px;" src="/2023/static/_content/77-beaker-1.png" />
-        <img class="halfScale 77-text-1" style="top:297px; left:141px;" src="/2023/static/_content/77-text-1.png" />
-        <img class="halfScale 77-text-1" style="top:457px; left:136px;" src="/2023/static/_content/77-text-2.png" />
-        <img class="halfScale 77-text-1" style="top:616px; left:139px;" src="/2023/static/_content/77-text-3.png" />
-        <img class="halfScale 77-text-2" style="top:298px; left:289px;" src="/2023/static/_content/77-text-4.png" />
-        <img class="halfScale 77-text-2" style="top:501px; left:311px;" src="/2023/static/_content/77-text-5.png" />
-        <img class="halfScale 77-text-2" style="top:664px; left:316px;" src="/2023/static/_content/77-text-6.png" />
-        <img class="halfScale 77-text-2" style="top:663px; left:414px;" src="/2023/static/_content/77-text-7.png" />
-        <img class="halfScaleC 77-title-1" style="top:139px; left:37px;" src="/2023/static/_content/77-title-1.png" />
-        <img class="halfScale 77-path" style="top:405px; left:236px;" src="/2023/static/_content/77-path-1.png" />
-        <img class="halfScale 77-path" style="top:561px; left:237px;" src="/2023/static/_content/77-path-2.png" />
-        <img class="halfScale 77-path" style="top:678px; left:237px;" src="/2023/static/_content/77-path-3.png" />
-
-        <!--Numbers-->
-        <h1 class="abs merriweatherB 77-no"
-        style="top: 387px; left: 156px; font-size: 2.0em; font-weight:300; margin:0; color:#0E334E; padding:0; margin:0;"
-        data-number='{"to": 962}' ></h1>
-
-        <h1 class="abs merriweatherB 77-no"
-        style="top: 547px; left: 157px; font-size: 2.0em; font-weight:300; margin:0; color:#FFF371; padding:0; margin:0;"
-        data-number='{"to": 892}' ></h1>
-
-        <h1 class="abs merriweatherB 77-no"
-        style="top: 376px; left: 328px; font-size: 1.2em; font-weight:300; margin:0; color:#0E334E; padding:0; margin:0;"
-        data-number='{"to": 861}' ></h1>
-
-        <h1 class="abs merriweatherB 77-no"
-        style="top: 373px; left: 487px; font-size: 1.2em; font-weight:300; margin:0; color:#0E334E; padding:0; margin:0;"
-        data-number='{"to": 101}' ></h1>
-
-        <h1 class="abs merriweatherB 77-no"
-        style="top: 459px; left: 329px; font-size: 1.2em; font-weight:300; margin:0; color:#0E334E; padding:0; margin:0;"
-        data-number='{"to": 648}' ></h1>
-
-        <h1 class="abs merriweatherB 77-no"
-        style="top: 459px; left: 486px; font-size: 1.2em; font-weight:300; margin:0; color:#0E334E; padding:0; margin:0;"
-        data-number='{"to": 314}' ></h1>
-
-        <h1 class="abs merriweatherB 77-no"
-        style="top: 533px; left: 385px; font-size: 1.2em; font-weight:300; margin:0; color:#FFF371; padding:0; margin:0;"
-        data-number='{"to": 591}' ></h1>
-
-        <h1 class="abs merriweatherB 77-no"
-        style="top: 586px; left: 354px; font-size: 1.2em; font-weight:300; margin:0; color:#FFF371; padding:0; margin:0;"
-        data-number='{"to": 70}' ></h1>
-
-        <h1 class="abs merriweatherB 77-no"
-        style="top: 688px; left: 339px; font-size: 1.2em; font-weight:300; margin:0; color:#A3D8E7; padding:0; margin:0;"
-        data-number='{"to": 2}' ></h1>
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg77Anim = new TimelineMax();
-
-          var delay_sec_anim = 1.2;
-
-          pg77Anim
-            .fromTo(cOf("77-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("77-no")[0]);}}, 1)
-            .fromTo(cOf("77-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("77-no")[1]);}}, 1)
-            .fromTo(cOf("77-no")[2], 0.35, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("77-no")[2]);}}, 1)
-            .fromTo(cOf("77-no")[3], 0.35, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("77-no")[3]);}}, 1)
-            .fromTo(cOf("77-no")[4], 0.35, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("77-no")[4]);}}, 1)
-            .fromTo(cOf("77-no")[5], 0.35, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("77-no")[5]);}}, 1)
-            .fromTo(cOf("77-no")[6], 0.55, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("77-no")[6]);}}, 1)
-            .fromTo(cOf("77-no")[7], 0.55, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("77-no")[7]);}}, 1)
-            .fromTo(cOf("77-no")[8], 0.60, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("77-no")[8]);}}, 1);
-
-
-          pg77Anim
-            .fromTo(cOf("77-beaker-1"), 0.75,   {scale:0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.5)
-            .fromTo(cOf("77-title-1"),  0.75,   {scale:0}, {scale:0.5, ease: Back.easeOut.config(1.0)}, 0.5)
-            .staggerFromTo(cOf("77-text-1"), 0.8, {opacity:0, y:-50}, {opacity:1, y:0, ease: Power2.easeOut}, 0.1, 0.8)
-
-            .staggerFromTo(cOf("77-text-2"), 0.4, {opacity:0, x:50}, {opacity:1, x:0, ease: Power2.easeOut}, 0.1, 0.6)
-            .staggerFromTo(cOf("77-path"), 0.3, {opacity:0, x:50}, {opacity:1, x:0, ease: Power2.easeOut}, 0.1, 0.7);
-
         }
 
         function onPageLeave() {
-          pg77Anim.stop();
-          resetNumbers("77-no");
         }
       `,
-      "searchText": "ITA  Promoting clean sport  Institutional  The FIG enjoyed another successful year collaborating with the International Testing Agency (ITA). The ITA provides a range of anti-doping services to the FIG including sample collection and results management as well as providing live dashboards that allow the federation to monitor its anti-doping activities throughout the year The ITA also runs a webinar series to educate and inform sports organisations. Type of sample  Total samples collected  962  Urine  Blood  861  101  Samples collected IN competition  Samples collected OUT OF competition  314  648 Total completed tests  Samples collected from  892  Anti-Doping Rule Violations (ADRVs)  591 athletes  39% men  61%  women  Belonging to  70 nationalities  Sanctioned  2  FIG YEARBOOK 2023  77"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  77  The partnership also highlighted BPCE’s support for the French sports ecosystem. The group sponsored France’s largest cohort of elite athletes and played an active role in mobilising communities through initiatives like the Olympic Torch Relay. With more than 100,000 employees, Groupe BPCE embraced the spirit of the Games, sharing in the emotions and triumphs of athletes and fans, making Paris 2024 a truly memorable experience for all.  Carrefour Carrefour, one of the world’s leading food retailers, brought its vision of “the food transition for all” to life during Paris 2024. As a Premium Partner, Carrefour demonstrated its commitment to providing high-quality, accessible and affordable food, ensuring that athletes, spectators and participants could experience the Games in a meaningful way. Through its “Nourishing Every Hope” campaign, Carrefour celebrated the aspirations of athletes striving for victory, the joy of fans experiencing the thrills of competition, and the pride of its employees contributing to a historic event. Carrefour’s partnership underscored its role as a vital player in supporting communities and the Olympic Movement.  demonstrating Accor’s ability to deliver tailored solutions for complex global events. Beyond logistics, Accor delighted fans and guests with unique moments at venues such as Le Club France, ensuring a welcoming and memorable experience.  Groupe BPCE With a long-standing commitment to sport, Groupe BPCE became the first Premium Partner of Paris 2024 in 2018, marking the beginning of six years of collaboration that culminated in its vital contributions to the Games’ success. Groupe BPCE financed major infrastructure projects, including the Olympic Village, and developed the largest ticketing system in Olympic history, making the Games accessible to fans across France and beyond."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -2855,160 +2105,38 @@ export default  {
       "original": "pg78.jpg",
       "zoom": null,
       "content": `
-
-        <!--Animation-->
-        <img class="halfScale 78-icon-1" style="top:244px; left:317px;" src="/2023/static/_content/78-icon-1.png" />
-        <img class="halfScale 78-icon-1" style="top:283px; left:370px;" src="/2023/static/_content/78-icon-1.png" />
-        <img class="halfScale 78-icon-1" style="top:285px; left:431px;" src="/2023/static/_content/78-icon-1.png" />
-        <img class="halfScale 78-icon-1" style="top:378px; left:475px;" src="/2023/static/_content/78-icon-1.png" />
-        <img class="halfScale 78-icon-1" style="top:469px; left:486px;" src="/2023/static/_content/78-icon-1.png" />
-
-        <img class="halfScale 78-icon-2" style="top:283px; left:368px;" src="/2023/static/_content/78-icon-2.png" />
-        <img class="halfScale 78-icon-2" style="top:362px; left:409px;" src="/2023/static/_content/78-icon-2.png" />
-        <img class="halfScale 78-icon-2" style="top:304px; left:644px;" src="/2023/static/_content/78-icon-2.png" />
-
-
+      
+      <img class="abs halfScaleC 78-quote-1" style="top:117px;left:382px;" src="/static/_content/78-quote-1.png"/>
+      
       `,
       "script": `
         function onPageEnter() {
-          pg78Anim = new TimelineMax();
-          pg78Anim
-            .staggerFromTo(cOf("78-icon-1"), 0.50, {opacity:0, y:-30}, {opacity:1, y:0, ease: Power2.easeOut}, 0.1, 0.6)
-            .staggerFromTo(cOf("78-icon-2"), 0.55, {opacity:0, y:-30}, {opacity:1, y:0, ease: Power2.easeOut}, 0.1, 0.6);
+        pg78Anim = new TimelineMax();
+        pg78Anim.fromTo(cOf("78-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
-          pg78Anim.stop();
-
+        pg78Anim.stop();
         }
       `,
-      "searchText": "Institutional  Academies  WORLDWIDE EDUCATION A continent-by-continent breakdown of the yearâ€™s Academies, Age Group camps and Olympic Solidarity courses. ACADEMIES  Asia  AGE GROUP CAMPS  Africa  Hong Kong, China (Trampoline Gymnastics, Acrobatic Gymnastics L1)  Africa  Algeria (Aerobic Gymnastics L1) Egypt (Menâ€™s & Womenâ€™s Artistic Gymnastics, Aerobic Gymnastics L2)  Japan (Parkour L1) Qatar (Menâ€™s & Womenâ€™s Artistic Gymnastics L3)  South Africa (Menâ€™s & Womenâ€™s Artistic Gymnastics L1 x2, L2, L3)  Tunisia (Menâ€™s Artistic Gymnastics, Rhythmic Gymnastics)  Thailand (Rhythmic Gymnastics L1)  Zimbabwe (Parkour)  Americas Aruba (Foundations of Gymnastics) Brazil (Foundations of Gymnastics)  78  Nigeria (Menâ€™s & Womenâ€™s Artistic Gymnastics)  Oceania New Zealand (Menâ€™s & Womenâ€™s Artistic Gymnastics L2)  Asia  OLYMPIC SOLIDARITY COURSES Africa Cape Verde (Rhythmic Gymnastics) Madagascar (Rhythmic Gymnastics) Sierra Leone (Rhythmic Gymnastics)  Bangladesh (Parkour)  Togo (Rhythmic Gymnastics)  Indonesia (Parkour)  Americas   zbekistan (Rhythmic U Gymnastics)  El Salvador (Womenâ€™s Artistic Gymnastics)  El Salvador (Rhythmic Gymnastics L1)  Europe  Peru (Rhythmic Gymnastics)  Croatia (Parkour x2)  Europe  Mexico (Parkour L1)  Oceania  Uruguay (Aerobic Gymnastics L2)  Australia (Parkour)  Serbia (Men's & Women's Artistic Gymnastics)  FIG YEARBOOK 2023"
+      "searchText": "78  EDF A key force in the energy transition, EDF supported Paris 2024 as both a Premium Partner and the Official Supplier of Renewable Energy. EDF’s contributions embodied the Games’ commitment to sustainability and inclusion, making a lasting impact on athletes, fans, and communities. EDF spearheaded initiatives such as the “1,2,3 Swim!” programme, which taught swimming skills to 100,000 children from underserved neighbourhoods. This effort complemented EDF’s wider support for sport, which includes fostering inclusion through its “Un Champion dans mon École” programme to raise awareness of disability issues among youth. The EDF Pavilion, located near the Champs-Élysées, served as a hub for visitors, offering an engaging and festive space to celebrate the Games. EDF’s commitment to Paris 2024 demonstrated its role as a driving force behind the Games’ success and a champion of sustainability and accessibility.  LVMH LVMH brought the essence of French creativity and craftsmanship to the Olympic Games Paris 2024. Through its creative partnership, the company celebrated its mission, “The Art of Crafting Dreams,” and the Olympic values of excellence and inclusivity. Iconic LVMH Maisons contributed their expertise during key moments of the Games. Berluti designed the opening ceremony outfits for the French delegation, while Chaumet crafted the medals, and Louis Vuitton created bespoke trunks for both the Olympic torch and medals. Dior and Moët Hennessy enhanced the Games’ artistic and hospitality experiences, while Sephora played a significant role in the Torch Relays. LVMH also embraced sustainability, designing upcycled outfits for victory ceremonies and engaging with fans through its presence at Champions Park and Club France, ensuring a memorable and inclusive celebration of excellence and culture.  Orange As a Premium Partner and Official Supplier to Paris 2024, Orange played a pivotal role in making Paris 2024 the most connected Games in history. The company was tasked with"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
       "index": 78,
       "subIndex": 0,
       "startIndex": 0,
-      "original": "pg79.jpg",
+      "original": "pg79.png",
       "zoom": null,
-      "content": `
-
-        <!--MapAnimation-->
-        <!--green-->
-        <img class="halfScale 79-icon-1" style="top:200px; left:30px;" src="/2023/static/_content/79-icon-1.png" />
-        <img class="halfScale 79-icon-1" style="top:469px; left:89px;" src="/2023/static/_content/79-icon-1.png" />
-        <img class="halfScale 79-icon-1" style="top:243px; left:120px;" src="/2023/static/_content/79-icon-1.png" />
-        <img class="halfScale 79-icon-1" style="top:237px; left:196px;" src="/2023/static/_content/79-icon-1.png" />
-        <img class="halfScale 79-icon-1" style="top:282px; left:369px;" src="/2023/static/_content/79-icon-1.png" />
-        <img class="halfScale 79-icon-1" style="top:247px; left:417px;" src="/2023/static/_content/79-icon-1.png" />
-        <img class="halfScale 79-icon-1" style="top:191px; left:503px;" src="/2023/static/_content/79-icon-1.png" />
-        <img class="halfScale 79-icon-1" style="top:523px; left:612px;" src="/2023/static/_content/79-icon-1.png" />
-        <!--blue-->
-        <img class="halfScale 79-icon-2" style="top:302px; left:43px;" src="/2023/static/_content/79-icon-2.png" />
-        <img class="halfScale 79-icon-2" style="top:204px; left:50px;" src="/2023/static/_content/79-icon-2.png" />
-        <img class="halfScale 79-icon-2" style="top:152px; left:71px;" src="/2023/static/_content/79-icon-2.png" />
-        <img class="halfScale 79-icon-2" style="top:418px; left:120px;" src="/2023/static/_content/79-icon-2.png" />
-        <img class="halfScale 79-icon-2" style="top:169px; left:262px;" src="/2023/static/_content/79-icon-2.png" />
-        <img class="halfScale 79-icon-2" style="top:246px; left:334px;" src="/2023/static/_content/79-icon-2.png" />
-        <img class="halfScale 79-icon-2" style="top:344px; left:372px;" src="/2023/static/_content/79-icon-2.png" />
-        <img class="halfScale 79-icon-2" style="top:443px; left:448px;" src="/2023/static/_content/79-icon-2.png" />
-        <!--cyan-->
-        <img class="halfScale 79-icon-3" style="top:20px; left:392px;" src="/2023/static/_content/79-icon-3.png" />
-        <img class="halfScale 79-icon-3" style="top:153px; left:88px;" src="/2023/static/_content/79-icon-3.png" />
-        <img class="halfScale 79-icon-3" style="top:415px; left:177px;" src="/2023/static/_content/79-icon-3.png" />
-        <img class="halfScale 79-icon-3" style="top:20px; left:392px;" src="/2023/static/_content/79-icon-3.png" />
-
-        <!--Numbers-->
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 640px; left: 69px; font-size: 1.7em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 25}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 640px; left: 153px; font-size: 1.7em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 92}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 700px; left: 498px; font-size: 1em; font-weight:300; margin:0; color:#E8E456; padding:0; margin:0;"
-        data-number='{"to": 175}' ></h1>
-        <h1 class="abs merriweatherL 79-no"
-        style="top: 696px; left: 527px; font-size: 1.2em; font-weight:300; margin:0; color:#E8E456; padding:0; margin:0;"
-        data-number='{"to": 47, "append":"%", "preppend":"-"}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 738px; left: 499px; font-size: 1em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 200}' ></h1>
-        <h1 class="abs merriweatherL 79-no"
-        style="top: 736px; left: 533px; font-size: 1.2em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 53, "append":"%", "preppend":"-"}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 796px; left: 208px; font-size: 1em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-        data-number='{"to": 90.6, "decimals":1, "append":"%"}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 837px; left: 303px; font-size: 1em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 2}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 837px; left: 343px; font-size: 1em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 7}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 837px; left: 382px; font-size: 1em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 7}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 837px; left: 422px; font-size: 1em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 2}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 837px; left: 463px; font-size: 1em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 1}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 837px; left: 503px; font-size: 1em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 1}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 837px; left: 542px; font-size: 1em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 3}' ></h1>
-        <h1 class="abs merriweatherB 79-no"
-        style="top: 837px; left: 581px; font-size: 1em; font-weight:300; margin:0; color:#E73B1F; padding:0; margin:0;"
-        data-number='{"to": 2}' ></h1>
-
-
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg79Anim = new TimelineMax();
-
-          pg79Anim
-            .staggerFromTo(cOf("79-icon-1"), 1.0, {opacity:0, y:-30}, {opacity:1, y:0, ease: Power2.easeOut}, 0.1, 0.6)
-            .staggerFromTo(cOf("79-icon-2"), 1.05, {opacity:0, y:-30}, {opacity:1, y:0, ease: Power2.easeOut}, 0.1, 0.6)
-            .staggerFromTo(cOf("79-icon-3"), 1.1, {opacity:0, y:-30}, {opacity:1, y:0, ease: Power2.easeOut}, 0.1, 0.6);
-
-
-          pg79Anim
-            .fromTo(cOf("79-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[0]);}}, 1)
-            .fromTo(cOf("79-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[1]);}}, 1)
-            .fromTo(cOf("79-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[2]);}}, 1)
-            .fromTo(cOf("79-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[3]);}}, 1)
-            .fromTo(cOf("79-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[4]);}}, 1)
-            .fromTo(cOf("79-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[5]);}}, 1)
-            .fromTo(cOf("79-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[6]);}}, 1)
-            .fromTo(cOf("79-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[7]);}}, 1)
-            .fromTo(cOf("79-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[8]);}}, 1)
-            .fromTo(cOf("79-no")[9], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[9]);}}, 1)
-            .fromTo(cOf("79-no")[10], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[10]);}}, 1)
-            .fromTo(cOf("79-no")[11], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[11]);}}, 1)
-            .fromTo(cOf("79-no")[12], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[12]);}}, 1)
-            .fromTo(cOf("79-no")[13], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[13]);}}, 1)
-            .fromTo(cOf("79-no")[14], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("79-no")[14]);}}, 1);
-
-
-
-
         }
-
-
 
         function onPageLeave() {
-          resetNumbers("79-no");
-          pg79Anim.stop();
-
         }
       `,
-      "searchText": "Academies  Institutional  ACADEMY STATISTICS  25  FIG Academies in 2023  92  Participant coaches by gender  Number of national federations that attended in 2023  Male coaches  175-47%  Female coaches  200-53% Exam pass rate  90.6% rate of success  GfA  2  MAG  7  WAG  7  RG  2  TRA  1  ACRO  1  AER  3  PK  2  FIG YEARBOOK 2023  79"
+      "searchText": "IOC Marketing Report Paris 2024  Olympic Partnerships  79  connecting 120 venues, 15,000 athletes, and over 878 sporting events, ensuring billions of fans worldwide could experience the Games in real-time. Orange also supported inclusivity and community engagement through initiatives like the Marathon Pour Tous, the first-ever Olympic event open to the general public. Over 40,000 runners participated, embodying the Games’ spirit of openness and unity. By seamlessly delivering cutting-edge technology and engaging fans on a personal level, Orange helped Paris 2024 reach new heights in connectivity and accessibility.  Sanofi Sanofi celebrated human achievement in sport and science through its partnership with Paris 2024. As a Premium Partner of Paris 2024 and Official Partner of the Olympic and Paralympic Torch Relays, Sanofi demonstrated its commitment to excellence, innovation, and inclusivity. Sanofi’s employees contributed significantly to the Games’ success, with over 2,000 volunteers – the largest cohort at Paris 2024 – and nearly 300 Torchbearers participating in the relays.  Additionally, Sanofi made a lasting impression during the Opening Ceremony with the introduction of Zeus, a symbolic metal horse that captured the spirit of perseverance and determination.  Through these efforts, Sanofi reinforced its dedication to making a positive impact on people’s lives while celebrating the Olympic values of excellence, friendship, and respect."
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -3018,47 +2146,21 @@ export default  {
       "original": "pg80.jpg",
       "zoom": null,
       "content": `
-
-      <!-- Numbers -->
-      <h1 class="abs merriweatherB 80-no"
-      style="top: 281px; left: 470px; font-size: 2.3em; font-weight:300; margin:0; color:#E63C25; padding:0; margin:0;"
-      data-number='{"to": 3000, "append":"+", "comma":true}' ></h1>
-
-
-      <!-- Linky -->
-      <div class="addContentLink" style="top:341px; left:265px; width:159px; height:11px;">
-        <a href="https://www.youtube.com/watch?v=4M3yOWbxS1w" target="_blank"></a>
-      </div>
-      <div class="addContentLink" style="top:355px; left:265px; width:169px; height:11px;">
-        <a href="https://www.youtube.com/watch?v=Ut-Rw-pQAEQ" target="_blank"></a>
-      </div>
-
-      <div class="addContentLink" style="top:235px; left:184px; width:29px; height:11px;">
-        <a href="https://elearning.gymnastics.sport/" target="_blank"></a>
-      </div>
-      <div class="addContentLink" style="top:248px; left:73px; width:95px; height:11px;">
-        <a href="https://elearning.gymnastics.sport/" target="_blank"></a>
-      </div>
-
+      
+      <img class="abs halfScaleC 80-quote-1" style="top:165px;left:373px;" src="/static/_content/80-quote-1.png"/>
+      
       `,
       "script": `
         function onPageEnter() {
-
-          pg80Anim = new TimelineMax();
-          pg80Anim.fromTo(cOf("80-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){
-            animateNumber(cOf("80-no")[0]);
-            flashContentLinksThreeTimes();
-          }}, 1);
-
+        pg80Anim = new TimelineMax();
+        pg80Anim.fromTo(cOf("80-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
-          removeContentLinks();
-          pg80Anim.stop();
-          resetNumbers("63-no");
+        pg80Anim.stop();
         }
       `,
-      "searchText": "Institutional  Education  ELEARNING SEES STEADY GROWTH  As the new learning platform grows, so too does the number of users.  T  he development of the FIGâ€™s eLearning platform continued in 2023 with the creation of online theory courses for all Level 2 Academies â€“ another positive step after Foundations of Gymnastics and Level 1 courses had been put in place a year earlier. As another forward step, the Level 2 theory examination must now be taken on the eLearning platform, after the FIG Executive Committee approved the relevant changes to the FIG Academy policies. Additionally, a safeguarding course was implemented and made obligatory from 1 December 2023 for all coaches who attend FIG-sanctioned events. The growth of the eLearning platform has been mirrored by the rise in the number of people using it. More than 3,000 new users registered in 2023.  80  FIG YEARBOOK 2023  STAGING NEW ONLINE SEMINARS Over the year the FIG Education Commission organised a series of new seminars: â€¢ eLearning challenges â€¢ Rethinking coaching education â€¢ Coach-athlete relationship â€¢ Education in sport management (Part 1: in emerging federations; Part 2: in established federations)  3,000 + new registered users on the FIG eLearning platform in 2023"
+      "searchText": "Digital Engagement"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -3067,24 +2169,15 @@ export default  {
       "startIndex": 0,
       "original": "pg81.jpg",
       "zoom": null,
-      "content": `
-
-        <!--  Animation -->
-        <img class="halfScale 81-quote-1" style="top:200px; left:76px;" src="/2023/static/_content/81-quote-1.png" />
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg81Anim = new TimelineMax();
-          pg81Anim.fromTo(cOf("81-quote-1"), 0.8, {opacity:0, x:-50}, {opacity:1, x:0, ease: Power2.easeOut}, 0.8);
         }
 
         function onPageLeave() {
-          pg81Anim.stop();
-
         }
       `,
-      "searchText": "Education  FINDING AND TRAINING NEW EXPERTS  â€œ  We are convinced that listening to everyone, reflecting, being more transparent and combining the advice of external experts is key.â€ Marco Bortoleto (BRA) President of the Education Commission, on the 27 November online meeting between his commission, the education department and a representative of each technical committee  The FIG is working to increase its pool of experts for its Academy and Age Group camp programmes and this included two workshops in 2023. Cairo (EGY) staged a FIG workshop for seven potential Parkour experts in April while the same number attended a December workshop for potential Trampoline experts in Hong Kong (HKG).  MODERNISING MANUALS The education department is working closely with the technical committees and the working groups of each discipline and several international experts on reviewing and updating their technical manuals â€“ before then integrating this free-to-access content into the eLearning platform. This year the review of two manuals for Acrobatic  Institutional  Gymnastics (Age Group and Academy Level 1) neared completion, with translations into French and Spanish underway.  LEARNING AROUND THE WORLD The FIGâ€™s educators visited 26 countries across five continents during 2023, delivering educational activities that encompassed Academies, Age Group camps and Olympic Solidarity courses. Overall there were 25 FIG Academies in 2023 and South Africa hosted the highest number â€“ four for Artistic Gymnastics students at the Matsport Centre in Centurion. The 11 Age Group camps included the first for the Parkour communities in both Croatia and Australia (or indeed anywhere in Oceania), while the Olympic Solidarity course for Rhythmic Gymnastics in Madagascar was the first development trip to the country by a FIG expert.  1st  Age Group camps for Parkour in Croatia and Australia  Left Parkour in Croatia Above Parkour in Zimbabwe  FIG YEARBOOK 2023  81"
+      "searchText": ""
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -3093,30 +2186,15 @@ export default  {
       "startIndex": 0,
       "original": "pg82.jpg",
       "zoom": null,
-      "content": `
-
-        <!-- Linky -->
-        <div class="addContentLink" style="top:259px; left:403px; width:94px; height:12px;">
-          <a href="https://www.gymnastics.sport/site/pages/governance-financial.php" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:270px; left:309px; width:72px; height:12px;">
-          <a href="https://www.gymnastics.sport/site/pages/governance-financial.php" target="_blank"></a>
-        </div>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
         }
 
         function onPageLeave() {
-          removeContentLinks();
         }
       `,
-      "searchText": "Institutional  Finance  POSITIVE FINANCIALS Well managed operational activities and the financial result contributed substantially to the improved net result.  A  ll gymnastics events (both competitions and institutional events or meetings) were successfully organised and generally well within budget. The combined efforts of the organising committees, the authorities, the commissions, the working groups and the  FIG office allowed financial targets to be met. The FIGâ€™s net result is within the financial plan for the current Olympic cycle (2021-2024) which shows a small net profit. For full information, please refer to the 2023 FIG Financial Report online.  PROFIT AND LOSS STATEMENT 2023 IN THOUSANDS OF SWISS FRANCS Budget  Actual  EVENTS + NON-CORE ACTIVITIES RESULT  7,691  7,907  OPERATIONAL EXPENSES  -9,930  -9,554  OPERATING RESULT  -2,239  -1,647  FINANCIAL RESULT  40  456  BUILDING RENTAL RESULT  405  330  OTHER NON-OPERATING ITEMS RESULT  100  -40  NET RESULT  -1,694  -901  Increased financial support for the Gymnastics Ethics Foundation  â€¢ Realised and unrealised profit on financial investments â€¢ Positive interest rates  â€¢ Efficient meeting organisation reduced operational expenses â€¢ Favourable foreign currency exchange rates versus CHF lowered the expenses  â€¢ Increased sponsorship income â€¢ Higher broadcasting income â€¢ Lower World Championships expenses  82  FIG YEARBOOK 2023"
+      "searchText": "82  Digital Engagement THE OLYMPIC GAMES PARIS 2024 GENERATED RECORD-BREAKING DIGITAL ENGAGEMENT, WITH THE IOC PREPARING A MULTI-FACETED, MULTIPLATFORM APPROACH TO REACH MORE PEOPLE THAN EVER BEFORE IN NEW AND INNOVATIVE WAYS  The Olympic Games Paris 2024 set a new benchmark for digital engagement, delivering record-breaking results across platforms and connecting millions of people to the Games in innovative and meaningful ways. Anchored by a multi-faceted, multiplatform approach, the IOC’s digital initiatives reached hundreds of millions of people through immersive storytelling, interactive fan experiences, and dynamic global collaborations. From the launch of the new “Sport. And More Than Sport” brand platform to cutting-edge digital  experiences, Paris 2024 redefined how fans engage with the Olympic Games. Across social media platforms, there were an estimated 412 billion engagements from 270 million posts, representing a 290 per cent increase compared to the previous edition of the Games. These results were the culmination of the IOC's efforts in recent years to grow digital engagement with people during and between the Olympic Games, with this strategic vision driven by Olympic Agenda 2020 and Olympic Agenda 2020+5.  “Sport. And More Than Sport” “Our digital records have been broken across Olympic digital, social media and marketing platforms.” 	 Leandro Larrosa, IOC Digital Engagement & Marketing Director  The “Sport. And More Than Sport” brand platform launched ahead of Paris 2024 and was the unifying theme for digital experiences and content during the Games, celebrating sport’s ability to inspire, empower, and connect with people both on and beyond the field of play.  Paris 2024 on social media  412bn  engagements  270m posts  290%  increase in engagements compared with Tokyo 2020"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -3125,62 +2203,15 @@ export default  {
       "startIndex": 0,
       "original": "pg83.jpg",
       "zoom": null,
-      "content": `
-
-      <!--Numbers-->
-      <h1 class="abs worksansB 83-no"
-      style="top: 183px; left: 91px; font-size: 0.5em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-      data-number='{"to": 27940, "comma":true}' ></h1>
-
-      <h1 class="abs worksansB 83-no"
-      style="top: 298px; left: 92px; font-size: 0.5em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-      data-number='{"to": 20106, "comma":true}' ></h1>
-
-      <h1 class="abs worksansB 83-no"
-      style="top: 183px; left: 236px; font-size: 0.5em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-      data-number='{"to": 9889, "comma":true}' ></h1>
-
-      <h1 class="abs worksansB 83-no"
-      style="top: 220px; left: 237px; font-size: 0.5em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-      data-number='{"to": 5950, "comma":true}' ></h1>
-
-      <h1 class="abs worksansB 83-no"
-      style="top: 251px; left: 379px; font-size: 0.5em; font-weight:300; margin:0; color:#ffffff; padding:0; margin:0;"
-      data-number='{"to": 32207, "comma":true}' ></h1>
-
-      <h1 class="abs worksansB 83-no"
-      style="top: 384px; left: 82px; font-size: 0.5em; font-weight:300; margin:0; color:#000000; padding:0; margin:0;"
-      data-number='{"to": 48046, "comma":true}' ></h1>
-
-      <h1 class="abs worksansB 83-no"
-      style="top: 384px; left: 226px; font-size: 0.5em; font-weight:300; margin:0; color:#000000; padding:0; margin:0;"
-      data-number='{"to": 15839, "comma":true}' ></h1>
-
-      <h1 class="abs worksansB 83-no"
-      style="top: 383px; left: 367px; font-size: 0.5em; font-weight:300; margin:0; color:#000000; padding:0; margin:0;"
-      data-number='{"to": 32207, "comma":true}' ></h1>
-
-      `,
+      "content": ``,
       "script": `
         function onPageEnter() {
-          pg18Anim = new TimelineMax();
-          pg18Anim
-            .fromTo(cOf("83-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[0]);}}, 1)
-            .fromTo(cOf("83-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[1]);}}, 1)
-            .fromTo(cOf("83-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[2]);}}, 1)
-            .fromTo(cOf("83-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[3]);}}, 1)
-            .fromTo(cOf("83-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[4]);}}, 1)
-            .fromTo(cOf("83-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[5]);}}, 1)
-            .fromTo(cOf("83-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[6]);}}, 1)
-            .fromTo(cOf("83-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("83-no")[7]);}}, 1);
-
         }
 
         function onPageLeave() {
-          resetNumbers("83-no");
         }
       `,
-      "searchText": "Finance  Institutional  BALANCE SHEET AT 31 DECEMBER 2023 IN THOUSANDS OF SWISS FRANCS 27,940  Current assets  9,889  Current liabilities  5,950  Non-current liabilities 32,207  20,106  Reserves  Non-current assets  TOTAL 48,046  TOTAL 15,839  TOTAL 32,207  ASSETS  LIABILITIES AND RESERVES  Assets  Liabilities  Reserves  â€¢ Current assets are split into cash and cash equivalent funds of CHF 4,582 as well as financial investments of CHF 28,752 which include short-term fixed deposits of CHF 4,842. All financial investments are evaluated at their market value at year-end date, less a provision for potential future value adjustment of CHF 6,801. Other current assets amount to CHF 1,407. The substantial reduction of cash funds is mainly related to regular operational expenses as foreseen in the budget and quadrennial plan for 2023.  â€¢ Current liabilities refer to short-term liabilities (until 31 December 2024) including pre-invoiced income and deposits for events.  Reserves result from the accumulated profits carried forward and are a vital element to guarantee continuous support and development of our activities. Reserves are subject to fluctuation.  â€¢ Non-current liabilities reflect long-term (from 1 January 2025 onwards) liabilities such as preinvoiced income and deposits for events as well as dedicated provisions for programmes and projects.  â€¢ Non-current assets (fixed assets) are stated at their acquisition cost less the accumulated depreciation calculated over their lifetime.  FIG YEARBOOK 2023  83"
+      "searchText": "IOC Marketing Report Paris 2024  Digital Engagement  83  Record-breaking digital engagement  325m  Olympics.com & Olympics App users  No.1  sports app in over 70 territories  16.7BN engagements on Olympic-owned social handles  32m  more followers of Olympic-owned social handles (151m total)  “Engagement on social media platforms went through the roof, with a 290 per cent increase on the previous edition of the Games. Audiences are following and interacting with the Olympic Games like never before.” 	 Thomas Bach, IOC President"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -3189,149 +2220,6 @@ export default  {
       "startIndex": 0,
       "original": "pg84.jpg",
       "zoom": null,
-      "content": `
-
-        <!-- NUMBERS -->
-        <h1 class="abs worksansB 84-no"
-        style="top: 432px; left: 396px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 27, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 339px; left: 267px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 18, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 173px; left: 280px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 10, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 99px; left: 314px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 4, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 79px; left: 350px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 3, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 48px; left: 363px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 2, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 26px; left: 410px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 1, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 76px; left: 532px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 35, "append":"%"}' ></h1>
-
-        <!--CircleTwo-->
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 826px; left: 560px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 19, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 877px; left: 355px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 13, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 766px; left: 261px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 10, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 679px; left: 255px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 9, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 599px; left: 257px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 5, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 576px; left: 297px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 4, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 554px; left: 324px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 4, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 529px; left: 355px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 4, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 520px; left: 469px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 2, "append":"%"}' ></h1>
-
-        <h1 class="abs worksansB 84-no"
-        style="top: 591px; left: 590px; font-size: 0.7em; font-weight:300; margin:0; color:#3C3C3B; padding:0; margin:0;"
-        data-number='{"to": 30, "append":"%"}' ></h1>
-
-      `,
-      "script": `
-        function onPageEnter() {
-          pg84Anim = new TimelineMax();
-          pg84Anim
-            .fromTo(cOf("84-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[0]);}}, 1.05)
-            .fromTo(cOf("84-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[1]);}}, 1.1)
-            .fromTo(cOf("84-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[2]);}}, 1.15)
-            .fromTo(cOf("84-no")[3], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[3]);}}, 1.2)
-            .fromTo(cOf("84-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[4]);}}, 1.25)
-            .fromTo(cOf("84-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[5]);}}, 1.3)
-            .fromTo(cOf("84-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[6]);}}, 1.35)
-            .fromTo(cOf("84-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[7]);}}, 1.4)
-            .fromTo(cOf("84-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[8]);}}, 1.45)
-            .fromTo(cOf("84-no")[9], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[9]);}}, 1.5)
-            .fromTo(cOf("84-no")[10], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[10]);}}, 1.55)
-            .fromTo(cOf("84-no")[11], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[11]);}}, 1.6)
-            .fromTo(cOf("84-no")[12], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[12]);}}, 1.65)
-            .fromTo(cOf("84-no")[13], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[13]);}}, 1.7)
-            .fromTo(cOf("84-no")[14], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[14]);}}, 1.75)
-            .fromTo(cOf("84-no")[15], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[15]);}}, 1.8)
-            .fromTo(cOf("84-no")[16], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[16]);}}, 1.85)
-            .fromTo(cOf("84-no")[17], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("84-no")[17]);}}, 1.9);
-        }
-
-        function onPageLeave() {
-          resetNumbers("84-no");
-        }
-      `,
-      "searchText": "Institutional  1%  Finance  2% 35%  3% 4%  EXPENSES SPLIT 2023  IN % OF TOTAL EXPENSES (EXCL. FINANCIAL/BUILDING RENTAL/ EXCEPTIONAL EXPENSES)  10%  Events and non-core activities Staff Development incl. education and other Operational bodies (Executive Committee, technical committees, commissions) General overheads  18%  Marketing/communication Office facilities Council  27%  DEVELOPMENT AND EDUCATIONAL INVESTMENTS IN THOUSANDS OF SWISS FRANCS  Development Continental Unions  4%  Academies, Age Group camps and scholarships Anti-doping  2%  4%  4%  30%  5%  Apparatus certification Judges Evaluation Programme  9%  TOTAL 2,911  Equipment sponsoring Judges Educational Programme IRCOS + Foundation for Solidarity + new development projects  10%  Safeguarding (unit + commission + symposium)  19% eLearning  13% 84  FIG YEARBOOK 2023"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 84,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg85.jpg",
-      "zoom": null,
-      "content": `
-
-        <!-- Linky -->
-        <div class="addContentLink" style="top:864px; left:217px; width:271px; height:24px;">
-          <a href="http://www.taishansports.cn/" target="_blank"></a>
-        </div>
-
-      `,
-      "script": `
-        function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
-        }
-
-        function onPageLeave() {
-          removeContentLinks();
-        }
-      `,
-      "searchText": "Find us on Find us on  www.taishansports.cn  Premier Global Sports Events Supplier and Servicer Taishan Sports, the official supplier of 50th Artistic & 38th Rhythmic Gymnastics World Championships."
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 85,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg86.jpg",
-      "zoom": null,
       "content": ``,
       "script": `
         function onPageEnter() {
@@ -3340,500 +2228,132 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": ""
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 86,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg87.jpg",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "Outlook"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 87,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg88.jpg",
-      "zoom": null,
-      "content": `
-
-        <!-- Numbers -->
-        <h1 class="abs merriweatherB 88-no"
-        style="top: 380px; left: 475px; font-size: 2.0em; font-weight:300; margin:0; color:#E63C25; padding:0; margin:0;"
-        data-number='{"to": 500}' ></h1>
-
-
-
-      `,
-      "script": `
-        function onPageEnter() {
-          pg88Anim = new TimelineMax();
-          pg88Anim.fromTo(cOf("88-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("88-no")[0]);}}, 1);
-        }
-
-        function onPageLeave() {
-          resetNumbers("88-no");
-        }
-      `,
-      "searchText": "Outlook  Congress  500 delegates from 150 national federations  DECISION TIME IN DOHA Elections will dominate the FIG Congress in Qatar in October.  T  he 85th FIG Congress in Doha (QAT) will take place from 24-26 October and the central event will be the elections on day two. Elections will be held for all FIG authorities, from the FIG President and Vice-Presidents through to the FIG Council and Executive Committee and Technical Committee members to the auditors. A record number of participants is anticipated, with around 500 delegates from 150 national federations due to be present. As well as elections, the next steps of the FIG rebranding project â€“ and their approval â€“ will be on the Congress agenda, though this is pending the decision of the Executive Committee when it meets in May in Shanghai (CHN). The ongoing process of overhauling the structure of the Statutes will feature too, with the second phase of modifications up for approval by the Congress.  88  FIG YEARBOOK 2023  VOTING DAY Elections will take place on 25 October for the following: â€¢ The President â€¢ Three Vice-Presidents â€¢ Seven members of the Executive Committee â€¢ Seven Presidents of each technical committee and the President of the Gymnastics for All Committee â€¢ Twenty-one additional members of the FIG Council â€¢ Six members of each technical committee and of the Gymnastics for All Committee â€¢ Two internal auditors  TO-DO LIST Other business for FIG bodies in 2024 will include: FIG Executive Committee â€¢ New Codes of Points for next cycle to be approved FIG Council (1-2 June in Shanghai) â€¢ Approval of proposals for Technical Regulations to enter into force on 1 January 2025 â€¢ Allocation of Acrobatic, Aerobic and Parkour World Championships 2028 and World Gym for Life Challenge 2029"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 88,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg89.jpg",
-      "zoom": null,
-      "content": `
-
-      <!-- linky -->
-      <div class="addContentLink" style="top:871px; left:211px; width:261px; height:29px;">
-        <a href="https://www.gymnova.com/" target="_blank"></a>
-      </div>
-
-      `,
-      "script": `
-        function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
-        }
-
-        function onPageLeave() {
-          removeContentLinks();
-        }
-      `,
-      "searchText": "A  PA S S I O N  FO R  GY M N A S T I C S  GYMNOVA, a major player in the gymnastics sector.  Design zen-studio.com - Photo Franck Faipot  A French manufacturer of sports equipment for over 45 years, GYMNOVA specialises in the manufacture, design, marketing and maintenance of gymnastic sports equipment for disciplines such as artistic and rhythmic gymnastics, aerobics, acrobatic sports and parkour. GYMNOVA now offers an end-to-end range of equipment, from baby gyms to competitive gymnastics and training equipment, while actively helping to push back the boundaries in the sportâ€™s various disciplines. For many years, the company has focused on the quality of its products to guarantee gymnastic performance while protecting gymnastsâ€™ physical health.  WWW.GYMNOVA.COM"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 89,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg90.jpg",
-      "zoom": null,
-      "content": `
-
-        <!--Icons-->
-        <img class="halfScale 90-icon" style="top:629px; left:267px;" src="/2023/static/_content/90-icon-1.png" />
-        <img class="halfScale 90-icon" style="top:730px; left:59px;" src="/2023/static/_content/90-icon-2.png" />
-        <img class="halfScale 90-icon" style="top:790px; left:578px;" src="/2023/static/_content/90-icon-3.png" />
-        <!--Paths-->
-        <img class="halfScale 90-path" style="top:678px; left:57px;" src="/2023/static/_content/90-path-1.png" />
-        <!--Textx-->
-        <img class="halfScale 90-text" style="top:657px; left:179px;" src="/2023/static/_content/90-text-1.png" />
-        <img class="halfScale 90-text" style="top:714px; left:420px;" src="/2023/static/_content/90-text-2.png" />
-        <img class="halfScale 90-text" style="top:742px; left:288px;" src="/2023/static/_content/90-text-3.png" />
-        <img class="halfScale 90-text" style="top:794px; left:45px;" src="/2023/static/_content/90-text-4.png" />
-        <img class="halfScale 90-text" style="top:804px; left:455px;" src="/2023/static/_content/90-text-5.png" />
-        <img class="halfScale 90-text-1" style="top:646px; left:56px;" src="/2023/static/_content/90-text-6.png" />
-
-        <!--Linky-->
-        <div class="addContentLink" style="top:170px; left:54px; width:283px; height:16px;">
-          <a href="https://www.gymnastics.sport/site/events/detail.php?id=17041#loaded" target="_blank"></a>
-        </div>
-
-        <!--Numbers-->
-        <h1 class="abs merriweatherB 90-no"
-        style="top: 459px; left: 475px; font-size: 2.0em; font-weight:300; margin:0; color:#E63C25; padding:0; margin:0;"
-        data-number='{"to": 318}' ></h1>
-
-        <!--Video-->
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:596px; left:111px;" src="/2023/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/now-and-then-paris-1924-to-tokyo-2020?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
-
-
-      `,
-      "script": `
-        function onPageEnter() {
-          pg90Anim = new TimelineMax();
-
-          pg90Anim.fromTo(cOf("90-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("90-no")[0]);}}, 1)
-            .fromTo(cOf("90-path"), 0.6, {opacity:0, y:-30}, {opacity:1, y:0, ease: Power2.easeOut}, 1)
-            .fromTo(cOf("90-text-1"), 0.6, {opacity:0, y:-30}, {opacity:1, y:0, ease: Power2.easeOut}, 1)
-            .staggerFromTo(cOf("90-icon"), 0.4, {opacity:0, y:-30}, {opacity:1, y:0, ease: Power2.easeOut}, 0.1, 1.5)
-            .staggerFromTo(cOf("90-text"), 0.4, {opacity:0, y:-30}, {opacity:1, y:0, ease: Power2.easeOut, onComplete: flashContentLinksThreeTimes}, 0.1, 1.5);
-
-        }
-
-        function onPageLeave() {
-          pg90Anim.stop();
-          removeContentLinks();
-          resetNumbers("90-no");
-        }
-      `,
-      "searchText": "Outlook  Paris 2024  DESTINATION: PARIS Qualification for the Olympic Games Paris 2024 was at the front of many gymnastsâ€™ minds in 2023.  P  aris 2024 will be the centrepiece of the year ahead for four of the FIG disciplines â€“ menâ€™s and womenâ€™s Artistic Gymnastics, Rhythmic Gymnastics and Trampoline. A total of 318 gymnasts will savour the Olympic spotlight across 12 days of the Games, which will run between 26 July and 11 August. For both Artistic and Rhythmic Gymnastics, the qualification process for Paris began in 2022 at the World Championships with three teams qualifying in the former â€“ for both menâ€™s and womenâ€™s â€“ and three athletes and three groups in the latter. However, 2023 was the key year for getting tickets stamped. In Artistic Gymnastics, that meant that another nine teams from each gender plus 38 individual athletes (17 men and 21 women) secured their, or their nationâ€™s, qualification from the World Championships in Antwerp (BEL). At the Rhythmic Gymnastics Worlds in Valencia (ESP), 14 athletes and five groups made sure their nation would be represented in Paris. As for the Trampoline Worlds in Birmingham (GBR), they saw five nations secure a place for both the menâ€™s and womenâ€™s events â€“ based on results in the  A brief history  Individual finals â€“ leaving the majority of places up for grabs through the World Cup series. In Artistic Gymnastics, the destiny of the remaining places was due to be decided early in 2024 via a combination of World Cup events and continental championships.  When and where The Bercy Arena beside the River Seine will host the Artistic Gymnastics competition at Paris 2024, which starts on 27 July and concludes on 5 August. Menâ€™s qualifying will commence straight away on 27 July, with the women beginning the following day. The Menâ€™s and Womenâ€™s Team finals are scheduled for 29 and 30 July respectively, the Menâ€™s and Womenâ€™s All-Around finals will take place on 31 July and 1 August and the apparatus finals are set over three days between 3 and 5 August. The pyramid-like Bercy Arena will also stage the Trampoline Gymnastics competition â€“ both Womenâ€™s and Menâ€™s Individual events â€“ on 2 August. For Rhythmic Gymnastics, Individual and Group events will take place at the Porte de la Chapelle Arena over three days between 8 and 10 August.  gymnasts will perform in Paris. This number comprises 192 from Artistic Gymnastics, 94 from Rhythmic Gymnastics and 32 from Trampoline  1896 One of the â€™originalâ€™ Olympic sports, Artistic Gymnastics featured in the first modern Games in Athens (GRE)  1996  318  A group competition was added to the Rhythmic Gymnastics programme in Atlanta (USA)  1984  First Olympic Games with participation of women in Artistic Gymnastics  Rhythmic Gymnastics made its debut in Los Angeles (USA) with an event for individual athletes  Trampoline became gymnasticsâ€™ third Olympic discipline in Sydney (AUS)  2000 90  FIG YEARBOOK 2023  1928"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 90,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg91.jpg",
-      "zoom": null,
-      "content": `
-
-
-      <!--Videos-->
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:69px; left:540px;" src="/2023/static/_content/91-play-3.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/men-s-artistic-gymnastics-teams-and-athletes-who-qualified-for-paris-2024-in-antwerp?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
-
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:169px; left:540px;" src="/2023/static/_content/91-play-4.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/women-s-artistic-gymnastics-teams-and-athletes-who-qualified-for-paris-2024-in-antwerp?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
-
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:269px; left:540px;" src="/2023/static/_content/91-play-1.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/first-paris-2024-rhythmic-gymnastics-qualified-groups-x9328?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
-
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:369px; left:540px;" src="/2023/static/_content/91-play-2.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/first-paris-2024-trampoline-gymnastics-qualifiers-x2179?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
-
-
-
-
-
-      `,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "Paris 2024  Outlook  FIG YEARBOOK 2023  91"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 91,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg92.jpg",
-      "zoom": null,
-      "content": ``,
-      "script": `
-        function onPageEnter() {
-        }
-
-        function onPageLeave() {
-        }
-      `,
-      "searchText": "Outlook  Technical Committee Visions  EVOLUTION AND INNOVATION  Technology is leading to more audience-friendly events as the technical committees ponder other potential areas of growth for the sport.  A  s 2023 illustrated, gymnastics is a sport that is ever evolving. The yearâ€™s World Championships offered evidence of the positive impact of technology with the expanded use of the Fujitsu Judging Support System as a key component in the more attractive presentation of events.  enhancing the viewer's experience For the technical committees of the FIGâ€™s various disciplines, there is a collective wish to proceed further down this path. Arturs Mickevics, the Menâ€™s Artistic Gymnastics Technical Committee President, said: â€œI strongly believe that visualisation of the live scores on the main screen  92  FIG YEARBOOK 2023  is the way to ensure deeper involvement and interest from spectators, as well as giving judging a transparency it needs.â€ These words are echoed by Rosy Taeymans, Acrobatic Gymnastics Technical Committee President, who saw an execution and artistry real-time judging support system trialled at the World Cup event in Maia (POR). 'We tested it at the World Cup level in 2023, and it performed exceptionally well. The judges highly appreciated it. We will continue refining this system for our discipline to enhance, streamline and expedite the judging process in competitions.' Innovation occupies minds across the FIG and Christophe Lambert, Trampoline Gymnastics Technical"
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 92,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg93.jpg",
-      "zoom": null,
-      "content": `
-
-        <img class="halfScale 93-quote-1" style="top:133px; left:486px;" src="/2023/static/_content/93-quote-1.png" />
-
-      `,
-      "script": `
-        function onPageEnter() {
-          pg93Anim = new TimelineMax();
-          pg93Anim.fromTo(cOf("93-quote-1"), 0.8, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 0.8);
-        }
-
-        function onPageLeave() {
-          pg93Anim.stop();
-        }
-      `,
-      "searchText": "Technical Committee Visions  Committee President, is among those who advocate changes to the format of competitions. Eager to see more head-to-head-type contests, he cites the Double Mini-Trampoline and Tumbling events at the World Championships in Birmingham, which concluded with the best four gymnasts facing off. â€œThat was very interesting for the audience â€“ you get the four best and itâ€™s a case of â€˜Who will go for the gold and who will get nothing?â€™ and it happens in the space of five minutes.â€  Helping to develop gymnasts According to the Aerobic Gymnastics Technical Committee President, Tammy Yagi-Kitagawa, a step in the right direction came with the approval in 2023 of a â€˜trialâ€™ Junior World Championship at the â€˜Age Group 2â€™ event at the 2024 World Age Group Competition (WAGC). Her womenâ€™s Artistic Gymnastics counterpart, Donatella Sacchi, shares the wish for more FIG-recognised events for younger gymnasts. â€œWe are thinking of some age-group competitions at a lower level than  juniors to help developing countries,â€ says Sacchi, whose discipline had the boost of a second Junior Worlds in 2023. Competition is seen as crucial for development in countries where the sport is growing and another option being explored is online events.  More opportunities to learn For the FIG, the learning opportunities available via online education are already visible. Noha Abou Shabana, President of the Rhythmic Gymnastics Technical Committee, sees improvements in judging as the fruit of the recent project to put more educational material for Rhythmic Gymnastics judges on the FIGâ€™s STS study platform. Charles PerriÃ¨re, the FIG Parkour Commission President, agrees about the importance of education and sees it as the key to his drive to â€œmake Parkour more accessible to anyoneâ€. For the FIG, of course, the more people taking part in gymnastics the better â€“ not just for the sport but for the health of society as a whole.  Outlook  â€œ  Visualisation of the live scores on the main screen is the way to ensure deeper involvement and interest from spectators.â€ Artur Mickevics President of the Men's Artistic Gymnastics Technical Committee  FIG YEARBOOK 2023  93"
-    }],
-    // [{
-    //   "guid": "00000000-0000-0000-0000-000000000000",
-    //   "title": "",
-    //   "index": 93,
-    //   "subIndex": 0,
-    //   "startIndex": 0,
-    //   "original": "pg94.png",
-    //   "zoom": null,
-    //   "content": ``,
-    //   "script": `
-    //     function onPageEnter() {
-    //     }
-    //
-    //     function onPageLeave() {
-    //     }
-    //   `,
-    //   "searchText": ""
-    // }],
-    // [{
-    //   "guid": "00000000-0000-0000-0000-000000000000",
-    //   "title": "",
-    //   "index": 94,
-    //   "subIndex": 0,
-    //   "startIndex": 0,
-    //   "original": "pg95.png",
-    //   "zoom": null,
-    //   "content": `<div class="contentLink" style="top:942px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/about-president.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:988px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/about-congress.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1034px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/about-council.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1077px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/about-ec.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1123px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/about-technical.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1166px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/athletesCommission.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1436px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/rules/" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1482px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/governance.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1525px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnasticsethicsfoundation.org/" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1571px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/about-foundation.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1614px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/safeguarding.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1660px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/education.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1706px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.youtube.com/channel/UCp141FtJ172tO9-ipVhlTstiw" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1749px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/antidoping-about.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1795px;left:270px;width:50px;height:50px">
-    //     <a href="https://ita.sport/partner/federation-internationale-de-gymnastique-fig/" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1838px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/judges-support.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1884px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/apparatus/man_view.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1930px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/governance-financial.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:1973px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/pages/bulletins.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:2421px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/rankings/archives.php" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:2467px;left:270px;width:50px;height:50px">
-    //     <a href="https://www.gymnastics.sport/site/events/search.php?type=sport" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:2734px;left:327px;width:50px;height:50px">
-    //     <a href="https://www.facebook.com/fig.gym" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:2826px;left:327px;width:50px;height:50px">
-    //     <a href="https://www.instagram.com/figymnastics/" target="_blank"></a>
-    //     </div>
-    //     <div class="contentLink" style="top:3004px;left:327px;width:50px;height:50px">
-    //     <a href="https://twitter.com/gymnastics" target="_blank"></a>
-    //     </div>`,
-    //   "script": `
-    //     function onPageEnter() {
-    //     }
-    //
-    //     function onPageLeave() {
-    //     }
-    //   `,
-    //   "searchText": "Useful Links  USEFUL LINKS ABOUT THE FIG President Congress Council Executive Committee Technical Committees Athletes' Commission  INSTITUTIONAL Statutes Governance Gymnastics Ethics Foundation Foundation for Solidarity Safeguarding Education FIG Education YouTube Channel Anti-Doping International Testing Agency Technology â€“ Judging Support System Apparatus Database Finance FIG Bulletin  SPORT		 17th World Gymnaestrada 52nd FIG Artistic Gymnastics World Championships 40th FIG Rhythmic Gymnastics World Championships 37th FIG Trampoline Gymnastics World Championships World Ranking Archives (all disciplines) Event Calendar  SOCIAL MEDIA Facebook Instagram X YouTube TikTok LinkedIn  FIG YEARBOOK 2023  95"
-    // }],
-    [{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 93,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg94.jpg",
-      "zoom": null,
-      "content": `
-
-      <div class="addContentLink" style="top:111px; left:207px; width:257px; height:19px;">
-      <a href="https://www.ritmica-amaya.com/en/" target="_blank"></a>
-      </div>
-
-      `,
-      "script": `
-        function onPageEnter() {
-
-          setTimeout(function(){flashContentLinksThreeTimes();}, 1000);
-        }
-
-        function onPageLeave() {
-          removeContentLinks();
-        }
-      `,
-      "searchText": ""
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 94,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg95.jpg",
-      "zoom": null,
-      "content": `
-
-        <!-- Linky -->
-        <div class="addContentLink" style="top:875px; left:34px; width:375px; height:20px;">
-          <a href="https://www.fujitsu.com/global/themes/data-driven/judging-support-system/" target="_blank"></a>
-        </div>
-
-        <div class="addContentLink" style="top:890px; left:34px; width:184px; height:20px;">
-          <a href="https://www.fujitsu.com/global/themes/data-driven/judging-support-system/" target="_blank"></a>
-        </div>
-
-      `,
-      "script": `
-        function onPageEnter() {
-          setTimeout(function(){
-            flashContentLinksThreeTimes();
-          }, 1000);
-        }
-
-        function onPageLeave() {
-
-          removeContentLinks();
-        }
-      `,
-      "searchText": ""
-    }],[{
-      "guid": "00000000-0000-0000-0000-000000000000",
-      "title": "",
-      "index": 95,
-      "subIndex": 0,
-      "startIndex": 0,
-      "original": "pg96.jpg",
-      "zoom": null,
-      "content": `
-
-      <div class="addContentLink" style="top:907px; left:481px; width:134px; height:16px;">
-      <a href="https://www.gymnastics.sport/site/" target="_blank"></a>
-      </div>
-
-      `,
-      "script": `
-        function onPageEnter() {
-          setTimeout(function(){flashContentLinksThreeTimes();}, 1000);
-        }
-
-        function onPageLeave() {
-          removeContentLinks();
-        }
-      `,
-      "searchText": "www.gymnastics.sport"
+      "searchText": "84  It launched with an uplifting short film that encapsulated the “Olympic Spirit”, airing globally across the network of Olympic Media Rights-Holders (MRHs) and Olympic digital channels. In France, the film reached an even broader audience through cinemas, helping to build excitement for the Games. During the Games, “Sport. And More Than Sport” resonated through creator collaborations and interactive fan experiences, such as an interactive art installation, where people in the streets of Paris were invited to reflect on their personal victories over life’s challenges. This also came to life across Olympic social media handles, reacting to the most memorable “More than Sport” moments of the Games, such as Leon Marchand’s medal-winning performances in the pool, which united local fans, and Rebecca Andrade’s sportsmanship, which inspired audiences worldwide. On Olympics.com, the campaign was reflected in powerful athlete stories and human-interest features, generating millions of engagements per post during the Games.  Olympics.com Olympics.com served as the ultimate destination for Olympic fans during Paris 2024, providing a comprehensive source for breaking sports news, video highlights, and original content to more than 325 million unique users during the Olympic Games. Designed to bring fans closer to the action, the platform offered a wide array of features and bespoke coverage in 11 languages, ensuring accessibility for a global audience. The platform produced and published more than 148,000 content assets resulting in three million hours of video watch-time.  498.5m social media engagements on the Sport. AND More than Sport. brand platform  Throughout the Games, Olympics.com published nearly 6,000 stories, with content ranging from event previews and daily highlights to unique behind-thescenes coverage on the surfing events in Tahiti and the vibrant scenes across Paris. Fans could also enjoy in-depth athlete interviews – over 100 in total – and original podcasts featuring legendary sporting figures. The platform's live blogs, available in French, English, Spanish, Italian, Portuguese, German, Japanese, and Mandarin, offered real-time updates and insights, attracting millions of readers, including 5.4 million fans on the English-language blog alone." 
+      
+      
     }]],
     "script": `
-      function idOf(id) {
-        return document.getElementById(id)
-      }
-  
-      function cOf(klass) {
-        return document.getElementsByClassName(klass)
-      }
-      
-      function removeContentLinks() {
-        var contentLinks = [].slice.call(document.querySelectorAll('.addContentLink'))
-        contentLinks.map(function callback(e) { 
-          return e.className = 'addContentLink'
-        })
-      }
-  
-      function addContentLinks() {
-        var contentLinks = [].slice.call(document.querySelectorAll('.addContentLink'))
-        contentLinks.map(function callback(e) {
-          return e.className = 'contentLink addContentLink'
-        })
-      }
+    function idOf(id) {
+      return document.getElementById(id)
+    }
 
-      function flashContentLinksThreeTimes() {
-        var contentLinks = [].slice.call(document.querySelectorAll('.addContentLink'))
-        contentLinks.map(function callback(e) {
-          return e.className = 'contentLinkThree addContentLink'
-        })
-      }
-  
-      function showOverlay(idx) {
-        idOf(idx).className = 'contentOverlay visible'
-      }
-  
-      function hideOverlay(idx) {
-        idOf(idx).className = 'contentOverlay hidden noclick'
-      }
+    function cOf(klass) {
+      return document.getElementsByClassName(klass)
+    }
+    
+    function removeContentLinks() {
+      var contentLinks = [].slice.call(document.querySelectorAll('.addContentLink'))
+      contentLinks.map(function callback(e) { 
+        return e.className = 'addContentLink'
+      })
+    }
 
-      function animateNumber(element){
-        if(element.getAttribute("data-number")){
-          var args = JSON.parse(element.getAttribute("data-number"));
-          var from = 0;
-          var to = 100;
-          var append = "";
-          var preppend = "";
-          var decimals = 0;
-          var duration = 1;
-          var ease = "Linear.easeNone";
-          var comma = false;
-          var separator = ",";
-          var decChar = ".";
-          for(obj in args){
-            if(obj == "from") from = args[obj];
-            if(obj == "to") to = args[obj];
-            if(obj == "append") append = args[obj];
-            if(obj == "preppend") preppend = args[obj];
-            if(obj == "decimals") decimals = args[obj];
-            if(obj == "duration") duration = args[obj];
-            if(obj == "ease") ease = args[obj];
-            if(obj == "comma") comma = args[obj];
-            if(obj == "separator") separator = args[obj];
-            if(obj == "decChar") decChar = args[obj];
+    function addContentLinks() {
+      var contentLinks = [].slice.call(document.querySelectorAll('.addContentLink'))
+      contentLinks.map(function callback(e) {
+        return e.className = 'contentLink addContentLink'
+      })
+    }
+
+    function showOverlay(idx) {
+      idOf(idx).className = 'contentOverlay visible'
+    }
+
+    function hideOverlay(idx) {
+      idOf(idx).className = 'contentOverlay hidden noclick'
+    }
+
+    function animateNumber(element){
+      if(element.getAttribute("data-number")){
+        var args = JSON.parse(element.getAttribute("data-number"));
+        var from = 0;
+        var to = 100;
+        var append = "";
+        var preppend = "";
+        var decimals = 0;
+        var duration = 1;
+        var ease = "Linear.easeNone";
+        var comma = false;
+        var separator = ",";
+        var decChar = ".";
+        for(obj in args){
+          if(obj == "from") from = args[obj];
+          if(obj == "to") to = args[obj];
+          if(obj == "append") append = args[obj];
+          if(obj == "preppend") preppend = args[obj];
+          if(obj == "decimals") decimals = args[obj];
+          if(obj == "duration") duration = args[obj];
+          if(obj == "ease") ease = args[obj];
+          if(obj == "comma") comma = args[obj];
+          if(obj == "separator") separator = args[obj];
+          if(obj == "decChar") decChar = args[obj];
+        }
+        var obj = {number: from}
+        TweenMax.to(obj, duration, {number: to, onUpdate: function(){
+          if(comma){
+            console.log(obj.number)
+            var str = obj.number.toFixed(decimals).toString();
+            var predec = str.split(/^d*/)[0];
+            console.log("PREDEC", predec, typeof(predec));
+            var newstr = predec.split('').reverse().join('').replace(/(.{3})/g, '$1'+ separator).split('').reverse().join('')
+            var comp = newstr.replace(/^,/, '')
+            console.log("NEWSTR", newstr, typeof(newstr));
+            // console.log({newstr})
+            // var dp = str.split(/.d+/) ? str.split(/.d+/)[0] : "";
+            // if(dp[0]) dp = dp[0].replace(".", decChar);
+            var dp = "";
+            element.innerHTML = preppend+comp+dp+append;
+          }else{
+            element.innerHTML = preppend+obj.number.toFixed(decimals).toString().replace(".", decChar)+append;
           }
-          var obj = {number: from}
-          TweenMax.to(obj, duration, {number: to, onUpdate: function(){
-            if(comma){
-              console.log(obj.number)
-              var str = obj.number.toFixed(decimals).toString();
-              var predec = str.split(/^d*/)[0];
-              console.log("PREDEC", predec, typeof(predec));
-              var newstr = predec.split('').reverse().join('').replace(/(.{3})/g, '$1'+ separator).split('').reverse().join('')
-              var comp = newstr.replace(/^,/, '')
-              console.log("NEWSTR", newstr, typeof(newstr));
-              // console.log({newstr})
-              // var dp = str.split(/.d+/) ? str.split(/.d+/)[0] : "";
-              // if(dp[0]) dp = dp[0].replace(".", decChar);
-              var dp = "";
-              element.innerHTML = preppend+comp+dp+append;
-            }else{
-              element.innerHTML = preppend+obj.number.toFixed(decimals).toString().replace(".", decChar)+append;
+        }, ease: eval(ease)});
+      }else{
+        return;
+      }
+    }
+
+    function resetNumbers(ele){
+      var numbers = cOf(ele)
+      for(var i=0; i<numbers.length; i++) {
+        numbers[i].innerText= ""
+      }
+    }
+
+    function mailChimpSubmit(){
+      $('#mc-embedded-subscribe-form').submit(function (e) {
+        var that = $(this);
+        var mailchimpSubmit = $(this).find('input[type=submit]');
+        var errorResponse = $('#mce-error-response');
+        var successResponse = $('#mce-success-response');
+
+        e.preventDefault();
+
+        $.ajax({
+          method: 'GET',
+          url: that.attr('action'),
+          data: that.serialize(),
+          dataType: 'jsonp',
+          success: function(data) {
+            console.log('AJAX SUCCESS')
+          // If there was an error then show the error message.
+            if (data.result === 'error') {
+              console.log('AJAX ERROR')
+              // If the error has an error code at front then alter the message to not include the error code and hyphen.
+              if(data.msg.indexOf('0') === 0) {
+                data.msg = data.msg.slice(3);
+              }
+              errorResponse.html(data.msg).fadeIn(300).delay(3000).fadeOut(300);
             }
-          }, ease: eval(ease)});
-        }else{
-          return;
-        }
-      }
+            // If success then show message
+            else {
+              successResponse.html('Thank you for subscribing!').fadeIn(300).delay(3000).fadeOut(300);
+            }
+          }
+        });
+      });
+    }
 
-      function resetNumbers(ele){
-        var numbers = cOf(ele)
-        for(var i=0; i<numbers.length; i++) {
-          numbers[i].innerText= ""
-        }
-      }
-
+    
       function pg17_gallery(index) {
         Publish.openGalleryTwo([[
           '17-1.jpg',
@@ -3844,94 +2364,79 @@ export default  {
           '17-6.jpg',
           '17-7.jpg',
           '17-8.jpg',
-          '17-9.jpg',
-          '17-10.jpg',
-          '17-11.jpg',
-          '17-12.jpg',
-          '17-13.jpg',
-          '17-14.jpg',
-          '17-15.jpg',
-          '17-16.jpg',
-          '17-17.jpg',
-          '17-18.jpg',
-          '17-19.jpg',
-          '17-20.jpg',
         ],
         index])
       }
 
-      function pg23_gallery(index) {
+      function pg21_gallery(index) {
         Publish.openGalleryTwo([[
-          '23-1.jpg',
-          '23-2.jpg',
-          '23-3.jpg',
-          '23-4.jpg',
-          '23-5.jpg',
-          '23-6.jpg',
-          '23-7.jpg',
-          '23-8.jpg',
-          '23-9.jpg',
-          '23-10.jpg',
-          '23-11.jpg',
+          '21-1.jpg',
+          '21-2.jpg',
+          '21-3.jpg',
+          '21-4.jpg',
+          '21-5.jpg',
+          '21-6.jpg',
         ],
         index])
       }
-
+      
       function pg24_gallery(index) {
         Publish.openGalleryTwo([[
           '24-1.jpg',
           '24-2.jpg',
           '24-3.jpg',
+          '24-4.jpg',
+          '24-5.jpg',
+          '24-6.jpg',
         ],
         index])
       }
 
-
-      function pg24_gallery(index) {
+      function pg26_gallery(index) {
         Publish.openGalleryTwo([[
-          '24-1.jpg',
-          '24-2.jpg',
-          '24-3.jpg',
+          '26-1.jpg',
+          '26-2.jpg',
+          '26-3.jpg',
+          '26-4.jpg',
+          '26-5.jpg',
+          '26-6.jpg',
+          '26-7.jpg',
+          '26-8.jpg',
         ],
         index])
       }
 
-
-      function pg28_gallery(index) {
+      function pg34_gallery(index) {
         Publish.openGalleryTwo([[
-          '28-1.jpg',
-          '28-2.jpg',
-          '28-3.jpg',
-          '28-4.jpg',
-          '28-5.jpg',
-          '28-6.jpg',
-          '28-7.jpg',
-          '28-8.jpg',
-          '28-9.jpg',
+          '34-1.jpg',
+          '34-2.jpg',
+          '34-3.jpg',
+          '34-4.jpg',
+          '34-5.jpg',
+          '34-6.jpg',
+          '34-7.jpg',
+          '34-8.jpg',
+          '34-9.jpg',
+          '34-10.jpg',
         ],
         index])
       }
-
-      function pg32_gallery(index) {
-        Publish.openGalleryTwo([[
-          '32-1.jpg',
-          '32-2.jpg',
-          '32-3.jpg',
-          '32-4.jpg',
-          '32-5.jpg',
-          '32-6.jpg',
-        ],
-        index])
-      }
-
+      
       function pg36_gallery(index) {
         Publish.openGalleryTwo([[
           '36-1.jpg',
           '36-2.jpg',
+          '36-3.jpg',
+          '36-4.jpg',
+          '36-5.jpg',
+          '36-6.jpg',
+          '36-7.jpg',
+          '36-8.jpg',
+          '36-9.jpg',
         ],
         index])
       }
-
+      
       function pg38_gallery(index) {
         Publish.openGalleryTwo([[
           '38-1.jpg',
@@ -3948,54 +2453,22 @@ export default  {
         index])
       }
 
-      function pg48_gallery(index) {
+            function pg39_gallery(index) {
         Publish.openGalleryTwo([[
-          '48-1.jpg',
-          '48-2.jpg',
-          '48-3.jpg',
-          '48-4.jpg',
-          '48-5.jpg',
-          '48-6.jpg',
-          '48-7.jpg',
-          '48-8.jpg',
-          '48-9.jpg',
-          '48-10.jpg',
-          '48-11.jpg',
-          '48-12.jpg',
-          '48-13.jpg',
-          '48-14.jpg',
-          '48-15.jpg',
-          '48-16.jpg',
-          '48-17.jpg',
-
-        ],
-        index])
-      }
-
-      function pg50_gallery(index) {
-        Publish.openGalleryTwo([[
-          '50-1.jpg',
-          '50-2.jpg',
-          '50-3.jpg',
-          '50-4.jpg',
-          '50-5.jpg',
-          '50-6.jpg',
-          '50-7.jpg',
-          '50-8.jpg',
-          '50-9.jpg',
-          '50-10.jpg',
-
+          '39-1.jpg',
+          '39-2.jpg',
+          '39-3.jpg',
+          '39-4.jpg',
+          '39-5.jpg',
+          '39-6.jpg',
+          '39-7.jpg',
+          '39-8.jpg',
         ],
         index])
       }
 
 
-
-
-
-
-
-    `,
-    "mobilePages": null,
-    "mobileTemplate": null,
-  }
+  `,
+  "mobilePages": null,
+  "mobileTemplate": null,
+}

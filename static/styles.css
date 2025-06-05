@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'Bebas Neue Bold';
-    src: url('/static/_content/BebasNeueBold.eot');
-    src: url('/static/_content/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
-        url('/static/_content/BebasNeueBold.woff2') format('woff2'),
-        url('/static/_content/BebasNeueBold.woff') format('woff'),
-        url('/static/_content/BebasNeueBold.ttf') format('truetype'),
-        url('/static/_content/BebasNeueBold.svg#BebasNeueBold') format('svg');
+    src: url('/2024/static/_content/BebasNeueBold.eot');
+    src: url('/2024/static/_content/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+        url('/2024/static/_content/BebasNeueBold.woff2') format('woff2'),
+        url('/2024/static/_content/BebasNeueBold.woff') format('woff'),
+        url('/2024/static/_content/BebasNeueBold.ttf') format('truetype'),
+        url('/2024/static/_content/BebasNeueBold.svg#BebasNeueBold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,12 +18,12 @@
 
 @font-face {
     font-family: 'Work Sans Medium';
-    src: url('/static/_content/WorkSans-Medium.eot');
-    src: url('/static/_content/WorkSans-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/static/_content/WorkSans-Medium.woff2') format('woff2'),
-        url('/static/_content/WorkSans-Medium.woff') format('woff'),
-        url('/static/_content/WorkSans-Medium.ttf') format('truetype'),
-        url('/static/_content/WorkSans-Medium.svg#WorkSans-Medium') format('svg');
+    src: url('/2024/static/_content/WorkSans-Medium.eot');
+    src: url('/2024/static/_content/WorkSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/2024/static/_content/WorkSans-Medium.woff2') format('woff2'),
+        url('/2024/static/_content/WorkSans-Medium.woff') format('woff'),
+        url('/2024/static/_content/WorkSans-Medium.ttf') format('truetype'),
+        url('/2024/static/_content/WorkSans-Medium.svg#WorkSans-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -34,12 +34,12 @@
 
 @font-face {
     font-family: 'Work Sans Bold';
-    src: url('/static/_content/WorkSans-Bold.eot');
-    src: url('/static/_content/WorkSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/static/_content/WorkSans-Bold.woff2') format('woff2'),
-        url('/static/_content/WorkSans-Bold.woff') format('woff'),
-        url('/static/_content/WorkSans-Bold.ttf') format('truetype'),
-        url('/static/_content/WorkSans-Bold.svg#WorkSans-Bold') format('svg');
+    src: url('/2024/static/_content/WorkSans-Bold.eot');
+    src: url('/2024/static/_content/WorkSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/2024/static/_content/WorkSans-Bold.woff2') format('woff2'),
+        url('/2024/static/_content/WorkSans-Bold.woff') format('woff'),
+        url('/2024/static/_content/WorkSans-Bold.ttf') format('truetype'),
+        url('/2024/static/_content/WorkSans-Bold.svg#WorkSans-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -50,12 +50,12 @@
 
 @font-face {
     font-family: 'Work Sans Extra Bold';
-    src: url('/static/_content/WorkSans-ExtraBold.eot');
-    src: url('/static/_content/WorkSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('/static/_content/WorkSans-ExtraBold.woff2') format('woff2'),
-        url('/static/_content/WorkSans-ExtraBold.woff') format('woff'),
-        url('/static/_content/WorkSans-ExtraBold.ttf') format('truetype'),
-        url('/static/_content/WorkSans-ExtraBold.svg#WorkSans-ExtraBold') format('svg');
+    src: url('/2024/static/_content/WorkSans-ExtraBold.eot');
+    src: url('/2024/static/_content/WorkSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/2024/static/_content/WorkSans-ExtraBold.woff2') format('woff2'),
+        url('/2024/static/_content/WorkSans-ExtraBold.woff') format('woff'),
+        url('/2024/static/_content/WorkSans-ExtraBold.ttf') format('truetype'),
+        url('/2024/static/_content/WorkSans-ExtraBold.svg#WorkSans-ExtraBold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -66,12 +66,12 @@
 
 @font-face {
     font-family: 'Merriweather Regular';
-    src: url('/static/_content/Merriweather-Regular.eot');
-    src: url('/static/_content/Merriweather-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/static/_content/Merriweather-Regular.woff2') format('woff2'),
-        url('/static/_content/Merriweather-Regular.woff') format('woff'),
-        url('/static/_content/Merriweather-Regular.ttf') format('truetype'),
-        url('/static/_content/Merriweather-Regular.svg#Merriweather-Regular') format('svg');
+    src: url('/2024/static/_content/Merriweather-Regular.eot');
+    src: url('/2024/static/_content/Merriweather-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/2024/static/_content/Merriweather-Regular.woff2') format('woff2'),
+        url('/2024/static/_content/Merriweather-Regular.woff') format('woff'),
+        url('/2024/static/_content/Merriweather-Regular.ttf') format('truetype'),
+        url('/2024/static/_content/Merriweather-Regular.svg#Merriweather-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -82,12 +82,12 @@
 
 @font-face {
     font-family: 'Merriweather Bold';
-    src: url('/static/_content/Merriweather-Bold.eot');
-    src: url('/static/_content/Merriweather-Bold.eot?#iefix') format('embedded-opentype'),
-        url('/static/_content/Merriweather-Bold.woff2') format('woff2'),
-        url('/static/_content/Merriweather-Bold.woff') format('woff'),
-        url('/static/_content/Merriweather-Bold.ttf') format('truetype'),
-        url('/static/_content/Merriweather-Bold.svg#Merriweather-Bold') format('svg');
+    src: url('/2024/static/_content/Merriweather-Bold.eot');
+    src: url('/2024/static/_content/Merriweather-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/2024/static/_content/Merriweather-Bold.woff2') format('woff2'),
+        url('/2024/static/_content/Merriweather-Bold.woff') format('woff'),
+        url('/2024/static/_content/Merriweather-Bold.ttf') format('truetype'),
+        url('/2024/static/_content/Merriweather-Bold.svg#Merriweather-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
