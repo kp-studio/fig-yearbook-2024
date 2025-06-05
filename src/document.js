@@ -11,8 +11,8 @@ export default  {
     "text": "English",
     "href": "#"
   }],
-  // "basePath": "", 
-  "basePath": "/2024", 
+  "basePath": "", 
+  // "basePath": "/2024", 
   "companyLogo": "1-logo-1.png",
   "publishURL": "",
   "externalResources": ["https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"],
@@ -22,7 +22,7 @@ export default  {
     "searchEnabled": true,
     "subscribeEnabled": true,
     "downloadEnabled": true,
-    "downloadPath": '/2024/static/_content/fig-yearbook-2024.pdf',
+    "downloadPath": '/static/_content/fig-yearbook-2024.pdf',
     "printEnabled": false,
     "zoom": {
       "navEnabled": false,
@@ -44,7 +44,7 @@ export default  {
 
       '17-1.jpg':'Light shows a lit up Bercy Arena pre-competition',
       '17-2.jpg':'A legion of volunteers worked behind the scenes to make the Games go',
-      '17-3.jpg':'A dazzling all-around display_ Simone Biles’s (USA) return to the Olympic stage was an out-and-out triumph. In her third Games, Biles electrified the City of Light with golden performances in the All-Around, on Vault, and with the U.S. team',
+      '17-3.jpg':'A dazzling all-around display Simone Biles’s (USA) return to the Olympic stage was an out-and-out triumph. In her third Games, Biles electrified the City of Light with golden performances in the All-Around, on Vault, and with the U.S. team',
       '17-4.jpg':'Three years after groundbreaking results in Tokyo, Rebeca Andrade (BRA) continued her rise with Floor Exercise gold, All-Around and Vault silver, and a historic team bronze. The results made the 25-year-old Brazil’s most decorated Olympic athlete',
       '17-5.jpg':'Immensely talented Kaylia Nemour (ALG) surmounted all obstacles to become the first Olympic gymnastics champion from Africa following a lights-out routine on the Uneven Bars',
       '17-6.jpg':'Nobody was more surprised to see Alice D’Amato (ITA) top the standings on Balance Beam than D’Amato herself. The 21-year-old who once contemplated giving up on the apparatus stunned by grabbing the Olympic title in a topsy-turvy final',
@@ -126,9 +126,19 @@ export default  {
       "startIndex": 0,
       "original": "pg1.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:854px;left:327px;width:60px;height:12px">
+        <a href="https://www.gymnastics.sport/site/" target="_blank"></a>
+      </div>
+      
+      
+      `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
@@ -162,51 +172,51 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 3-title-1" style="top:79px;left:-38px;" src="/2024/static/_content/3-title-1.png"/>
+      <img class="abs halfScaleC 3-title-1" style="top:79px;left:-38px;" src="/static/_content/3-title-1.png"/>
 
-      <div class="addContentLink" onclick="Publish.goToPage(4);" style="top:197px; left:63px; width:334px; height:12px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(6);" style="top:252px; left:63px; width:334px; height:12px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(7);" style="top:262px; left:63px; width:334px; height:12px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(8);" style="top:272px; left:63px; width:334px; height:12px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(9);" style="top:283px; left:63px; width:334px; height:12px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(10);" style="top:294px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(4);" style="top:195px; left:63px; width:334px; height:14px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(6);" style="top:250px; left:63px; width:334px; height:14px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(7);" style="top:261px; left:63px; width:334px; height:14px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(8);" style="top:272px; left:63px; width:334px; height:14px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(9);" style="top:282px; left:63px; width:334px; height:14px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(10);" style="top:294px; left:63px; width:334px; height:14px;"></div> 
 
-      <div class="addContentLink" onclick="Publish.goToPage(12);" style="top:330px; left:63px; width:334px; height:12px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(14);" style="top:350px; left:63px; width:334px; height:12px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(16);" style="top:360px; left:63px; width:334px; height:12px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(20);" style="top:370px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(24);" style="top:380px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(26);" style="top:391px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(28);" style="top:403px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(30);" style="top:413px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(32);" style="top:425px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(34);" style="top:435px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(36);" style="top:447px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(38);" style="top:457px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(40);" style="top:467px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(12);" style="top:327px; left:63px; width:334px; height:16px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(14);" style="top:347px; left:63px; width:334px; height:14px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(16);" style="top:359px; left:63px; width:334px; height:14px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(20);" style="top:370px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(24);" style="top:380px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(26);" style="top:391px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(28);" style="top:402px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(30);" style="top:413px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(32);" style="top:425px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(34);" style="top:435px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(36);" style="top:447px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(38);" style="top:457px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(40);" style="top:467px; left:63px; width:334px; height:14px;"></div>   
 
-      <div class="addContentLink" onclick="Publish.goToPage(42);" style="top:502px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(44);" style="top:522px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(46);" style="top:532px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(48);" style="top:544px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(50);" style="top:554px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(42);" style="top:501px; left:63px; width:334px; height:16px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(44);" style="top:522px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(46);" style="top:532px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(48);" style="top:544px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(50);" style="top:554px; left:63px; width:334px; height:14px;"></div>   
 
-      <div class="addContentLink" onclick="Publish.goToPage(52);" style="top:589px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(54);" style="top:609px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(58);" style="top:620px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(62);" style="top:631px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(64);" style="top:642px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(66);" style="top:652px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(68);" style="top:662px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(70);" style="top:673px; left:63px; width:334px; height:12px;"></div>  
+      <div class="addContentLink" onclick="Publish.goToPage(52);" style="top:588px; left:63px; width:334px; height:16px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(54);" style="top:609px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(58);" style="top:620px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(62);" style="top:631px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(64);" style="top:642px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(66);" style="top:652px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(68);" style="top:662px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(70);" style="top:673px; left:63px; width:334px; height:14px;"></div>  
 
-      <div class="addContentLink" onclick="Publish.goToPage(74);" style="top:707px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(76);" style="top:728px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(77);" style="top:739px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(78);" style="top:749px; left:63px; width:334px; height:12px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(80);" style="top:759px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(74);" style="top:707px; left:63px; width:334px; height:16px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(76);" style="top:726px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(77);" style="top:739px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(78);" style="top:749px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(80);" style="top:759px; left:63px; width:334px; height:14px;"></div> 
 
-      <div class="addContentLink" onclick="Publish.goToPage(82);" style="top:795px; left:63px; width:334px; height:12px;"></div>  
+      <div class="addContentLink" onclick="Publish.goToPage(82);" style="top:793px; left:63px; width:334px; height:16px;"></div>  
       
       <div class="contentLink" style="top:516px;left:435px;width:90px;height:14px">
         <a href="https://www.gymnastics.sport" target="_blank"></a>
@@ -414,7 +424,7 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 14-quote-1" style="top:392px;left:369px;" src="/2024/static/_content/14-quote-1.png"/>
+      <img class="abs halfScaleC 14-quote-1" style="top:392px;left:369px;" src="/static/_content/14-quote-1.png"/>
       <h1 id="14-no" class="abs merriweatherBd 14-no" style="top:311px;left:429px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 35}' ></h1>
       
       `,
@@ -422,7 +432,7 @@ export default  {
         function onPageEnter() {
         pg14Anim = new TimelineMax();
         pg14Anim.fromTo(cOf("14-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("14-no")[0])}}, 1)
-        .fromTo(cOf("14-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
+        .fromTo(cOf("14-quote-1"), 0.7, {opacity:0, x:10}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
         }
 
         function onPageLeave() {
@@ -475,17 +485,17 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:260px; left:520px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/simone-biles-women-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:260px; left:520px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/simone-biles-women-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
 
-      <img class="abs halfScaleC 17-quote-1" style="top:457px;left:375px;" src="/2024/static/_content/17-quote-1.png"/>
-      <h1 id="17-no" class="abs merriweatherReg 17-no" style="top:737px;left:438px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 11}' ></h1>
+      <img class="abs halfScaleC 17-quote-1" style="top:457px;left:375px;" src="/static/_content/17-quote-1.png"/>
+      <h1 id="17-no" class="abs merriweatherReg 17-no" style="top:732px;left:438px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 11}' ></h1>
 
       <!--Gallery-->
       <img
       class="abs halfScaleC halfpulse animatedpulse pointer"
       style="top:320px; left:520px;"
       onclick="pg17_gallery(0)"
-      src="/2024/static/_content/white-camera.png"
+      src="/static/_content/white-camera.png"
       />
       
       `,
@@ -493,7 +503,7 @@ export default  {
         function onPageEnter() {
         pg17Anim = new TimelineMax();
         pg17Anim.fromTo(cOf("17-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("17-no")[0])}}, 1)
-        .fromTo(cOf("17-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
+        .fromTo(cOf("17-quote-1"), 0.7, {opacity:0, x:10}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
         }
 
         function onPageLeave() {
@@ -512,7 +522,7 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:510px; left:457px;" src="/2024/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/usa-women-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:510px; left:457px;" src="/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/usa-women-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
       <h1 id="18-no" class="abs merriweatherBd 18-no" style="top:384px;left:481px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 2}' ></h1>
       
@@ -524,6 +534,8 @@ export default  {
         }
 
         function onPageLeave() {
+        pg18Anim.stop();
+        resetNumbers("18-no");
         }
       `,
       "searchText": "Sport  Women’s Artistic Gymnastics  1 Firsts Algeria’s first Olympic medal in gymnastics: Kaylia Nemour Italy's first female Olympic title: Alice D’Amato  as the USA’s most decorated Olympic gymnast, yet she was only just getting started. Two days later, the 27-year-old overcame a slip-up on Uneven Bars with a solid routine on Balance Beam – an apparatus that tests gymnasts the most mentally – and with it underlined that she had vanquished the demons of Tokyo three years earlier, which led to her taking a break from the sport to care for her mental health. Moreover, it ensured her a lead of just 0.166 going into the final rotation, and her brilliant display on Floor made sure of victory. By finishing clear of Rebeca Andrade (BRA) and Tokyo 2020 champion Sunisa Lee (USA) in that All-Around final, Biles became the third person after Larisa Latynina (URS) and Vera Caslavska (TCH) to have captured two Olympic All-Around titles in Women’s Artistic Gymnastics. And, by the end of the Games, she had increased her medal tally to four. She claimed her third gold on Vault – with a Yurchenko double pike, which earned a score of 15.700 – and finished with the silver medal on Floor Exercise.  Andrade becomes Brazil’s top Olympian This takes us to the other truly outstanding female gymnast in Paris, the aforementioned Andrade, Biles’s biggest rival in recent years, whose four medals included the gold on Floor. The 25-year-old began with an historic team bronze after Brazil pipped Great Britain to the podium by just 0.034 and  18  FIG YEARBOOK 2024  she then earned a second consecutive silver in the All-Around and another on Vault before concluding with that triumph on Floor Exercise on 5 August. With her score of 14.166, she had the thinnest of winning margins over Biles (14.133) and the American responded in sporting fashion, bowing to Andrade as she stepped on to the podium. Finally, with her feats in France, Andrade became the most successful Brazilian athlete in Olympic history, with six medals now overall.  2 Olympic newcomer nations: Indonesia and Haiti  Italy and Algeria blaze new trails There was plenty of other history made, starting in the team final. While the USA group could celebrate a fourth title for their nation - after victories in 1996, 2012 and 2016 - Italy's matched their country's best-ever result with the silver medal, accomplished at the Olympic Games Amsterdam 1928. Meanwhile, Brazil mounted the podium for the first time, taking bronze. There were further Italian celebrations when Alice D’Amato then won her country’s first Olympic gold in gymnastics on Balance Beam after a tense final in which four of the competitors came off the apparatus. Another history-maker was Kaylia Nemour (ALG), 17, whose gold on Uneven Bars was not only a first Olympic medal in gymnastics for Algeria but for any African nation. Nemour, who previously represented France, prevailed ahead of the 2023 world champion Qiu Qiyuan (CHN).  Above Rebeca Andrade (BRA) Below Alice D’Amato (ITA)"
@@ -554,15 +566,15 @@ export default  {
       "zoom": null,
       "content": `
 
-       <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:770px; left:160px;" src="/2024/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/japan-men-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+       <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:770px; left:160px;" src="/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/japan-men-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
-      <img class="abs halfScaleC 20-quote-1" style="top:109px;left:376px;" src="/2024/static/_content/20-quote-1.png"/>      
+      <img class="abs halfScaleC 20-quote-1" style="top:109px;left:376px;" src="/static/_content/20-quote-1.png"/>      
       
       `,
       "script": `
         function onPageEnter() {
         pg20Anim = new TimelineMax();
-        pg20Anim.fromTo(cOf("20-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
+        pg20Anim.fromTo(cOf("20-quote-1"), 0.7, {opacity:0, x:10}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
@@ -580,17 +592,17 @@ export default  {
       "zoom": null,
       "content": `
 
-      <h1 id="21-no" class="abs merriweatherBd 21-no" style="top:481px;left:445px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 8}' ></h1>
+      <h1 id="21-no" class="abs merriweatherBd 21-no" style="top:475px;left:445px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 8}' ></h1>
       <h1 id="21-no" class="abs merriweatherBd 21-no" style="top:707px;left:497px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
   
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:610px; left:430px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/oka-shinnosuke-men-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:610px; left:430px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/oka-shinnosuke-men-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
 
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:550px; left:430px;"
         onclick="pg21_gallery(0)"
-        src="/2024/static/_content/white-camera.png"
+        src="/static/_content/white-camera.png"
         />
       
       `,
@@ -651,7 +663,7 @@ export default  {
       "zoom": null,
       "content": `
       
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:500px; left:324px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/darja-varfolomeev-individual-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:500px; left:324px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/darja-varfolomeev-individual-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
       `,
       "script": `
@@ -672,9 +684,9 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:600px; left:428px;" src="/2024/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/people-s-republic-of-china-group-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:600px; left:428px;" src="/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/people-s-republic-of-china-group-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
 
-      <img class="abs halfScaleC 25-quote-1" style="top:604px;left:372px;" src="/2024/static/_content/25-quote-1.png"/>
+      <img class="abs halfScaleC 25-quote-1" style="top:604px;left:372px;" src="/static/_content/25-quote-1.png"/>
       <h1 id="25-no" class="abs merriweatherBd 25-no" style="top:498px;left:496px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
       
       
@@ -683,7 +695,7 @@ export default  {
         function onPageEnter() {
         pg25Anim = new TimelineMax();
         pg25Anim.fromTo(cOf("25-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("25-no")[0])}}, 1)
-        .fromTo(cOf("25-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
+        .fromTo(cOf("25-quote-1"), 0.7, {opacity:0, x:10}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
         }
 
         function onPageLeave() {
@@ -703,14 +715,14 @@ export default  {
       "content": `
 
       
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:190px; left:10px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/bryony-page-women-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:190px; left:10px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/bryony-page-women-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
      
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:130px; left:10px;"
         onclick="pg26_gallery(0)"
-        src="/2024/static/_content/white-camera.png"
+        src="/static/_content/white-camera.png"
         />
       
       
@@ -733,9 +745,9 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:360px; left:400px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/ivan-litvinovich-men-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:360px; left:400px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/ivan-litvinovich-men-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
-      <img class="abs halfScaleC 27-quote-1" style="top:566px;left:5px;" src="/2024/static/_content/27-quote-1.png"/>
+      <img class="abs halfScaleC 27-quote-1" style="top:566px;left:5px;" src="/static/_content/27-quote-1.png"/>
       <h1 id="27-no" class="abs merriweatherReg 27-no" style="top:517px;left:66px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 3}' ></h1>
       
       `,
@@ -743,7 +755,7 @@ export default  {
         function onPageEnter() {
         pg27Anim = new TimelineMax();
         pg27Anim.fromTo(cOf("27-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("27-no")[0])}}, 1)
-        .fromTo(cOf("27-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
+        .fromTo(cOf("27-quote-1"), 0.7, {opacity:0, x:10}, {opacity:1, x:0, ease: Power2.easeOut}, 1.1);
         }
 
         function onPageLeave() {
@@ -907,24 +919,24 @@ export default  {
       "content": `
 
       <a href="https://www.youtube.com/watch?v=3tTlHKau8ng" target="_blank">
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:580px; left:60px;" src="/2024/static/_content/white-play.png"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:580px; left:60px;" src="/static/_content/white-play.png"/>
       </a>
 
-      <img class="abs halfScaleC 34-quote-1" style="top:181px;left:184px;" src="/2024/static/_content/34-quote-1.png"/>
+      <img class="abs halfScaleC 34-quote-1" style="top:181px;left:184px;" src="/static/_content/34-quote-1.png"/>
       
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:520px; left:60px;"
         onclick="pg34_gallery(0)"
-        src="/2024/static/_content/white-camera.png"
+        src="/static/_content/white-camera.png"
         />
       
       `,
       "script": `
         function onPageEnter() {
         pg34Anim = new TimelineMax();
-        pg34Anim.fromTo(cOf("34-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
+        pg34Anim.fromTo(cOf("34-quote-1"), 0.7, {opacity:0, x:10}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
@@ -968,10 +980,10 @@ export default  {
       "zoom": null,
       "content": `
 
-        <img class="abs halfScaleC 36-quote-1" style="top:323px;left:218px;" src="/2024/static/_content/36-quote-1.png"/>
+        <img class="abs halfScaleC 36-quote-1" style="top:323px;left:218px;" src="/static/_content/36-quote-1.png"/>
 
         <a href="https://www.youtube.com/watch?v=h9fwm5kM8gI" target="_blank">
-          <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:200px; left:260px;" src="/2024/static/_content/white-play.png"/>
+          <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:200px; left:260px;" src="/static/_content/white-play.png"/>
         </a>
       
         <!--Gallery-->
@@ -979,14 +991,14 @@ export default  {
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:140px; left:260px;"
         onclick="pg36_gallery(0)"
-        src="/2024/static/_content/white-camera.png"
+        src="/static/_content/white-camera.png"
         />
       
       `,
       "script": `
         function onPageEnter() {
         pg36Anim = new TimelineMax();
-        pg36Anim.fromTo(cOf("36-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
+        pg36Anim.fromTo(cOf("36-quote-1"), 0.7, {opacity:0, x:10}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
@@ -1030,7 +1042,7 @@ export default  {
       "content": `
 
       <a href="https://www.youtube.com/watch?v=0bLIPAP_Cdg" target="_blank">
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:420px; left:550px;" src="/2024/static/_content/black-play.png"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:420px; left:550px;" src="/static/_content/black-play.png"/>
       </a>
       
       <!--Gallery-->
@@ -1038,7 +1050,7 @@ export default  {
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:480px; left:550px;"
         onclick="pg38_gallery(0)"
-        src="/2024/static/_content/black-camera.png"
+        src="/static/_content/black-camera.png"
         />
       
       
@@ -1061,15 +1073,15 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 39-line-1" style="top:628px;left:-114px;" src="/2024/static/_content/39-line-1.png"/>
-      <img class="abs halfScaleC 39-quote-1" style="top:574px;left:-156px;" src="/2024/static/_content/39-quote-1.png"/>
+      <img class="abs halfScaleC 39-line-1" style="top:628px;left:-114px;" src="/static/_content/39-line-1.png"/>
+      <img class="abs halfScaleC 39-quote-1" style="top:574px;left:-156px;" src="/static/_content/39-quote-1.png"/>
 
       <a href="https://www.youtube.com/watch?v=eL1x9JlFn78&t=2s" target="_blank">
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:125px; left:485px;" src="/2024/static/_content/white-play.png"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:125px; left:485px;" src="/static/_content/white-play.png"/>
       </a>
 
       <a href="https://www.youtube.com/watch?v=1udJNHnSBAE" target="_blank">
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:125px; left:425px;" src="/2024/static/_content/white-play.png"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:125px; left:425px;" src="/static/_content/white-play.png"/>
       </a>
 
       <!--Gallery-->
@@ -1077,15 +1089,15 @@ export default  {
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:125px; left:545px;"
         onclick="pg39_gallery(0)"
-        src="/2024/static/_content/white-camera.png"
+        src="/static/_content/white-camera.png"
         />
 
       `,
       "script": `
         function onPageEnter() {
         pg39Anim = new TimelineMax();
-        pg39Anim.fromTo(cOf("39-line-1"), 0.7, {opacity:0, x:50}, {opacity:1, x:0, ease: Power2.easeOut}, 1)
-        .fromTo(cOf("39-quote-1"), 0.7, {opacity:0, y:30}, {opacity:1, y:0, ease: Power2.easeOut}, 1.2);
+        pg39Anim.fromTo(cOf("39-line-1"), 0.7, {opacity:0, x:40}, {opacity:1, x:0, ease: Power2.easeOut}, 1)
+        .fromTo(cOf("39-quote-1"), 0.7, {opacity:0, y:10}, {opacity:1, y:0, ease: Power2.easeOut}, 1.2);
         }
 
         function onPageLeave() {
@@ -1103,24 +1115,25 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 40-speech-img" style="top:31px;left:-19px;" src="/2024/static/_content/40-speech-img-1.png"/>
+      <img class="abs halfScaleC 40-speech-img" style="top:31px;left:-19px;" src="/static/_content/40-speech-img-1.png"/>
 
-      <img class="abs halfScaleC 40-subtitle" style="top:99px;left:-89px;" src="/2024/static/_content/40-title-1.png"/>
-      <img class="abs halfScaleC 40-subtitle" style="top:188px;left:88px;" src="/2024/static/_content/40-subtitle-1.png"/>
+      <img class="abs halfScaleC 40-subtitle" style="top:99px;left:-89px;" src="/static/_content/40-title-1.png"/>
+      <img class="abs halfScaleC 40-subtitle" style="top:188px;left:88px;" src="/static/_content/40-subtitle-1.png"/>
 
-      <img class="abs halfScaleC 40-speech" style="top:513px;left:-116px;" src="/2024/static/_content/40-speech-5.png"/> 
-      <img class="abs halfScaleC 40-speech" style="top:125px;left:158px;" src="/2024/static/_content/40-speech-2.png"/>
-      <img class="abs halfScaleC 40-speech" style="top:125px;left:-118px;" src="/2024/static/_content/40-speech-1.png"/>
-      <img class="abs halfScaleC 40-speech" style="top:512px;left:157px;" src="/2024/static/_content/40-speech-6.png"/>    
-      <img class="abs halfScaleC 40-speech" style="top:313px;left:160px;" src="/2024/static/_content/40-speech-4.png"/>
-      <img class="abs halfScaleC 40-speech" style="top:313px;left:-116px;" src="/2024/static/_content/40-speech-3.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:513px;left:-116px;" src="/static/_content/40-speech-5.png"/> 
+      <img class="abs halfScaleC 40-speech" style="top:125px;left:158px;" src="/static/_content/40-speech-2.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:125px;left:-118px;" src="/static/_content/40-speech-1.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:512px;left:157px;" src="/static/_content/40-speech-6.png"/>    
+      <img class="abs halfScaleC 40-speech" style="top:313px;left:160px;" src="/static/_content/40-speech-4.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:313px;left:-116px;" src="/static/_content/40-speech-3.png"/>
      
       `,
       "script": `
         function onPageEnter() {
         pg40Anim = new TimelineMax();
-        pg40Anim.staggerFromTo(cOf("40-subtitle"), 0.6, {opacity:0, x: 40}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1)
-        .staggerFromTo(cOf("40-speech"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.4);
+        pg40Anim.fromTo(cOf("40-speech-img"), 0.6, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 1);
+        pg40Anim.staggerFromTo(cOf("40-subtitle"), 0.8, {opacity:0, x: 40}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.3, 1.1)
+        .staggerFromTo(cOf("40-speech"), 0.5, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.1, 1.4);
         }
 
         function onPageLeave() {
@@ -1138,21 +1151,21 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 41-speech" style="top:-49px;left:-116px;" src="/2024/static/_content/41-speech-1.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:307px;left:168px;" src="/2024/static/_content/41-speech-6.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:123px;left:-113px;" src="/2024/static/_content/41-speech-3.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:-49px;left:165px;" src="/2024/static/_content/41-speech-2.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:329px;left:-113px;" src="/2024/static/_content/41-speech-5.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:126px;left:168px;" src="/2024/static/_content/41-speech-4.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:558px;left:-81px;" src="/2024/static/_content/41-speech-7.png"/>       
-      <img class="abs halfScaleC 41-image" style="top:530px;left:167px;" src="/2024/static/_content/41-image.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:-49px;left:-116px;" src="/static/_content/41-speech-1.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:307px;left:168px;" src="/static/_content/41-speech-6.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:123px;left:-113px;" src="/static/_content/41-speech-3.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:-49px;left:165px;" src="/static/_content/41-speech-2.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:329px;left:-113px;" src="/static/_content/41-speech-5.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:126px;left:168px;" src="/static/_content/41-speech-4.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:558px;left:-81px;" src="/static/_content/41-speech-7.png"/>       
+      <img class="abs halfScaleC 41-image" style="top:530px;left:167px;" src="/static/_content/41-image.png"/>
 
       `,
       "script": `
         function onPageEnter() {
         pg41Anim = new TimelineMax();
-        pg41Anim.staggerFromTo(cOf("41-speech"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.4)
-        .fromTo(cOf("41-image"), 0.7, {opacity:0, x: 40}, {opacity: 1, x: 0, ease: Power2.easeOut}, 2.9);
+        pg41Anim.staggerFromTo(cOf("41-speech"), 0.5, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.1, 1.3)
+        .fromTo(cOf("41-image"), 0.7, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 2.3);
         }
 
         function onPageLeave() {
@@ -1187,8 +1200,8 @@ export default  {
       "zoom": null,
       "content": ``,
       "script": `
-       function onPageEnter() {
-    }
+        function onPageEnter() {
+        }
 
         function onPageLeave() {
         }
@@ -1220,80 +1233,102 @@ export default  {
       "original": "pg45.jpg",
       "zoom": null,
       "content": `
-      
-      <img class="abs halfScaleC 45-text" style="top:125px;left:30px;" src="/2024/static/_content/45-text.png"/>
-      <img class="abs halfScaleC 45-line" style="top:133px;left:-61px;" src="/2024/static/_content/45-line-1.png"/>
-      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:92px;" src="/2024/static/_content/45-text-icon-1.png"/>
+
+      <img class="abs halfScaleC 45-text" style="top:125px;left:30px;" src="/static/_content/45-text.png"/>
+      <img class="abs halfScaleC 45-line" style="top:133px;left:-61px;" src="/static/_content/45-line-1.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:92px;" src="/static/_content/45-text-icon-1.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:192px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 24, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:233px;" src="/2024/static/_content/45-text-icon-2.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:233px;" src="/static/_content/45-text-icon-2.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:335px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 25, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:384px;" src="/2024/static/_content/45-text-icon-3.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:384px;" src="/static/_content/45-text-icon-3.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:483px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 26, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-line" style="top:271px;left:-57px;" src="/2024/static/_content/45-line-1.png"/>
-      <img class="abs halfScaleC 45-line" style="top:436px;left:35px;" src="/2024/static/_content/45-line-3.png"/>
-      <img class="abs halfScaleC 45-image" style="top:92px;left:42px;" src="/2024/static/_content/45-image-1.png"/>
+      <img class="abs halfScaleC 45-line" style="top:271px;left:-57px;" src="/static/_content/45-line-1.png"/>
+      <img class="abs halfScaleC 45-line" style="top:436px;left:35px;" src="/static/_content/45-line-3.png"/>
+      <img class="abs halfScaleC 45-image" style="top:92px;left:42px;" src="/static/_content/45-image-1.png"/>
        <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:324px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 81, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:253px;" src="/2024/static/_content/45-text-icon-4.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:253px;" src="/static/_content/45-text-icon-4.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:316px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 469, "append" : "k"}' ></h1>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:422px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 116, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:348px;" src="/2024/static/_content/45-text-icon-5.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:348px;" src="/static/_content/45-text-icon-5.png"/>
 
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:416px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 303, "append" : "m"}' ></h1>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:503px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 254, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:464px;" src="/2024/static/_content/45-text-icon-6.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:464px;" src="/static/_content/45-text-icon-6.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:513px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 18.6, "decimals" : 1, "append" : "m"}' ></h1>
+      <img class="abs halfScaleC 45-line" style="top:590px;left:-70px;" src="/static/_content/45-line-4.png"/>   
+      <img class="abs halfScaleC 45-image" style="top:261px;left:212px;" src="/static/_content/45-image-2.png"/>
+      <img class="abs halfScaleC 45-text" style="top:428px;left:409px;" src="/static/_content/45-text-1.png"/>
+      <img class="abs halfScaleC 45-line" style="top:436px;left:497px;" src="/static/_content/45-line-2.png"/>
 
-      <img class="abs halfScaleC 45-line" style="top:590px;left:-70px;" src="/2024/static/_content/45-line-4.png"/>   
-      <img class="abs halfScaleC 45-image" style="top:261px;left:212px;" src="/2024/static/_content/45-image-2.png"/>
-      <img class="abs halfScaleC 45-text" style="top:428px;left:409px;" src="/2024/static/_content/45-text-1.png"/>
-      <img class="abs halfScaleC 45-line" style="top:436px;left:497px;" src="/2024/static/_content/45-line-2.png"/>
-
-      <img class="abs halfScaleC 45-text-icon" style="top:458px;left:122px;" src="/2024/static/_content/45-text-icon-7.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:458px;left:122px;" src="/static/_content/45-text-icon-7.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:539px;left:241px; font-size: 0.9em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 834, "append" : "k"}' ></h1>
 
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:459px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 31.21, "decimals" : 2, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:446px;left:398px;" src="/2024/static/_content/45-text-icon-8.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:446px;left:398px;" src="/static/_content/45-text-icon-8.png"/>
 
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:491px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 193}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:481px;left:409px;" src="/2024/static/_content/45-text-icon-9.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:481px;left:409px;" src="/static/_content/45-text-icon-9.png"/>
 
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:523px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 25176, "comma" : true}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:510px;left:422px;" src="/2024/static/_content/45-text-icon-10.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:510px;left:422px;" src="/static/_content/45-text-icon-10.png"/>
 
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:555px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 659}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:546px;left:422px;" src="/2024/static/_content/45-text-icon-11.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:546px;left:422px;" src="/static/_content/45-text-icon-11.png"/>
 
-      <img class="abs halfScaleC 45-text-icon" style="top:581px;left:99px;" src="/2024/static/_content/45-text-icon-12.png"/>
+       <img class="abs halfScaleC 45-text-icon" style="top:581px;left:99px;" src="/static/_content/45-text-icon-12.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:192px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 24, "append" : "%"}' ></h1>
      
-      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:232px;" src="/2024/static/_content/45-text-icon-13.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:232px;" src="/static/_content/45-text-icon-13.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:305px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 52, "append" : "%"}' ></h1>
   
-      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:342px;" src="/2024/static/_content/45-text-icon-14.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:342px;" src="/static/_content/45-text-icon-14.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:417px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 45, "append" : "%"}' ></h1>
 
-      <img class="abs halfScaleC 45-text-icon" style="top:579px;left:459px;" src="/2024/static/_content/45-text-icon-15.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:579px;left:459px;" src="/static/_content/45-text-icon-15.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:522px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 65, "append" : "%"}' ></h1>
-  
-      <img class="abs halfScaleC 45-text-icon" style="top:711px;left:69px;" src="/2024/static/_content/45-text-2.png"/>
+
+      <img class="abs halfScaleC 45-text-icon" style="top:711px;left:69px;" src="/static/_content/45-text-2.png"/>
       
-      <img class="abs halfScaleC 45-text-icon" style="top:692px;left:277px;" src="/2024/static/_content/45-text-3.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:692px;left:277px;" src="/static/_content/45-text-3.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:713px;left:302px; font-size: 1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 1, "append" : "m"}' ></h1>
 
-      <img class="abs halfScaleC 45-text-icon" style="top:689px;left:449px;" src="/2024/static/_content/45-text-4.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:689px;left:449px;" src="/static/_content/45-text-4.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:713px;left:469px; font-size: 1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 56, "append" : "k"}' ></h1>
 
-      <img class="abs halfScaleC 45-sm-icon" style="top:255px;left:87px;" src="/2024/static/_content/45-sm-icon-1.png"/>
-      <img class="abs halfScaleC 45-sm-icon" style="top:422px;left:120px;" src="/2024/static/_content/45-sm-icon-2.png"/>
-      <img class="abs halfScaleC 45-sm-icon" style="top:579px;left:94px;" src="/2024/static/_content/45-sm-icon-3.png"/>
-      <img class="abs halfScaleC 45-sm-icon" style="top:703px;left:61px;" src="/2024/static/_content/45-sm-icon-4.png"/>
-      <img class="abs halfScaleC 45-sm-icon" style="top:706px;left:246px;" src="/2024/static/_content/45-sm-icon-5.png"/>
-      <img class="abs halfScaleC 45-sm-icon" style="top:704px;left:424px;" src="/2024/static/_content/45-sm-icon-6.png"/>
-      
-      <img class="abs halfScaleC 45-code" style="top:749px;left:15px;" src="/2024/static/_content/45-code.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:255px;left:87px;" src="/static/_content/45-sm-icon-1.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:422px;left:120px;" src="/static/_content/45-sm-icon-2.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:579px;left:94px;" src="/static/_content/45-sm-icon-3.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:703px;left:61px;" src="/static/_content/45-sm-icon-4.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:706px;left:246px;" src="/static/_content/45-sm-icon-5.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:704px;left:424px;" src="/static/_content/45-sm-icon-6.png"/>
 
+      <img class="abs halfScaleC 45-code" style="top:749px;left:15px;" src="/static/_content/45-code.png"/>
 
+      <!--links-->
 
+      <div class="contentLink" style="top:266px;left:99px;width:32px;height:35px">
+        <a href="https://www.instagram.com/figymnastics/?hl=en" target="_blank"></a>
+      </div>
+
+      <div class="contentLink" style="top:430px;left:124px;width:30px;height:42px">
+        <a href="https://www.facebook.com/fig.gymnastics/" target="_blank"></a>
+      </div>
+
+      <div class="contentLink" style="top:582px;left:100px;width:34px;height:38px">
+        <a href="https://www.linkd-in-doesnt-work.com" target="_blank"></a>
+      </div>
+
+      <div class="contentLink" style="top:712px;left:69px;width:35px;height:36px">
+        <a href="https://www.whatsapp.com/channel/0029VaC2pcsJuyAA3Ce6nn2O" target="_blank"></a>
+      </div>
+
+      <div class="contentLink" style="top:712px;left:256px;width:40px;height:32px">
+        <a href="https://www.youtube.com/@gymnasticschannel" target="_blank"></a>
+      </div>
+
+      <div class="contentLink" style="top:712px;left:428px;width:35px;height:38px">
+        <a href="https://www.threads.com/@figymnastics?xmt=AQF0kRJbi7Uk7hjS9ybDcz_mC52MzQlZUzHZM2QT7wohrvQ" target="_blank"></a>
+      </div>
 
       `,
       "script": `
@@ -1301,8 +1336,8 @@ export default  {
         pg45Anim = new TimelineMax();
         pg45Anim.staggerFromTo(cOf("45-text"), 0.6, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.7, 1)
         .staggerFromTo(cOf("45-line"), 0.7, {opacity:0, x: 50}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.1)
-        .staggerFromTo(cOf("45-text-icon"), 0.3, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.2)
-        .staggerFromTo(cOf("45-image"), 0.4, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.3)
+        .staggerFromTo(cOf("45-text-icon"), 0.5, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.2)
+        .staggerFromTo(cOf("45-image"), 0.5, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.3)
       
         .fromTo(cOf("45-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[0])}}, 1.3)
         .fromTo(cOf("45-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[1])}}, 1.4)
@@ -1328,9 +1363,14 @@ export default  {
         .fromTo(cOf("45-no")[18], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[18])}}, 4.5)
         .fromTo(cOf("45-no")[19], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[19])}}, 4.6)
 
-         .staggerFromTo(cOf("45-sm-icon"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 3.6)
+        .staggerFromTo(cOf("45-sm-icon"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 3.6)
 
-        .fromTo(cOf("45-code"), 0.5, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 4.9)
+        .fromTo(cOf("45-code"), 0.6, {opacity:0, x: 35}, {opacity: 1, x: 0, ease: Power2.easeOut}, 4.9)
+
+         setTimeout(function(){
+            addContentLinks();
+          },4000)
+
         }
 
         function onPageLeave() {
@@ -1349,10 +1389,10 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 46-box" style="top:420px;left:-25px;" src="/2024/static/_content/46-box-1.png"/>
-      <img class="abs halfScaleC 46-box" style="top:421px;left:137px;" src="/2024/static/_content/46-box-2.png"/>
-      <img class="abs halfScaleC 46-box" style="top:582px;left:-25px;" src="/2024/static/_content/46-box-3.png"/>
-      <img class="abs halfScaleC 46-box" style="top:582px;left:137px;" src="/2024/static/_content/46-box-4.png"/>
+      <img class="abs halfScaleC 46-box" style="top:420px;left:-25px;" src="/static/_content/46-box-1.png"/>
+      <img class="abs halfScaleC 46-box" style="top:421px;left:137px;" src="/static/_content/46-box-2.png"/>
+      <img class="abs halfScaleC 46-box" style="top:582px;left:-25px;" src="/static/_content/46-box-3.png"/>
+      <img class="abs halfScaleC 46-box" style="top:582px;left:137px;" src="/static/_content/46-box-4.png"/>
 
       <h1 id="46-no" class="abs bebasNeueBd 46-no" style="top:560px;left:108px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append" : "%"}' ></h1>
       <h1 id="46-no" class="abs bebasNeueBd 46-no" style="top:560px;left:269px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append" : "%"}' ></h1>
@@ -1363,7 +1403,7 @@ export default  {
       "script": `
         function onPageEnter() {
         pg46Anim = new TimelineMax();
-        pg46Anim.staggerFromTo(cOf("46-box"), 0.8, {opacity:0, x: 45}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1)
+        pg46Anim.staggerFromTo(cOf("46-box"), 0.8, {opacity:0, x: 35}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1)
         pg46Anim.fromTo(cOf("46-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[0])}}, 1.3)
         pg46Anim.fromTo(cOf("46-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[1])}}, 1.5)
         pg46Anim.fromTo(cOf("46-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("46-no")[2])}}, 1.7)
@@ -1588,7 +1628,7 @@ export default  {
         function onPageLeave() {
         }
       `,
-      "searchText": "Institutional  Governance  STRIVING FOR THE HIGHEST STANDARDS The latest ASOIF report showed the FIG has made further progress in the field of good governance.  T  he FIG’s efforts to meet the highest standards of governance gained further recognition in 2024. The fifth report by the Governance Task Force of the Association of Summer Olympic International Federations (ASOIF) was published in June and the FIG’s score, based on a like-for-like comparison with previous reports, increased to 163 out of a theoretical maximum of 200 points. That placed the FIG in the A2 group of ASOIF members. The five principles that are fundamental in this assessment are: transparency, integrity, democracy, development and sustainability, and control mechanisms. The FIG was ranked among the top 10 international federations for 10 of the 40 indicators taken into account in the report and scored well on several  58  FIG YEARBOOK 2024  of the new indicators introduced for the 2023/2024 report, such as terms of reference for committees and information on decision-making authority at different levels. The score is a reflection of the range of information that the FIG publishes, including annual financial reports, Congress documents and the decisions of its Executive Committees. Education and safeguarding activities also earned positive comments.  ASOIF report score  2016/17  2017/18  2019/20  2021/22  2023/24  77  98  132  155  163"
+      "searchText": "Institutional  Governance  STRIVING FOR THE HIGHEST STANDARDS The latest ASOIF report showed the FIG has made further progress in the field of good governance.  T  he FIG’s efforts to meet the highest standards of governance gained further recognition in 2024. The fifth report by the Governance Task Force of the Association of Summer Olympic International Federations (ASOIF) was published in June and the FIG’s score, based on a like-for-like comparison with previous reports, increased to 163 out of a theoretical maximum of 200 points. That placed the FIG in the A2 group of ASOIF members. The five principles that are fundamental in this assessment are: transparency, integrity, democracy, development and sustainability, and control mechanisms. The FIG was ranked among the top 10 international federations for 10 of the 40 indicators taken into account in the report and scored well on several  58  FIG YEARBOOK 2024  of the new indicators introduced for the 2023 report, such as terms of reference for committees and information on decision-making authority at different levels. The score is a reflection of the range of information that the FIG publishes, including annual financial reports, Congress documents and the decisions of its Executive Committees. Education and safeguarding activities also earned positive comments.  ASOIF report score  2016/17  2017/18  2019/20  2021/22  2023/24  77  98  132  155  163"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
@@ -1630,23 +1670,23 @@ export default  {
       "zoom": null,
       "content": `
 
-       <img class="abs halfScaleC 60-block" style="top:338px;left:38px;" src="/2024/static/_content/60-subtitle.png"/>
-       <img class="abs halfScaleC 60-block" style="top:359px;left:-50px;" src="/2024/static/_content/60-block-1.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:368px;left:125px;" src="/2024/static/_content/60-icon-1.png"/>
-       <img class="abs halfScaleC 60-block" style="top:403px;left:-16px;" src="/2024/static/_content/60-block-2.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:414px;left:125px;" src="/2024/static/_content/60-icon-2.png"/>
-       <img class="abs halfScaleC 60-block" style="top:450px;left:21px;" src="/2024/static/_content/60-block-3.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:459px;left:125px;" src="/2024/static/_content/60-icon-3.png"/>
-       <img class="abs halfScaleC 60-block" style="top:496px;left:56px;" src="/2024/static/_content/60-block-4.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:506px;left:125px;" src="/2024/static/_content/60-icon-4.png"/>
-       <img class="abs halfScaleC 60-block" style="top:528px;left:91px;" src="/2024/static/_content/60-block-5.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:552px;left:125px;" src="/2024/static/_content/60-icon-5.png"/>
+       <img class="abs halfScaleC 60-block" style="top:338px;left:38px;" src="/static/_content/60-subtitle.png"/>
+       <img class="abs halfScaleC 60-block" style="top:359px;left:-50px;" src="/static/_content/60-block-1.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:368px;left:125px;" src="/static/_content/60-icon-1.png"/>
+       <img class="abs halfScaleC 60-block" style="top:403px;left:-16px;" src="/static/_content/60-block-2.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:414px;left:125px;" src="/static/_content/60-icon-2.png"/>
+       <img class="abs halfScaleC 60-block" style="top:450px;left:21px;" src="/static/_content/60-block-3.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:459px;left:125px;" src="/static/_content/60-icon-3.png"/>
+       <img class="abs halfScaleC 60-block" style="top:496px;left:56px;" src="/static/_content/60-block-4.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:506px;left:125px;" src="/static/_content/60-icon-4.png"/>
+       <img class="abs halfScaleC 60-block" style="top:528px;left:91px;" src="/static/_content/60-block-5.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:552px;left:125px;" src="/static/_content/60-icon-5.png"/>
 
-       <img class="abs halfScaleC 60-text" style="top:390px;left:159px;" src="/2024/static/_content/60-text-1.png"/>
-       <img class="abs halfScaleC 60-text" style="top:436px;left:122px;" src="/2024/static/_content/60-text-2.png"/>
-       <img class="abs halfScaleC 60-text" style="top:483px;left:110px;" src="/2024/static/_content/60-text-3.png"/>
-       <img class="abs halfScaleC 60-text" style="top:529px;left:56px;" src="/2024/static/_content/60-text-4.png"/>
-       <img class="abs halfScaleC 60-text" style="top:576px;left:41px;" src="/2024/static/_content/60-text-5.png"/>
+       <img class="abs halfScaleC 60-text" style="top:390px;left:159px;" src="/static/_content/60-text-1.png"/>
+       <img class="abs halfScaleC 60-text" style="top:436px;left:122px;" src="/static/_content/60-text-2.png"/>
+       <img class="abs halfScaleC 60-text" style="top:483px;left:110px;" src="/static/_content/60-text-3.png"/>
+       <img class="abs halfScaleC 60-text" style="top:529px;left:56px;" src="/static/_content/60-text-4.png"/>
+       <img class="abs halfScaleC 60-text" style="top:576px;left:41px;" src="/static/_content/60-text-5.png"/>
       
       `,
       "script": `
@@ -1723,34 +1763,34 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 64-text" style="top:-178px;left:-62px;" src="/2024/static/_content/64-image.png"/>
-      <img class="abs halfScaleC 64-text" style="top:128px;left:24px;" src="/2024/static/_content/64-text-1.png"/>
+      <img class="abs halfScaleC 64-text" style="top:-178px;left:-62px;" src="/static/_content/64-image.png"/>
+      <img class="abs halfScaleC 64-text" style="top:128px;left:24px;" src="/static/_content/64-text-1.png"/>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:357px;left:128px; font-size: 2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 947}' ></h1>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:507px;left:128px; font-size: 2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 864}' ></h1>
-      <img class="abs halfScaleC 64-icon-text" style="top:234px;left:75px;" src="/2024/static/_content/64-icon-text-1.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:383px;left:63px;" src="/2024/static/_content/64-icon-text-2.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:511px;left:69px;" src="/2024/static/_content/64-icon-text-3.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:230px;left:132px;" src="/2024/static/_content/64-icon-text-4.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:361px;left:182px;" src="/2024/static/_content/64-text-2.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:469px;left:209px;" src="/2024/static/_content/64-icon-text-5.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:517px;left:215px;" src="/2024/static/_content/64-icon-text-6.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:234px;left:75px;" src="/static/_content/64-icon-text-1.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:383px;left:63px;" src="/static/_content/64-icon-text-2.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:511px;left:69px;" src="/static/_content/64-icon-text-3.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:230px;left:132px;" src="/static/_content/64-icon-text-4.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:361px;left:182px;" src="/static/_content/64-text-2.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:469px;left:209px;" src="/static/_content/64-icon-text-5.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:517px;left:215px;" src="/static/_content/64-icon-text-6.png"/>
 
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:348px;left:293px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 832}' ></h1>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:346px;left:442px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 115}' ></h1>
-      <img class="abs halfScaleC 64-line" style="top:369px;left:59px;" src="/2024/static/_content/64-line-1.png"/>
+      <img class="abs halfScaleC 64-line" style="top:369px;left:59px;" src="/static/_content/64-line-1.png"/>
 
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:424px;left:297px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 610}' ></h1>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:424px;left:439px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 337}' ></h1>
 
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:494px;left:346px; font-size: 1.2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 602}' ></h1>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:542px;left:318px; font-size: 1.2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 80}' ></h1>
-      <img class="abs halfScaleC 64-line" style="top:515px;left:91px;" src="/2024/static/_content/64-line-2.png"/>
+      <img class="abs halfScaleC 64-line" style="top:515px;left:91px;" src="/static/_content/64-line-2.png"/>
      
-      <img class="abs halfScaleC 64-icon-text" style="top:610px;left:256px;" src="/2024/static/_content/64-text-3.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:610px;left:256px;" src="/static/_content/64-text-3.png"/>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:637px;left:304px; font-size: 1.2em; font-weight: 300; color: #a7d1df; padding: 0px; margin: 0px;"  data-number='{"to": 4}' ></h1>
-      <img class="abs halfScaleC 64-line" style="top:623px;left:147px;" src="/2024/static/_content/64-line-3.png"/>
+      <img class="abs halfScaleC 64-line" style="top:623px;left:147px;" src="/static/_content/64-line-3.png"/>
 
-      <img class="abs halfScaleC 64-piechart" style="top:393px;left:393px;" src="/2024/static/_content/64-piechart.png"/>   
+      <img class="abs halfScaleC 64-piechart" style="top:393px;left:393px;" src="/static/_content/64-piechart.png"/>   
       
       `,
       "script": `
@@ -1788,7 +1828,7 @@ export default  {
       "zoom": null,
       "content": `
       
-      <div class="contentLink" style="top:776px;left:181px;width:270px;height:18px">
+      <div class="contentLink" style="top:825px;left:51px;width:202px;height:18px">
         <a href="https://www.gaofeisports.com/" target="_blank"></a>
       </div>
       
@@ -1850,14 +1890,14 @@ export default  {
        <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:499px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 2}' ></h1>
        <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:538px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
 
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:254px;" src="/2024/static/_content/67-icon-1.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:291px;" src="/2024/static/_content/67-icon-2.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:327px;" src="/2024/static/_content/67-icon-3.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:364px;" src="/2024/static/_content/67-icon-4.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:401px;" src="/2024/static/_content/67-icon-5.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:437px;" src="/2024/static/_content/67-icon-6.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:474px;" src="/2024/static/_content/67-icon-7.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:511px;" src="/2024/static/_content/67-icon-8.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:254px;" src="/static/_content/67-icon-1.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:291px;" src="/static/_content/67-icon-2.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:327px;" src="/static/_content/67-icon-3.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:364px;" src="/static/_content/67-icon-4.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:401px;" src="/static/_content/67-icon-5.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:437px;" src="/static/_content/67-icon-6.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:474px;" src="/static/_content/67-icon-7.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:511px;" src="/static/_content/67-icon-8.png"/>
       
       `,
       "script": `
@@ -1870,9 +1910,9 @@ export default  {
         .fromTo(cOf("67-no")[4], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[4])}}, 1.4)
         .fromTo(cOf("67-no")[5], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[5])}}, 1.1)
         .staggerFromTo(cOf("67-icon"), 0.3, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.4)
-        .fromTo(cOf("67-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[6])}}, 1.9)
-        .fromTo(cOf("67-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[7])}}, 2)
-        .fromTo(cOf("67-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[8])}}, 2.2)
+        .fromTo(cOf("67-no")[6], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[6])}}, 1.8)
+        .fromTo(cOf("67-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[7])}}, 1.9)
+        .fromTo(cOf("67-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[8])}}, 2)
         .fromTo(cOf("67-no")[9], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[9])}}, 2.3)
         .fromTo(cOf("67-no")[10], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[10])}}, 2.4)
         .fromTo(cOf("67-no")[11], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[11])}}, 2.5)
@@ -1896,9 +1936,8 @@ export default  {
       "zoom": null,
       "content": `
 
-
       <a href="https://www.youtube.com/@figeducationchannel2014" target="_blank">
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:425px; left:494px;" src="/2024/static/_content/black-play.png"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:425px; left:494px;" src="/static/_content/black-play.png"/>
       </a>
       
       `,
@@ -1963,17 +2002,17 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 71-bar" style="top:-26px;left:53px;" src="/2024/static/_content/71-bar-1.png"/>
+      <img class="abs halfScaleC 71-bar" style="top:-26px;left:53px;" src="/static/_content/71-bar-1.png"/>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:295px;left:86px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 19871, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:166px;left:84px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 48958, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansMed 71-no" style="top:354px;left:75px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 68829, "comma" : true }' ></h1>
 
-      <img class="abs halfScaleC 71-bar" style="top:48px;left:186px;" src="/2024/static/_content/71-bar-2.png"/>
+      <img class="abs halfScaleC 71-bar" style="top:48px;left:186px;" src="/static/_content/71-bar-2.png"/>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:166px;left:216px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 14429, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:205px;left:215px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 26644, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansMed 71-no" style="top:355px;left:208px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 41173, "comma" : true }' ></h1>
 
-      <img class="abs halfScaleC 71-bar" style="top:195px;left:321px;" src="/2024/static/_content/71-bar-3.png"/>
+      <img class="abs halfScaleC 71-bar" style="top:195px;left:321px;" src="/static/_content/71-bar-3.png"/>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:275px;left:350px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 27656, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansMed 71-no" style="top:355px;left:340px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 27656, "comma" : true }' ></h1>
 
@@ -2125,22 +2164,23 @@ export default  {
 
       <h1 id="76-no" class="abs merriweatherBd 76-no" style="top:311px;left:432px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 50, "append" : "%"}' ></h1>
 
-      <img class="abs halfScaleC 76-box" style="top:380px;left:-128px;" src="/2024/static/_content/76-box.png"/>
-      <img class="abs halfScaleC 76-box" style="top:529px;left:-63px;" src="/2024/static/_content/76-text-1.png"/>
-      <img class="abs halfScaleC 76-box" style="top:483px;left:-69px;" src="/2024/static/_content/76-lines.png"/>
+      <img class="abs halfScaleC 76-box" style="top:380px;left:-128px;" src="/static/_content/76-box.png"/>
+      <img class="abs halfScaleC 76-text" style="top:529px;left:-63px;" src="/static/_content/76-text-1.png"/>
+      <img class="abs halfScaleC 76-text" style="top:483px;left:-69px;" src="/static/_content/76-lines.png"/>
 
-      <img class="abs halfScaleC 76-world" style="top:559px;left:54px;" src="/2024/static/_content/76-world-1.png"/>
-      <img class="abs halfScaleC 76-world" style="top:559px;left:218px;" src="/2024/static/_content/76-world-2.png"/>
-      <img class="abs halfScaleC 76-world" style="top:638px;left:153px;" src="/2024/static/_content/76-world-3.png"/>
-      <img class="abs halfScaleC 76-world" style="top:733px;left:70px;" src="/2024/static/_content/76-text-2.png"/>
-      <img class="abs halfScaleC 76-world" style="top:727px;left:252px;" src="/2024/static/_content/76-world-4.png"/>
+      <img class="abs halfScaleC 76-world" style="top:559px;left:54px;" src="/static/_content/76-world-1.png"/>
+      <img class="abs halfScaleC 76-world" style="top:559px;left:218px;" src="/static/_content/76-world-2.png"/>
+      <img class="abs halfScaleC 76-world" style="top:638px;left:153px;" src="/static/_content/76-world-3.png"/>
+      <img class="abs halfScaleC 76-world" style="top:733px;left:70px;" src="/static/_content/76-text-2.png"/>
+      <img class="abs halfScaleC 76-world" style="top:727px;left:252px;" src="/static/_content/76-world-4.png"/>
       
       `,
       "script": `
         function onPageEnter() {
         pg76Anim = new TimelineMax();
         pg76Anim.fromTo(cOf("76-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("76-no")[0])}}, 1)
-        .staggerFromTo(cOf("76-box"), 0.6, {opacity:0, y: 50}, {opacity: 1, y: 0, ease: Power2.easeOut}, 0.2, 1)
+        .fromTo(cOf("76-box"), 0.6, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 1)
+        .staggerFromTo(cOf("76-text"), 0.5, {opacity:0, x: -30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.3)
         .staggerFromTo(cOf("76-world"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.5);
         }
 
@@ -2177,13 +2217,13 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 78-quote-1" style="top:117px;left:382px;" src="/2024/static/_content/78-quote-1.png"/>
+      <img class="abs halfScaleC 78-quote-1" style="top:117px;left:382px;" src="/static/_content/78-quote-1.png"/>
       
       `,
       "script": `
         function onPageEnter() {
         pg78Anim = new TimelineMax();
-        pg78Anim.fromTo(cOf("78-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
+        pg78Anim.fromTo(cOf("78-quote-1"), 0.7, {opacity:0, x:10}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
@@ -2199,9 +2239,18 @@ export default  {
       "startIndex": 0,
       "original": "pg79.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:798px;left:198px;width:261px;height:28px">
+        <a href="https://www.taishansports.cn/" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
@@ -2218,13 +2267,13 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 80-quote-1" style="top:165px;left:373px;" src="/2024/static/_content/80-quote-1.png"/>
+      <img class="abs halfScaleC 80-quote-1" style="top:165px;left:373px;" src="/static/_content/80-quote-1.png"/>
       
       `,
       "script": `
         function onPageEnter() {
         pg80Anim = new TimelineMax();
-        pg80Anim.fromTo(cOf("80-quote-1"), 0.7, {opacity:0, x:30}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
+        pg80Anim.fromTo(cOf("80-quote-1"), 0.7, {opacity:0, x:10}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
         }
 
         function onPageLeave() {
@@ -2240,9 +2289,18 @@ export default  {
       "startIndex": 0,
       "original": "pg81.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:798px;left:32px;width:351px;height:43px">
+        <a href="http://www.fujitsu.com/global/themes/data-driven/judging-support-system" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
@@ -2291,9 +2349,18 @@ export default  {
       "startIndex": 0,
       "original": "pg84.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:837px;left:444px;width:128px;height:18px">
+        <a href="https://www.gymnastics.sport/site/" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
