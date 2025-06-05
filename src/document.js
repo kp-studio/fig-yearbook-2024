@@ -142,6 +142,7 @@ export default  {
         }
 
         function onPageLeave() {
+        removeContentLinks();
         }
       `,
       "searchText": "International Olympic Committee  IOC MARKETING REPORT PARIS 2024"
@@ -174,47 +175,52 @@ export default  {
       
       <img class="abs halfScaleC 3-title-1" style="top:79px;left:-38px;" src="/static/_content/3-title-1.png"/>
 
-      <div class="addContentLink" onclick="Publish.goToPage(4);" style="top:195px; left:63px; width:334px; height:14px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(6);" style="top:250px; left:63px; width:334px; height:14px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(7);" style="top:261px; left:63px; width:334px; height:14px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(8);" style="top:272px; left:63px; width:334px; height:14px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(9);" style="top:282px; left:63px; width:334px; height:14px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(10);" style="top:294px; left:63px; width:334px; height:14px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(4);" style="top:195px; left:63px; width:334px; height:12px;"></div>
+
+      <div class="addContentLink" onclick="Publish.goToPage(6);" style="top:250px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(7);" style="top:262px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(8);" style="top:274px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(9);" style="top:286px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(10);" style="top:298px; left:63px; width:334px; height:12px;"></div> 
 
       <div class="addContentLink" onclick="Publish.goToPage(12);" style="top:327px; left:63px; width:334px; height:16px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(14);" style="top:347px; left:63px; width:334px; height:14px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(16);" style="top:359px; left:63px; width:334px; height:14px;"></div> 
-      <div class="addContentLink" onclick="Publish.goToPage(20);" style="top:370px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(24);" style="top:380px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(26);" style="top:391px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(28);" style="top:402px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(30);" style="top:413px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(32);" style="top:425px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(34);" style="top:435px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(36);" style="top:447px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(38);" style="top:457px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(40);" style="top:467px; left:63px; width:334px; height:14px;"></div>   
 
-      <div class="addContentLink" onclick="Publish.goToPage(42);" style="top:501px; left:63px; width:334px; height:16px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(44);" style="top:522px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(46);" style="top:532px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(48);" style="top:544px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(50);" style="top:554px; left:63px; width:334px; height:14px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(14);" style="top:347px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(16);" style="top:359px; left:63px; width:334px; height:12px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(20);" style="top:371px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(24);" style="top:381px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(26);" style="top:392px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(28);" style="top:403px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(30);" style="top:413px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(32);" style="top:424px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(34);" style="top:435px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(36);" style="top:446px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(38);" style="top:457px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(40);" style="top:469px; left:63px; width:334px; height:12px;"></div>   
 
-      <div class="addContentLink" onclick="Publish.goToPage(52);" style="top:588px; left:63px; width:334px; height:16px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(54);" style="top:609px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(58);" style="top:620px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(62);" style="top:631px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(64);" style="top:642px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(66);" style="top:652px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(68);" style="top:662px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(70);" style="top:673px; left:63px; width:334px; height:14px;"></div>  
+      <div class="addContentLink" onclick="Publish.goToPage(42);" style="top:501px; left:63px; width:334px; height:16px;"></div>  
 
-      <div class="addContentLink" onclick="Publish.goToPage(74);" style="top:707px; left:63px; width:334px; height:16px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(76);" style="top:726px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(77);" style="top:739px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(78);" style="top:749px; left:63px; width:334px; height:14px;"></div>   
-      <div class="addContentLink" onclick="Publish.goToPage(80);" style="top:759px; left:63px; width:334px; height:14px;"></div> 
+      <div class="addContentLink" onclick="Publish.goToPage(44);" style="top:521px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(46);" style="top:532px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(48);" style="top:544px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(50);" style="top:556px; left:63px; width:334px; height:11px;"></div>   
+
+      <div class="addContentLink" onclick="Publish.goToPage(52);" style="top:588px; left:63px; width:334px; height:16px;"></div> 
+
+      <div class="addContentLink" onclick="Publish.goToPage(54);" style="top:609px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(58);" style="top:620px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(62);" style="top:631px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(64);" style="top:642px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(66);" style="top:653px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(68);" style="top:664px; left:63px; width:334px; height:11px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(70);" style="top:675px; left:63px; width:334px; height:11px;"></div>  
+
+      <div class="addContentLink" onclick="Publish.goToPage(74);" style="top:707px; left:63px; width:334px; height:16px;"></div> 
+
+      <div class="addContentLink" onclick="Publish.goToPage(76);" style="top:726px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(77);" style="top:738px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(78);" style="top:750px; left:63px; width:334px; height:12px;"></div>   
+      <div class="addContentLink" onclick="Publish.goToPage(80);" style="top:762px; left:63px; width:334px; height:12px;"></div> 
 
       <div class="addContentLink" onclick="Publish.goToPage(82);" style="top:793px; left:63px; width:334px; height:16px;"></div>  
       
@@ -231,6 +237,7 @@ export default  {
         }
 
         function onPageLeave() {
+        removeContentLinks();
         }
       `,
       "searchText": "CONTENTS INTRODUCTION  President’s foreword						  4  HIGHLIGHTS OF 2024 Paris 2024 World championships 85th FIG Congress Allocation of 53rd FIG Artistic Gymnastics World Championships Education  6 7 8 9 10  SPORT					  12  Gymnastics for All Women’s Artistic Gymnastics Men’s Artistic Gymnastics Rhythmic Gymnastics Trampoline Gymnastics Olympic Solidarity World cups New elements Acrobatic Gymnastics Aerobic Gymnastics Parkour Hear from the athletes  14 16 20 24 26 28 30 32 34 36 38 40  Fédération Internationale de Gymnastique, Av. de la Gare 12 A, 1001 Lausanne, Switzerland  MEDIA AND MARKETING					 42  Tel +41 (0)21 321 55 10  Fan engagement Sponsorship strategy Sponsors TV  www.gymnastics.sport  44 46 48 50  INSTITUTIONAL						  52  Congress Governance Commissions and working groups International Testing Agency Academies Education Finance  54 58 62 64 66 68 70  OUTLOOK 				  74  World Gym for Life Challenge Other major events in 2025 53rd FIG Artistic Gymnastics World Championships LA28  76 77 78 80  QUICK TAKES  82  This publication may not be reproduced, even in part, in any form, without the written permission of the FIG. Production: Touchline Photography: Croatian Gymnastics Federation; FIG/Volker Minkus and FIG/Jean-Pierre Limery; Indonesia Gymnastics Federation; International Olympic Committee; Shutterstock; St Mary’s University Twickenham London; World Anti-Doping Agency Printed by Pureprint. ISSN: 2813-9593  The FIG Yearbook is printed at a carbon-neutral printer, on a 100% recycled and carbonbalanced paper stock.  FIG YEARBOOK 2024  03"
@@ -377,6 +384,7 @@ export default  {
         }
 
         function onPageLeave() {
+        removeContentLinks();
         }
       `,
       "searchText": "REACH THE MAXIMUM SINCE 1831  New logo – same values: We love and live gymnastics. Join us on our bluetiful journey. SPIETH Gymnastics GmbH I www.spieth-gymnastics.com"
@@ -804,6 +812,7 @@ export default  {
         }
 
         function onPageLeave() {
+        removeContentLinks();
         }
       `,
       "searchText": ""
@@ -832,12 +841,34 @@ export default  {
       "startIndex": 0,
       "original": "pg31.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+
+      <div class="contentLink pointer" style="top:248px;left:7px;width:288px;height:290px; border-radius:50%;" onclick="showThirtyOnePopOne()"></div>
+        <div id="31-pop-1" class="standardTransition contentOverlay hidden noclick">
+          <img class="abs halfScale 31-pop-1" style="top:110px;left:10px;" src="/static/_content/31-pop-1.png"/>
+          <button class="abs close-btn" style="top:50px;left:570px;width:40px;height:40px; font-size: 25px; background: transparent; border: none; border-radius: 50%; background-color: #000000; cursor: pointer; color: #ffffff;" onclick="hideOverlay('31-pop-1')" aria-label="Close"> &times; </button>
+        </div> 
+
+        <img class="abs halfScale 31-pin" style="top:0px;left:0px;" src="/static/_content/31-pin-green.png"/>
+
+      `,
       "script": `
         function onPageEnter() {
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
+          function showThirtyOnePopOne() {
+            showOverlay('31-pop-1')
+          }
+
+          function closeThirtyOnePopOne(){
+            hideOverlay('31-pop-1')
+          }
 
         function onPageLeave() {
+          pg31Anim.stop();
+          closeThirtyOnePopOne();
         }
       `,
       "searchText": "World Cups/World Challenge Cups  Sport  Rhythmic Gymnastics Familiar and friendly locales — Athens (GRE), Sofia (BUL), Baku (AZE), Tashkent (UZB) and Milan (ITA) — welcomed World Cup events in Rhythmic Gymnastics, where hearty crowds made competitors feel right at home and spurred them to excellence in an energetic start to the Olympic season. As the season heated up, World Challenge Cups in Portimão (POR) and Cluj-Napoca (ROU) served as an Olympic warmup for gymnasts and groups.  Standout moments  WORLD CUPS AND WORLD CHALLENGE CUPS  In what turned out to be a foretaste of the Olympic finals, world All-Around champions Darja Varfolomeev (GER) and Sofia Raffaeli (ITA) jostled for position throughout the World Cup series, while the People’s Republic of China, Italy and France split the group series titles.  Each year the FIG World Cup and World Challenge Cup series attract top contenders and specialists in gymnastics’ Olympic disciplines. The 2024 editions were notable for several historic firsts underlining gymnastics’ global growth. For non-Olympic disciplines, please refer to the Acrobatic, Aerobic and Parkour chapters.  Trampoline Gymnastics  Men  Competitions in Baku (AZE) and Cottbus (GER) capped a World Cup odyssey that stretched over two calendar years for Olympic Trampoline hopefuls. Events in Alkmaar (NED), Arosa (SUI) and Coimbra (POR) completed the 2024 series, with the next generation of Trampoline greats already omnipresent.  Non-Olympic Trampoline disciplines  Standout moments Women  Her excellent performances in Baku, Arosa and Coimbra secured Anzhela Bladtceva (AIN) the women’s individual series title. Seljan Mahsudova (AZE) scored a rare perfect 10 for Horizontal Displacement at the World Cup in Alkmaar, staying inside the central square of the trampoline for her entire routine (no easy feat!) as she earned her first World Cup title.  Tokyo 2020 champion Ivan Litvinovich (AIN) took the men’s individual Trampoline series title before adding his second Olympic gold in Paris.  Other World Cup luminaries in 2024 were Cao Yunzhu (CHN) and Zhang Xinxin (CHN), who won the women’s Synchronised series title having gathered golds in Cottbus (GER), Arosa, and Coimbra, and the victorious men’s Synchronised pair of Samuele Patisso Colonna and Marco Lavino (ITA). Two of the World Cup staging posts featured Tumbling too – Baku and Coimbra – and world champion Mikhail Malkin (AZE) took gold both times in the men’s category while Alexandra Efraimoglou (GRE) won the women’s category after prevailing in Portugal. Aliah Raga (USA) and Francisco Jose (POR) were declared series winners in Double Mini-Trampoline, with the event contested only in Coimbra.  FIG YEARBOOK 2024 31"
@@ -879,6 +910,7 @@ export default  {
         },1000)
     }
         function onPageLeave() {
+        removeContentLinks();
         }
       `,
       "searchText": "Sport  New elements  NEW ELEMENTS Men’s and Women’s Artistic Gymnastics welcomed nine new elements to the Code of Points.  Women’s Additions Five original elements performed in major competition for the first time in Women’s Artistic Gymnastics in 2024 have been added to the ever-evolving Code of Points, with four of them named after their creators. Those named include a 1.5-twisting double tuck somersault on Floor Exercise by Hillary Heron (PAN), as well as unique takes on the classics, such as the marriage of the Weiler to the Comaneci salto by Thelma Adalsteinsdottir (ISL) on Uneven Bars. Kate Sayer (AUS) inked her name into the code by revisiting an in-bar Stalder and melding it with a transition on Uneven Bars, while Marija Petrova (LAT) proposed an elegant and deceptively complicated mount on the same apparatus. Reese Esponda (USA) dreamed up the backward butterfly jump on Floor Exercise and first performed her variation at the 2024 FIG Apparatus  World Cup in Baku (AZE). While it has been added to the Code of Points, it was given a B valuation (0.2 difficulty) and new elements must be valued at C or higher for them to be named.  Men’s additions Joseph Solis (MEX) entered the Code of Points for Men’s Artistic Gymnastics on Parallel Bars with a giant swing backwards and salto with a half-twist to hang. On the same apparatus, Joaquin Alvarez (CHI) devised a new dismount: a double layout done off the end of the bars. John Roethlisberger (USA) had two elements retrospectively incorporated for his work on Horizontal Bar: the first is a tucked double salto forward with 1.5 twists over the bar that he performed successfully at the 1995 World Championships, the second a laid out double salto forward with half-twist that he showed at the 1996 Olympic Games.  Women’s Artistic Gymnastics Uneven Bars C (0.3 difficulty) The Petrova D (0.4 difficulty) The Adalsteinsdottir E (0.5 difficulty) The Sayer  Floor Exercise The Heron  32  FIG YEARBOOK 2024  F  Men’s Artistic Gymnastics Parallel Bars The Solis The Alvarez  E E  Horizontal Bar  The Roethlisberger 1 D  (0.6 difficulty)  Above The Solis illustration by Koichi Endo  The Roethlisberger 2 D  (0.5 difficulty) (0.5 difficulty) (0.4 difficulty) (0.4 difficulty)"
@@ -905,6 +937,7 @@ export default  {
         }
 
         function onPageLeave() {
+        removeContentLinks();
         }
       `,
       "searchText": "NEW!  NEW!  NOUVEATLIOLEN GÉNÉR  INFLATABLE PIT  NEW GENERATION  Maximum height: 1,35 m  Ref. 7196  Design©2024 zen-studio.com  Standard height: 20 cm  CONFIDENCE Learning without apprehension  GYMNOVA revolutionizes your training with custom-made inflatable pits.  VERSATILITY Quick adjustments of pressure and height  These pits are ideal for all gymnastic acrobatic landings and provide the same cushioning performance as traditional pits.  COMFORT 20 cm jersey mat  Choose performance and safety with GYMNOVA !  SAFETY 20 cm foam in case of a power cut  www.gymnova.com"
@@ -1306,27 +1339,27 @@ export default  {
 
       <!--links-->
 
-      <div class="contentLink" style="top:266px;left:99px;width:32px;height:35px">
+      <div class="addContentLink" style="top:266px;left:99px;width:32px;height:35px">
         <a href="https://www.instagram.com/figymnastics/?hl=en" target="_blank"></a>
       </div>
 
-      <div class="contentLink" style="top:430px;left:124px;width:30px;height:42px">
+      <div class="addContentLink" style="top:430px;left:124px;width:30px;height:42px">
         <a href="https://www.facebook.com/fig.gymnastics/" target="_blank"></a>
       </div>
 
-      <div class="contentLink" style="top:582px;left:100px;width:34px;height:38px">
-        <a href="https://www.linkd-in-doesnt-work.com" target="_blank"></a>
+      <div class="addContentLink" style="top:582px;left:100px;width:34px;height:38px">
+        <a href="https://www.linkedin.com/company/f%C3%A9d%C3%A9ration-internationale-de-gymnastique" target="_blank"></a>
       </div>
 
-      <div class="contentLink" style="top:712px;left:69px;width:35px;height:36px">
+      <div class="addContentLink" style="top:712px;left:69px;width:35px;height:36px">
         <a href="https://www.whatsapp.com/channel/0029VaC2pcsJuyAA3Ce6nn2O" target="_blank"></a>
       </div>
 
-      <div class="contentLink" style="top:712px;left:256px;width:40px;height:32px">
+      <div class="addContentLink" style="top:712px;left:256px;width:40px;height:32px">
         <a href="https://www.youtube.com/@gymnasticschannel" target="_blank"></a>
       </div>
 
-      <div class="contentLink" style="top:712px;left:428px;width:35px;height:38px">
+      <div class="addContentLink" style="top:712px;left:428px;width:35px;height:38px">
         <a href="https://www.threads.com/@figymnastics?xmt=AQF0kRJbi7Uk7hjS9ybDcz_mC52MzQlZUzHZM2QT7wohrvQ" target="_blank"></a>
       </div>
 
@@ -1365,17 +1398,14 @@ export default  {
 
         .staggerFromTo(cOf("45-sm-icon"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 3.6)
 
-        .fromTo(cOf("45-code"), 0.6, {opacity:0, x: 35}, {opacity: 1, x: 0, ease: Power2.easeOut}, 4.9)
+        .fromTo(cOf("45-code"), 0.6, {opacity:0, x: 35}, {opacity: 1, x: 0, ease: Power2.easeOut, onComplete: addContentLinks }, 4.9)
 
-         setTimeout(function(){
-            addContentLinks();
-          },4000)
-
-        }
+      }
 
         function onPageLeave() {
         pg45Anim.stop();
         resetNumbers("45-no");
+        removeContentLinks();
         }
       `,
       "searchText": "Overall  Fans  Impressions  Engagement  24%  25%  81% Followers 469k  26%  116%  254%  Impressions 303m  Engagements 18.6m  Popular post  31.21%  engagement rate  193  comments Total fans  25,176 likes  834k  659  shares  New followers  24%  Engagement  52%  Almost Launch of FIG WhatsApp channel  1m  subscribers  Post link clicks  Impressions  45%  65%  Over  56k  followers  Follow us on social media!  FIG YEARBOOK 2024  45"
@@ -1507,6 +1537,7 @@ export default  {
         }
 
         function onPageLeave() {
+        removeContentLinks();
         }
       `,
       "searchText": ""
@@ -1657,6 +1688,7 @@ export default  {
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": "No. 6596, East Dongfanghong Road, Economic and Development Zone, Dezhou, Shandong Province, China Tel: +86 (0) 534 8100909 - E-mail: expor t@cannice-spor ts.com"
@@ -1841,6 +1873,7 @@ export default  {
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": ""
@@ -1917,7 +1950,7 @@ export default  {
         .fromTo(cOf("67-no")[10], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[10])}}, 2.4)
         .fromTo(cOf("67-no")[11], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[11])}}, 2.5)
         .fromTo(cOf("67-no")[12], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[12])}}, 2.6)
-        .fromTo(cOf("67-no")[13], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[13])}}, 2.7)
+        .fromTo(cOf("67-no")[13], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("67-no")[13])}}, 2.8)
         }
 
         function onPageLeave() {
@@ -1972,6 +2005,7 @@ export default  {
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": "Education  Institutional  Leadership lessons The year also featured a new online seminar, titled ‘How to be an effective leader in gymnastics’. This was presented by Marco Bortoleto from the FIG Education Commission and it included insights from experts Dr Edson Filho and Daniela Conde.  eLearning platform The eLearning platform continued its evolution in 2024 with a total of 6,171 users – 2,608 coming to the platform for the first time during this 12-month period. Overall, 2,652 certificates were earned by online users, which is a similar number to the year before when 2,951 certificates were granted.  Educational content updated For the FIG’s Acrobatic and Aerobic Gymnastics working groups their respective tasks of reviewing and updating the content of their manuals for the Age Group Programme (AGP) and the FIG Academy were completed in 2024. This work ensured the manuals are now aligned with the latest developments in the disciplines and incorporate the new Code of Points. For the Aerobic Gymnastics working group, a priority was to make sure the revised manuals catered to gymnasts of all skill levels and ages, from beginners to elite performers, thus fostering inclusivity and accessibility. Similarly, the Parkour working group completed their review and updating of the Level 1 curriculum for the FIG Academy and Age Group Programme, responding to recent changes to the Code of Points and to the ongoing evolution of the discipline.  Left Foundation of Gymnastics course in Bhaktapur (NEP) Below left Men‛s Artistic Gymnastics Age Group Camp in Bamako (MLI) Below A five-day camp in Dushanbe (TJK) involved many participants"
@@ -2092,7 +2126,7 @@ export default  {
         pg72Anim.fromTo(cOf("72-no")[15], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[15])}}, 1.8)
         pg72Anim.fromTo(cOf("72-no")[16], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[16])}}, 1.9)
         pg72Anim.fromTo(cOf("72-no")[17], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[17])}}, 2)
-        pg72Anim.fromTo(cOf("72-no")[18], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[18])}}, 2.1)
+        pg72Anim.fromTo(cOf("72-no")[18], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("72-no")[18])}}, 2)
         }
 
         function onPageLeave() {
@@ -2254,6 +2288,7 @@ export default  {
         }
 
         function onPageLeave() {
+        removeContentLinks();
         }
       `,
       "searchText": "Find us on Find us on  www.taishansports.cn  Premier Global Sports Events Supplier and Servicer Taishan Sports, the official supplier of 50th Artistic & 38th Rhythmic Gymnastics World Championships."
@@ -2291,7 +2326,10 @@ export default  {
       "zoom": null,
       "content": `
       
-      <div class="contentLink" style="top:798px;left:32px;width:351px;height:43px">
+      <div class="contentLink" style="top:805px;left:32px;width:351px;height:18px">
+        <a href="http://www.fujitsu.com/global/themes/data-driven/judging-support-system" target="_blank"></a>
+      </div>
+      <div class="contentLink" style="top:823px;left:32px;width:170px;height:15px">
         <a href="http://www.fujitsu.com/global/themes/data-driven/judging-support-system" target="_blank"></a>
       </div>
       
@@ -2304,6 +2342,7 @@ export default  {
         }
 
         function onPageLeave() {
+        removeContentLinks();
         }
       `,
       "searchText": ""
@@ -2364,6 +2403,7 @@ export default  {
         }
 
         function onPageLeave() {
+        removeContentLinks();
         }
       `,
       "searchText": "www.gymnastics.sport" 
