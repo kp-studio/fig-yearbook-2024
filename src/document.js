@@ -12,8 +12,8 @@ export default  {
     "href": "#"
   }],
   "basePath": "", 
-  // "basePath": "/2024", 
-  "companyLogo": "1-logo-1.png",
+  "basePath": "/2024", 
+  // "companyLogo": "1-logo-1.png",
   "publishURL": "",
   "externalResources": ["https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"],
   "options": {
@@ -22,7 +22,7 @@ export default  {
     "searchEnabled": true,
     "subscribeEnabled": true,
     "downloadEnabled": true,
-    "downloadPath": '/static/_content/fig-yearbook-2024.pdf',
+    "downloadPath": '/2024/static/_content/fig-yearbook-2024.pdf',
     "printEnabled": false,
     "zoom": {
       "navEnabled": false,
@@ -173,7 +173,7 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 3-title-1" style="top:79px;left:-38px;" src="/static/_content/3-title-1.png"/>
+      <img class="abs halfScaleC 3-title-1" style="top:79px;left:-38px;" src="/2024/static/_content/3-title-1.png"/>
 
       <div class="addContentLink" onclick="Publish.goToPage(4);" style="top:195px; left:63px; width:334px; height:12px;"></div>
 
@@ -432,7 +432,7 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 14-quote-1" style="top:392px;left:369px;" src="/static/_content/14-quote-1.png"/>
+      <img class="abs halfScaleC 14-quote-1" style="top:392px;left:369px;" src="/2024/static/_content/14-quote-1.png"/>
       <h1 id="14-no" class="abs merriweatherBd 14-no" style="top:311px;left:429px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 35}' ></h1>
       
       `,
@@ -493,9 +493,9 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:260px; left:520px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/simone-biles-women-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:260px; left:520px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/simone-biles-women-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
 
-      <img class="abs halfScaleC 17-quote-1" style="top:457px;left:375px;" src="/static/_content/17-quote-1.png"/>
+      <img class="abs halfScaleC 17-quote-1" style="top:457px;left:375px;" src="/2024/static/_content/17-quote-1.png"/>
       <h1 id="17-no" class="abs merriweatherReg 17-no" style="top:732px;left:438px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 11}' ></h1>
 
       <!--Gallery-->
@@ -503,7 +503,7 @@ export default  {
       class="abs halfScaleC halfpulse animatedpulse pointer"
       style="top:320px; left:520px;"
       onclick="pg17_gallery(0)"
-      src="/static/_content/white-camera.png"
+      src="/2024/static/_content/white-camera.png"
       />
       
       `,
@@ -530,7 +530,7 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:510px; left:457px;" src="/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/usa-women-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:510px; left:459px;" src="/2024/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/usa-women-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
       <h1 id="18-no" class="abs merriweatherBd 18-no" style="top:384px;left:481px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 2}' ></h1>
       
@@ -574,9 +574,9 @@ export default  {
       "zoom": null,
       "content": `
 
-       <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:770px; left:160px;" src="/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/japan-men-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+       <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:770px; left:160px;" src="/2024/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/japan-men-s-team-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
-      <img class="abs halfScaleC 20-quote-1" style="top:109px;left:376px;" src="/static/_content/20-quote-1.png"/>      
+      <img class="abs halfScaleC 20-quote-1" style="top:109px;left:376px;" src="/2024/static/_content/20-quote-1.png"/>      
       
       `,
       "script": `
@@ -603,14 +603,14 @@ export default  {
       <h1 id="21-no" class="abs merriweatherBd 21-no" style="top:475px;left:445px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 8}' ></h1>
       <h1 id="21-no" class="abs merriweatherBd 21-no" style="top:707px;left:497px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
   
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:610px; left:430px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/oka-shinnosuke-men-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:610px; left:430px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/oka-shinnosuke-men-s-all-around-gold-medal-highlights-artistic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
 
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:550px; left:430px;"
         onclick="pg21_gallery(0)"
-        src="/static/_content/white-camera.png"
+        src="/2024/static/_content/white-camera.png"
         />
       
       `,
@@ -671,7 +671,7 @@ export default  {
       "zoom": null,
       "content": `
       
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:500px; left:324px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/darja-varfolomeev-individual-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:500px; left:324px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/darja-varfolomeev-individual-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
       `,
       "script": `
@@ -692,9 +692,9 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:600px; left:428px;" src="/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/people-s-republic-of-china-group-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:600px; left:428px;" src="/2024/static/_content/black-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/people-s-republic-of-china-group-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
 
-      <img class="abs halfScaleC 25-quote-1" style="top:604px;left:372px;" src="/static/_content/25-quote-1.png"/>
+      <img class="abs halfScaleC 25-quote-1" style="top:604px;left:372px;" src="/2024/static/_content/25-quote-1.png"/>
       <h1 id="25-no" class="abs merriweatherBd 25-no" style="top:498px;left:496px; font-size: 2em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
       
       
@@ -723,14 +723,14 @@ export default  {
       "content": `
 
       
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:190px; left:10px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/bryony-page-women-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:190px; left:10px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/bryony-page-women-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
      
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:130px; left:10px;"
         onclick="pg26_gallery(0)"
-        src="/static/_content/white-camera.png"
+        src="/2024/static/_content/white-camera.png"
         />
       
       
@@ -753,9 +753,9 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:360px; left:400px;" src="/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/ivan-litvinovich-men-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+      <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:360px; left:400px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/ivan-litvinovich-men-s-trampoline-gold-medal-highlights-trampoline-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
       
-      <img class="abs halfScaleC 27-quote-1" style="top:566px;left:5px;" src="/static/_content/27-quote-1.png"/>
+      <img class="abs halfScaleC 27-quote-1" style="top:566px;left:5px;" src="/2024/static/_content/27-quote-1.png"/>
       <h1 id="27-no" class="abs merriweatherReg 27-no" style="top:517px;left:66px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 3}' ></h1>
       
       `,
@@ -824,12 +824,51 @@ export default  {
       "startIndex": 0,
       "original": "pg30.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+
+        <div id="30-pop-1" class="standardTransition contentOverlay hidden noclick">
+          <img class="abs halfScale 31-pop-1" style="top:0px;left:2px;" src="/2024/static/_content/30-pop-1.jpg"/>
+
+          <img class="abs halfScale 30-pin-turquoise" style="top:414px;left:519px;" src="/2024/static/_content/31-pin-turquoise.png"/>
+          <img class="abs halfScale 30-pin-turquoise" style="top:400px;left:539px;" src="/2024/static/_content/31-pin-turquoise.png"/>
+          <img class="abs halfScale 30-pin-turquoise" style="top:413px;left:548px;" src="/2024/static/_content/31-pin-turquoise.png"/>
+
+          <img class="abs halfScale 30-pin-green" style="top:442px;left:588px;" src="/2024/static/_content/31-pin-green.png"/>
+          <img class="abs halfScale 30-pin-green" style="top:485px;left:590px;" src="/2024/static/_content/31-pin-green.png"/>
+
+          <img class="abs halfScale 30-pin-blue" style="top:406px;left:585px;" src="/2024/static/_content/31-pin-blue.png"/>
+          <img class="abs halfScale 30-pin-blue" style="top:755px;left:421px;" src="/2024/static/_content/31-pin-blue.png"/>
+
+          <img class="abs halfScale 30-pin-red" style="top:661px;left:406px;" src="/2024/static/_content/31-pin-red.png"/>
+          <img class="abs halfScale 30-pin-red" style="top:338px;left:460px;" src="/2024/static/_content/31-pin-red.png"/>
+          <img class="abs halfScale 30-pin-red" style="top:402px;left:480px;" src="/2024/static/_content/31-pin-red.png"/>
+          <img class="abs halfScale 30-pin-green" style="top:416px;left:482px;" src="/2024/static/_content/31-pin-green.png"/>
+          <img class="abs halfScale 30-pin-red" style="top:347px;left:516px;" src="/2024/static/_content/31-pin-red.png"/>
+          <img class="abs halfScale 30-pin-darkg" style="top:347px;left:520px;" src="/2024/static/_content/31-pin-dark-green.png"/>
+
+          <img class="abs halfScale 30-pin-pink" style="top:366px;left:578px;" src="/2024/static/_content/31-pin-pink.png"/>
+          <img class="abs halfScale 30-pin-pink" style="top:441px;left:612px;" src="/2024/static/_content/31-pin-pink.png"/>
+          <img class="abs halfScale 30-pin-turquoise" style="top:441px;left:615px;" src="/2024/static/_content/31-pin-turquoise.png"/>
+          <img class="abs halfScale 30-pin-pink" style="top:637px;left:413px;" src="/2024/static/_content/31-pin-pink.png"/>
+
+          <img class="abs halfScale 30-pin-yellow" style="top:645px;left:409px;" src="/2024/static/_content/31-pin-yellow.png"/>
+
+          <img class="abs halfScale 30-pin-grey" style="top:662px;left:411px;" src="/2024/static/_content/31-pin-grey.png"/>
+          <img class="abs halfScale 30-pin-grey" style="top:434px;left:437px;" src="/2024/static/_content/31-pin-grey.png"/>
+
+        </div> 
+      `,
       "script": `
         function onPageEnter() {
+        
         }
+          function closeThirtyOnePopOne(){
+            hideOverlay('31-pop-1');
+            hideOverlay('30-pop-1');
+          }
 
         function onPageLeave() {
+          closeThirtyOnePopOne();
         }
       `,
       "searchText": "Artistic Gymnastics At both series, competitors vie for honours at stops around the globe, but also for the prestigious overall World Cup series titles awarded to the most consistent performers over the duration of the series. World Cups occupy the early part of the international season, while a similar World Challenge Cup series concludes during the second half of the year. In 2024, the World Cup events also served as Olympic qualification events for eligible gymnasts, adding an extra layer of excitement to each event. The 2024 FIG Apparatus World Cup series spanned four events between February and April, with competitions in Cairo (EGY), Cottbus (GER), Baku (AZE) and Doha (QAT). The World Challenge Cup series began in Antalya (TUR) in March, then turned to Osijek (CRO), Varna (BUL) and Koper (SLO) before concluding in Szombathely (HUN) in October.  Standout moments Women  Charlize Moerz (AUT) recorded the first-ever victory by an Austrian female gymnast when she took the Floor Exercise title in Baku, and Kaylia Nemour (ALG) went undefeated on Uneven Bars in the Apparatus World Cup series before winning the Olympic title in Paris. Melanie de Jesus dos Santos (FRA) was the only double-winner of the World Challenge Cup series, prevailing on both Uneven Bars and Floor Exercise.  Men Illia Kovtun (UKR) followed up his World Cup series victory on Parallel Bars with Olympic silver on the same apparatus before he then won the World Challenge Cup title on Floor Exercise. Another Apparatus World Cup/World Challenge Cup double-winner was Tang Chia-Hung (TPE), who sandwiched Horizontal Bar feats with an Olympic bronze on the same apparatus. World Cup winner on Vault Artur Davtyan (ARM) went on to take Olympic silver in Paris.  30  FIG YEARBOOK 2024  Pictured Melanie de Jesus dos Santos (FRA) in Osijek (CRO)"
@@ -843,30 +882,63 @@ export default  {
       "zoom": null,
       "content": `
 
-      <div class="contentLink pointer" style="top:248px;left:7px;width:288px;height:290px; border-radius:50%;" onclick="showThirtyOnePopOne()"></div>
-        <div id="31-pop-1" class="standardTransition contentOverlay hidden noclick">
-          <img class="abs halfScale 31-pop-1" style="top:110px;left:10px;" src="/static/_content/31-pop-1.png"/>
-          <button class="abs close-btn" style="top:50px;left:570px;width:40px;height:40px; font-size: 25px; background: transparent; border: none; border-radius: 50%; background-color: #000000; cursor: pointer; color: #ffffff;" onclick="hideOverlay('31-pop-1')" aria-label="Close"> &times; </button>
-        </div> 
+      <div class="contentLink pointer" style="top:248px;left:7px;width:288px;height:290px; border-radius:50%;" onclick="showThirtyOnePopOne();"></div>
+      <div id="31-pop-1" class="standardTransition contentOverlay hidden noclick">
+        <img class="abs halfScale 31-pop-1" style="top:0px;left:0px;" src="/2024/static/_content/31-pop-1.jpg"/>
+        <button class="abs close-btn" style="top:10px;left:570px;width:40px;height:40px; font-size: 25px; background: transparent; border: none; border-radius: 50%; background-color: #000000; cursor: pointer; color: #ffffff;" onclick="hideOverlay('31-pop-1');hideOverlay('30-pop-1')" aria-label="Close"> &times; </button>
 
-        <img class="abs halfScale 31-pin" style="top:0px;left:0px;" src="/static/_content/31-pin-green.png"/>
+        <img class="abs halfScale 31-pin-green" style="top:467px;left:158px;" src="/2024/static/_content/31-pin-green.png"/>
+        <img class="abs halfScale 31-pin-darkg" style="top:601px;left:178px;" src="/2024/static/_content/31-pin-dark-green.png"/>
+        <img class="abs halfScale 31-pin-darkg" style="top:467px;left:161px;" src="/2024/static/_content/31-pin-dark-green.png"/>
+        <img class="abs halfScale 31-pin-darkg" style="top:567px;left:22px;" src="/2024/static/_content/31-pin-dark-green.png"/>
+        <img class="abs halfScale 31-pin-red" style="top:467px;left:163px;" src="/2024/static/_content/31-pin-red.png"/>
+
+        <img class="abs halfScale 31-pin-pink" style="top:441px;left:-8px;" src="/2024/static/_content/31-pin-pink.png"/>
+        <img class="abs halfScale 31-pin-turquoise" style="top:441px;left:-5px;" src="/2024/static/_content/31-pin-turquoise.png"/>
+        <img class="abs halfScale 31-pin-turquoise" style="top:497px;left:22px;" src="/2024/static/_content/31-pin-turquoise.png"/>
+        
+        <img class="abs halfScale 31-pin-green" style="top:457px;left:324px;" src="/2024/static/_content/31-pin-green.png"/>
+
+        <img class="abs halfScale 31-pin-yellow" style="top:348px;left:496px;" src="/2024/static/_content/31-pin-yellow.png"/>
+        
+      </div> 
 
       `,
       "script": `
         function onPageEnter() {
+        pg31Anim = new TimelineMax();
+
           setTimeout(function(){
             addContentLinks();
           },1000)
         }
           function showThirtyOnePopOne() {
-            showOverlay('31-pop-1')
+          showOverlay('31-pop-1');
+          showOverlay('30-pop-1')
+          pg30Anim = new TimelineMax();
+          pg30Anim.fromTo(cOf("30-pin-darkg"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 1.2)
+          .fromTo(cOf("30-pin-turquoise"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 1.5)
+          .fromTo(cOf("30-pin-green"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 1.8)
+          .fromTo(cOf("30-pin-blue"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 2.1)
+          .fromTo(cOf("30-pin-red"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 2.4)
+          .fromTo(cOf("30-pin-pink"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 2.7)
+          .fromTo(cOf("30-pin-yellow"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 3)
+          .fromTo(cOf("30-pin-grey"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 3.3)
+          pg31Anim.fromTo(cOf("31-pin-darkg"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 1.2)
+          .fromTo(cOf("31-pin-turquoise"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 1.5)
+          .fromTo(cOf("31-pin-green"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 1.8)
+          .fromTo(cOf("31-pin-red"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 2.4)
+          .fromTo(cOf("31-pin-pink"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 2.7)
+          .fromTo(cOf("31-pin-yellow"), 0.4, {opacity:0, y: -20}, {opacity: 1, y: 0, ease: Power2.easeOut}, 3)
           }
 
           function closeThirtyOnePopOne(){
-            hideOverlay('31-pop-1')
+            hideOverlay('31-pop-1');
+            hideOverlay('30-pop-1');
           }
 
         function onPageLeave() {
+          pg30Anim.stop();
           pg31Anim.stop();
           closeThirtyOnePopOne();
         }
@@ -952,17 +1024,17 @@ export default  {
       "content": `
 
       <a href="https://www.youtube.com/watch?v=3tTlHKau8ng" target="_blank">
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:580px; left:60px;" src="/static/_content/white-play.png"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:580px; left:60px;" src="/2024/static/_content/white-play.png"/>
       </a>
 
-      <img class="abs halfScaleC 34-quote-1" style="top:181px;left:184px;" src="/static/_content/34-quote-1.png"/>
+      <img class="abs halfScaleC 34-quote-1" style="top:181px;left:184px;" src="/2024/static/_content/34-quote-1.png"/>
       
       <!--Gallery-->
         <img
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:520px; left:60px;"
         onclick="pg34_gallery(0)"
-        src="/static/_content/white-camera.png"
+        src="/2024/static/_content/white-camera.png"
         />
       
       `,
@@ -1013,10 +1085,10 @@ export default  {
       "zoom": null,
       "content": `
 
-        <img class="abs halfScaleC 36-quote-1" style="top:323px;left:218px;" src="/static/_content/36-quote-1.png"/>
+        <img class="abs halfScaleC 36-quote-1" style="top:323px;left:218px;" src="/2024/static/_content/36-quote-1.png"/>
 
         <a href="https://www.youtube.com/watch?v=h9fwm5kM8gI" target="_blank">
-          <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:200px; left:260px;" src="/static/_content/white-play.png"/>
+          <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:200px; left:260px;" src="/2024/static/_content/white-play.png"/>
         </a>
       
         <!--Gallery-->
@@ -1024,7 +1096,7 @@ export default  {
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:140px; left:260px;"
         onclick="pg36_gallery(0)"
-        src="/static/_content/white-camera.png"
+        src="/2024/static/_content/white-camera.png"
         />
       
       `,
@@ -1075,7 +1147,7 @@ export default  {
       "content": `
 
       <a href="https://www.youtube.com/watch?v=0bLIPAP_Cdg" target="_blank">
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:420px; left:550px;" src="/static/_content/black-play.png"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:420px; left:550px;" src="/2024/static/_content/black-play.png"/>
       </a>
       
       <!--Gallery-->
@@ -1083,7 +1155,7 @@ export default  {
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:480px; left:550px;"
         onclick="pg38_gallery(0)"
-        src="/static/_content/black-camera.png"
+        src="/2024/static/_content/black-camera.png"
         />
       
       
@@ -1106,15 +1178,15 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 39-line-1" style="top:628px;left:-114px;" src="/static/_content/39-line-1.png"/>
-      <img class="abs halfScaleC 39-quote-1" style="top:574px;left:-156px;" src="/static/_content/39-quote-1.png"/>
+      <img class="abs halfScaleC 39-line-1" style="top:628px;left:-114px;" src="/2024/static/_content/39-line-1.png"/>
+      <img class="abs halfScaleC 39-quote-1" style="top:574px;left:-156px;" src="/2024/static/_content/39-quote-1.png"/>
 
       <a href="https://www.youtube.com/watch?v=eL1x9JlFn78&t=2s" target="_blank">
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:125px; left:485px;" src="/static/_content/white-play.png"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:125px; left:485px;" src="/2024/static/_content/white-play.png"/>
       </a>
 
       <a href="https://www.youtube.com/watch?v=1udJNHnSBAE" target="_blank">
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:125px; left:425px;" src="/static/_content/white-play.png"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:125px; left:425px;" src="/2024/static/_content/white-play.png"/>
       </a>
 
       <!--Gallery-->
@@ -1122,7 +1194,7 @@ export default  {
         class="abs halfScaleC halfpulse animatedpulse pointer"
         style="top:125px; left:545px;"
         onclick="pg39_gallery(0)"
-        src="/static/_content/white-camera.png"
+        src="/2024/static/_content/white-camera.png"
         />
 
       `,
@@ -1148,17 +1220,17 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 40-speech-img" style="top:31px;left:-19px;" src="/static/_content/40-speech-img-1.png"/>
+      <img class="abs halfScaleC 40-speech-img" style="top:31px;left:-19px;" src="/2024/static/_content/40-speech-img-1.png"/>
 
-      <img class="abs halfScaleC 40-subtitle" style="top:99px;left:-89px;" src="/static/_content/40-title-1.png"/>
-      <img class="abs halfScaleC 40-subtitle" style="top:188px;left:88px;" src="/static/_content/40-subtitle-1.png"/>
+      <img class="abs halfScaleC 40-subtitle" style="top:99px;left:-89px;" src="/2024/static/_content/40-title-1.png"/>
+      <img class="abs halfScaleC 40-subtitle" style="top:188px;left:88px;" src="/2024/static/_content/40-subtitle-1.png"/>
 
-      <img class="abs halfScaleC 40-speech" style="top:513px;left:-116px;" src="/static/_content/40-speech-5.png"/> 
-      <img class="abs halfScaleC 40-speech" style="top:125px;left:158px;" src="/static/_content/40-speech-2.png"/>
-      <img class="abs halfScaleC 40-speech" style="top:125px;left:-118px;" src="/static/_content/40-speech-1.png"/>
-      <img class="abs halfScaleC 40-speech" style="top:512px;left:157px;" src="/static/_content/40-speech-6.png"/>    
-      <img class="abs halfScaleC 40-speech" style="top:313px;left:160px;" src="/static/_content/40-speech-4.png"/>
-      <img class="abs halfScaleC 40-speech" style="top:313px;left:-116px;" src="/static/_content/40-speech-3.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:513px;left:-116px;" src="/2024/static/_content/40-speech-5.png"/> 
+      <img class="abs halfScaleC 40-speech" style="top:125px;left:158px;" src="/2024/static/_content/40-speech-2.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:125px;left:-118px;" src="/2024/static/_content/40-speech-1.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:512px;left:157px;" src="/2024/static/_content/40-speech-6.png"/>    
+      <img class="abs halfScaleC 40-speech" style="top:313px;left:160px;" src="/2024/static/_content/40-speech-4.png"/>
+      <img class="abs halfScaleC 40-speech" style="top:313px;left:-116px;" src="/2024/static/_content/40-speech-3.png"/>
      
       `,
       "script": `
@@ -1184,14 +1256,14 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 41-speech" style="top:-49px;left:-116px;" src="/static/_content/41-speech-1.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:307px;left:168px;" src="/static/_content/41-speech-6.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:123px;left:-113px;" src="/static/_content/41-speech-3.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:-49px;left:165px;" src="/static/_content/41-speech-2.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:329px;left:-113px;" src="/static/_content/41-speech-5.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:126px;left:168px;" src="/static/_content/41-speech-4.png"/>
-      <img class="abs halfScaleC 41-speech" style="top:558px;left:-81px;" src="/static/_content/41-speech-7.png"/>       
-      <img class="abs halfScaleC 41-image" style="top:530px;left:167px;" src="/static/_content/41-image.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:-49px;left:-116px;" src="/2024/static/_content/41-speech-1.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:307px;left:168px;" src="/2024/static/_content/41-speech-6.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:123px;left:-113px;" src="/2024/static/_content/41-speech-3.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:-49px;left:165px;" src="/2024/static/_content/41-speech-2.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:329px;left:-113px;" src="/2024/static/_content/41-speech-5.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:126px;left:168px;" src="/2024/static/_content/41-speech-4.png"/>
+      <img class="abs halfScaleC 41-speech" style="top:558px;left:-81px;" src="/2024/static/_content/41-speech-7.png"/>       
+      <img class="abs halfScaleC 41-image" style="top:530px;left:167px;" src="/2024/static/_content/41-image.png"/>
 
       `,
       "script": `
@@ -1267,75 +1339,75 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 45-text" style="top:125px;left:30px;" src="/static/_content/45-text.png"/>
-      <img class="abs halfScaleC 45-line" style="top:133px;left:-61px;" src="/static/_content/45-line-1.png"/>
-      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:92px;" src="/static/_content/45-text-icon-1.png"/>
+      <img class="abs halfScaleC 45-text" style="top:125px;left:30px;" src="/2024/static/_content/45-text.png"/>
+      <img class="abs halfScaleC 45-line" style="top:133px;left:-61px;" src="/2024/static/_content/45-line-1.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:92px;" src="/2024/static/_content/45-text-icon-1.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:192px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 24, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:233px;" src="/static/_content/45-text-icon-2.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:233px;" src="/2024/static/_content/45-text-icon-2.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:335px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 25, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:384px;" src="/static/_content/45-text-icon-3.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:120px;left:384px;" src="/2024/static/_content/45-text-icon-3.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:170px;left:483px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 26, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-line" style="top:271px;left:-57px;" src="/static/_content/45-line-1.png"/>
-      <img class="abs halfScaleC 45-line" style="top:436px;left:35px;" src="/static/_content/45-line-3.png"/>
-      <img class="abs halfScaleC 45-image" style="top:92px;left:42px;" src="/static/_content/45-image-1.png"/>
+      <img class="abs halfScaleC 45-line" style="top:271px;left:-57px;" src="/2024/static/_content/45-line-1.png"/>
+      <img class="abs halfScaleC 45-line" style="top:436px;left:35px;" src="/2024/static/_content/45-line-3.png"/>
+      <img class="abs halfScaleC 45-image" style="top:92px;left:42px;" src="/2024/static/_content/45-image-1.png"/>
        <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:324px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 81, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:253px;" src="/static/_content/45-text-icon-4.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:253px;" src="/2024/static/_content/45-text-icon-4.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:316px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 469, "append" : "k"}' ></h1>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:422px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 116, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:348px;" src="/static/_content/45-text-icon-5.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:348px;" src="/2024/static/_content/45-text-icon-5.png"/>
 
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:416px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 303, "append" : "m"}' ></h1>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:304px;left:503px; font-size: 1.1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 254, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:464px;" src="/static/_content/45-text-icon-6.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:300px;left:464px;" src="/2024/static/_content/45-text-icon-6.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:379px;left:513px; font-size: 0.6em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 18.6, "decimals" : 1, "append" : "m"}' ></h1>
-      <img class="abs halfScaleC 45-line" style="top:590px;left:-70px;" src="/static/_content/45-line-4.png"/>   
-      <img class="abs halfScaleC 45-image" style="top:261px;left:212px;" src="/static/_content/45-image-2.png"/>
-      <img class="abs halfScaleC 45-text" style="top:428px;left:409px;" src="/static/_content/45-text-1.png"/>
-      <img class="abs halfScaleC 45-line" style="top:436px;left:497px;" src="/static/_content/45-line-2.png"/>
+      <img class="abs halfScaleC 45-line-4" style="top:590px;left:-70px;" src="/2024/static/_content/45-line-4.png"/>   
+      <img class="abs halfScaleC 45-image" style="top:261px;left:212px;" src="/2024/static/_content/45-image-2.png"/>
+      <img class="abs halfScaleC 45-text" style="top:428px;left:409px;" src="/2024/static/_content/45-text-1.png"/>
+      <img class="abs halfScaleC 45-line" style="top:436px;left:497px;" src="/2024/static/_content/45-line-2.png"/>
 
-      <img class="abs halfScaleC 45-text-icon" style="top:458px;left:122px;" src="/static/_content/45-text-icon-7.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:458px;left:122px;" src="/2024/static/_content/45-text-icon-7.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:539px;left:241px; font-size: 0.9em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 834, "append" : "k"}' ></h1>
 
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:459px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 31.21, "decimals" : 2, "append" : "%"}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:446px;left:398px;" src="/static/_content/45-text-icon-8.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:446px;left:398px;" src="/2024/static/_content/45-text-icon-8.png"/>
 
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:491px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 193}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:481px;left:409px;" src="/static/_content/45-text-icon-9.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:481px;left:409px;" src="/2024/static/_content/45-text-icon-9.png"/>
 
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:523px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 25176, "comma" : true}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:510px;left:422px;" src="/static/_content/45-text-icon-10.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:510px;left:422px;" src="/2024/static/_content/45-text-icon-10.png"/>
 
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:555px;left:483px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 659}' ></h1>
-      <img class="abs halfScaleC 45-text-icon" style="top:546px;left:422px;" src="/static/_content/45-text-icon-11.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:546px;left:422px;" src="/2024/static/_content/45-text-icon-11.png"/>
 
-       <img class="abs halfScaleC 45-text-icon" style="top:581px;left:99px;" src="/static/_content/45-text-icon-12.png"/>
+       <img class="abs halfScaleC 45-text-icon" style="top:581px;left:99px;" src="/2024/static/_content/45-text-icon-12.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:192px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 24, "append" : "%"}' ></h1>
      
-      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:232px;" src="/static/_content/45-text-icon-13.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:232px;" src="/2024/static/_content/45-text-icon-13.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:305px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 52, "append" : "%"}' ></h1>
   
-      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:342px;" src="/static/_content/45-text-icon-14.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:596px;left:342px;" src="/2024/static/_content/45-text-icon-14.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:417px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 45, "append" : "%"}' ></h1>
 
-      <img class="abs halfScaleC 45-text-icon" style="top:579px;left:459px;" src="/static/_content/45-text-icon-15.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:579px;left:459px;" src="/2024/static/_content/45-text-icon-15.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:633px;left:522px; font-size: 0.8em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 65, "append" : "%"}' ></h1>
 
-      <img class="abs halfScaleC 45-text-icon" style="top:711px;left:69px;" src="/static/_content/45-text-2.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:711px;left:69px;" src="/2024/static/_content/45-text-2.png"/>
       
-      <img class="abs halfScaleC 45-text-icon" style="top:692px;left:277px;" src="/static/_content/45-text-3.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:692px;left:277px;" src="/2024/static/_content/45-text-3.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:713px;left:302px; font-size: 1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 1, "append" : "m"}' ></h1>
 
-      <img class="abs halfScaleC 45-text-icon" style="top:689px;left:449px;" src="/static/_content/45-text-4.png"/>
+      <img class="abs halfScaleC 45-text-icon" style="top:689px;left:449px;" src="/2024/static/_content/45-text-4.png"/>
       <h1 id="45-no" class="abs workSansBd 45-no" style="top:713px;left:469px; font-size: 1em; font-weight: 300; color: #333333; padding: 0px; margin: 0px;"  data-number='{"to": 56, "append" : "k"}' ></h1>
 
-      <img class="abs halfScaleC 45-sm-icon" style="top:255px;left:87px;" src="/static/_content/45-sm-icon-1.png"/>
-      <img class="abs halfScaleC 45-sm-icon" style="top:422px;left:120px;" src="/static/_content/45-sm-icon-2.png"/>
-      <img class="abs halfScaleC 45-sm-icon" style="top:579px;left:94px;" src="/static/_content/45-sm-icon-3.png"/>
-      <img class="abs halfScaleC 45-sm-icon" style="top:703px;left:61px;" src="/static/_content/45-sm-icon-4.png"/>
-      <img class="abs halfScaleC 45-sm-icon" style="top:706px;left:246px;" src="/static/_content/45-sm-icon-5.png"/>
-      <img class="abs halfScaleC 45-sm-icon" style="top:704px;left:424px;" src="/static/_content/45-sm-icon-6.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:255px;left:87px;" src="/2024/static/_content/45-sm-icon-1.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:422px;left:120px;" src="/2024/static/_content/45-sm-icon-2.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:579px;left:94px;" src="/2024/static/_content/45-sm-icon-3.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:703px;left:61px;" src="/2024/static/_content/45-sm-icon-4.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:706px;left:246px;" src="/2024/static/_content/45-sm-icon-5.png"/>
+      <img class="abs halfScaleC 45-sm-icon" style="top:704px;left:424px;" src="/2024/static/_content/45-sm-icon-6.png"/>
 
-      <img class="abs halfScaleC 45-code" style="top:749px;left:15px;" src="/static/_content/45-code.png"/>
+      <img class="abs halfScaleC 45-code" style="top:749px;left:15px;" src="/2024/static/_content/45-code.png"/>
 
       <!--links-->
 
@@ -1371,7 +1443,7 @@ export default  {
         .staggerFromTo(cOf("45-line"), 0.7, {opacity:0, x: 50}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.1)
         .staggerFromTo(cOf("45-text-icon"), 0.5, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.2)
         .staggerFromTo(cOf("45-image"), 0.5, {opacity:0, x: 30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.3)
-      
+
         .fromTo(cOf("45-no")[0], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[0])}}, 1.3)
         .fromTo(cOf("45-no")[1], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[1])}}, 1.4)
         .fromTo(cOf("45-no")[2], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[2])}}, 1.5)
@@ -1382,6 +1454,8 @@ export default  {
         .fromTo(cOf("45-no")[7], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[7])}}, 2.2)
         .fromTo(cOf("45-no")[8], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[8])}}, 2.3)
         .fromTo(cOf("45-no")[9], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[9])}}, 2.6)
+
+        .fromTo(cOf("45-line-4"), 0.7, {opacity:0, x: 50}, {opacity: 1, x: 0, ease: Power2.easeOut}, 2.8)
 
         .fromTo(cOf("45-no")[10], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[10])}}, 2.7)
         .fromTo(cOf("45-no")[11], 0, {opacity:0}, {opacity:1, onComplete:function(){animateNumber(cOf("45-no")[11])}}, 2.8)
@@ -1399,7 +1473,6 @@ export default  {
         .staggerFromTo(cOf("45-sm-icon"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 3.6)
 
         .fromTo(cOf("45-code"), 0.6, {opacity:0, x: 35}, {opacity: 1, x: 0, ease: Power2.easeOut, onComplete: addContentLinks }, 4.9)
-
       }
 
         function onPageLeave() {
@@ -1419,10 +1492,10 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 46-box" style="top:420px;left:-25px;" src="/static/_content/46-box-1.png"/>
-      <img class="abs halfScaleC 46-box" style="top:421px;left:137px;" src="/static/_content/46-box-2.png"/>
-      <img class="abs halfScaleC 46-box" style="top:582px;left:-25px;" src="/static/_content/46-box-3.png"/>
-      <img class="abs halfScaleC 46-box" style="top:582px;left:137px;" src="/static/_content/46-box-4.png"/>
+      <img class="abs halfScaleC 46-box" style="top:420px;left:-25px;" src="/2024/static/_content/46-box-1.png"/>
+      <img class="abs halfScaleC 46-box" style="top:421px;left:137px;" src="/2024/static/_content/46-box-2.png"/>
+      <img class="abs halfScaleC 46-box" style="top:582px;left:-25px;" src="/2024/static/_content/46-box-3.png"/>
+      <img class="abs halfScaleC 46-box" style="top:582px;left:137px;" src="/2024/static/_content/46-box-4.png"/>
 
       <h1 id="46-no" class="abs bebasNeueBd 46-no" style="top:560px;left:108px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append" : "%"}' ></h1>
       <h1 id="46-no" class="abs bebasNeueBd 46-no" style="top:560px;left:269px; font-size: 1.9em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 90, "append" : "%"}' ></h1>
@@ -1675,8 +1748,8 @@ export default  {
         <a href="https://www.cannice-sports.com/" target="_blank"></a>
       </div>
       
-      <a onclick="Publish.openVideo('/static/_content/pg59-vid.mp4')">
-          <img class="abs halfpulse animatedpulse halfScaleC pointer" style="left:337px;top:55px" src="/paris2024/static/_content/play-white.png">
+      <a onclick="Publish.openVideo('/2024/static/_content/pg59-vid.mp4')">
+          <img class="abs halfpulse animatedpulse halfScaleC pointer" style="left:337px;top:55px" src="/paris2024/2024/static/_content/play-white.png">
       </a>
       
       `,
@@ -1702,31 +1775,31 @@ export default  {
       "zoom": null,
       "content": `
 
-       <img class="abs halfScaleC 60-block" style="top:338px;left:38px;" src="/static/_content/60-subtitle.png"/>
-       <img class="abs halfScaleC 60-block" style="top:359px;left:-50px;" src="/static/_content/60-block-1.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:368px;left:125px;" src="/static/_content/60-icon-1.png"/>
-       <img class="abs halfScaleC 60-block" style="top:403px;left:-16px;" src="/static/_content/60-block-2.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:414px;left:125px;" src="/static/_content/60-icon-2.png"/>
-       <img class="abs halfScaleC 60-block" style="top:450px;left:21px;" src="/static/_content/60-block-3.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:459px;left:125px;" src="/static/_content/60-icon-3.png"/>
-       <img class="abs halfScaleC 60-block" style="top:496px;left:56px;" src="/static/_content/60-block-4.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:506px;left:125px;" src="/static/_content/60-icon-4.png"/>
-       <img class="abs halfScaleC 60-block" style="top:528px;left:91px;" src="/static/_content/60-block-5.png"/>
-       <img class="abs halfScaleC 60-icon" style="top:552px;left:125px;" src="/static/_content/60-icon-5.png"/>
+       <img class="abs halfScaleC 60-block" style="top:338px;left:38px;" src="/2024/static/_content/60-subtitle.png"/>
+       <img class="abs halfScaleC 60-block" style="top:359px;left:-50px;" src="/2024/static/_content/60-block-1.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:368px;left:125px;" src="/2024/static/_content/60-icon-1.png"/>
+       <img class="abs halfScaleC 60-block" style="top:403px;left:-16px;" src="/2024/static/_content/60-block-2.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:414px;left:125px;" src="/2024/static/_content/60-icon-2.png"/>
+       <img class="abs halfScaleC 60-block" style="top:450px;left:21px;" src="/2024/static/_content/60-block-3.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:459px;left:125px;" src="/2024/static/_content/60-icon-3.png"/>
+       <img class="abs halfScaleC 60-block" style="top:496px;left:56px;" src="/2024/static/_content/60-block-4.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:506px;left:125px;" src="/2024/static/_content/60-icon-4.png"/>
+       <img class="abs halfScaleC 60-block" style="top:528px;left:91px;" src="/2024/static/_content/60-block-5.png"/>
+       <img class="abs halfScaleC 60-icon" style="top:552px;left:125px;" src="/2024/static/_content/60-icon-5.png"/>
 
-       <img class="abs halfScaleC 60-text" style="top:390px;left:159px;" src="/static/_content/60-text-1.png"/>
-       <img class="abs halfScaleC 60-text" style="top:436px;left:122px;" src="/static/_content/60-text-2.png"/>
-       <img class="abs halfScaleC 60-text" style="top:483px;left:110px;" src="/static/_content/60-text-3.png"/>
-       <img class="abs halfScaleC 60-text" style="top:529px;left:56px;" src="/static/_content/60-text-4.png"/>
-       <img class="abs halfScaleC 60-text" style="top:576px;left:41px;" src="/static/_content/60-text-5.png"/>
+       <img class="abs halfScaleC 60-text" style="top:390px;left:159px;" src="/2024/static/_content/60-text-1.png"/>
+       <img class="abs halfScaleC 60-text" style="top:436px;left:122px;" src="/2024/static/_content/60-text-2.png"/>
+       <img class="abs halfScaleC 60-text" style="top:483px;left:110px;" src="/2024/static/_content/60-text-3.png"/>
+       <img class="abs halfScaleC 60-text" style="top:529px;left:56px;" src="/2024/static/_content/60-text-4.png"/>
+       <img class="abs halfScaleC 60-text" style="top:576px;left:41px;" src="/2024/static/_content/60-text-5.png"/>
       
       `,
       "script": `
         function onPageEnter() {
         pg60Anim = new TimelineMax();
-        pg60Anim.staggerFromTo(cOf("60-block"), 0.5, {opacity:0, y:40}, {opacity:1, y:0, ease: Power2.easeOut}, 0.2, 1)
-        .staggerFromTo(cOf("60-icon"), 0.8, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.1)
-        .staggerFromTo(cOf("60-text"), 0.7, {opacity:0, x:40}, {opacity:1, x:0, ease: Power2.easeOut}, 0.2, 1.2);
+        pg60Anim.staggerFromTo(cOf("60-block"), 0.4, {opacity:0, y:40}, {opacity:1, y:0, ease: Power2.easeOut}, 0.2, 1)
+        .staggerFromTo(cOf("60-icon"), 0.6, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.2)
+        .staggerFromTo(cOf("60-text"), 0.6, {opacity:0, x:40}, {opacity:1, x:0, ease: Power2.easeOut}, 0.2, 1.3);
         }
 
         function onPageLeave() {
@@ -1795,34 +1868,34 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 64-text" style="top:-178px;left:-62px;" src="/static/_content/64-image.png"/>
-      <img class="abs halfScaleC 64-text" style="top:128px;left:24px;" src="/static/_content/64-text-1.png"/>
+      <img class="abs halfScaleC 64-text" style="top:-178px;left:-62px;" src="/2024/static/_content/64-image.png"/>
+      <img class="abs halfScaleC 64-text" style="top:128px;left:24px;" src="/2024/static/_content/64-text-1.png"/>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:357px;left:128px; font-size: 2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 947}' ></h1>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:507px;left:128px; font-size: 2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 864}' ></h1>
-      <img class="abs halfScaleC 64-icon-text" style="top:234px;left:75px;" src="/static/_content/64-icon-text-1.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:383px;left:63px;" src="/static/_content/64-icon-text-2.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:511px;left:69px;" src="/static/_content/64-icon-text-3.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:230px;left:132px;" src="/static/_content/64-icon-text-4.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:361px;left:182px;" src="/static/_content/64-text-2.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:469px;left:209px;" src="/static/_content/64-icon-text-5.png"/>
-      <img class="abs halfScaleC 64-icon-text" style="top:517px;left:215px;" src="/static/_content/64-icon-text-6.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:234px;left:75px;" src="/2024/static/_content/64-icon-text-1.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:383px;left:63px;" src="/2024/static/_content/64-icon-text-2.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:511px;left:69px;" src="/2024/static/_content/64-icon-text-3.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:230px;left:132px;" src="/2024/static/_content/64-icon-text-4.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:361px;left:182px;" src="/2024/static/_content/64-text-2.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:469px;left:209px;" src="/2024/static/_content/64-icon-text-5.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:517px;left:215px;" src="/2024/static/_content/64-icon-text-6.png"/>
 
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:348px;left:293px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 832}' ></h1>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:346px;left:442px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 115}' ></h1>
-      <img class="abs halfScaleC 64-line" style="top:369px;left:59px;" src="/static/_content/64-line-1.png"/>
+      <img class="abs halfScaleC 64-line" style="top:369px;left:59px;" src="/2024/static/_content/64-line-1.png"/>
 
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:424px;left:297px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 610}' ></h1>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:424px;left:439px; font-size: 1.2em; font-weight: 300; color: #0e314d; padding: 0px; margin: 0px;"  data-number='{"to": 337}' ></h1>
 
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:494px;left:346px; font-size: 1.2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 602}' ></h1>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:542px;left:318px; font-size: 1.2em; font-weight: 300; color: #fff371; padding: 0px; margin: 0px;"  data-number='{"to": 80}' ></h1>
-      <img class="abs halfScaleC 64-line" style="top:515px;left:91px;" src="/static/_content/64-line-2.png"/>
+      <img class="abs halfScaleC 64-line" style="top:515px;left:91px;" src="/2024/static/_content/64-line-2.png"/>
      
-      <img class="abs halfScaleC 64-icon-text" style="top:610px;left:256px;" src="/static/_content/64-text-3.png"/>
+      <img class="abs halfScaleC 64-icon-text" style="top:610px;left:256px;" src="/2024/static/_content/64-text-3.png"/>
       <h1 id="64-no" class="abs merriweatherReg 64-no" style="top:637px;left:304px; font-size: 1.2em; font-weight: 300; color: #a7d1df; padding: 0px; margin: 0px;"  data-number='{"to": 4}' ></h1>
-      <img class="abs halfScaleC 64-line" style="top:623px;left:147px;" src="/static/_content/64-line-3.png"/>
+      <img class="abs halfScaleC 64-line" style="top:623px;left:147px;" src="/2024/static/_content/64-line-3.png"/>
 
-      <img class="abs halfScaleC 64-piechart" style="top:393px;left:393px;" src="/static/_content/64-piechart.png"/>   
+      <img class="abs halfScaleC 64-piechart" style="top:393px;left:393px;" src="/2024/static/_content/64-piechart.png"/>   
       
       `,
       "script": `
@@ -1923,14 +1996,14 @@ export default  {
        <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:499px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 2}' ></h1>
        <h1 id="67-no" class="abs merriweatherReg 67-no" style="top:774px;left:538px; font-size: 1.1em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 1}' ></h1>
 
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:254px;" src="/static/_content/67-icon-1.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:291px;" src="/static/_content/67-icon-2.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:327px;" src="/static/_content/67-icon-3.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:364px;" src="/static/_content/67-icon-4.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:401px;" src="/static/_content/67-icon-5.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:437px;" src="/static/_content/67-icon-6.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:474px;" src="/static/_content/67-icon-7.png"/>
-       <img class="abs halfScaleC 67-icon" style="top:712px;left:511px;" src="/static/_content/67-icon-8.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:254px;" src="/2024/static/_content/67-icon-1.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:291px;" src="/2024/static/_content/67-icon-2.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:327px;" src="/2024/static/_content/67-icon-3.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:364px;" src="/2024/static/_content/67-icon-4.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:401px;" src="/2024/static/_content/67-icon-5.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:437px;" src="/2024/static/_content/67-icon-6.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:474px;" src="/2024/static/_content/67-icon-7.png"/>
+       <img class="abs halfScaleC 67-icon" style="top:712px;left:511px;" src="/2024/static/_content/67-icon-8.png"/>
       
       `,
       "script": `
@@ -1970,7 +2043,7 @@ export default  {
       "content": `
 
       <a href="https://www.youtube.com/@figeducationchannel2014" target="_blank">
-        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:425px; left:494px;" src="/static/_content/black-play.png"/>
+        <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:425px; left:494px;" src="/2024/static/_content/black-play.png"/>
       </a>
       
       `,
@@ -2036,17 +2109,17 @@ export default  {
       "zoom": null,
       "content": `
 
-      <img class="abs halfScaleC 71-bar" style="top:-26px;left:53px;" src="/static/_content/71-bar-1.png"/>
+      <img class="abs halfScaleC 71-bar" style="top:-26px;left:53px;" src="/2024/static/_content/71-bar-1.png"/>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:295px;left:86px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 19871, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:166px;left:84px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 48958, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansMed 71-no" style="top:354px;left:75px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 68829, "comma" : true }' ></h1>
 
-      <img class="abs halfScaleC 71-bar" style="top:48px;left:186px;" src="/static/_content/71-bar-2.png"/>
+      <img class="abs halfScaleC 71-bar" style="top:48px;left:186px;" src="/2024/static/_content/71-bar-2.png"/>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:166px;left:216px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 14429, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:205px;left:215px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 26644, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansMed 71-no" style="top:355px;left:208px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 41173, "comma" : true }' ></h1>
 
-      <img class="abs halfScaleC 71-bar" style="top:195px;left:321px;" src="/static/_content/71-bar-3.png"/>
+      <img class="abs halfScaleC 71-bar" style="top:195px;left:321px;" src="/2024/static/_content/71-bar-3.png"/>
       <h1 id="71-no" class="abs workSansBd 71-no" style="top:275px;left:350px; font-size: 0.5em; font-weight: 300; color: #ffffff; padding: 0px; margin: 0px;"  data-number='{"to": 27656, "comma" : true }' ></h1>
       <h1 id="71-no" class="abs workSansMed 71-no" style="top:355px;left:340px; font-size: 0.5em; font-weight: 300; color: #3b3b3a; padding: 0px; margin: 0px;"  data-number='{"to": 27656, "comma" : true }' ></h1>
 
@@ -2198,15 +2271,15 @@ export default  {
 
       <h1 id="76-no" class="abs merriweatherBd 76-no" style="top:311px;left:432px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 50, "append" : "%"}' ></h1>
 
-      <img class="abs halfScaleC 76-box" style="top:380px;left:-128px;" src="/static/_content/76-box.png"/>
-      <img class="abs halfScaleC 76-text" style="top:529px;left:-63px;" src="/static/_content/76-text-1.png"/>
-      <img class="abs halfScaleC 76-text" style="top:483px;left:-69px;" src="/static/_content/76-lines.png"/>
+      <img class="abs halfScaleC 76-box" style="top:380px;left:-128px;" src="/2024/static/_content/76-box.png"/>
+      <img class="abs halfScaleC 76-text" style="top:529px;left:-63px;" src="/2024/static/_content/76-text-1.png"/>
+      <img class="abs halfScaleC 76-text" style="top:483px;left:-69px;" src="/2024/static/_content/76-lines.png"/>
 
-      <img class="abs halfScaleC 76-world" style="top:559px;left:54px;" src="/static/_content/76-world-1.png"/>
-      <img class="abs halfScaleC 76-world" style="top:559px;left:218px;" src="/static/_content/76-world-2.png"/>
-      <img class="abs halfScaleC 76-world" style="top:638px;left:153px;" src="/static/_content/76-world-3.png"/>
-      <img class="abs halfScaleC 76-world" style="top:733px;left:70px;" src="/static/_content/76-text-2.png"/>
-      <img class="abs halfScaleC 76-world" style="top:727px;left:252px;" src="/static/_content/76-world-4.png"/>
+      <img class="abs halfScaleC 76-world" style="top:559px;left:54px;" src="/2024/static/_content/76-world-1.png"/>
+      <img class="abs halfScaleC 76-world" style="top:559px;left:218px;" src="/2024/static/_content/76-world-2.png"/>
+      <img class="abs halfScaleC 76-world" style="top:638px;left:153px;" src="/2024/static/_content/76-world-3.png"/>
+      <img class="abs halfScaleC 76-world" style="top:733px;left:70px;" src="/2024/static/_content/76-text-2.png"/>
+      <img class="abs halfScaleC 76-world" style="top:727px;left:252px;" src="/2024/static/_content/76-world-4.png"/>
       
       `,
       "script": `
@@ -2251,7 +2324,7 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 78-quote-1" style="top:117px;left:382px;" src="/static/_content/78-quote-1.png"/>
+      <img class="abs halfScaleC 78-quote-1" style="top:117px;left:382px;" src="/2024/static/_content/78-quote-1.png"/>
       
       `,
       "script": `
@@ -2302,7 +2375,7 @@ export default  {
       "zoom": null,
       "content": `
       
-      <img class="abs halfScaleC 80-quote-1" style="top:165px;left:373px;" src="/static/_content/80-quote-1.png"/>
+      <img class="abs halfScaleC 80-quote-1" style="top:165px;left:373px;" src="/2024/static/_content/80-quote-1.png"/>
       
       `,
       "script": `
@@ -2641,6 +2714,13 @@ export default  {
           '39-6.jpg',
           '39-7.jpg',
           '39-8.jpg',
+        ],
+        index])
+      }
+
+      function pg31_gallery(index) {
+        Publish.openGalleryTwo([[
+          '31-pop-1.png'
         ],
         index])
       }
