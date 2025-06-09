@@ -11,9 +11,9 @@ export default  {
     "text": "English",
     "href": "#"
   }],
-  "basePath": "", 
+  // "basePath": "", 
   "basePath": "/2024", 
-  // "companyLogo": "1-logo-1.png",
+  "companyLogo": "1-logo-1.png",
   "publishURL": "",
   "externalResources": ["https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"],
   "options": {
@@ -95,25 +95,25 @@ export default  {
       '36-8.jpg':'A six-year wait to return to the World Championships was rewarded with gold for 2018 women’s champion Kitazume Riri (JPN), who could not contain her emotion at the end of her routine',
       '36-9.jpg':'Italian colours and a love of Aerobic Gymnastics were evident everywhere you looked at the Pesaro Worlds',
 
-      '38-1.jpg':'Andrea Consolini (ITA), Caryl Cordt-Moller (SUI) and Jaroslav Chum (CZE) during the Men’s Speed World Championships medal ceremony in Kitakyushu (JPN)',
-      '38-2.jpg':'The Women’s Speed podium in Kitakyushu',
-      '38-3.jpg':'Ella Bucio (MEX) in mid-air in Kitakyushu – her first Speed title, two years after becoming Freestyle world champion in Tokyo',
-      '38-4.jpg':'Elis Torhall (SWE), crowned World Champion for the first time, with Shiohata Mutsuhiro (JPN) and Tangui Van Schingen (NED) on the Men’s Freestyle podium in Kitakyushu',
-      '38-5.jpg':'Ella Bucio (MEX), Chunsong Shang (CHN), former Artistic Gymnastics team medallist turned Parkour athlete and newly crowned World Freestyle Champion, and Audrey Johnson (USA) in Kitakyushu',
-      '38-6.jpg':'Elis Torhall (SWE) celebrates with friends',
-      '38-7.jpg':'Eye-catching event promotion at Kokura Station (Kitakyushu) for the 2024 World Championships',
-      '38-8.jpg':'The outdoor field of play at twilight with Kokura castle visible in the background',
-      '38-9.jpg':'FIG President Morinari Watanabe welcomes the delegations at the Opening Ceremony in Kitakyushu, where all five continents were represented, highlighting the diversity of Parkour',
-      '38-10.jpg':'10.	The judges at the 2nd FIG Parkour World Championships in Kitakyushu',
+      '38-1.jpg':'Eye-catching event promotion at Kokura Station (Kitakyushu) for the 2024 World Championships',
+      '38-2.jpg':'The outdoor field of play at twilight with Kokura castle visible in the background',
+      '38-3.jpg':'FIG President Morinari Watanabe welcomes the delegations at the Opening Ceremony in Kitakyushu, where all five continents were represented, highlighting the diversity of Parkour',
+      '38-4.jpg':'10.	The judges at the 2nd FIG Parkour World Championships in Kitakyushu',
+      '38-5.jpg':'Andrea Consolini (ITA), Caryl Cordt-Moller (SUI) and Jaroslav Chum (CZE) during the Men’s Speed World Championships medal ceremony in Kitakyushu (JPN)',
+      '38-6.jpg':'The Women’s Speed podium in Kitakyushu: Audrey Johnson (USA), Ella Bucio (MEX), Miranda Tibbling (SWE)',
+      '38-7.jpg':'Ella Bucio (MEX) in mid-air in Kitakyushu – her first Speed title, two years after becoming Freestyle world champion in Tokyo',
+      '38-8.jpg':'Elis Torhall (SWE), crowned World Champion for the first time, with Shiohata Mutsuhiro (JPN) and Tangui Van Schingen (NED) on the Men’s Freestyle podium in Kitakyushu',
+      '38-9.jpg':'Ella Bucio (MEX), Chunsong Shang (CHN), former Artistic Gymnastics team medallist turned Parkour athlete and newly crowned World Freestyle Champion, and Audrey Johnson (USA) in Kitakyushu',
+      '38-10.jpg':'Elis Torhall (SWE) celebrates with friends',
 
       '39-1.jpg':'There was plenty of suspense in the Final Men’s Speed Run in Montpellier (FRA) – Caryl Cordt-Moller (SUI) and Jaroslav Chum (CZE)',
       '39-2.jpg':'Miranda Tibbling (SWE) continuing her domination here with Sara Banchoff Tzancoff (ARG) in the Women’s Speed final in Montpellier',
       '39-3.jpg':'Nathanael Trier (FRA) in the Men’s Freestyle qualification in Montpellier – before winning the event',
       '39-4.jpg':'Two Chinese athletes (Shang Chunsong and Li Meihui) on the Women’s Freestyle podium in Montpellier with Ella Bucio (MEX)',
-      '39-5.jpg':'Team-mates Luca Demarchi and Andrea Consolini (ITA) go head-to-head in the Men’s Speed final',
+      '39-5.jpg':'Team-mates Luca Demarchi and Andrea Consolini (ITA) go head-to-head in the Men’s Speed final in Coimbra',
       '39-6.jpg':'Sara Banchoff Tzancoff (ARG) and Noa Man (NED) in the Women’s Speed qualification at the PK World Cup 2024 in Coimbra (POR). This was to be Argentina’s first World Cup victory and the first Speed title not won by Miranda Tibbling since 2021',
       '39-7.jpg':'Elis Torhall (SWE) in the Men’s Freestyle final in Coimbra – winner of both the final and the overall ranking for the year',
-      '39-8.jpg':'Audrey Johnson (USA) in action during the Women’s Freestyle qualification – on her way to her first World Cup victory',
+      '39-8.jpg':'Audrey Johnson (USA) in action during the Women’s Freestyle qualification – on her way to her first World Cup victory in Coimbra',
 
     },
     "fullscreenEnabled": true,
@@ -672,6 +672,14 @@ export default  {
       "content": `
       
         <img class="abs halfScaleC halfpulse animatedpulse pointer" style="top:500px; left:324px;" src="/2024/static/_content/white-play.png"  onclick="Publish.updateVideoURL('https://olympics.com/video/syndicated/detail/darja-varfolomeev-individual-all-around-gold-medal-highlights-rhythmic-gymnastics-olympic-games-paris-2024?partner_name=www.olympics.com%2F&partnerdomain=www.olympics.com%2F')"/>
+
+        <!--Gallery-->
+        <img
+        class="abs halfScaleC halfpulse animatedpulse pointer"
+        style="top:500px; left:384px;"
+        onclick="pg24_gallery(0)"
+        src="/2024/static/_content/white-camera.png"
+        />
       
       `,
       "script": `
@@ -826,6 +834,22 @@ export default  {
       "zoom": null,
       "content": `
 
+        <div class="contentLink" style="top:621px;left:79px;width:127px;height:12px">
+          <a href="https://www.youtube.com/watch?v=expNOVGURHE" target="_blank">
+        </div>
+
+        <div class="contentLink" style="top:653px;left:52px;width:127px;height:12px">
+          <a href="https://www.youtube.com/watch?v=E2x7XT7zk4M" target="_blank">
+        </div>
+
+        <div class="contentLink" style="top:706px;left:202px;width:50px;height:12px">
+          <a href="https://www.youtube.com/watch?v=vPyOE8ayqCs" target="_blank">
+        </div>
+
+        <div class="contentLink" style="top:748px;left:92px;width:94px;height:12px">
+          <a href="https://www.youtube.com/watch?v=WJVcPH7Wah8" target="_blank">
+        </div>
+
         <div id="30-pop-1" class="standardTransition contentOverlay hidden noclick">
           <img class="abs halfScale 31-pop-1" style="top:0px;left:2px;" src="/2024/static/_content/30-pop-1.jpg"/>
 
@@ -860,7 +884,9 @@ export default  {
       `,
       "script": `
         function onPageEnter() {
-        
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
           function closeThirtyOnePopOne(){
             hideOverlay('31-pop-1');
@@ -869,6 +895,7 @@ export default  {
 
         function onPageLeave() {
           closeThirtyOnePopOne();
+          removeContentLinks();
         }
       `,
       "searchText": "Artistic Gymnastics At both series, competitors vie for honours at stops around the globe, but also for the prestigious overall World Cup series titles awarded to the most consistent performers over the duration of the series. World Cups occupy the early part of the international season, while a similar World Challenge Cup series concludes during the second half of the year. In 2024, the World Cup events also served as Olympic qualification events for eligible gymnasts, adding an extra layer of excitement to each event. The 2024 FIG Apparatus World Cup series spanned four events between February and April, with competitions in Cairo (EGY), Cottbus (GER), Baku (AZE) and Doha (QAT). The World Challenge Cup series began in Antalya (TUR) in March, then turned to Osijek (CRO), Varna (BUL) and Koper (SLO) before concluding in Szombathely (HUN) in October.  Standout moments Women  Charlize Moerz (AUT) recorded the first-ever victory by an Austrian female gymnast when she took the Floor Exercise title in Baku, and Kaylia Nemour (ALG) went undefeated on Uneven Bars in the Apparatus World Cup series before winning the Olympic title in Paris. Melanie de Jesus dos Santos (FRA) was the only double-winner of the World Challenge Cup series, prevailing on both Uneven Bars and Floor Exercise.  Men Illia Kovtun (UKR) followed up his World Cup series victory on Parallel Bars with Olympic silver on the same apparatus before he then won the World Challenge Cup title on Floor Exercise. Another Apparatus World Cup/World Challenge Cup double-winner was Tang Chia-Hung (TPE), who sandwiched Horizontal Bar feats with an Olympic bronze on the same apparatus. World Cup winner on Vault Artur Davtyan (ARM) went on to take Olympic silver in Paris.  30  FIG YEARBOOK 2024  Pictured Melanie de Jesus dos Santos (FRA) in Osijek (CRO)"
@@ -881,6 +908,14 @@ export default  {
       "original": "pg31.jpg",
       "zoom": null,
       "content": `
+
+       <div class="contentLink" style="top:120px;left:290px;width:264px;height:26px">
+          <a href="https://www.youtube.com/watch?v=kPwzCzwkkGQ" target="_blank">
+        </div>
+
+        <div class="contentLink" style="top:550px;left:110px;width:146px;height:53px">
+          <a href="https://www.youtube.com/watch?v=pOlW3JQnHBg" target="_blank">
+        </div>
 
       <div class="contentLink pointer" style="top:248px;left:7px;width:288px;height:290px; border-radius:50%;" onclick="showThirtyOnePopOne();"></div>
       <div id="31-pop-1" class="standardTransition contentOverlay hidden noclick">
@@ -1320,12 +1355,22 @@ export default  {
       "startIndex": 0,
       "original": "pg44.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:240px;left:239px;width:60px;height:12px">
+        <a href="https://www.instagram.com/reel/C-X2EAjo1nb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3Dhttps://www.instagram.com/reel/C-X2EAjo1nb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" target="_blank">
+      </div>
+
+      `,
       "script": `
         function onPageEnter() {
+            setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": "Media and Marketing  Fan engagement  DIGITAL IMPACT The reach of the FIG’s social media channels grew impressively in 2024.  A  ccording to the annual SportonSocial report, published by RedTorch, the FIG experienced the biggest increase in engagement among all international sports federations between Tokyo 2020 and Paris 2024. The FIG saw 5.2 times more engagement across Facebook, Instagram and X, which was well above the average of 2.4 times across all international federations. Instagram proved to be the most successful social network by far for the FIG in 2024 as the federation ranked joint second with World Aquatics in the SportonSocial league table, an increase of eight places from 2023.  44  FIG YEARBOOK 2024  Highlighting one specific example of Paris 2024’s impact, a clip of bronze medallist Sofia Raffaeli (ITA) performing in the Rhythmic Gymnastics at the Games on 7 August was played almost 72m times. The FIG also maintained a strong presence on Facebook and X, placing third and sixth respectively in the SportonSocial league table. New initiatives such as a dedicated effort to collect behind-the-scenes content and an automated integration between a new digital asset management platform and athletes’ social media accounts will help to build on this success on the road to the Olympic Games Los Angeles 2028."
@@ -1544,13 +1589,27 @@ export default  {
       "startIndex": 0,
       "original": "pg48.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:229px;left:76px;width:145px;height:12px">
+        <a href="https://www.gymnastics.sport/site/pages/judges-support.php" target="_blank">
+      </div>
+
+      <div class="contentLink" style="top:440px;left:239px;width:213px;height:32px">
+        <a href="https://mikelart.com/en/" target="_blank">
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
-        }
+          setTimeout(function(){
+          addContentLinks();
+        },1000)
+      }
 
         function onPageLeave() {
-        }
+        removeContentLinks();
+      }
       `,
       "searchText": "Media and Marketing  Sponsoring  FINETUNING AI TECHNOLOGY  Further improvements were made to the Fujitsu Judging Support System (JSS) in 2024.  A  s Fujitsu’s Judging Support System plays an ever more important role in Artistic Gymnastics, the technology behind it is constantly evaluated and finetuned. This was again the case in 2024 with improvements made to the system’s skeletal recognition accuracy. This means that the functionality of the JSS was enhanced to exclude non-athlete subjects within the camera footage – such as spectators, coaches and judges – from the recognition target. The acceptable range of lens zoom ratios was also expanded and the  software-based scaling of captured video was introduced. This ensured greater flexibility in camera placement compared with previous versions. The JSS is used in the event of blocked scores or inquiries at the Artistic Gymnastics World Championships, providing real-time movement capture to support the analysis of the elements. The refinements carried out in 2024 are all the more valuable given that, since May 2023, the system has been officially employed on every Artistic Gymnastics apparatus.  FIG ADDS MIKELART TO PARTNERS A short-term partnership was agreed with the Italian jewellery brand.  T  he FIG signed a partnership agreement with Mikelart in May 2024, ensuring that the Italian jewellery brand became an FIG Official Jewellery Partner until the end of the year. The Mikelart brand was founded in 2002 by Michele Sessa, a goldsmith designer who developed a line of jewellery inspired by classical ballet. In 2014, in collaboration with the Italian Gymnastics Federation, the company added a jewellery line dedicated to gymnastics, and named ‘The Jewels of Gymnastics’.  48  FIG YEARBOOK 2024"
     }],[{
@@ -1578,12 +1637,22 @@ export default  {
       "startIndex": 0,
       "original": "pg50.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:359px;left:281px;width:50px;height:12px">
+        <a href="https://www.figtv.sport/" target="_blank">
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+            setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": "Media and Marketing  TV  EXPANDING GYMNASTICSʼ REACH: PAY-PER-VIEW Gymnastics fans in previously unserved regions gained live access to major events in 2024 through a new pay-per-view initiative.  I  n 2024, the FIG took a significant step towards making gymnastics more accessible worldwide by activating pay-per-view for the World Cups and World Challenge Cups in Olympic disciplines in dark markets – territories where no broadcast deals had been secured. This initiative aimed to bring the sport closer to fans who would otherwise not have access to live coverage. These insights are at the heart of the FIG’s evolving commercial model. The federation is undertaking a strategic shift aimed at long-term, sustainable growth – moving from a transactional approach to one built on  stronger, more tailored relationships with partners. The success of this project was made possible through the collaboration of key partners: Dentsu, the Japanese global media rights sales agency; Spring Media, now part of Two Circles, the FIG’s trusted London-based TV production partner, and its platform product, Staylive, powering figtv.sport. This milestone reflects the FIG’s commitment to expanding gymnastics’ global reach, ensuring that fans everywhere can experience the excitement of the sport.  Through this effort, we:  10,000  Reached an audience of approximately 10,000 fans  8,000+  80+  50  FIG YEARBOOK 2024  Delivered 8,000+ hours of gymnastics content worldwide Promoted gymnastics in 80+ unserved/dark markets"
@@ -1749,7 +1818,7 @@ export default  {
       </div>
       
       <a onclick="Publish.openVideo('/2024/static/_content/pg59-vid.mp4')">
-          <img class="abs halfpulse animatedpulse halfScaleC pointer" style="left:337px;top:55px" src="/paris2024/2024/static/_content/play-white.png">
+          <img class="abs halfpulse animatedpulse halfScaleC pointer" style="left:337px;top:55px" src="/parisstatic/_content/play-white.png">
       </a>
       
       `,
@@ -2090,12 +2159,26 @@ export default  {
       "startIndex": 0,
       "original": "pg70.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:251px;left:373px;width:87px;height:12px">
+        <a href="https://www.gymnastics.sport/site/pages/governance-financial.php" target="_blank">
+      </div>
+
+      <div class="contentLink" style="top:261px;left:285px;width:67px;height:12px">
+        <a href="https://www.gymnastics.sport/site/pages/governance-financial.php" target="_blank">
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+         setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": "Institutional  Finance  FINANCIAL RESULTS  Well managed event activities contributed substantially to the improved net result and allowed further investments in development activities.  T  he gymnastics events (both competitions and institutional events or meetings) and the financial results were generally well within the budgeted limits. The combined efforts of the organising committees, the authorities, the commissions, the working groups and the  FIG office enabled the financial targets to be met. The net result for 2021-2024 (profit of CHF 2,296,000) is substantially better than the initially planned result. For full information, please refer to the 2024 FIG Financial Report online.  PROFIT & LOSS STATEMENT 2024 IN THOUSANDS OF SWISS FRANCS Actual  Budget  EVENTS + NON-CORE ACTIVITIES RESULT  5,283  4,309  OPERATIONAL EXPENSES  -11,676  -10,778  OPERATING RESULT  -6,393  -6,469  FINANCIAL RESULT  1,585  50  BUILDING RENTAL RESULT  330  354  OTHER NON-OPERATING ITEMS RESULT  -73  -650  -4,551  -6,715  NET RESULT  • Agenda 2020+5-contribution from IOC • Realised and unrealised profit on financial investments • Increased investments in development activities  • Higher broadcasting income • Lower Olympic Games expenses  70  FIG YEARBOOK 2024"
@@ -2269,6 +2352,10 @@ export default  {
       "zoom": null,
       "content": `
 
+      <div class="contentLink" style="top:124px;left:49px;width:436px;height:71px">
+        <a href="https://www.ginastica.org/en/wgflc2025" target="_blank">
+      </div>
+
       <h1 id="76-no" class="abs merriweatherBd 76-no" style="top:311px;left:432px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 50, "append" : "%"}' ></h1>
 
       <img class="abs halfScaleC 76-box" style="top:380px;left:-128px;" src="/2024/static/_content/76-box.png"/>
@@ -2290,10 +2377,14 @@ export default  {
         .staggerFromTo(cOf("76-text"), 0.5, {opacity:0, x: -30}, {opacity: 1, x: 0, ease: Power2.easeOut}, 0.2, 1.3)
         .staggerFromTo(cOf("76-world"), 0.4, {scale: 0}, {scale:0.5, ease: Back.easeOut.config(1.7)}, 0.2, 1.5);
         }
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
 
         function onPageLeave() {
         pg76Anim.stop();
         resetNumbers("76-no");
+        removeContentLinks();
         }
       `,
       "searchText": "Outlook  World Gym for Life Challenge  WORLD GYM FOR LIFE CHALLENGE RETURNS Record numbers of participants are expected in Lisbon for the fourth edition of the World Gym for Life Challenge – the first since 2017.  A  wait of eight years will come to an end when the World Gym for Life Challenge kicks off in Lisbon (POR) in 2025, adding to the excitement already surrounding an event set to welcome more than 3,000 gymnasts to the Portuguese capital between 22–26 July. That figure represents an increase of more than 50% on the number at the previous edition, while registered participants represent nearly 30 countries – up from 22. The 5,000-capacity MEO Arena will stage the contests and the closing ceremony, while the streets of Lisbon will play their part, too. Open-air performances on two stages in the city centre will follow the opening ceremony, which begins with a parade and concludes at the Praça do Comércio, an historic square on the banks of the River Tagus.  How it works The World Gym for Life Challenge is open to groups of gymnasts of all ages and abilities. Performances have a limit of five minutes, may incorporate any gymnastic element – with or without apparatus – and may be accompanied by music. Four experts will evaluate the choreographies according to their entertainment value, creativity, originality and technical quality. Each group is awarded either a gold, silver or bronze award, with the gold groups invited to perform at the World Gym for Life Gala, held on the final day of the contest. It’s the first of two major Gymnastics for All events Lisbon will host in the space of two years, with the World Gymnaestrada to follow in 2027.  World Gym for Life Challenge timeline  2009  2013  Dornbirn (AUT)  Cape Town (RSA)  2017  Vestfold (NOR)  Cancelled  due to COVID-19 pandemic  76  FIG YEARBOOK 2024  2025  Lisbon (POR)  50%  more athletes in 2025 compared with 2017"
@@ -2305,12 +2396,26 @@ export default  {
       "startIndex": 0,
       "original": "pg77.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:337px;left:307px;width:266px;height:119px">
+        <a href="https://rhineruhr2025.com/en" target="_blank">
+      </div>
+
+      <div class="contentLink" style="top:617px;left:307px;width:266px;height:119px">
+        <a href="https://www.theworldgames.org/" target="_blank">
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+            setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": "Other major events in 2025  Outlook  MORE TO LOOK FORWARD TO IN 2025  In addition to the usual circuit of FIG events, gymnastics fans will also be able to enjoy two more significant international events in 2025.  Rhine-Ruhr (GER) 2025 FISU World University Games: 16-27 July  H  eld every two years, the Games draws more than 8,000 student-athletes pursuing higher education in parallel with their athletic endeavours. Six locations, including five hubs in the Rhine-Ruhr area and Germany’s capital, Berlin, will serve as campuses for the 2025 edition. Some of the biggest names in Artistic and Rhythmic Gymnastics will be poised to give masterclasses in their specialties.  The World Games: 7-17 August  C  hengdu (CHN) will play host to the 12th edition of The World Games, with gymnastics featuring as one of 35 sports on the programme. After a splashy Games debut in 2022, Parkour is returning with other key events including Tumbling, Double Mini-Trampoline and Acrobatic and Aerobic Gymnastics. Synchronised Trampoline, which was not part of the last edition, will also make its debut. With no world championships in these disciplines this year apart from Trampoline, athlete attention will be riveted on this quadrennial multi-sport event.  FIG YEARBOOK 2024  77"
@@ -2374,6 +2479,10 @@ export default  {
       "original": "pg80.jpg",
       "zoom": null,
       "content": `
+
+      <div class="contentLink" style="top:157px;left:402px;width:103px;height:39px">
+        <a href="https://www.olympics.com/en/olympic-games/los-angeles-2028" target="_blank">
+      </div>
       
       <img class="abs halfScaleC 80-quote-1" style="top:165px;left:373px;" src="/2024/static/_content/80-quote-1.png"/>
       
@@ -2382,10 +2491,15 @@ export default  {
         function onPageEnter() {
         pg80Anim = new TimelineMax();
         pg80Anim.fromTo(cOf("80-quote-1"), 0.7, {opacity:0, x:10}, {opacity:1, x:0, ease: Power2.easeOut}, 1);
+
+        setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
         pg80Anim.stop();
+        removeContentLinks();
         }
       `,
       "searchText": "Outlook  LA28  GYMNASTICS ON THE WORLD STAGE AT LA28 The venues for gymnastics events at the Olympic Games Los Angeles 2028 have been confirmed.  T  he organising committee for the 2028 Olympic and Paralympic Games in Los Angeles announced that Artistic Gymnastics and Trampoline Gymnastics competitions will be held at one of the city’s most iconic venues: the recently renovated Arena in Downtown Los Angeles. The 18,000-capacity stadium is not only a sporting theatre – home to the Lakers National Basketball Association team, the Sparks Women’s National Basketball  80  FIG YEARBOOK 2024  Association team and the National Hockey League’s Kings – but a hub for concerts and other entertainment events. Rhythmic Gymnastics will be staged at the USC Sports Center, a multipurpose indoor arena where athletes and fans will join one of the main competition zones in Los Angeles, adjacent to the LA Memorial Coliseum. This top-tier athletic facility is owned and operated by the University of Southern California.  “  This is a dream scenario for our sport. To have Artistic Gymnastics staged in one of the city‛s most iconic venues is wonderful news.” Morinari Watanabe FIG President"
