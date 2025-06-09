@@ -842,7 +842,10 @@ export default  {
           <a href="https://www.youtube.com/watch?v=E2x7XT7zk4M" target="_blank">
         </div>
 
-        <div class="contentLink" style="top:706px;left:202px;width:50px;height:12px">
+        <div class="contentLink" style="top:749px;left:188px;width:74px;height:12px">
+          <a href="https://www.youtube.com/watch?v=vPyOE8ayqCs" target="_blank">
+        </div>
+        <div class="contentLink" style="top:761px;left:51px;width:22px;height:12px">
           <a href="https://www.youtube.com/watch?v=vPyOE8ayqCs" target="_blank">
         </div>
 

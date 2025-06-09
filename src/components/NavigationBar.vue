@@ -317,7 +317,7 @@ export default {
 }
 
 .vue-slider-process {
-  background-color:rgba(196, 31, 53, 0.67);
+  background-color:rgba(196, 31, 53, 0.67)!important;
 }
 
 .vue-slider-dot-handle {
