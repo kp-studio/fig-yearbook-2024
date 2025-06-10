@@ -11,8 +11,8 @@ export default  {
     "text": "English",
     "href": "#"
   }],
-  // "basePath": "", 
   "basePath": "/2024", 
+  // "basePath": "", 
   "companyLogo": "1-logo-1.png",
   "publishURL": "",
   "externalResources": ["https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"],
@@ -43,7 +43,7 @@ export default  {
     "galleryCaptions": {
 
       '17-1.jpg':'Light shows a lit up Bercy Arena pre-competition',
-      '17-2.jpg':'A legion of volunteers worked behind the scenes to make the Games go',
+      '17-2.jpg':'A legion of volunteers worked behind the scenes to make the Games happen',
       '17-3.jpg':'A dazzling all-around display Simone Biles’s (USA) return to the Olympic stage was an out-and-out triumph. In her third Games, Biles electrified the City of Light with golden performances in the All-Around, on Vault, and with the U.S. team',
       '17-4.jpg':'Three years after groundbreaking results in Tokyo, Rebeca Andrade (BRA) continued her rise with Floor Exercise gold, All-Around and Vault silver, and a historic team bronze. The results made the 25-year-old Brazil’s most decorated Olympic athlete',
       '17-5.jpg':'Immensely talented Kaylia Nemour (ALG) surmounted all obstacles to become the first Olympic gymnastics champion from Africa following a lights-out routine on the Uneven Bars',
@@ -51,8 +51,8 @@ export default  {
       '17-7.jpg':'They marched into the Olympic arena determined and marched out victorious. The alpha team of the 21st century, the U.S. has now earned the Women’s Team title at three of the past four Olympics',
       '17-8.jpg':'USA fans had plenty to cheer about in Paris',
 
-      '21-1.jpg':'Former World Junior champion Oka Shinnosuke (JPN) was masterful in his Olympic debut. With golds in the All-Around, Horizontal Bar, and team competition, the relatively unknown 20-year-old left Paris as the new face of men’s gymnastics',
-      '21-2.jpg':'Only the second athlete from the Philippines ever to win Olympic gold, Carlos Yulo (PHI) etched his name into history twice, first by claiming the title on Floor Exercise, then by doing it again on Vault the next day',
+      '21-1.jpg':'Former World Junior champion Oka Shinnosuke (JPN) was masterful in his Olympic debut. With golds in the All-Around, Horizontal Bar, and team competition, the relatively unknown 20-year-old left Paris as the new face of Men’s Artistic Gymnastics',
+      '21-2.jpg':'Only the second athlete from the Philippines ever to win Olympic gold, Carlos Yulo etched his name into history twice, first by claiming the title on Floor Exercise, then by doing it again on Vault the next day',
       '21-3.jpg':'Smooth-swinging Rhys McClenaghan (IRL) rode a wave of confidence and preparation en route to becoming Ireland’s first Olympic gymnastics champion',
       '21-4.jpg':'No one even came close. Zou Jingyuan’s (CHN) impeccable form on Parallel Bars gave him his second Olympic gold by an extraordinary 0.7 margin',
       '21-5.jpg':'One ringman to rule them all. Just as sensational as he was in Tokyo, Liu Yang (CHN) celebrated his second consecutive Olympic title on Still Rings days before his 30th birthday',
@@ -70,7 +70,7 @@ export default  {
       '26-3.jpg':'In her first major international competition, 19-year-old Viyaleta Bardzilouskaya (AIN) seemed every inch the seasoned veteran as she flipped to silver',
       '26-4.jpg':'After silver at the 2023 World Championships, 18-year-old Wang Zisai (CHN) stayed consistent to maintain his place on the podium',
       '26-5.jpg':'Years of competing as an underdog came to an end in a single moment for bronze medallist Sophiane Methot (CAN)',
-      '26-6.jpg':'Twice a World champion, in Paris Yan Langy (CHN) pulled on his immense difficulty to hoist him onto the Olympic podium',
+      '26-6.jpg':'Twice a World champion, in Paris Yan Langyu (CHN) pulled on his immense difficulty to hoist him onto the Olympic podium',
       '26-7.jpg':'Medallists were all smiles for the post-victory ceremony podium selfie',
       '26-8.jpg':'A moment of international camaraderie between Olympic high-fliers',
 
@@ -78,7 +78,7 @@ export default  {
       '34-2.jpg':'Extraordinary throws — including one never done before — helped the untouchable Chinese Men’s Group earn four golds, the maximum number possible at an Acrobatic Gymnastics World Championships',
       '34-3.jpg':'The best Belgian Women’s Pair to emerge in a decade, the assured Maysae Bououch and Silke Macharis swept the World titles in their category',
       '34-4.jpg':'One of the most pleasant surprises of the Guimarães Worlds was the high-flying display of Anastasiia Semenovych and Bohdan Ivanyk (UKR), unexpected winners of the Dynamic gold',
-      '34-5.jpg':'Best friends Murad Rafiyev and Daniel Abbasov (AZE) poured years of collective work into their routines in Guimarães, resulting in the first two World titles for an Azerbaijani Men’s Pair',
+      '34-5.jpg':'Best friends Murad Rafiyev and Daniel Abbasov poured years of collective work into their routines in Guimarães, resulting in the first two World titles for an Azerbaijani Men’s Pair',
       '34-6.jpg':'The superb quality of Ma Yixing, Gu Quanjia, and Ding Wenyan’s (CHN) Combined exercise lifted the group to gold ahead of their Belgian rivals',
       '34-7.jpg':'A perfectly executed season by Sofie Jaeken, Mirte Vercauteren, and Lauren Verbrugghe (BEL) concluded with the Belgian trio as World champions in the Balance and Dynamic categories',
       '34-8.jpg':'Crisp and precise, Yang Fudi and Yao Chenyufei (CHN) did their part to help China win its first team victory in 30 years at the World Championships',
@@ -104,7 +104,7 @@ export default  {
       '38-7.jpg':'Ella Bucio (MEX) in mid-air in Kitakyushu – her first Speed title, two years after becoming Freestyle world champion in Tokyo',
       '38-8.jpg':'Elis Torhall (SWE), crowned World Champion for the first time, with Shiohata Mutsuhiro (JPN) and Tangui Van Schingen (NED) on the Men’s Freestyle podium in Kitakyushu',
       '38-9.jpg':'Ella Bucio (MEX), Chunsong Shang (CHN), former Artistic Gymnastics team medallist turned Parkour athlete and newly crowned World Freestyle Champion, and Audrey Johnson (USA) in Kitakyushu',
-      '38-10.jpg':'Elis Torhall (SWE) celebrates with friends',
+      '38-10.jpg':'The judges at the 2nd FIG Parkour World Championships in Kitakyushu',
 
       '39-1.jpg':'There was plenty of suspense in the Final Men’s Speed Run in Montpellier (FRA) – Caryl Cordt-Moller (SUI) and Jaroslav Chum (CZE)',
       '39-2.jpg':'Miranda Tibbling (SWE) continuing her domination here with Sara Banchoff Tzancoff (ARG) in the Women’s Speed final in Montpellier',
@@ -154,12 +154,22 @@ export default  {
       "startIndex": 0,
       "original": "pg2.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:818px;left:47px;width:119px;height:14px">
+        <a href="https://www.ebu.ch/sport" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+            setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": "ONLY THE EBU CAN GUARANTEE SO MUCH  MULTI-PLATFORM EXPOSURE  We believe in pushing the boundaries, to finding new solutions, to doing whatever it takes to make sport a part of everyone’s life. We use the collective power of public service media organizations to showcase sport at its best. For federations, it’s an opportunity to build visibility and help their sport thrive. It’s an attitude that makes everyone a winner. www.ebu.ch/sport"
@@ -457,12 +467,22 @@ export default  {
       "startIndex": 0,
       "original": "pg15.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:758px;left:399px;width:188px;height:14px">
+        <a href="https://www.americanathletic.com/" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": "FIG CERTIFIED EQUIPMENT  L L A R O F T N E M P I EQU S T S A N M GY E T I L E O T R E N N BEGI AMERICANATHLETIC.COM 1-800-247-3978  GLOBAL SHIPPING AVAILABLE"
@@ -652,12 +672,22 @@ export default  {
       "startIndex": 0,
       "original": "pg23.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+         
+      <div class="contentLink" style="top:88px;left:196px;width:232px;height:14px">
+        <a href="https://www.ritmica-amaya.com/en/" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": ""
@@ -1575,12 +1605,22 @@ export default  {
       "startIndex": 0,
       "original": "pg47.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:850px;left:13px;width:184px;height:14px">
+        <a href="https://pastorellisport.com/en/" target="_blank"></a>
+      </div>
+
+      `,
       "script": `
         function onPageEnter() {
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": ""
@@ -1623,12 +1663,22 @@ export default  {
       "startIndex": 0,
       "original": "pg49.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:683px;left:442px;width:145px;height:46px">
+        <a href="https://www.senoh.jp/english/products/gymnastics/" target="_blank"></a>
+      </div>
+
+      `,
       "script": `
         function onPageEnter() {
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": ""
@@ -1887,12 +1937,22 @@ export default  {
       "startIndex": 0,
       "original": "pg61.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:771px;left:222px;width:180px;height:55px">
+        <a href="https://www.chacott-jp.com/" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": ""
@@ -2302,12 +2362,22 @@ export default  {
       "startIndex": 0,
       "original": "pg73.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+
+      <div class="contentLink" style="top:771px;left:485px;width:102px;height:65px">
+        <a href="https://www.venturelli.com/it/" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+           setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+          removeContentLinks();
         }
       `,
       "searchText": "Ekaterina Vedeneeva  From Training to Triumph I'm happy with my performances. Reaching this level and making my coach, my country, and supporters proud has been an incredible achievement. I hope to inspire future generations. 6th place - Paris 2024  FIG OFFICIAL PARTNER"
@@ -2401,11 +2471,11 @@ export default  {
       "zoom": null,
       "content": `
       
-      <div class="contentLink" style="top:337px;left:307px;width:266px;height:119px">
+      <div class="contentLink" style="top:336px;left:306px;width:268px;height:121px">
         <a href="https://rhineruhr2025.com/en" target="_blank">
       </div>
 
-      <div class="contentLink" style="top:617px;left:307px;width:266px;height:119px">
+      <div class="contentLink" style="top:616px;left:306px;width:268px;height:122px">
         <a href="https://www.theworldgames.org/" target="_blank">
       </div>
       
@@ -2561,12 +2631,25 @@ export default  {
       "startIndex": 0,
       "original": "pg83.jpg",
       "zoom": null,
-      "content": ``,
+      "content": `
+      
+      <div class="contentLink" style="top:570px;left:74px;width:165px;height:20px">
+        <a href="https://www.instagram.com/p/C__FNGJN2P-/?img_index=1" target="_blank"></a>
+      </div>
+      <div class="contentLink" style="top:590px;left:74px;width:91px;height:18px">
+        <a href="https://www.instagram.com/p/C__FNGJN2P-/?img_index=1" target="_blank"></a>
+      </div>
+      
+      `,
       "script": `
         function onPageEnter() {
+          setTimeout(function(){
+            addContentLinks();
+          },1000)
         }
 
         function onPageLeave() {
+         removeContentLinks();
         }
       `,
       "searchText": "Quick takes  Bui elected to IOC role  Three-time Olympian Kim Bui (GER) was voted on to the International Olympic Committee’s Athletes’ Commission in August. The former artistic gymnast was one of four people elected to the commission by athletes competing at the Olympic Games Paris 2024.  Parkour champion’s secret Olympic cameo Parkour world champion Caryl Cordt-Moller (SUI) had an eye-catching, if unannounced, role at Paris 2024 as one of a small number of freerunners playing the part of the ‘masked ninja’ who spirited the torch along the streets and quays of Paris.  Celebrating 50 years of Acrobatic Gymnastics  September’s worlds marked 50 years since the first World Sports Acrobatics Championships in Moscow (RUS) in 1974. Tumbling featured on the programme and the Soviet Union and Bulgaria then dominated the sport renamed as Acrobatic Gymnastics in the mid-2000s.  FIG President showcases use of AI  In a May presentation to the International Sports Press Association (AIPS), FIG President Morinari Watanabe highlighted potential future uses of artificial intelligence in gymnastics – to eliminate misjudging, to help develop the sport as entertainment, and as a coaching system.  FIG YEARBOOK 2024 83"

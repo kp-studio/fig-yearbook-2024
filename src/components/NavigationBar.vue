@@ -317,7 +317,7 @@ export default {
 }
 
 .vue-slider-process {
-  background-color:rgba(196, 31, 53, 0.67)!important;
+  background-color:rgba(231, 59, 32, 0.7)!important;
 }
 
 .vue-slider-dot-handle {
@@ -325,7 +325,7 @@ export default {
 }
 
 .vue-slider-dot-handle::after {
-  background-color:rgba(128, 208, 245, 0.61);
+  background-color:rgba(255, 255, 255, 0.83);
 }
 
 .vue-slider-dot-tooltip-inner {
