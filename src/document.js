@@ -53,7 +53,7 @@ export default  {
 
       '21-1.jpg':'Former World Junior champion Oka Shinnosuke (JPN) was masterful in his Olympic debut. With golds in the All-Around, Horizontal Bar, and team competition, the relatively unknown 20-year-old left Paris as the new face of Men’s Artistic Gymnastics',
       '21-2.jpg':'Only the second athlete from the Philippines ever to win Olympic gold, Carlos Yulo etched his name into history twice, first by claiming the title on Floor Exercise, then by doing it again on Vault the next day',
-      '21-3.jpg':'Smooth-swinging Rhys McClenaghan (IRL) rode a wave of confidence and preparation en route to becoming Ireland’s first Olympic gymnastics champion',
+      '21-3.jpg':'Smooth-swinging Rhys McClenaghan rode a wave of confidence and preparation en route to becoming Ireland’s first Olympic gymnastics champion',
       '21-4.jpg':'No one even came close. Zou Jingyuan’s (CHN) impeccable form on Parallel Bars gave him his second Olympic gold by an extraordinary 0.7 margin',
       '21-5.jpg':'One ringman to rule them all. Just as sensational as he was in Tokyo, Liu Yang (CHN) celebrated his second consecutive Olympic title on Still Rings days before his 30th birthday',
       '21-6.jpg':'The Chinese led through five rotations in the Men’s Team final, but it all came apart on Horizontal Bar. That opened the door for Japan to pip their continental rival for gold, much to their team members’ delight',
