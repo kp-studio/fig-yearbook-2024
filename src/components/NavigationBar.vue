@@ -325,7 +325,7 @@ export default {
 }
 
 .vue-slider-dot-handle::after {
-  background-color:rgba(255, 255, 255, 0.83);
+  background-color:rgba(255, 255, 255, 0.83)!important;
 }
 
 .vue-slider-dot-tooltip-inner {

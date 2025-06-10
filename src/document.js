@@ -865,22 +865,22 @@ export default  {
       "content": `
 
         <div class="contentLink" style="top:621px;left:79px;width:127px;height:12px">
-          <a href="https://www.youtube.com/watch?v=expNOVGURHE" target="_blank">
+          <a href="https://www.youtube.com/watch?v=expNOVGURHE" target="_blank"></a>
         </div>
 
         <div class="contentLink" style="top:653px;left:52px;width:127px;height:12px">
-          <a href="https://www.youtube.com/watch?v=E2x7XT7zk4M" target="_blank">
+          <a href="https://www.youtube.com/watch?v=E2x7XT7zk4M" target="_blank"></a>
         </div>
 
         <div class="contentLink" style="top:749px;left:188px;width:74px;height:12px">
-          <a href="https://www.youtube.com/watch?v=vPyOE8ayqCs" target="_blank">
+          <a href="https://www.youtube.com/watch?v=vPyOE8ayqCs" target="_blank"></a>
         </div>
         <div class="contentLink" style="top:761px;left:51px;width:22px;height:12px">
-          <a href="https://www.youtube.com/watch?v=vPyOE8ayqCs" target="_blank">
+          <a href="https://www.youtube.com/watch?v=vPyOE8ayqCs" target="_blank"></a>
         </div>
 
         <div class="contentLink" style="top:748px;left:92px;width:94px;height:12px">
-          <a href="https://www.youtube.com/watch?v=WJVcPH7Wah8" target="_blank">
+          <a href="https://www.youtube.com/watch?v=WJVcPH7Wah8" target="_blank"></a>
         </div>
 
         <div id="30-pop-1" class="standardTransition contentOverlay hidden noclick">
@@ -943,11 +943,11 @@ export default  {
       "content": `
 
        <div class="contentLink" style="top:120px;left:290px;width:264px;height:26px">
-          <a href="https://www.youtube.com/watch?v=kPwzCzwkkGQ" target="_blank">
+          <a href="https://www.youtube.com/watch?v=kPwzCzwkkGQ" target="_blank"></a>
         </div>
 
         <div class="contentLink" style="top:550px;left:110px;width:146px;height:53px">
-          <a href="https://www.youtube.com/watch?v=pOlW3JQnHBg" target="_blank">
+          <a href="https://www.youtube.com/watch?v=pOlW3JQnHBg" target="_blank"></a>
         </div>
 
       <div class="contentLink pointer" style="top:248px;left:7px;width:288px;height:290px; border-radius:50%;" onclick="showThirtyOnePopOne();"></div>
@@ -1391,7 +1391,7 @@ export default  {
       "content": `
       
       <div class="contentLink" style="top:240px;left:239px;width:60px;height:12px">
-        <a href="https://www.instagram.com/reel/C-X2EAjo1nb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3Dhttps://www.instagram.com/reel/C-X2EAjo1nb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" target="_blank">
+        <a href="https://www.instagram.com/reel/C-X2EAjo1nb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3Dhttps://www.instagram.com/reel/C-X2EAjo1nb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D" target="_blank"></a>
       </div>
 
       `,
@@ -1635,11 +1635,11 @@ export default  {
       "content": `
       
       <div class="contentLink" style="top:229px;left:76px;width:145px;height:12px">
-        <a href="https://www.gymnastics.sport/site/pages/judges-support.php" target="_blank">
+        <a href="https://www.gymnastics.sport/site/pages/judges-support.php" target="_blank"></a>
       </div>
 
       <div class="contentLink" style="top:440px;left:239px;width:213px;height:32px">
-        <a href="https://mikelart.com/en/" target="_blank">
+        <a href="https://mikelart.com/en/" target="_blank"></a>
       </div>
       
       `,
@@ -1693,7 +1693,7 @@ export default  {
       "content": `
       
       <div class="contentLink" style="top:359px;left:281px;width:50px;height:12px">
-        <a href="https://www.figtv.sport/" target="_blank">
+        <a href="https://www.figtv.sport/" target="_blank"></a>
       </div>
       
       `,
@@ -2225,11 +2225,11 @@ export default  {
       "content": `
       
       <div class="contentLink" style="top:251px;left:373px;width:87px;height:12px">
-        <a href="https://www.gymnastics.sport/site/pages/governance-financial.php" target="_blank">
+        <a href="https://www.gymnastics.sport/site/pages/governance-financial.php" target="_blank"></a>
       </div>
 
       <div class="contentLink" style="top:261px;left:285px;width:67px;height:12px">
-        <a href="https://www.gymnastics.sport/site/pages/governance-financial.php" target="_blank">
+        <a href="https://www.gymnastics.sport/site/pages/governance-financial.php" target="_blank"></a>
       </div>
       
       `,
@@ -2426,7 +2426,7 @@ export default  {
       "content": `
 
       <div class="contentLink" style="top:124px;left:49px;width:436px;height:71px">
-        <a href="https://www.ginastica.org/en/wgflc2025" target="_blank">
+        <a href="https://www.ginastica.org/en/wgflc2025" target="_blank"></a>
       </div>
 
       <h1 id="76-no" class="abs merriweatherBd 76-no" style="top:311px;left:432px; font-size: 2em; font-weight: 300; color: #e73b1f; padding: 0px; margin: 0px;"  data-number='{"to": 50, "append" : "%"}' ></h1>
@@ -2472,11 +2472,11 @@ export default  {
       "content": `
       
       <div class="contentLink" style="top:336px;left:306px;width:268px;height:121px">
-        <a href="https://rhineruhr2025.com/en" target="_blank">
+        <a href="https://rhineruhr2025.com/en" target="_blank"></a>
       </div>
 
       <div class="contentLink" style="top:616px;left:306px;width:268px;height:122px">
-        <a href="https://www.theworldgames.org/" target="_blank">
+        <a href="https://www.theworldgames.org/" target="_blank"></a>
       </div>
       
       `,
@@ -2554,7 +2554,7 @@ export default  {
       "content": `
 
       <div class="contentLink" style="top:157px;left:402px;width:103px;height:39px">
-        <a href="https://www.olympics.com/en/olympic-games/los-angeles-2028" target="_blank">
+        <a href="https://www.olympics.com/en/olympic-games/los-angeles-2028" target="_blank"></a>
       </div>
       
       <img class="abs halfScaleC 80-quote-1" style="top:165px;left:373px;" src="/2024/static/_content/80-quote-1.png"/>
