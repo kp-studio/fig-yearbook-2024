@@ -2200,6 +2200,10 @@ export default  {
       <div class="contentLink" style="top:189px;left:88px;width:110px;height:14px">
         <a href="https://youtu.be/pW38X4yJIPs?si=P03KQ847UrPs-iai" target="_blank"></a>
       </div>
+
+      <div class="contentLink" style="top:380px;left:88px;width:111px;height:14px">
+        <a href="https://elearning.gymnastics.sport/" target="_blank"></a>
+      </div>
       
       `,
       "script": `
