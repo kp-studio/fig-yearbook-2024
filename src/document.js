@@ -145,7 +145,7 @@ export default  {
         removeContentLinks();
         }
       `,
-      "searchText": "International Olympic Committee  IOC MARKETING REPORT PARIS 2024"
+      "searchText": "FIG 2024 Yearbook. We are gymnastics"
     }],[{
       "guid": "00000000-0000-0000-0000-000000000000",
       "title": "",
